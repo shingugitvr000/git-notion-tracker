@@ -11,7 +11,7 @@ import urllib.error
 NOTION_TOKEN = os.environ["NOTION_TOKEN"]
 
 # CommitDB의 Data Source ID
-DATA_SOURCE_ID = "3c28655a-72df-80fb-9fb4-000b388214b4"
+DATA_SOURCE_ID = "3c28655a-72df-8076-a7aa-000b7d2948d4"
 
 # 테스트 대상 GitHub 저장소
 # 나중에는 이 부분을 Notion에서 자동으로 읽게 바꿀 예정
