@@ -61,21 +61,18 @@ def request_json(url, method="GET", headers=None, body=None):
 
             return json.loads(text)
 
-    except urllib.error.HTTPError as e:
-        print()
-        print("==========================================")
-        print("HTTP ERROR")
-        print("URL:", url)
-        print("STATUS:", e.code)
+   except urllib.error.HTTPError as e:
+    error_body = e.read().decode("utf-8")
 
-        error_body = e.read().decode("utf-8")
+    print("========================================")
+    print("NOTION HTTP ERROR")
+    print("STATUS:", e.code)
+    print("URL:", url)
+    print("BODY:")
+    print(error_body)
+    print("========================================")
 
-        print("RESPONSE:")
-        print(error_body)
-        print("==========================================")
-        print()
-
-        raise
+    raise
 
 
 # =========================================================
