@@ -1,29 +1,19 @@
-name: Notion Connection Test
+name: Git to Notion Sync
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * *"
 
 jobs:
-  test:
+  sync:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check Notion token fingerprint
-        env:
-          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
-        run: |
-          python - <<'PY'
-          import os, hashlib
-          token = os.environ["NOTION_TOKEN"]
-          print("TOKEN SHA256:", hashlib.sha256(token.encode()).hexdigest())
-          print("TOKEN LENGTH:", len(token))
-          PY
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - name: Test Data Source access
+      - name: Run tracker
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
-        run: |
-          curl -i \
-            "https://api.notion.com/v1/data_sources/3c28655a-72df-80fb-9fb4-000b388214b4" \
-            -H "Authorization: Bearer $NOTION_TOKEN" \
-            -H "Notion-Version: 2025-09-03"
+        run: python tracker.py
