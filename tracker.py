@@ -1,179 +1,196 @@
-import json
 import os
+import json
 import urllib.request
 import urllib.error
 
-
-# =========================================================
-# 설정
-# =========================================================
-
 NOTION_TOKEN = os.environ["NOTION_TOKEN"]
 
-# CommitDB의 Data Source ID
-DATA_SOURCE_ID = "3c28655a-72df-8076-a7aa-000b7d2948d4"
+COMMIT_DATA_SOURCE_ID = "3c28655a-72df-8076-a7aa-000b7d2948d4"
+PROJECT_DATA_SOURCE_ID = "3c28655a-72df-8061-8782-000ba17e1ab9"
 
-# 테스트 대상 GitHub 저장소
-# 나중에는 이 부분을 Notion에서 자동으로 읽게 바꿀 예정
-REPOSITORIES = [
-    "shingugitvr000/GameJam2026"
-]
+NOTION_VERSION = "2025-09-03"
 
 
-# =========================================================
-# API Headers
-# =========================================================
-
-NOTION_HEADERS = {
-    "Authorization": f"Bearer {NOTION_TOKEN}",
-    "Notion-Version": "2025-09-03",
-    "Content-Type": "application/json",
-}
-
-GITHUB_HEADERS = {
-    "User-Agent": "git-notion-tracker"
-}
-
-
-# =========================================================
-# 공통 HTTP 요청 함수
-# =========================================================
-
-def request_json(url, method="GET", headers=None, body=None):
-    data = None
-
-    if body is not None:
-        data = json.dumps(body).encode("utf-8")
-
-    request = urllib.request.Request(
+def request_json(url, method="GET", headers=None, data=None):
+    req = urllib.request.Request(
         url,
-        data=data,
         method=method,
-        headers=headers or {}
+        headers=headers or {},
+        data=json.dumps(data).encode("utf-8") if data is not None else None,
     )
 
     try:
-        with urllib.request.urlopen(request) as response:
-            text = response.read().decode("utf-8")
+        with urllib.request.urlopen(req) as response:
+            body = response.read().decode("utf-8")
 
-            if not text:
+            if not body:
                 return {}
 
-            return json.loads(text)
+            return json.loads(body)
 
     except urllib.error.HTTPError as e:
-        error_body = e.read().decode("utf-8")
-
-        print("========================================")
-        print("HTTP ERROR")
-        print("STATUS:", e.code)
-        print("URL:", url)
-        print("BODY:")
-        print(error_body)
-        print("========================================")
-
+        body = e.read().decode("utf-8")
+        print("HTTP ERROR:", e.code)
+        print("BODY:", body)
         raise
 
 
-# =========================================================
-# GitHub
-# =========================================================
+def notion_headers():
+    return {
+        "Authorization": f"Bearer {NOTION_TOKEN}",
+        "Notion-Version": NOTION_VERSION,
+        "Content-Type": "application/json",
+    }
 
-def get_repository_info(repo):
-    url = f"https://api.github.com/repos/{repo}"
 
-    return request_json(
-        url,
-        headers=GITHUB_HEADERS
+def get_project_repositories():
+    url = (
+        f"https://api.notion.com/v1/data_sources/"
+        f"{PROJECT_DATA_SOURCE_ID}/query"
     )
 
+    payload = {
+        "filter": {
+            "property": "사용 여부",
+            "checkbox": {
+                "equals": True
+            }
+        }
+    }
 
-def get_commits(repo, branch):
+    result = request_json(
+        url,
+        method="POST",
+        headers=notion_headers(),
+        data=payload,
+    )
+
+    repositories = []
+
+    for page in result.get("results", []):
+        props = page.get("properties", {})
+
+        github_id = ""
+        repo_url = ""
+        project_name = ""
+
+        if "GitHub ID" in props:
+            rich_text = props["GitHub ID"].get("rich_text", [])
+            if rich_text:
+                github_id = rich_text[0].get("plain_text", "")
+
+        if "Repo URL" in props:
+            repo_url = props["Repo URL"].get("url") or ""
+
+        if "프로젝트명" in props:
+            title = props["프로젝트명"].get("title", [])
+            if title:
+                project_name = title[0].get("plain_text", "")
+
+        if not repo_url:
+            continue
+
+        repo_url = repo_url.rstrip("/")
+
+        if repo_url.endswith(".git"):
+            repo_url = repo_url[:-4]
+
+        prefix = "https://github.com/"
+
+        if not repo_url.startswith(prefix):
+            print("SKIP invalid GitHub URL:", repo_url)
+            continue
+
+        repo_path = repo_url[len(prefix):]
+
+        parts = repo_path.split("/")
+
+        if len(parts) < 2:
+            print("SKIP invalid repository:", repo_url)
+            continue
+
+        owner = parts[0]
+        repo = parts[1]
+
+        repositories.append(
+            {
+                "github_id": github_id or owner,
+                "project_name": project_name,
+                "repo_path": f"{owner}/{repo}",
+                "repo_url": repo_url,
+            }
+        )
+
+    return repositories
+
+
+def get_repository_info(repo_path):
+    url = f"https://api.github.com/repos/{repo_path}"
+
+    headers = {
+        "Accept": "application/vnd.github+json",
+        "User-Agent": "git-notion-tracker",
+    }
+
+    return request_json(url, headers=headers)
+
+
+def get_commits(repo_path, branch):
     url = (
-        f"https://api.github.com/repos/{repo}/commits"
+        f"https://api.github.com/repos/{repo_path}/commits"
         f"?sha={branch}&per_page=10"
     )
 
-    return request_json(
-        url,
-        headers=GITHUB_HEADERS
-    )
+    headers = {
+        "Accept": "application/vnd.github+json",
+        "User-Agent": "git-notion-tracker",
+    }
 
+    return request_json(url, headers=headers)
 
-# =========================================================
-# Notion 중복 SHA 검사
-# =========================================================
 
 def notion_has_sha(sha):
-    body = {
+    url = (
+        f"https://api.notion.com/v1/data_sources/"
+        f"{COMMIT_DATA_SOURCE_ID}/query"
+    )
+
+    payload = {
         "filter": {
             "property": "Commit SHA",
             "rich_text": {
                 "equals": sha
             }
-        },
-        "page_size": 1
+        }
     }
-
-    url = (
-        f"https://api.notion.com/v1/"
-        f"data_sources/{DATA_SOURCE_ID}/query"
-    )
 
     result = request_json(
         url,
         method="POST",
-        headers=NOTION_HEADERS,
-        body=body
+        headers=notion_headers(),
+        data=payload,
     )
 
     return len(result.get("results", [])) > 0
 
 
-# =========================================================
-# Notion에 Commit 추가
-# =========================================================
+def add_commit_to_notion(
+    github_id,
+    repo_path,
+    branch,
+    sha,
+    message,
+    commit_url,
+    commit_date,
+):
+    url = "https://api.notion.com/v1/pages"
 
-def add_commit_to_notion(repo, branch, commit):
-
-    sha = commit["sha"]
-
-    commit_data = commit["commit"]
-
-    message = commit_data.get("message", "")
-
-    commit_url = commit.get("html_url", "")
-
-    author_date = (
-        commit_data
-        .get("author", {})
-        .get("date", "")
-    )
-
-    # GitHub 계정과 연결된 commit이면 login 사용
-    github_id = ""
-
-    if commit.get("author"):
-        github_id = commit["author"].get("login", "")
-
-    # GitHub 계정 정보가 없는 commit의 경우
-    # commit author name 사용
-    if not github_id:
-        github_id = (
-            commit_data
-            .get("author", {})
-            .get("name", "")
-        )
-
-
-    body = {
+    payload = {
         "parent": {
             "type": "data_source_id",
-            "data_source_id": DATA_SOURCE_ID
+            "data_source_id": COMMIT_DATA_SOURCE_ID,
         },
-
         "properties": {
-
             "커밋": {
                 "title": [
                     {
@@ -183,27 +200,24 @@ def add_commit_to_notion(repo, branch, commit):
                     }
                 ]
             },
-
             "GitHub ID": {
                 "rich_text": [
                     {
                         "text": {
-                            "content": github_id[:2000]
+                            "content": github_id
                         }
                     }
                 ]
             },
-
             "Repository": {
                 "rich_text": [
                     {
                         "text": {
-                            "content": repo
+                            "content": repo_path
                         }
                     }
                 ]
             },
-
             "Branch": {
                 "rich_text": [
                     {
@@ -213,7 +227,6 @@ def add_commit_to_notion(repo, branch, commit):
                     }
                 ]
             },
-
             "Commit SHA": {
                 "rich_text": [
                     {
@@ -223,133 +236,99 @@ def add_commit_to_notion(repo, branch, commit):
                     }
                 ]
             },
-
             "Commit URL": {
                 "url": commit_url
             },
-
             "날짜": {
                 "date": {
-                    "start": author_date
+                    "start": commit_date
                 }
-            }
-        }
+            },
+        },
     }
 
     request_json(
-        "https://api.notion.com/v1/pages",
+        url,
         method="POST",
-        headers=NOTION_HEADERS,
-        body=body
-    )
-
-    first_line = message.splitlines()[0]
-
-    print(
-        "ADD:",
-        repo,
-        branch,
-        sha[:7],
-        first_line
+        headers=notion_headers(),
+        data=payload,
     )
 
 
-# =========================================================
-# Repository 처리
-# =========================================================
+def process_repository(project):
+    repo_path = project["repo_path"]
+    github_id = project["github_id"]
 
-def process_repository(repo):
+    print("")
+    print("================================")
+    print("PROJECT:", project["project_name"])
+    print("GITHUB ID:", github_id)
+    print("REPOSITORY:", repo_path)
+    print("================================")
 
-    print()
-    print("==========================================")
-    print("CHECK:", repo)
+    repo_info = get_repository_info(repo_path)
 
-    repo_info = get_repository_info(repo)
+    branch = repo_info.get("default_branch", "main")
 
-    default_branch = repo_info.get(
-        "default_branch",
-        "main"
-    )
+    print("DEFAULT BRANCH:", branch)
 
-    print("BRANCH:", default_branch)
+    commits = get_commits(repo_path, branch)
 
-    commits = get_commits(
-        repo,
-        default_branch
-    )
+    for item in reversed(commits):
+        sha = item.get("sha", "")
 
-    print("COMMITS:", len(commits))
+        commit = item.get("commit", {})
+        message = commit.get("message", "").splitlines()[0]
 
+        author = commit.get("author") or {}
+        commit_date = author.get("date", "")
 
-    # 오래된 커밋부터 처리
-    for commit in reversed(commits):
+        commit_url = item.get("html_url", "")
 
-        sha = commit["sha"]
+        print("CHECK SHA:", sha[:7], message)
 
-        message = (
-            commit["commit"]
-            .get("message", "")
-            .splitlines()[0]
-        )
-
-        print()
-        print(
-            "CHECK SHA:",
-            sha[:7],
-            message
-        )
-
-
-        # 이미 Notion에 있으면 건너뜀
         if notion_has_sha(sha):
-
-            print(
-                "SKIP:",
-                sha[:7]
-            )
-
+            print("SKIP:", sha[:7])
             continue
 
-
-        # 없는 Commit만 추가
         add_commit_to_notion(
-            repo,
-            default_branch,
-            commit
+            github_id=github_id,
+            repo_path=repo_path,
+            branch=branch,
+            sha=sha,
+            message=message,
+            commit_url=commit_url,
+            commit_date=commit_date,
+        )
+
+        print(
+            "ADD:",
+            repo_path,
+            branch,
+            sha[:7],
+            message,
         )
 
 
-# =========================================================
-# Main
-# =========================================================
-
 def main():
+    projects = get_project_repositories()
 
-    print()
-    print("==========================================")
-    print("Git → Notion Tracker START")
-    print("==========================================")
+    print("ACTIVE PROJECTS:", len(projects))
 
+    if not projects:
+        print("No active projects found.")
+        return
 
-    for repo in REPOSITORIES:
-
+    for project in projects:
         try:
-
-            process_repository(repo)
+            process_repository(project)
 
         except Exception as e:
-
-            print()
-            print("ERROR Repository:", repo)
-            print("ERROR:", str(e))
-
-            raise
-
-
-    print()
-    print("==========================================")
-    print("Git → Notion Tracker COMPLETE")
-    print("==========================================")
+            print(
+                "ERROR:",
+                project.get("repo_path"),
+                str(e),
+            )
 
 
 if __name__ == "__main__":
