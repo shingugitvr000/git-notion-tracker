@@ -2,6 +2,7 @@ import os
 import json
 import urllib.request
 import urllib.error
+from urllib.parse import quote
 
 NOTION_TOKEN = os.environ["NOTION_TOKEN"]
 
@@ -22,15 +23,12 @@ def request_json(url, method="GET", headers=None, data=None):
     try:
         with urllib.request.urlopen(req) as response:
             body = response.read().decode("utf-8")
-
-            if not body:
-                return {}
-
-            return json.loads(body)
+            return json.loads(body) if body else {}
 
     except urllib.error.HTTPError as e:
         body = e.read().decode("utf-8")
         print("HTTP ERROR:", e.code)
+        print("URL:", url)
         print("BODY:", body)
         raise
 
@@ -43,11 +41,15 @@ def notion_headers():
     }
 
 
+def github_headers():
+    return {
+        "Accept": "application/vnd.github+json",
+        "User-Agent": "git-notion-tracker",
+    }
+
+
 def get_project_repositories():
-    url = (
-        f"https://api.notion.com/v1/data_sources/"
-        f"{PROJECT_DATA_SOURCE_ID}/query"
-    )
+    url = f"https://api.notion.com/v1/data_sources/{PROJECT_DATA_SOURCE_ID}/query"
 
     payload = {
         "filter": {
@@ -74,18 +76,15 @@ def get_project_repositories():
         repo_url = ""
         project_name = ""
 
-        if "GitHub ID" in props:
-            rich_text = props["GitHub ID"].get("rich_text", [])
-            if rich_text:
-                github_id = rich_text[0].get("plain_text", "")
+        rich_text = props.get("GitHub ID", {}).get("rich_text", [])
+        if rich_text:
+            github_id = rich_text[0].get("plain_text", "")
 
-        if "Repo URL" in props:
-            repo_url = props["Repo URL"].get("url") or ""
+        repo_url = props.get("Repo URL", {}).get("url") or ""
 
-        if "프로젝트명" in props:
-            title = props["프로젝트명"].get("title", [])
-            if title:
-                project_name = title[0].get("plain_text", "")
+        title = props.get("프로젝트명", {}).get("title", [])
+        if title:
+            project_name = title[0].get("plain_text", "")
 
         if not repo_url:
             continue
@@ -102,62 +101,52 @@ def get_project_repositories():
             continue
 
         repo_path = repo_url[len(prefix):]
-
         parts = repo_path.split("/")
 
         if len(parts) < 2:
-            print("SKIP invalid repository:", repo_url)
             continue
 
         owner = parts[0]
         repo = parts[1]
 
-        repositories.append(
-            {
-                "github_id": github_id or owner,
-                "project_name": project_name,
-                "repo_path": f"{owner}/{repo}",
-                "repo_url": repo_url,
-            }
-        )
+        repositories.append({
+            "github_id": github_id or owner,
+            "project_name": project_name,
+            "repo_path": f"{owner}/{repo}",
+        })
 
     return repositories
 
 
 def get_repository_info(repo_path):
-    url = f"https://api.github.com/repos/{repo_path}"
-
-    headers = {
-        "Accept": "application/vnd.github+json",
-        "User-Agent": "git-notion-tracker",
-    }
-
-    return request_json(url, headers=headers)
+    return request_json(
+        f"https://api.github.com/repos/{repo_path}",
+        headers=github_headers()
+    )
 
 
 def get_commits(repo_path, branch):
     url = (
         f"https://api.github.com/repos/{repo_path}/commits"
-        f"?sha={branch}&per_page=10"
+        f"?sha={quote(branch)}&per_page=20"
     )
 
-    headers = {
-        "Accept": "application/vnd.github+json",
-        "User-Agent": "git-notion-tracker",
-    }
+    return request_json(url, headers=github_headers())
 
-    return request_json(url, headers=headers)
+
+def get_commit_detail(repo_path, sha):
+    return request_json(
+        f"https://api.github.com/repos/{repo_path}/commits/{sha}",
+        headers=github_headers()
+    )
 
 
 def notion_has_sha(sha):
-    url = (
-        f"https://api.notion.com/v1/data_sources/"
-        f"{COMMIT_DATA_SOURCE_ID}/query"
-    )
+    url = f"https://api.notion.com/v1/data_sources/{COMMIT_DATA_SOURCE_ID}/query"
 
     payload = {
         "filter": {
-            "property": "Commit SHA",
+            "property": "커밋SHA",
             "rich_text": {
                 "equals": sha
             }
@@ -174,7 +163,142 @@ def notion_has_sha(sha):
     return len(result.get("results", [])) > 0
 
 
+def is_meaningful_file(filename):
+    name = filename.lower()
+
+    ignore_patterns = [
+        "library/",
+        "temp/",
+        "logs/",
+        "obj/",
+        "build/",
+        "usersettings/",
+    ]
+
+    for pattern in ignore_patterns:
+        if pattern in name:
+            return False
+
+    if name.endswith(".meta"):
+        return False
+
+    if name in [
+        "readme.md",
+        ".gitignore",
+        ".gitattributes",
+    ]:
+        return False
+
+    meaningful_extensions = [
+        ".cs",
+        ".py",
+        ".js",
+        ".ts",
+        ".cpp",
+        ".c",
+        ".h",
+        ".hpp",
+        ".java",
+        ".shader",
+        ".compute",
+        ".json",
+        ".asmdef",
+        ".unity",
+        ".prefab",
+        ".controller",
+        ".anim",
+        ".asset",
+        ".mat",
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp",
+        ".wav",
+        ".mp3",
+        ".ogg",
+        ".fbx",
+        ".blend",
+    ]
+
+    return any(name.endswith(ext) for ext in meaningful_extensions)
+
+
+def analyze_commit(detail, message):
+    stats = detail.get("stats", {})
+    files = detail.get("files", [])
+
+    additions = stats.get("additions", 0)
+    deletions = stats.get("deletions", 0)
+
+    changed_files = len(files)
+    meaningful_file_count = 0
+    meaningful_change = 0
+
+    for file_info in files:
+        filename = file_info.get("filename", "")
+
+        if is_meaningful_file(filename):
+            meaningful_file_count += 1
+
+            meaningful_change += (
+                file_info.get("additions", 0)
+                + file_info.get("deletions", 0)
+            )
+
+    suspicious_score = 0
+
+    if meaningful_file_count == 0:
+        suspicious_score += 45
+
+    if meaningful_change <= 2:
+        suspicious_score += 35
+    elif meaningful_change <= 10:
+        suspicious_score += 15
+
+    if changed_files == 1 and meaningful_change <= 5:
+        suspicious_score += 15
+
+    simple_messages = [
+        "수정",
+        "수정1",
+        "수정2",
+        "fix",
+        "update",
+        "test",
+        "테스트",
+        "변경",
+    ]
+
+    clean_message = message.strip().lower()
+
+    if clean_message in simple_messages:
+        suspicious_score += 10
+
+    if len(clean_message) <= 2:
+        suspicious_score += 10
+
+    suspicious_score = min(suspicious_score, 100)
+
+    if suspicious_score >= 70:
+        judgment = "뻥의심"
+    elif suspicious_score >= 35:
+        judgment = "확인필요"
+    else:
+        judgment = "정상"
+
+    return {
+        "changed_files": changed_files,
+        "additions": additions,
+        "deletions": deletions,
+        "meaningful_change": meaningful_change,
+        "meaningful_file_count": meaningful_file_count,
+        "suspicious_score": suspicious_score,
+        "judgment": judgment,
+    }
+
+
 def add_commit_to_notion(
+    project_name,
     github_id,
     repo_path,
     branch,
@@ -182,6 +306,7 @@ def add_commit_to_notion(
     message,
     commit_url,
     commit_date,
+    analysis,
 ):
     url = "https://api.notion.com/v1/pages"
 
@@ -192,56 +317,76 @@ def add_commit_to_notion(
         },
         "properties": {
             "커밋": {
-                "title": [
-                    {
-                        "text": {
-                            "content": message[:2000]
-                        }
+                "title": [{
+                    "text": {
+                        "content": message[:2000]
                     }
-                ]
+                }]
             },
-            "GitHub ID": {
-                "rich_text": [
-                    {
-                        "text": {
-                            "content": github_id
-                        }
+            "프로젝트명": {
+                "rich_text": [{
+                    "text": {
+                        "content": project_name
                     }
-                ]
+                }]
             },
-            "Repository": {
-                "rich_text": [
-                    {
-                        "text": {
-                            "content": repo_path
-                        }
+            "깃허브아이디": {
+                "rich_text": [{
+                    "text": {
+                        "content": github_id
                     }
-                ]
+                }]
             },
-            "Branch": {
-                "rich_text": [
-                    {
-                        "text": {
-                            "content": branch
-                        }
+            "저장소": {
+                "rich_text": [{
+                    "text": {
+                        "content": repo_path
                     }
-                ]
+                }]
             },
-            "Commit SHA": {
-                "rich_text": [
-                    {
-                        "text": {
-                            "content": sha
-                        }
+            "브랜치": {
+                "rich_text": [{
+                    "text": {
+                        "content": branch
                     }
-                ]
+                }]
             },
-            "Commit URL": {
+            "커밋SHA": {
+                "rich_text": [{
+                    "text": {
+                        "content": sha
+                    }
+                }]
+            },
+            "커밋URL": {
                 "url": commit_url
             },
             "날짜": {
                 "date": {
                     "start": commit_date
+                }
+            },
+            "변경파일수": {
+                "number": analysis["changed_files"]
+            },
+            "추가라인": {
+                "number": analysis["additions"]
+            },
+            "삭제라인": {
+                "number": analysis["deletions"]
+            },
+            "실질변경량": {
+                "number": analysis["meaningful_change"]
+            },
+            "의미파일수": {
+                "number": analysis["meaningful_file_count"]
+            },
+            "의심점수": {
+                "number": analysis["suspicious_score"]
+            },
+            "판정": {
+                "select": {
+                    "name": analysis["judgment"]
                 }
             },
         },
@@ -257,20 +402,15 @@ def add_commit_to_notion(
 
 def process_repository(project):
     repo_path = project["repo_path"]
-    github_id = project["github_id"]
-
-    print("")
-    print("================================")
-    print("PROJECT:", project["project_name"])
-    print("GITHUB ID:", github_id)
-    print("REPOSITORY:", repo_path)
-    print("================================")
 
     repo_info = get_repository_info(repo_path)
-
     branch = repo_info.get("default_branch", "main")
 
-    print("DEFAULT BRANCH:", branch)
+    print("")
+    print("프로젝트:", project["project_name"])
+    print("깃허브:", project["github_id"])
+    print("저장소:", repo_path)
+    print("브랜치:", branch)
 
     commits = get_commits(repo_path, branch)
 
@@ -285,39 +425,40 @@ def process_repository(project):
 
         commit_url = item.get("html_url", "")
 
-        print("CHECK SHA:", sha[:7], message)
-
         if notion_has_sha(sha):
-            print("SKIP:", sha[:7])
+            print("SKIP:", sha[:7], message)
             continue
 
+        detail = get_commit_detail(repo_path, sha)
+        analysis = analyze_commit(detail, message)
+
         add_commit_to_notion(
-            github_id=github_id,
+            project_name=project["project_name"],
+            github_id=project["github_id"],
             repo_path=repo_path,
             branch=branch,
             sha=sha,
             message=message,
             commit_url=commit_url,
             commit_date=commit_date,
+            analysis=analysis,
         )
 
         print(
             "ADD:",
-            repo_path,
-            branch,
             sha[:7],
             message,
+            "/",
+            analysis["judgment"],
+            "/ 점수:",
+            analysis["suspicious_score"]
         )
 
 
 def main():
     projects = get_project_repositories()
 
-    print("ACTIVE PROJECTS:", len(projects))
-
-    if not projects:
-        print("No active projects found.")
-        return
+    print("활성 프로젝트 수:", len(projects))
 
     for project in projects:
         try:
@@ -327,7 +468,7 @@ def main():
             print(
                 "ERROR:",
                 project.get("repo_path"),
-                str(e),
+                str(e)
             )
 
 
