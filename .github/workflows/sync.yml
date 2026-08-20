@@ -10,7 +10,19 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
+      - name: Check Notion IDs
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+        run: |
+          python - <<'PY'
+          import os
+          x = os.environ.get("NOTION_DATABASE_ID", "")
+          print("ID LENGTH:", len(x))
+          print("ID START:", x[:8])
+          print("ID END:", x[-8:])
+          print("TOKEN PRESENT:", bool(os.environ.get("NOTION_TOKEN")))
+          PY
       - name: Run tracker
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
