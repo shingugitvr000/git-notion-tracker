@@ -51,42 +51,52 @@ def github_headers():
 def get_project_repositories():
     url = f"https://api.notion.com/v1/data_sources/{PROJECT_DATA_SOURCE_ID}/query"
 
-    payload = {
-        "filter": {
-            "property": "사용 여부",
-            "checkbox": {
-                "equals": True
-            }
-        }
-    }
-
+    # Notion에서 일단 전체 프로젝트를 가져온다.
     result = request_json(
         url,
         method="POST",
         headers=notion_headers(),
-        data=payload,
+        data={}
     )
+
+    print("Repo List 전체 행 수:", len(result.get("results", [])))
 
     repositories = []
 
     for page in result.get("results", []):
         props = page.get("properties", {})
 
+        # 사용 여부 확인
+        active = props.get("사용 여부", {}).get("checkbox", False)
+
+        print("DEBUG 사용 여부:", active)
+
+        if not active:
+            continue
+
         github_id = ""
         repo_url = ""
         project_name = ""
 
+        # GitHub ID
         rich_text = props.get("GitHub ID", {}).get("rich_text", [])
         if rich_text:
             github_id = rich_text[0].get("plain_text", "")
 
+        # Repo URL
         repo_url = props.get("Repo URL", {}).get("url") or ""
 
+        # 프로젝트명
         title = props.get("프로젝트명", {}).get("title", [])
         if title:
             project_name = title[0].get("plain_text", "")
 
+        print("DEBUG 프로젝트:", project_name)
+        print("DEBUG GitHub ID:", github_id)
+        print("DEBUG Repo URL:", repo_url)
+
         if not repo_url:
+            print("SKIP: Repo URL 없음")
             continue
 
         repo_url = repo_url.rstrip("/")
@@ -97,13 +107,15 @@ def get_project_repositories():
         prefix = "https://github.com/"
 
         if not repo_url.startswith(prefix):
-            print("SKIP invalid GitHub URL:", repo_url)
+            print("SKIP 잘못된 GitHub URL:", repo_url)
             continue
 
         repo_path = repo_url[len(prefix):]
+
         parts = repo_path.split("/")
 
         if len(parts) < 2:
+            print("SKIP 잘못된 저장소:", repo_url)
             continue
 
         owner = parts[0]
