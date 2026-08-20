@@ -161,9 +161,9 @@ def main():
         for commit in reversed(commits):
             sha = commit["sha"]
 
-            if notion_has_sha(sha):
-                print("SKIP:", sha[:7])
-                continue
+            # if notion_has_sha(sha):
+            #     print("SKIP:", sha[:7])
+            #     continue
 
             add_commit_to_notion(repo, commit)
 
