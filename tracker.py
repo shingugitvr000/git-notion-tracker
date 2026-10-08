@@ -12,6 +12,9 @@ PROJECT_DATA_SOURCE_ID = "3c28655a-72df-8061-8782-000ba17e1ab9"
 
 NOTION_VERSION = "2025-09-03"
 COMMIT_LOG_PATH = os.path.join(os.path.dirname(__file__), "commits.json")
+ARCHIVE_META_PATH = os.path.join(os.path.dirname(__file__), "archive-meta.json")
+INCREMENTAL_COMMIT_LIMIT = 50
+BACKFILL_PAGE_SIZE = 100
 
 
 def request_json(url, method="GET", headers=None, data=None):
@@ -44,10 +47,16 @@ def notion_headers():
 
 
 def github_headers():
-    return {
+    headers = {
         "Accept": "application/vnd.github+json",
         "User-Agent": "git-notion-tracker",
     }
+
+    github_token = os.environ.get("GITHUB_TOKEN")
+    if github_token:
+        headers["Authorization"] = f"Bearer {github_token}"
+
+    return headers
 
 
 def load_commit_log():
@@ -71,6 +80,26 @@ def save_commit_log(records):
 
 def get_known_shas(records):
     return {record.get("sha") for record in records if record.get("sha")}
+
+
+
+def load_archive_metadata():
+    if not os.path.exists(ARCHIVE_META_PATH):
+        return {}
+
+    with open(ARCHIVE_META_PATH, "r", encoding="utf-8") as file:
+        metadata = json.load(file)
+
+    if not isinstance(metadata, dict):
+        raise ValueError("archive-meta.json must contain a JSON object")
+
+    return metadata
+
+
+def save_archive_metadata(metadata):
+    with open(ARCHIVE_META_PATH, "w", encoding="utf-8") as file:
+        json.dump(metadata, file, ensure_ascii=False, indent=2)
+        file.write("\n")
 
 def get_project_repositories():
     url = f"https://api.notion.com/v1/data_sources/{PROJECT_DATA_SOURCE_ID}/query"
@@ -161,13 +190,38 @@ def get_repository_info(repo_path):
     )
 
 
-def get_commits(repo_path, branch):
+def get_commits(repo_path, branch, per_page, page):
     url = (
         f"https://api.github.com/repos/{repo_path}/commits"
-        f"?sha={quote(branch)}&per_page=20"
+        f"?sha={quote(branch)}&per_page={per_page}&page={page}"
     )
 
     return request_json(url, headers=github_headers())
+
+
+def get_all_commits(repo_path, branch):
+    commits = []
+    page = 1
+
+    while True:
+        batch = get_commits(
+            repo_path,
+            branch,
+            per_page=BACKFILL_PAGE_SIZE,
+            page=page,
+        )
+
+        if not batch:
+            break
+
+        commits.extend(batch)
+
+        if len(batch) < BACKFILL_PAGE_SIZE:
+            break
+
+        page += 1
+
+    return commits
 
 
 def get_commit_detail(repo_path, sha):
@@ -436,7 +490,7 @@ def add_commit_to_notion(
     )
 
 
-def process_repository(project, known_shas, records):
+def process_repository(project, known_shas, records, sync_mode):
     repo_path = project["repo_path"]
 
     repo_info = get_repository_info(repo_path)
@@ -448,7 +502,17 @@ def process_repository(project, known_shas, records):
     print("저장소:", repo_path)
     print("브랜치:", branch)
 
-    commits = get_commits(repo_path, branch)
+    if sync_mode == "backfill":
+        commits = get_all_commits(repo_path, branch)
+        print("소급 수집 대상 커밋 수:", len(commits))
+    else:
+        commits = get_commits(
+            repo_path,
+            branch,
+            per_page=INCREMENTAL_COMMIT_LIMIT,
+            page=1,
+        )
+        print("증분 수집 대상 커밋 수:", len(commits))
 
     for item in reversed(commits):
         sha = item.get("sha", "")
@@ -508,17 +572,36 @@ def process_repository(project, known_shas, records):
 
 
 def main():
+    sync_mode = os.environ.get("SYNC_MODE", "incremental").lower()
+    force_backfill = os.environ.get("FORCE_BACKFILL", "false").lower() == "true"
+
+    if sync_mode not in {"incremental", "backfill"}:
+        raise ValueError("SYNC_MODE must be 'incremental' or 'backfill'")
+
+    metadata = load_archive_metadata()
+    if (
+        sync_mode == "backfill"
+        and metadata.get("backfill_completed_at")
+        and not force_backfill
+    ):
+        print("소급 수집은 이미 완료되었습니다.")
+        print("다시 실행하려면 FORCE_BACKFILL=true를 사용하세요.")
+        return
+
     records = load_commit_log()
     known_shas = get_known_shas(records)
     projects = get_project_repositories()
+    had_errors = False
 
+    print("수집 모드:", sync_mode)
     print("활성 프로젝트 수:", len(projects))
 
     for project in projects:
         try:
-            process_repository(project, known_shas, records)
+            process_repository(project, known_shas, records, sync_mode)
 
         except Exception as e:
+            had_errors = True
             print(
                 "ERROR:",
                 project.get("repo_path"),
@@ -526,7 +609,12 @@ def main():
             )
 
     save_commit_log(records)
-    print('저장된 커밋 수:', len(records))
+
+    if sync_mode == "backfill" and not had_errors:
+        metadata["backfill_completed_at"] = datetime.now(timezone.utc).isoformat()
+        save_archive_metadata(metadata)
+
+    print("저장된 커밋 수:", len(records))
 
 
 if __name__ == "__main__":
