@@ -2,6 +2,7 @@ import os
 import json
 import urllib.request
 import urllib.error
+from datetime import datetime, timezone
 from urllib.parse import quote
 
 NOTION_TOKEN = os.environ["NOTION_TOKEN"]
@@ -10,6 +11,7 @@ COMMIT_DATA_SOURCE_ID = "3c28655a-72df-8076-a7aa-000b7d2948d4"
 PROJECT_DATA_SOURCE_ID = "3c28655a-72df-8061-8782-000ba17e1ab9"
 
 NOTION_VERSION = "2025-09-03"
+COMMIT_LOG_PATH = os.path.join(os.path.dirname(__file__), "commits.json")
 
 
 def request_json(url, method="GET", headers=None, data=None):
@@ -47,6 +49,28 @@ def github_headers():
         "User-Agent": "git-notion-tracker",
     }
 
+
+def load_commit_log():
+    if not os.path.exists(COMMIT_LOG_PATH):
+        return []
+
+    with open(COMMIT_LOG_PATH, "r", encoding="utf-8") as file:
+        records = json.load(file)
+
+    if not isinstance(records, list):
+        raise ValueError("commits.json must contain a JSON array")
+
+    return records
+
+
+def save_commit_log(records):
+    with open(COMMIT_LOG_PATH, "w", encoding="utf-8") as file:
+        json.dump(records, file, ensure_ascii=False, indent=2)
+        file.write("\n")
+
+
+def get_known_shas(records):
+    return {record.get("sha") for record in records if record.get("sha")}
 
 def get_project_repositories():
     url = f"https://api.notion.com/v1/data_sources/{PROJECT_DATA_SOURCE_ID}/query"
@@ -412,7 +436,7 @@ def add_commit_to_notion(
     )
 
 
-def process_repository(project):
+def process_repository(project, known_shas, records):
     repo_path = project["repo_path"]
 
     repo_info = get_repository_info(repo_path)
@@ -445,24 +469,32 @@ def process_repository(project):
             print("SKIP: GitHub ID 없음:", sha[:7], message)
             continue
 
-        if notion_has_sha(sha):
+        if sha in known_shas:
             print("SKIP:", sha[:7], message)
             continue
 
         detail = get_commit_detail(repo_path, sha)
         analysis = analyze_commit(detail, message)
 
-        add_commit_to_notion(
-            project_name=project["project_name"],
-            github_id=commit_github_id,
-            repo_path=repo_path,
-            branch=branch,
-            sha=sha,
-            message=message,
-            commit_url=commit_url,
-            commit_date=commit_date,
-            analysis=analysis,
-        )
+        records.append({
+            "project_name": project["project_name"],
+            "github_id": commit_github_id,
+            "repo_path": repo_path,
+            "branch": branch,
+            "sha": sha,
+            "message": message,
+            "commit_url": commit_url,
+            "commit_date": commit_date,
+            "changed_files": analysis["changed_files"],
+            "additions": analysis["additions"],
+            "deletions": analysis["deletions"],
+            "meaningful_change": analysis["meaningful_change"],
+            "meaningful_file_count": analysis["meaningful_file_count"],
+            "suspicious_score": analysis["suspicious_score"],
+            "judgment": analysis["judgment"],
+            "recorded_at": datetime.now(timezone.utc).isoformat(),
+        })
+        known_shas.add(sha)
 
         print(
             "ADD:",
@@ -476,13 +508,15 @@ def process_repository(project):
 
 
 def main():
+    records = load_commit_log()
+    known_shas = get_known_shas(records)
     projects = get_project_repositories()
 
     print("활성 프로젝트 수:", len(projects))
 
     for project in projects:
         try:
-            process_repository(project)
+            process_repository(project, known_shas, records)
 
         except Exception as e:
             print(
@@ -490,6 +524,9 @@ def main():
                 project.get("repo_path"),
                 str(e)
             )
+
+    save_commit_log(records)
+    print('저장된 커밋 수:', len(records))
 
 
 if __name__ == "__main__":
