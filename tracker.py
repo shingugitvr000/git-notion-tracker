@@ -2,19 +2,20 @@ import os
 import json
 import urllib.request
 import urllib.error
-from datetime import datetime, timezone
 from urllib.parse import quote
+from datetime import datetime, timedelta, timezone
 
 NOTION_TOKEN = os.environ["NOTION_TOKEN"]
+GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
 
 COMMIT_DATA_SOURCE_ID = "3c28655a-72df-8076-a7aa-000b7d2948d4"
 PROJECT_DATA_SOURCE_ID = "3c28655a-72df-8061-8782-000ba17e1ab9"
 
 NOTION_VERSION = "2025-09-03"
-COMMIT_LOG_PATH = os.path.join(os.path.dirname(__file__), "commits.json")
-ARCHIVE_META_PATH = os.path.join(os.path.dirname(__file__), "archive-meta.json")
+SYNC_META_PATH = os.path.join("data", "sync-meta.json")
 INCREMENTAL_COMMIT_LIMIT = 50
 BACKFILL_PAGE_SIZE = 100
+COMMIT_CACHE = {}
 
 
 def request_json(url, method="GET", headers=None, data=None):
@@ -51,53 +52,27 @@ def github_headers():
         "Accept": "application/vnd.github+json",
         "User-Agent": "git-notion-tracker",
     }
-
-    github_token = os.environ.get("GITHUB_TOKEN")
-    if github_token:
-        headers["Authorization"] = f"Bearer {github_token}"
-
+    if GITHUB_TOKEN:
+        headers["Authorization"] = f"Bearer {GITHUB_TOKEN}"
     return headers
 
 
-def load_commit_log():
-    if not os.path.exists(COMMIT_LOG_PATH):
-        return []
-
-    with open(COMMIT_LOG_PATH, "r", encoding="utf-8") as file:
-        records = json.load(file)
-
-    if not isinstance(records, list):
-        raise ValueError("commits.json must contain a JSON array")
-
-    return records
-
-
-def save_commit_log(records):
-    with open(COMMIT_LOG_PATH, "w", encoding="utf-8") as file:
-        json.dump(records, file, ensure_ascii=False, indent=2)
-        file.write("\n")
-
-
-def get_known_shas(records):
-    return {record.get("sha") for record in records if record.get("sha")}
-
-
-
-def load_archive_metadata():
-    if not os.path.exists(ARCHIVE_META_PATH):
+def load_sync_metadata():
+    if not os.path.exists(SYNC_META_PATH):
         return {}
 
-    with open(ARCHIVE_META_PATH, "r", encoding="utf-8") as file:
+    with open(SYNC_META_PATH, "r", encoding="utf-8") as file:
         metadata = json.load(file)
 
     if not isinstance(metadata, dict):
-        raise ValueError("archive-meta.json must contain a JSON object")
+        raise ValueError("data/sync-meta.json must contain a JSON object")
 
     return metadata
 
 
-def save_archive_metadata(metadata):
-    with open(ARCHIVE_META_PATH, "w", encoding="utf-8") as file:
+def save_sync_metadata(metadata):
+    os.makedirs("data", exist_ok=True)
+    with open(SYNC_META_PATH, "w", encoding="utf-8") as file:
         json.dump(metadata, file, ensure_ascii=False, indent=2)
         file.write("\n")
 
@@ -210,18 +185,32 @@ def get_all_commits(repo_path, branch):
             per_page=BACKFILL_PAGE_SIZE,
             page=page,
         )
-
         if not batch:
             break
 
         commits.extend(batch)
-
         if len(batch) < BACKFILL_PAGE_SIZE:
             break
 
         page += 1
 
     return commits
+
+
+def get_project_commits(repo_path, branch, sync_mode):
+    cache_key = (repo_path, branch, sync_mode)
+    if cache_key not in COMMIT_CACHE:
+        if sync_mode == "backfill":
+            COMMIT_CACHE[cache_key] = get_all_commits(repo_path, branch)
+        else:
+            COMMIT_CACHE[cache_key] = get_commits(
+                repo_path,
+                branch,
+                per_page=INCREMENTAL_COMMIT_LIMIT,
+                page=1,
+            )
+
+    return COMMIT_CACHE[cache_key]
 
 
 def get_commit_detail(repo_path, sha):
@@ -490,7 +479,7 @@ def add_commit_to_notion(
     )
 
 
-def process_repository(project, known_shas, records, sync_mode):
+def process_repository(project, sync_mode):
     repo_path = project["repo_path"]
 
     repo_info = get_repository_info(repo_path)
@@ -502,75 +491,236 @@ def process_repository(project, known_shas, records, sync_mode):
     print("저장소:", repo_path)
     print("브랜치:", branch)
 
-    if sync_mode == "backfill":
-        commits = get_all_commits(repo_path, branch)
-        print("소급 수집 대상 커밋 수:", len(commits))
-    else:
-        commits = get_commits(
-            repo_path,
-            branch,
-            per_page=INCREMENTAL_COMMIT_LIMIT,
-            page=1,
-        )
-        print("증분 수집 대상 커밋 수:", len(commits))
+    commits = get_project_commits(repo_path, branch, sync_mode)
 
-    for item in reversed(commits):
+    audit_entries = []
+    expected_github = project["github_id"].casefold()
+
+    for item in commits:
         sha = item.get("sha", "")
 
-        github_author = item.get("author") or {}
-        commit_github_id = github_author.get("login", "")
         commit = item.get("commit", {})
         message = commit.get("message", "").splitlines()[0]
 
         author = commit.get("author") or {}
-        commit_date = author.get("date", "")
-
+        github_author = item.get("author") or {}
+        github_author_login = github_author.get("login", "")
         commit_url = item.get("html_url", "")
-
-        # Attribute each record to the actual GitHub account that made the commit.
-        # Do not assign commits without a mapped GitHub ID to another student.
-        if not commit_github_id:
-            print("SKIP: GitHub ID 없음:", sha[:7], message)
-            continue
-
-        if sha in known_shas:
-            print("SKIP:", sha[:7], message)
-            continue
 
         detail = get_commit_detail(repo_path, sha)
         analysis = analyze_commit(detail, message)
 
-        records.append({
-            "project_name": project["project_name"],
-            "github_id": commit_github_id,
-            "repo_path": repo_path,
+        if github_author_login:
+            verification = "verified" if github_author_login.casefold() == expected_github else "mismatch"
+        else:
+            # The commit email is not linked to a visible GitHub account.
+            verification = "unlinked"
+
+        audit_entries.append({
+            "projectName": project["project_name"] or project["github_id"],
+            "repo": repo_path,
             "branch": branch,
             "sha": sha,
             "message": message,
-            "commit_url": commit_url,
-            "commit_date": commit_date,
-            "changed_files": analysis["changed_files"],
-            "additions": analysis["additions"],
-            "deletions": analysis["deletions"],
-            "meaningful_change": analysis["meaningful_change"],
-            "meaningful_file_count": analysis["meaningful_file_count"],
-            "suspicious_score": analysis["suspicious_score"],
-            "judgment": analysis["judgment"],
-            "recorded_at": datetime.now(timezone.utc).isoformat(),
+            "url": commit_url,
+            "date": author.get("date", ""),
+            "expectedGithub": project["github_id"],
+            "actualGithub": github_author_login or None,
+            "gitAuthorName": author.get("name", ""),
+            "gitAuthorEmail": author.get("email", ""),
+            "verification": verification,
+            "analysis": analysis,
         })
-        known_shas.add(sha)
 
-        print(
-            "ADD:",
-            sha[:7],
-            message,
-            "/",
-            analysis["judgment"],
-            "/ 점수:",
-            analysis["suspicious_score"]
-        )
+        print("AUDIT:", sha[:7], verification, github_author_login or "unlinked")
+
+    return audit_entries
 
 
+def write_commit_audit(entries):
+    payload = {
+        "updatedAt": datetime.now(timezone.utc).astimezone(timezone(timedelta(hours=9))).strftime("%Y. %m. %d. %H:%M"),
+        "verificationLabels": {
+            "verified": "등록된 GitHub ID와 일치",
+            "mismatch": "다른 GitHub 계정의 커밋",
+            "unlinked": "GitHub 계정 연결을 확인할 수 없음",
+        },
+        "commits": entries,
+    }
+    with open("data/commit-audit.json", "w", encoding="utf-8") as file:
+        json.dump(payload, file, ensure_ascii=False, indent=2)
+        file.write("\n")
+
+
+def load_commit_audit_entries():
+    audit_path = os.path.join("data", "commit-audit.json")
+    if not os.path.exists(audit_path):
+        return []
+
+    with open(audit_path, "r", encoding="utf-8") as file:
+        payload = json.load(file)
+
+    entries = payload.get("commits", [])
+    if not isinstance(entries, list):
+        raise ValueError("data/commit-audit.json must contain a commits array")
+
+    return entries
+
+
+def merge_audit_entries(existing_entries, incoming_entries):
+    merged = {}
+
+    for entry in [*existing_entries, *incoming_entries]:
+        repo = entry.get("repo", "")
+        sha = entry.get("sha", "")
+        if repo and sha:
+            merged[(repo, sha)] = entry
+
+    return sorted(
+        merged.values(),
+        key=lambda entry: entry.get("date", ""),
+        reverse=True,
+    )
+
+def parse_github_date(value):
+    return datetime.fromisoformat(value.replace("Z", "+00:00")) if value else None
+
+
+def relative_time(value, now):
+    parsed = parse_github_date(value)
+    if not parsed:
+        return "기록 없음"
+    days = max(0, (now - parsed).days)
+    return "오늘" if days == 0 else "어제" if days == 1 else f"{days}일 전"
+
+
+def activity_status(value, now):
+    parsed = parse_github_date(value)
+    if not parsed:
+        return "inactive"
+    days = (now - parsed).days
+    return "active" if days <= 3 else "watch" if days <= 7 else "inactive"
+
+
+def make_dashboard_row(project, github_id, commits, now, source):
+    repo_path = project["repo_path"]
+    week_ago = now - timedelta(days=7)
+    recent_week = [
+        row for row in commits
+        if parse_github_date(row["date"])
+        and parse_github_date(row["date"]) >= week_ago
+    ]
+    active_days = len({row["date"][:10] for row in recent_week if row["date"]})
+    weekly = []
+
+    for index in range(6, -1, -1):
+        start = now - timedelta(days=(index + 1) * 7)
+        end = now - timedelta(days=index * 7)
+        weekly.append(sum(
+            1 for row in commits
+            if parse_github_date(row["date"])
+            and start <= parse_github_date(row["date"]) < end
+        ))
+
+    last_date = commits[0]["date"] if commits else ""
+    is_registered_student = source == "registered"
+
+    return {
+        "name": (
+            project["project_name"] or github_id
+            if is_registered_student
+            else f"{github_id} (실제 커밋 작성자)"
+        ),
+        "id": github_id,
+        "team": repo_path.split("/")[0] if is_registered_student else project["project_name"],
+        "github": github_id,
+        "repo": repo_path,
+        "commits": len(recent_week),
+        "activeDays": active_days,
+        "lastCommit": relative_time(last_date, now),
+        "status": activity_status(last_date, now),
+        "weekly": weekly,
+        "recent": [
+            {
+                "message": row["message"],
+                "time": relative_time(row["date"], now),
+                "sha": row["sha"],
+                "url": row["url"],
+            }
+            for row in commits[:5]
+        ],
+    }
+
+
+def build_dashboard_data(projects, audit_entries):
+    now = datetime.now(timezone.utc)
+    entries_by_repo = {}
+    rows = []
+
+    for entry in audit_entries:
+        entries_by_repo.setdefault(entry.get("repo", ""), []).append(entry)
+
+    for project in projects:
+        repo_path = project["repo_path"]
+        expected_github = project["github_id"]
+        expected_github_key = expected_github.casefold()
+        commits = [
+            {
+                "date": entry.get("date", ""),
+                "message": entry.get("message", ""),
+                "sha": entry.get("sha", "")[:7],
+                "url": entry.get("url", ""),
+                "actualGithub": entry.get("actualGithub") or "",
+            }
+            for entry in entries_by_repo.get(repo_path, [])
+        ]
+
+        registered_commits = [
+            row for row in commits
+            if row["actualGithub"].casefold() == expected_github_key
+        ]
+        rows.append(make_dashboard_row(
+            project,
+            expected_github,
+            registered_commits,
+            now,
+            source="registered",
+        ))
+
+        contributor_commits = {}
+        contributor_display_ids = {}
+        for row in commits:
+            github_id = row["actualGithub"]
+            if not github_id:
+                continue
+
+            github_key = github_id.casefold()
+            if github_key == expected_github_key:
+                continue
+
+            contributor_commits.setdefault(github_key, []).append(row)
+            contributor_display_ids.setdefault(github_key, github_id)
+
+        for github_key, author_commits in contributor_commits.items():
+            rows.append(make_dashboard_row(
+                project,
+                contributor_display_ids[github_key],
+                author_commits,
+                now,
+                source="contributor",
+            ))
+
+    os.makedirs("data", exist_ok=True)
+    payload = {
+        "course": "Git 프로젝트 활동 현황",
+        "notionUrl": "https://abaft-vibraphone-8f7.notion.site/Git-3c28655a72df80199dafc115fef9ddd4?pvs=74",
+        "updatedAt": now.astimezone(timezone(timedelta(hours=9))).strftime("%Y. %m. %d. %H:%M"),
+        "students": rows,
+    }
+    with open("data/students.json", "w", encoding="utf-8") as file:
+        json.dump(payload, file, ensure_ascii=False, indent=2)
+        file.write("\n")
+    print("대시보드 조회 항목 수:", len(rows))
 def main():
     sync_mode = os.environ.get("SYNC_MODE", "incremental").lower()
     force_backfill = os.environ.get("FORCE_BACKFILL", "false").lower() == "true"
@@ -578,7 +728,7 @@ def main():
     if sync_mode not in {"incremental", "backfill"}:
         raise ValueError("SYNC_MODE must be 'incremental' or 'backfill'")
 
-    metadata = load_archive_metadata()
+    metadata = load_sync_metadata()
     if (
         sync_mode == "backfill"
         and metadata.get("backfill_completed_at")
@@ -588,9 +738,9 @@ def main():
         print("다시 실행하려면 FORCE_BACKFILL=true를 사용하세요.")
         return
 
-    records = load_commit_log()
-    known_shas = get_known_shas(records)
     projects = get_project_repositories()
+    existing_audit_entries = load_commit_audit_entries()
+    audit_entries = []
     had_errors = False
 
     print("수집 모드:", sync_mode)
@@ -598,24 +748,18 @@ def main():
 
     for project in projects:
         try:
-            process_repository(project, known_shas, records, sync_mode)
-
-        except Exception as e:
+            audit_entries.extend(process_repository(project, sync_mode))
+        except Exception as error:
             had_errors = True
-            print(
-                "ERROR:",
-                project.get("repo_path"),
-                str(e)
-            )
+            print("ERROR:", project.get("repo_path"), str(error))
 
-    save_commit_log(records)
+    audit_entries = merge_audit_entries(existing_audit_entries, audit_entries)
+    write_commit_audit(audit_entries)
+    build_dashboard_data(projects, audit_entries)
 
     if sync_mode == "backfill" and not had_errors:
         metadata["backfill_completed_at"] = datetime.now(timezone.utc).isoformat()
-        save_archive_metadata(metadata)
-
-    print("저장된 커밋 수:", len(records))
-
+        save_sync_metadata(metadata)
 
 if __name__ == "__main__":
     main()

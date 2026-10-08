@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="학생 프로젝트 Git 활동 대시보드">
+  <meta property="og:title" content="Git 활동 대시보드">
+  <meta property="og:description" content="게임 프로젝트의 주차별 Git 활동을 한눈에">
+  <meta property="og:image" content="og.png">
+  <title>Git 활동 대시보드</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="logo">G</div>
+    <div class="brand"><strong>Git 활동 대시보드</strong><span id="courseTitle">게임 프로젝트</span></div>
+    <div class="sync"><i></i><span id="updatedAt">데이터 불러오는 중</span></div>
+  </header>
+
+  <main class="workspace">
+    <section class="dashboard" id="dashboard" aria-live="polite">
+      <div class="loading">학생 활동 데이터를 불러오고 있습니다.</div>
+    </section>
+  </main>
+  <footer>자동 수집된 Git 활동 자료이며, 프로젝트 평가는 Notion 기록과 결과물을 함께 확인합니다.</footer>
+</body>
+</html>

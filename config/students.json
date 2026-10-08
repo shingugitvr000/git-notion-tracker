@@ -1,0 +1,9 @@
+{
+  "course": "게임 프로젝트 · 2026학년도 2학기",
+  "notionUrl": "https://www.notion.so/여기에-수업-노션-주소",
+  "semesterStart": "2026-09-01",
+  "students": [
+    {"name":"김하늘","id":"20260001","team":"Pixel Forge","github":"haneul-dev","repo":"pixel-forge/project"},
+    {"name":"박서연","id":"20260003","team":"Blue Rabbit","github":"seoyeon-art","repo":"blue-rabbit/game"}
+  ]
+}
