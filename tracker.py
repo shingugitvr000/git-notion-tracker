@@ -429,6 +429,8 @@ def process_repository(project):
     for item in reversed(commits):
         sha = item.get("sha", "")
 
+        github_author = item.get("author") or {}
+        commit_github_id = github_author.get("login", "")
         commit = item.get("commit", {})
         message = commit.get("message", "").splitlines()[0]
 
@@ -436,6 +438,12 @@ def process_repository(project):
         commit_date = author.get("date", "")
 
         commit_url = item.get("html_url", "")
+
+        # Attribute each record to the actual GitHub account that made the commit.
+        # Do not assign commits without a mapped GitHub ID to another student.
+        if not commit_github_id:
+            print("SKIP: GitHub ID 없음:", sha[:7], message)
+            continue
 
         if notion_has_sha(sha):
             print("SKIP:", sha[:7], message)
@@ -446,7 +454,7 @@ def process_repository(project):
 
         add_commit_to_notion(
             project_name=project["project_name"],
-            github_id=project["github_id"],
+            github_id=commit_github_id,
             repo_path=repo_path,
             branch=branch,
             sha=sha,
