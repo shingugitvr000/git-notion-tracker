@@ -199,6 +199,7 @@ function renderDashboard(students){
   const semester=getSemesterInfo();
   const quality=analyzeCommitMessages(s.recent);
   const total=s.weekly.reduce((a,b)=>a+b,0);
+  const semesterTotal=s.semesterCommits??total;
   const commits=s.recent.length?s.recent.map(c=>`<div class="commit"><span>⌘</span><div><strong>${esc(c.message)}</strong><p><code>${esc(c.sha)}</code> · ${esc(s.github)}</p></div><time>${esc(c.time)}</time></div>`).join(""):'<p class="empty">최근 커밋이 없습니다.</p>';
   const repoTabs=students.length>1?`<nav class="repo-switcher" aria-label="저장소 전환">${students.map(student=>`<button class="repo-tab ${student.repo===s.repo?"current":""}" data-repo="${esc(student.repo)}">${esc(student.repo)}</button>`).join("")}</nav>`:"";
   const copyNotice=state.copyMessage?`<p class="copy-feedback">${esc(state.copyMessage)}</p>`:"";
@@ -209,7 +210,7 @@ function renderDashboard(students){
     ${copyNotice}
     <div class="student-head"><div><p>${esc(semester.label)}</p><h1>${esc(s.name)}<small>${esc(s.id)}</small></h1><a href="https://github.com/${esc(s.github)}" target="_blank" rel="noopener">github.com/${esc(s.github)} ↗</a><div class="semester-range">집계 기간 · ${esc(semester.range)}</div></div><span class="chip ${esc(s.status)}"><i></i>${esc(labels[s.status])}</span></div>
     ${repoTabs}
-    <div class="metrics"><article><span>학기 활동 커밋</span><strong>${total}<small>회</small></strong><p>${esc(semester.label)} 집계 기준</p></article><article><span>유효 커밋</span><strong>${quality.valid}<small>/ ${quality.total||0}</small></strong><p>최근 커밋 메시지 형식 점검</p></article><article><span>규칙 준수율</span><strong class="time">${qualityRate}<small>%</small></strong><p>${quality.recommended}개가 핵심 타입 규칙을 따릅니다</p></article></div>
+    <div class="metrics"><article><span>학기 활동 커밋</span><strong>${semesterTotal}<small>회</small></strong><p>${esc(semester.label)} 집계 기준</p></article><article><span>유효 커밋</span><strong>${quality.valid}<small>/ ${quality.total||0}</small></strong><p>최근 커밋 메시지 형식 점검</p></article><article><span>규칙 준수율</span><strong class="time">${qualityRate}<small>%</small></strong><p>${quality.recommended}개가 핵심 타입 규칙을 따릅니다</p></article></div>
     <div class="content-grid">
       <article class="card activity-card">
         <div class="card-head"><div><h2>최근 활동 흐름</h2><p>커밋 수를 해석한 프로젝트 진행 신호</p></div><span>총 ${total}회</span></div>

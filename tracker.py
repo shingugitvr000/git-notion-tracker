@@ -605,10 +605,24 @@ def activity_status(value, now):
 def make_dashboard_row(project, github_id, commits, now, source):
     repo_path = project["repo_path"]
     week_ago = now - timedelta(days=7)
+    seoul_timezone = timezone(timedelta(hours=9))
+    seoul_now = now.astimezone(seoul_timezone)
+    semester_start_month = 1 if seoul_now.month <= 6 else 7
+    semester_start = datetime(
+        seoul_now.year,
+        semester_start_month,
+        1,
+        tzinfo=seoul_timezone,
+    )
     recent_week = [
         row for row in commits
         if parse_github_date(row["date"])
         and parse_github_date(row["date"]) >= week_ago
+    ]
+    semester_commits = [
+        row for row in commits
+        if parse_github_date(row["date"])
+        and parse_github_date(row["date"]) >= semester_start
     ]
     active_days = len({row["date"][:10] for row in recent_week if row["date"]})
     weekly = []
@@ -636,6 +650,7 @@ def make_dashboard_row(project, github_id, commits, now, source):
         "github": github_id,
         "repo": repo_path,
         "commits": len(recent_week),
+        "semesterCommits": len(semester_commits),
         "activeDays": active_days,
         "lastCommit": relative_time(last_date, now),
         "status": activity_status(last_date, now),
