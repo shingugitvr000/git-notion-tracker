@@ -1,7 +1,7 @@
 {
   "course": "Git 프로젝트 활동 현황",
   "notionUrl": "https://abaft-vibraphone-8f7.notion.site/Git-3c28655a72df80199dafc115fef9ddd4?pvs=74",
-  "updatedAt": "2026. 10. 11. 06:13",
+  "updatedAt": "2026. 10. 11. 09:21",
   "students": [
     {
       "name": "1학년 B반 1팀",
@@ -314,7 +314,7 @@
         },
         {
           "message": "Initial commit",
-          "time": "25일 전",
+          "time": "26일 전",
           "sha": "a7471ec",
           "url": "https://github.com/jeolje934-dot/Placeholder_2026_1A_team-project/commit/a7471ec3212432eb7d0456f7a2d5801b9e7c8f91"
         }
@@ -449,7 +449,7 @@
         },
         {
           "message": "[Build] 26.09.28 Build",
-          "time": "12일 전",
+          "time": "13일 전",
           "sha": "d4529e0",
           "url": "https://github.com/qkrgml59/2026_2_TeamProject/commit/d4529e0441b2bb7ad3ec9a341aebc20ac62a8b60"
         }
@@ -800,13 +800,13 @@
         },
         {
           "message": "던전 생성 코드에 불필요한 코드 삭제",
-          "time": "어제",
+          "time": "2일 전",
           "sha": "0c1937a",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/0c1937afb73d185fb5173f3334b2d907ac7ce436"
         },
         {
           "message": "던전 생성 코드 플레이어 생성 버그 수정",
-          "time": "어제",
+          "time": "2일 전",
           "sha": "add97d5",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/add97d5fd03744d3d108e103d9bcf921e9473def"
         },
@@ -833,7 +833,7 @@
       "commits": 2,
       "semesterCommits": 2,
       "activeDays": 1,
-      "lastCommit": "오늘",
+      "lastCommit": "어제",
       "status": "active",
       "weekly": [
         0,
@@ -847,7 +847,7 @@
       "recent": [
         {
           "message": "업적 ui 추가",
-          "time": "오늘",
+          "time": "어제",
           "sha": "10a8dba",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/10a8dba90a12b92a2144974b495bf64942e99867"
         },
@@ -1185,8 +1185,8 @@
         0,
         0,
         0,
-        1,
-        15,
+        2,
+        14,
         11
       ],
       "recent": [
@@ -1536,8 +1536,8 @@
       "commits": 7,
       "semesterCommits": 15,
       "activeDays": 3,
-      "lastCommit": "3일 전",
-      "status": "active",
+      "lastCommit": "4일 전",
+      "status": "watch",
       "weekly": [
         0,
         2,
@@ -1550,7 +1550,7 @@
       "recent": [
         {
           "message": "Update game genre and team member details in README",
-          "time": "3일 전",
+          "time": "4일 전",
           "sha": "08265a0",
           "url": "https://github.com/Taehyeon88/Graduation-project/commit/08265a0a39049ea5b3fb1a7ce686db98715c8a5b"
         },
@@ -1821,7 +1821,7 @@
         },
         {
           "message": "[Fix] 주문 안받아지는 버그 수정",
-          "time": "3일 전",
+          "time": "4일 전",
           "sha": "1238a05",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/1238a0501d3258dda005221f5eae9b014e2fa0cb"
         },
@@ -1854,8 +1854,8 @@
       "commits": 7,
       "semesterCommits": 28,
       "activeDays": 3,
-      "lastCommit": "3일 전",
-      "status": "active",
+      "lastCommit": "4일 전",
+      "status": "watch",
       "weekly": [
         2,
         1,
@@ -1868,13 +1868,13 @@
       "recent": [
         {
           "message": "[Feat] 오토바이 운전도중 하차시 레그돌 상태 + Next day -> 오토바이 가게앞 스폰되게끔",
-          "time": "3일 전",
+          "time": "4일 전",
           "sha": "0d1e5fe",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/0d1e5feb5af2a0b4ccc8ab024a3604be2dc270d7"
         },
         {
           "message": "[Fix] 토핑 Read/write 옵션 활성화",
-          "time": "3일 전",
+          "time": "4일 전",
           "sha": "0ff6c25",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/0ff6c259e5f27e33e1dfba47fcb0105d6d429386"
         },
