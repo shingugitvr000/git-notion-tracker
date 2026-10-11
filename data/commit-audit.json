@@ -1,11 +1,80 @@
 {
-  "updatedAt": "2026. 10. 11. 21:12",
+  "updatedAt": "2026. 10. 11. 22:16",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "3학년 1팀",
+      "repo": "ahyun04/26TeamProject_2",
+      "branch": "main",
+      "sha": "2ab2460cb466ff5dd72a76af275d77bd719223a4",
+      "message": "[Feat] 로비 설정 탭 및 StandBy 방 메뉴 통합",
+      "url": "https://github.com/ahyun04/26TeamProject_2/commit/2ab2460cb466ff5dd72a76af275d77bd719223a4",
+      "date": "2026-10-11T13:06:31Z",
+      "expectedGithub": "ahyun04",
+      "actualGithub": "Im-Dinosaur",
+      "gitAuthorName": "Im-Dinosaur",
+      "gitAuthorEmail": "wnsdl80100@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 30,
+        "additions": 11735,
+        "deletions": 20,
+        "meaningful_change": 11383,
+        "meaningful_file_count": 20,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 3팀",
+      "repo": "jinjooyoung/DUAL-DUEL",
+      "branch": "main",
+      "sha": "197bcdec6551adaf9f987e8e235b6d0bf630c183",
+      "message": "[Fix] 상점씬 이벤트 시스템 추가",
+      "url": "https://github.com/jinjooyoung/DUAL-DUEL/commit/197bcdec6551adaf9f987e8e235b6d0bf630c183",
+      "date": "2026-10-11T12:40:21Z",
+      "expectedGithub": "jinjooyoung",
+      "actualGithub": "jinjooyoung",
+      "gitAuthorName": "jinjooyoung",
+      "gitAuthorEmail": "jjy26297449@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 83,
+        "deletions": 3,
+        "meaningful_change": 86,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 3팀",
+      "repo": "jinjooyoung/DUAL-DUEL",
+      "branch": "main",
+      "sha": "508f9642b2ab7996eab37d73a320009545506db5",
+      "message": "[Chore] 웹빌드 0.3.0",
+      "url": "https://github.com/jinjooyoung/DUAL-DUEL/commit/508f9642b2ab7996eab37d73a320009545506db5",
+      "date": "2026-10-11T12:32:10Z",
+      "expectedGithub": "jinjooyoung",
+      "actualGithub": "jinjooyoung",
+      "gitAuthorName": "jinjooyoung",
+      "gitAuthorEmail": "jjy26297449@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 19,
+        "additions": 95,
+        "deletions": 92,
+        "meaningful_change": 143,
+        "meaningful_file_count": 5,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "2학년 3팀",
       "repo": "jinjooyoung/DUAL-DUEL",

@@ -1,7 +1,7 @@
 {
   "course": "Git 프로젝트 활동 현황",
   "notionUrl": "https://abaft-vibraphone-8f7.notion.site/Git-3c28655a72df80199dafc115fef9ddd4?pvs=74",
-  "updatedAt": "2026. 10. 11. 21:12",
+  "updatedAt": "2026. 10. 11. 22:16",
   "students": [
     {
       "name": "2학년 1팀",
@@ -125,8 +125,8 @@
         0,
         3,
         4,
-        8,
         9,
+        8,
         9
       ],
       "recent": [
@@ -356,13 +356,13 @@
         },
         {
           "message": "[DB] 맵 생성에 필요한 DB 3종 추가 및 데이터 작성",
-          "time": "127일 전",
+          "time": "128일 전",
           "sha": "2e20b03",
           "url": "https://github.com/Taehyeon88/Graduation-project/commit/2e20b03359dd512f3d32bfca99f2a22e71d630a5"
         },
         {
           "message": "맵 랜덤 생성 시스템 기획서 작성",
-          "time": "127일 전",
+          "time": "128일 전",
           "sha": "c12f2f6",
           "url": "https://github.com/Taehyeon88/Graduation-project/commit/c12f2f64ca6d7c1500c23e7e1bb6767f74b6dceb"
         },
@@ -462,7 +462,7 @@
         },
         {
           "message": "test",
-          "time": "54일 전",
+          "time": "55일 전",
           "sha": "5eac010",
           "url": "https://github.com/ahyun04/26TeamProject_2/commit/5eac010dc27622681d54719778b0716ff35ac44f"
         },
@@ -477,6 +477,59 @@
           "time": "62일 전",
           "sha": "c999e32",
           "url": "https://github.com/ahyun04/26TeamProject_2/commit/c999e32eb5a5261f7798851de85625842f2a9075"
+        }
+      ]
+    },
+    {
+      "name": "Im-Dinosaur (실제 커밋 작성자)",
+      "id": "Im-Dinosaur",
+      "team": "3학년 1팀",
+      "github": "Im-Dinosaur",
+      "repo": "ahyun04/26TeamProject_2",
+      "commits": 9,
+      "semesterCommits": 30,
+      "activeDays": 4,
+      "lastCommit": "오늘",
+      "status": "active",
+      "weekly": [
+        3,
+        0,
+        3,
+        0,
+        1,
+        8,
+        9
+      ],
+      "recent": [
+        {
+          "message": "[Feat] 로비 설정 탭 및 StandBy 방 메뉴 통합",
+          "time": "오늘",
+          "sha": "2ab2460",
+          "url": "https://github.com/ahyun04/26TeamProject_2/commit/2ab2460cb466ff5dd72a76af275d77bd719223a4"
+        },
+        {
+          "message": "[Chore] 대화 첨부 및 검사 임시 파일 Git 제외",
+          "time": "어제",
+          "sha": "357aa04",
+          "url": "https://github.com/ahyun04/26TeamProject_2/commit/357aa04c3d1075a4add6079bf874951f516b72aa"
+        },
+        {
+          "message": "[Feat] 설정창 및 플레이어 피드백 반영",
+          "time": "어제",
+          "sha": "ebfa108",
+          "url": "https://github.com/ahyun04/26TeamProject_2/commit/ebfa1088bf4f08601cb0e3a318c7ef352fa10e73"
+        },
+        {
+          "message": "[Feat] 설정창 UI 개선 및 중앙 조준점 추가",
+          "time": "5일 전",
+          "sha": "a743e26",
+          "url": "https://github.com/ahyun04/26TeamProject_2/commit/a743e26730a5d19fce775f41abc6b31be050b2a3"
+        },
+        {
+          "message": "[Feat] 마이크 상태 UI 및 음성 송신 설정 추가",
+          "time": "6일 전",
+          "sha": "a0cb4a8",
+          "url": "https://github.com/ahyun04/26TeamProject_2/commit/a0cb4a8cdf224b43b3a4bcfc6f43267d22ceca59"
         }
       ]
     },
@@ -521,13 +574,13 @@
         },
         {
           "message": "[Feat] 방화문 열기 구현",
-          "time": "오늘",
+          "time": "어제",
           "sha": "ccf7f6c",
           "url": "https://github.com/ahyun04/26TeamProject_2/commit/ccf7f6cbe638b2df1b6fec7e9bf60a9090802307"
         },
         {
           "message": "[Feat] 산소 교체 새로운 기획서에 맞게 수정, 부품 맞추기 구현",
-          "time": "어제",
+          "time": "2일 전",
           "sha": "666b781",
           "url": "https://github.com/ahyun04/26TeamProject_2/commit/666b7813523ed1f99d0ad8e328e1d379b15c0f7e"
         }
@@ -636,59 +689,6 @@
           "time": "4일 전",
           "sha": "c7e2410",
           "url": "https://github.com/ahyun04/26TeamProject_2/commit/c7e2410c531b7452ece1827ffe6521abd2013fda"
-        }
-      ]
-    },
-    {
-      "name": "Im-Dinosaur (실제 커밋 작성자)",
-      "id": "Im-Dinosaur",
-      "team": "3학년 1팀",
-      "github": "Im-Dinosaur",
-      "repo": "ahyun04/26TeamProject_2",
-      "commits": 8,
-      "semesterCommits": 29,
-      "activeDays": 3,
-      "lastCommit": "어제",
-      "status": "active",
-      "weekly": [
-        3,
-        0,
-        3,
-        0,
-        1,
-        8,
-        8
-      ],
-      "recent": [
-        {
-          "message": "[Chore] 대화 첨부 및 검사 임시 파일 Git 제외",
-          "time": "어제",
-          "sha": "357aa04",
-          "url": "https://github.com/ahyun04/26TeamProject_2/commit/357aa04c3d1075a4add6079bf874951f516b72aa"
-        },
-        {
-          "message": "[Feat] 설정창 및 플레이어 피드백 반영",
-          "time": "어제",
-          "sha": "ebfa108",
-          "url": "https://github.com/ahyun04/26TeamProject_2/commit/ebfa1088bf4f08601cb0e3a318c7ef352fa10e73"
-        },
-        {
-          "message": "[Feat] 설정창 UI 개선 및 중앙 조준점 추가",
-          "time": "5일 전",
-          "sha": "a743e26",
-          "url": "https://github.com/ahyun04/26TeamProject_2/commit/a743e26730a5d19fce775f41abc6b31be050b2a3"
-        },
-        {
-          "message": "[Feat] 마이크 상태 UI 및 음성 송신 설정 추가",
-          "time": "6일 전",
-          "sha": "a0cb4a8",
-          "url": "https://github.com/ahyun04/26TeamProject_2/commit/a0cb4a8cdf224b43b3a4bcfc6f43267d22ceca59"
-        },
-        {
-          "message": "[Fix] 관전자 즉시 전환 및 점프 허용",
-          "time": "6일 전",
-          "sha": "bb566e8",
-          "url": "https://github.com/ahyun04/26TeamProject_2/commit/bb566e838a3969edc258d7ab7e4584b625809059"
         }
       ]
     },
@@ -1104,7 +1104,7 @@
         },
         {
           "message": "[Feat] 2D 유니티 파일 구축",
-          "time": "14일 전",
+          "time": "15일 전",
           "sha": "78cd568",
           "url": "https://github.com/23jihwan/7_tim/commit/78cd568edde27ad0821f83821f3e99a77340d8f0"
         }
@@ -1306,8 +1306,8 @@
       "weekly": [
         0,
         4,
-        0,
-        3,
+        1,
+        2,
         10,
         8,
         4
@@ -1996,7 +1996,7 @@
         },
         {
           "message": "[Feat] 노말/바위 타입 추가",
-          "time": "어제",
+          "time": "2일 전",
           "sha": "34dce05",
           "url": "https://github.com/jeonghyerin002/2026_2TeamProject/commit/34dce058d774ae56fd8871004e3362be0497bc82"
         }
@@ -2031,7 +2031,7 @@
         },
         {
           "message": "[Feat]아이템 추가 랭크다운 추가",
-          "time": "어제",
+          "time": "2일 전",
           "sha": "f4e7947",
           "url": "https://github.com/jeonghyerin002/2026_2TeamProject/commit/f4e7947d6cec9c09ed8457426d29c6979d3c0809"
         },
@@ -2119,7 +2119,7 @@
         },
         {
           "message": "[Feat] Rotation 기믹 구현",
-          "time": "3일 전",
+          "time": "4일 전",
           "sha": "1db2daa",
           "url": "https://github.com/qkrgml59/2026_2_TeamProject/commit/1db2daa3b3dc78add34032f0cdb1509c988755fe"
         },
@@ -2231,7 +2231,7 @@
         },
         {
           "message": "asset_ Fire Icon Anim",
-          "time": "44일 전",
+          "time": "45일 전",
           "sha": "cd47d9a",
           "url": "https://github.com/JungYS24/Tricky-Yacht/commit/cd47d9ad607dafcc73755a3bfdd5915a5bdac593"
         },
@@ -2334,7 +2334,7 @@
       "commits": 0,
       "semesterCommits": 5,
       "activeDays": 0,
-      "lastCommit": "53일 전",
+      "lastCommit": "54일 전",
       "status": "inactive",
       "weekly": [
         0,
@@ -2348,7 +2348,7 @@
       "recent": [
         {
           "message": "[feat] 주사위 파괴 이펙트 미완성",
-          "time": "53일 전",
+          "time": "54일 전",
           "sha": "be876cd",
           "url": "https://github.com/JungYS24/Tricky-Yacht/commit/be876cdfa105f774f85b885b4fee067026c4e7ce"
         },
@@ -2548,8 +2548,8 @@
       "team": "jinjooyoung",
       "github": "jinjooyoung",
       "repo": "jinjooyoung/DUAL-DUEL",
-      "commits": 9,
-      "semesterCommits": 91,
+      "commits": 11,
+      "semesterCommits": 93,
       "activeDays": 4,
       "lastCommit": "오늘",
       "status": "active",
@@ -2558,11 +2558,23 @@
         8,
         4,
         31,
-        16,
-        20,
-        9
+        19,
+        17,
+        11
       ],
       "recent": [
+        {
+          "message": "[Fix] 상점씬 이벤트 시스템 추가",
+          "time": "오늘",
+          "sha": "197bcde",
+          "url": "https://github.com/jinjooyoung/DUAL-DUEL/commit/197bcdec6551adaf9f987e8e235b6d0bf630c183"
+        },
+        {
+          "message": "[Chore] 웹빌드 0.3.0",
+          "time": "오늘",
+          "sha": "508f964",
+          "url": "https://github.com/jinjooyoung/DUAL-DUEL/commit/508f9642b2ab7996eab37d73a320009545506db5"
+        },
         {
           "message": "[Feat] 스테이지 선택 씬 복귀, 승패 패널 ui추가",
           "time": "오늘",
@@ -2580,18 +2592,6 @@
           "time": "3일 전",
           "sha": "47f12d0",
           "url": "https://github.com/jinjooyoung/DUAL-DUEL/commit/47f12d05c67962b5ebce71aed541b159011bf26d"
-        },
-        {
-          "message": "[Chore] 시작 스테이지 삭제, 스테이지 설명 패널 추가(연결)",
-          "time": "3일 전",
-          "sha": "3b7cd5c",
-          "url": "https://github.com/jinjooyoung/DUAL-DUEL/commit/3b7cd5cb377e27165a125cfe918f070c608c494a"
-        },
-        {
-          "message": "[Feat] 맵 타입 추가, 리소스 추가",
-          "time": "3일 전",
-          "sha": "23f4713",
-          "url": "https://github.com/jinjooyoung/DUAL-DUEL/commit/23f47135bf296285d3585bf976dc5a1e479609d5"
         }
       ]
     },
@@ -2924,7 +2924,7 @@
       "commits": 0,
       "semesterCommits": 4,
       "activeDays": 0,
-      "lastCommit": "17일 전",
+      "lastCommit": "18일 전",
       "status": "inactive",
       "weekly": [
         0,
@@ -2938,7 +2938,7 @@
       "recent": [
         {
           "message": "[Feat] 기초 유니티 세팅",
-          "time": "17일 전",
+          "time": "18일 전",
           "sha": "2837208",
           "url": "https://github.com/hawengtiger/2026_09_09_Team-1rock2bird-/commit/28372088587f8e48707cbe93ba9bd03e7d2f93dd"
         },
@@ -3021,7 +3021,7 @@
       "team": "1학년 A반 5팀",
       "github": "yoojoonlee0424",
       "repo": "surren01522-tech/2026_02_GameProject_Eurydice",
-      "commits": 10,
+      "commits": 9,
       "semesterCommits": 27,
       "activeDays": 3,
       "lastCommit": "2일 전",
@@ -3032,8 +3032,8 @@
         0,
         0,
         3,
-        14,
-        10
+        15,
+        9
       ],
       "recent": [
         {
@@ -3461,13 +3461,13 @@
         },
         {
           "message": "[DB] 맵 생성에 필요한 DB 3종 추가 및 데이터 작성",
-          "time": "127일 전",
+          "time": "128일 전",
           "sha": "2e20b03",
           "url": "https://github.com/Taehyeon88/Graduation-project/commit/2e20b03359dd512f3d32bfca99f2a22e71d630a5"
         },
         {
           "message": "맵 랜덤 생성 시스템 기획서 작성",
-          "time": "127일 전",
+          "time": "128일 전",
           "sha": "c12f2f6",
           "url": "https://github.com/Taehyeon88/Graduation-project/commit/c12f2f64ca6d7c1500c23e7e1bb6767f74b6dceb"
         },
