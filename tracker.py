@@ -479,7 +479,7 @@ def add_commit_to_notion(
     )
 
 
-def process_repository(project, sync_mode):
+def process_repository(project, sync_mode, existing_by_key):
     repo_path = project["repo_path"]
 
     repo_info = get_repository_info(repo_path)
@@ -494,10 +494,18 @@ def process_repository(project, sync_mode):
     commits = get_project_commits(repo_path, branch, sync_mode)
 
     audit_entries = []
+    had_errors = False
     expected_github = project["github_id"].casefold()
 
     for item in commits:
         sha = item.get("sha", "")
+
+        # 이미 분석한 SHA는 상세 API를 다시 호출하지 않는다. 특히 backfill에서
+        # 기존 100건을 재조회하면 대형 저장소가 API 한도에 먼저 도달할 수 있다.
+        existing_entry = existing_by_key.get((repo_path, sha))
+        if existing_entry:
+            audit_entries.append(existing_entry)
+            continue
 
         commit = item.get("commit", {})
         message = commit.get("message", "").splitlines()[0]
@@ -507,8 +515,14 @@ def process_repository(project, sync_mode):
         github_author_login = github_author.get("login", "")
         commit_url = item.get("html_url", "")
 
-        detail = get_commit_detail(repo_path, sha)
-        analysis = analyze_commit(detail, message)
+        try:
+            detail = get_commit_detail(repo_path, sha)
+            analysis = analyze_commit(detail, message)
+        except Exception as error:
+            # 커밋 하나의 일시적 오류 때문에 저장소 전체 backfill을 폐기하지 않는다.
+            had_errors = True
+            print("COMMIT ERROR:", repo_path, sha[:7], str(error))
+            continue
 
         if github_author_login:
             verification = "verified" if github_author_login.casefold() == expected_github else "mismatch"
@@ -534,7 +548,8 @@ def process_repository(project, sync_mode):
 
         print("AUDIT:", sha[:7], verification, github_author_login or "unlinked")
 
-    return audit_entries
+    print("수집된 커밋:", repo_path, len(commits), "신규/재사용 감사 기록:", len(audit_entries))
+    return audit_entries, had_errors
 
 
 def write_commit_audit(entries):
@@ -755,6 +770,11 @@ def main():
 
     projects = get_project_repositories()
     existing_audit_entries = load_commit_audit_entries()
+    existing_by_key = {
+        (entry.get("repo", ""), entry.get("sha", "")): entry
+        for entry in existing_audit_entries
+        if entry.get("repo") and entry.get("sha")
+    }
     audit_entries = []
     had_errors = False
 
@@ -763,7 +783,13 @@ def main():
 
     for project in projects:
         try:
-            audit_entries.extend(process_repository(project, sync_mode))
+            project_entries, project_had_errors = process_repository(
+                project,
+                sync_mode,
+                existing_by_key,
+            )
+            audit_entries.extend(project_entries)
+            had_errors = had_errors or project_had_errors
         except Exception as error:
             had_errors = True
             print("ERROR:", project.get("repo_path"), str(error))
