@@ -1,11 +1,126 @@
 {
-  "updatedAt": "2026. 10. 12. 07:16",
+  "updatedAt": "2026. 10. 12. 10:32",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "2학년 3팀",
+      "repo": "jinjooyoung/DUAL-DUEL",
+      "branch": "main",
+      "sha": "95ec1734240627e36e5c56e5b9541ece39b748b4",
+      "message": "[Chore] 빌드, 스테이지 층수 9>17로 변경",
+      "url": "https://github.com/jinjooyoung/DUAL-DUEL/commit/95ec1734240627e36e5c56e5b9541ece39b748b4",
+      "date": "2026-10-12T01:12:17Z",
+      "expectedGithub": "jinjooyoung",
+      "actualGithub": "jinjooyoung",
+      "gitAuthorName": "jinjooyoung",
+      "gitAuthorEmail": "jjy26297449@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 13,
+        "additions": 6,
+        "deletions": 4,
+        "meaningful_change": 4,
+        "meaningful_file_count": 2,
+        "suspicious_score": 15,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "4b5298bd0c05e0f8ddef4e0c856189d22a9a55c1",
+      "message": "Merge branch 'main' of https://github.com/tjd6356-afk/2-_-",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/4b5298bd0c05e0f8ddef4e0c856189d22a9a55c1",
+      "date": "2026-10-12T00:57:32Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "tjd6356-afk",
+      "gitAuthorName": "tjd6356-afk",
+      "gitAuthorEmail": "tjd6356@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 0,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 2,
+        "suspicious_score": 35,
+        "judgment": "확인필요"
+      }
+    },
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "25e0823d15d43103eb56b43be82d49b04ae29028",
+      "message": "Revert \"던전 생성 버그 수정\"",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/25e0823d15d43103eb56b43be82d49b04ae29028",
+      "date": "2026-10-12T00:56:31Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "tjd6356-afk",
+      "gitAuthorName": "tjd6356-afk",
+      "gitAuthorEmail": "tjd6356@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 4,
+        "additions": 85,
+        "deletions": 246,
+        "meaningful_change": 331,
+        "meaningful_file_count": 4,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "68aa5e51374ad16dd845aaa4e5c3732c0caffde5",
+      "message": "던전 생성 버그 수정",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/68aa5e51374ad16dd845aaa4e5c3732c0caffde5",
+      "date": "2026-10-12T00:55:50Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "tjd6356-afk",
+      "gitAuthorName": "tjd6356-afk",
+      "gitAuthorEmail": "tjd6356@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 4,
+        "additions": 246,
+        "deletions": 85,
+        "meaningful_change": 331,
+        "meaningful_file_count": 4,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "adf0dc690dcfa226f65ff66b9ac4f72ce9c13ada",
+      "message": "장수풍뎅이 NPC 이미지 추가",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/adf0dc690dcfa226f65ff66b9ac4f72ce9c13ada",
+      "date": "2026-10-12T00:55:02Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "ksmxxx-glitch",
+      "gitAuthorName": "ksmxxx-glitch",
+      "gitAuthorEmail": "ksm071010@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 0,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 2,
+        "suspicious_score": 35,
+        "judgment": "확인필요"
+      }
+    },
     {
       "projectName": "3학년 1팀",
       "repo": "ahyun04/26TeamProject_2",

@@ -1,7 +1,7 @@
 {
   "course": "Git 프로젝트 활동 현황",
   "notionUrl": "https://abaft-vibraphone-8f7.notion.site/Git-3c28655a72df80199dafc115fef9ddd4?pvs=74",
-  "updatedAt": "2026. 10. 12. 07:16",
+  "updatedAt": "2026. 10. 12. 10:32",
   "students": [
     {
       "name": "2학년 1팀",
@@ -203,7 +203,7 @@
         },
         {
           "message": "[Feat] P4 스프라이트 자동 연결이 P1 그림을 가져오는 문제 수정 및 P4 아트연결",
-          "time": "2일 전",
+          "time": "3일 전",
           "sha": "ce30d13",
           "url": "https://github.com/suyan05/PharaohCube/commit/ce30d13205dfaa5f7dacf7843f5298465b69baa6"
         },
@@ -277,7 +277,7 @@
       "commits": 4,
       "semesterCommits": 15,
       "activeDays": 2,
-      "lastCommit": "4일 전",
+      "lastCommit": "5일 전",
       "status": "watch",
       "weekly": [
         0,
@@ -291,7 +291,7 @@
       "recent": [
         {
           "message": "Update game genre and team member details in README",
-          "time": "4일 전",
+          "time": "5일 전",
           "sha": "08265a0",
           "url": "https://github.com/Taehyeon88/Graduation-project/commit/08265a0a39049ea5b3fb1a7ce686db98715c8a5b"
         },
@@ -867,8 +867,8 @@
         2,
         3,
         2,
-        5,
-        3,
+        6,
+        2,
         7
       ],
       "recent": [
@@ -939,7 +939,7 @@
         },
         {
           "message": "[Fix] 주문 안받아지는 버그 수정",
-          "time": "4일 전",
+          "time": "5일 전",
           "sha": "1238a05",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/1238a0501d3258dda005221f5eae9b014e2fa0cb"
         },
@@ -1419,7 +1419,7 @@
       "commits": 1,
       "semesterCommits": 3,
       "activeDays": 1,
-      "lastCommit": "5일 전",
+      "lastCommit": "6일 전",
       "status": "watch",
       "weekly": [
         0,
@@ -1433,7 +1433,7 @@
       "recent": [
         {
           "message": "2",
-          "time": "5일 전",
+          "time": "6일 전",
           "sha": "421cb69",
           "url": "https://github.com/Sine-aw/nohesitate/commit/421cb6992cbdd3d1f67350c23a57109b1cc9773d"
         },
@@ -1820,7 +1820,7 @@
         },
         {
           "message": "Initial commit",
-          "time": "26일 전",
+          "time": "27일 전",
           "sha": "a7471ec",
           "url": "https://github.com/jeolje934-dot/Placeholder_2026_1A_team-project/commit/a7471ec3212432eb7d0456f7a2d5801b9e7c8f91"
         }
@@ -2618,9 +2618,9 @@
       "team": "jinjooyoung",
       "github": "jinjooyoung",
       "repo": "jinjooyoung/DUAL-DUEL",
-      "commits": 14,
-      "semesterCommits": 96,
-      "activeDays": 4,
+      "commits": 15,
+      "semesterCommits": 97,
+      "activeDays": 5,
       "lastCommit": "오늘",
       "status": "active",
       "weekly": [
@@ -2628,11 +2628,17 @@
         8,
         4,
         31,
-        19,
-        17,
-        14
+        20,
+        16,
+        15
       ],
       "recent": [
+        {
+          "message": "[Chore] 빌드, 스테이지 층수 9>17로 변경",
+          "time": "오늘",
+          "sha": "95ec173",
+          "url": "https://github.com/jinjooyoung/DUAL-DUEL/commit/95ec1734240627e36e5c56e5b9541ece39b748b4"
+        },
         {
           "message": "[Chore] 메인시작씬 생성",
           "time": "오늘",
@@ -2656,12 +2662,6 @@
           "time": "오늘",
           "sha": "197bcde",
           "url": "https://github.com/jinjooyoung/DUAL-DUEL/commit/197bcdec6551adaf9f987e8e235b6d0bf630c183"
-        },
-        {
-          "message": "[Chore] 웹빌드 0.3.0",
-          "time": "오늘",
-          "sha": "508f964",
-          "url": "https://github.com/jinjooyoung/DUAL-DUEL/commit/508f9642b2ab7996eab37d73a320009545506db5"
         }
       ]
     },
@@ -2693,21 +2693,39 @@
       "team": "1학년 B반 6팀",
       "github": "tjd6356-afk",
       "repo": "tjd6356-afk/2-_-",
-      "commits": 18,
-      "semesterCommits": 68,
-      "activeDays": 5,
-      "lastCommit": "어제",
+      "commits": 21,
+      "semesterCommits": 71,
+      "activeDays": 6,
+      "lastCommit": "오늘",
       "status": "active",
       "weekly": [
         0,
-        3,
-        13,
-        12,
+        6,
+        11,
+        11,
         5,
         17,
-        18
+        21
       ],
       "recent": [
+        {
+          "message": "Merge branch 'main' of https://github.com/tjd6356-afk/2-_-",
+          "time": "오늘",
+          "sha": "4b5298b",
+          "url": "https://github.com/tjd6356-afk/2-_-/commit/4b5298bd0c05e0f8ddef4e0c856189d22a9a55c1"
+        },
+        {
+          "message": "Revert \"던전 생성 버그 수정\"",
+          "time": "오늘",
+          "sha": "25e0823",
+          "url": "https://github.com/tjd6356-afk/2-_-/commit/25e0823d15d43103eb56b43be82d49b04ae29028"
+        },
+        {
+          "message": "던전 생성 버그 수정",
+          "time": "오늘",
+          "sha": "68aa5e5",
+          "url": "https://github.com/tjd6356-afk/2-_-/commit/68aa5e51374ad16dd845aaa4e5c3732c0caffde5"
+        },
         {
           "message": "던전 적 생성 맵 클리어  시스템 버그 많음",
           "time": "어제",
@@ -2716,27 +2734,38 @@
         },
         {
           "message": "던전 생성 코드에 불필요한 코드 삭제",
-          "time": "2일 전",
+          "time": "3일 전",
           "sha": "0c1937a",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/0c1937afb73d185fb5173f3334b2d907ac7ce436"
-        },
+        }
+      ]
+    },
+    {
+      "name": "ksmxxx-glitch (실제 커밋 작성자)",
+      "id": "ksmxxx-glitch",
+      "team": "1학년 B반 6팀",
+      "github": "ksmxxx-glitch",
+      "repo": "tjd6356-afk/2-_-",
+      "commits": 1,
+      "semesterCommits": 1,
+      "activeDays": 1,
+      "lastCommit": "오늘",
+      "status": "active",
+      "weekly": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "recent": [
         {
-          "message": "던전 생성 코드 플레이어 생성 버그 수정",
-          "time": "2일 전",
-          "sha": "add97d5",
-          "url": "https://github.com/tjd6356-afk/2-_-/commit/add97d5fd03744d3d108e103d9bcf921e9473def"
-        },
-        {
-          "message": "던전 생성 버그 발생 수정 해야함",
-          "time": "3일 전",
-          "sha": "2317aa6",
-          "url": "https://github.com/tjd6356-afk/2-_-/commit/2317aa621f35ee85485092f80c4370d949fedf28"
-        },
-        {
-          "message": "던전 플레이어 생성 밑 스테이지 이동 오브젝트 생성 시스템",
-          "time": "3일 전",
-          "sha": "e1e3fb5",
-          "url": "https://github.com/tjd6356-afk/2-_-/commit/e1e3fb5dc6ba897a3578478bcdcbc60195561731"
+          "message": "장수풍뎅이 NPC 이미지 추가",
+          "time": "오늘",
+          "sha": "adf0dc6",
+          "url": "https://github.com/tjd6356-afk/2-_-/commit/adf0dc690dcfa226f65ff66b9ac4f72ce9c13ada"
         }
       ]
     },
@@ -2918,8 +2947,8 @@
         0,
         0,
         0,
-        0,
-        6,
+        1,
+        5,
         3,
         3
       ],
@@ -3452,7 +3481,7 @@
       "commits": 4,
       "semesterCommits": 15,
       "activeDays": 2,
-      "lastCommit": "4일 전",
+      "lastCommit": "5일 전",
       "status": "watch",
       "weekly": [
         0,
@@ -3466,7 +3495,7 @@
       "recent": [
         {
           "message": "Update game genre and team member details in README",
-          "time": "4일 전",
+          "time": "5일 전",
           "sha": "08265a0",
           "url": "https://github.com/Taehyeon88/Graduation-project/commit/08265a0a39049ea5b3fb1a7ce686db98715c8a5b"
         },
@@ -3671,8 +3700,8 @@
         2,
         3,
         2,
-        5,
-        3,
+        6,
+        2,
         7
       ],
       "recent": [
@@ -3743,7 +3772,7 @@
         },
         {
           "message": "[Fix] 주문 안받아지는 버그 수정",
-          "time": "4일 전",
+          "time": "5일 전",
           "sha": "1238a05",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/1238a0501d3258dda005221f5eae9b014e2fa0cb"
         },
