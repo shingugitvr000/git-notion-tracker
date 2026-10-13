@@ -1,11 +1,149 @@
 {
-  "updatedAt": "2026. 10. 14. 01:15",
+  "updatedAt": "2026. 10. 14. 06:25",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "1학년 B반 3팀",
+      "repo": "Tiphe0821/GameProject_T3_1_B",
+      "branch": "main",
+      "sha": "d2b4b2f7e5a7a9c7713a8319fad0adde26c5a0e2",
+      "message": "[feat] 4강 인터렉션 내용 추가 및 프레임워크의 ItemData와 연결",
+      "url": "https://github.com/Tiphe0821/GameProject_T3_1_B/commit/d2b4b2f7e5a7a9c7713a8319fad0adde26c5a0e2",
+      "date": "2026-10-13T19:39:22Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "Tiphe0821",
+      "gitAuthorName": "Tiphe0821",
+      "gitAuthorEmail": "namucho24@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 9,
+        "additions": 311,
+        "deletions": 15,
+        "meaningful_change": 308,
+        "meaningful_file_count": 6,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 3팀",
+      "repo": "Tiphe0821/GameProject_T3_1_B",
+      "branch": "main",
+      "sha": "88f9557dd9ab81b89dcda4f12394de22f79b5ac5",
+      "message": "[Chore] 본 프로젝트로 프레임워크 임포트",
+      "url": "https://github.com/Tiphe0821/GameProject_T3_1_B/commit/88f9557dd9ab81b89dcda4f12394de22f79b5ac5",
+      "date": "2026-10-13T18:46:38Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "Tiphe0821",
+      "gitAuthorName": "Tiphe0821",
+      "gitAuthorEmail": "namucho24@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 108,
+        "additions": 7455,
+        "deletions": 5,
+        "meaningful_change": 7152,
+        "meaningful_file_count": 44,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 6팀",
+      "repo": "jeonghyerin002/2026_2TeamProject",
+      "branch": "main",
+      "sha": "9ad9898136121ad2f369bc066e79e1f1f9f90115",
+      "message": "[Feat] 전투 씬 스킬버튼,플레이어 정보창 ui 세팅",
+      "url": "https://github.com/jeonghyerin002/2026_2TeamProject/commit/9ad9898136121ad2f369bc066e79e1f1f9f90115",
+      "date": "2026-10-13T18:04:51Z",
+      "expectedGithub": "jeonghyerin002",
+      "actualGithub": "chanzk1",
+      "gitAuthorName": "chanzk1",
+      "gitAuthorEmail": "ktop9224@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 8,
+        "additions": 445,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 3,
+        "suspicious_score": 35,
+        "judgment": "확인필요"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "f6a7bdf947ac0f109fa720852a435eb3c30b7b2a",
+      "message": "[Feat] 인벤토리 아이콘",
+      "url": "https://github.com/suyan05/PharaohCube/commit/f6a7bdf947ac0f109fa720852a435eb3c30b7b2a",
+      "date": "2026-10-13T17:53:02Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "khy1004",
+      "gitAuthorName": "khy1004",
+      "gitAuthorEmail": "khyseog08@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 9,
+        "additions": 580,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 4,
+        "suspicious_score": 35,
+        "judgment": "확인필요"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "9a8aef3fffd8c7a6df04def9d1c814adda194213",
+      "message": "[Feat] 아누비스 추가 퍼즐 이미지",
+      "url": "https://github.com/suyan05/PharaohCube/commit/9a8aef3fffd8c7a6df04def9d1c814adda194213",
+      "date": "2026-10-13T17:52:07Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "khy1004",
+      "gitAuthorName": "khy1004",
+      "gitAuthorEmail": "khyseog08@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 63,
+        "additions": 4187,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 29,
+        "suspicious_score": 35,
+        "judgment": "확인필요"
+      }
+    },
+    {
+      "projectName": "3학년 1팀",
+      "repo": "ahyun04/26TeamProject_2",
+      "branch": "main",
+      "sha": "08057238478e162aff98e381d5d7e918a6ede281",
+      "message": "[Fix] StandBy 설정창 방 나가기 수정",
+      "url": "https://github.com/ahyun04/26TeamProject_2/commit/08057238478e162aff98e381d5d7e918a6ede281",
+      "date": "2026-10-13T17:13:02Z",
+      "expectedGithub": "ahyun04",
+      "actualGithub": "Im-Dinosaur",
+      "gitAuthorName": "Im-Dinosaur",
+      "gitAuthorEmail": "wnsdl80100@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 10,
+        "additions": 283,
+        "deletions": 1,
+        "meaningful_change": 268,
+        "meaningful_file_count": 8,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "2학년 2팀",
       "repo": "esuvean/PRESS-START_",
