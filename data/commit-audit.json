@@ -1,11 +1,149 @@
 {
-  "updatedAt": "2026. 10. 13. 10:06",
+  "updatedAt": "2026. 10. 13. 17:06",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "1학년 A반 2팀",
+      "repo": "hoshinouhee123/gacha-game-teamplay",
+      "branch": "main",
+      "sha": "3e2b912b515ab93839c610c21455cf3c66d75960",
+      "message": "기본적인 퀘스트 틀",
+      "url": "https://github.com/hoshinouhee123/gacha-game-teamplay/commit/3e2b912b515ab93839c610c21455cf3c66d75960",
+      "date": "2026-10-13T06:45:27Z",
+      "expectedGithub": "hoshinouhee123",
+      "actualGithub": "yubi369-bit",
+      "gitAuthorName": "Ducci",
+      "gitAuthorEmail": "Yubi369@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 5,
+        "additions": 1485,
+        "deletions": 0,
+        "meaningful_change": 1468,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 1팀",
+      "repo": "chimchimjam377/TeamProject---Singularity-Thief",
+      "branch": "main",
+      "sha": "0ab8d2e004d0f8a2b400edd71228a5e38d89b879",
+      "message": "[Feat]플레이어 어택 모션 추가(임시)",
+      "url": "https://github.com/chimchimjam377/TeamProject---Singularity-Thief/commit/0ab8d2e004d0f8a2b400edd71228a5e38d89b879",
+      "date": "2026-10-13T06:41:39Z",
+      "expectedGithub": "chimchimjam377",
+      "actualGithub": "chimchimjam377",
+      "gitAuthorName": "chimchimjam377",
+      "gitAuthorEmail": "chimchimjam377@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 5,
+        "additions": 549,
+        "deletions": 112,
+        "meaningful_change": 221,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 1팀",
+      "repo": "chimchimjam377/TeamProject---Singularity-Thief",
+      "branch": "main",
+      "sha": "8ed2fcb6c282cb4f4817b9186ac4586d3305d1a5",
+      "message": "폴더 정리",
+      "url": "https://github.com/chimchimjam377/TeamProject---Singularity-Thief/commit/8ed2fcb6c282cb4f4817b9186ac4586d3305d1a5",
+      "date": "2026-10-13T06:03:18Z",
+      "expectedGithub": "chimchimjam377",
+      "actualGithub": "chimchimjam377",
+      "gitAuthorName": "chimchimjam377",
+      "gitAuthorEmail": "chimchimjam377@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 8,
+        "additions": 0,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 3,
+        "suspicious_score": 35,
+        "judgment": "확인필요"
+      }
+    },
+    {
+      "projectName": "3학년 4팀",
+      "repo": "yuseongmok/Delivery-service",
+      "branch": "main",
+      "sha": "bc852b55010371ccc6678a5393ea9131011a441b",
+      "message": "[Feat] 업적 시스템 초안 구현",
+      "url": "https://github.com/yuseongmok/Delivery-service/commit/bc852b55010371ccc6678a5393ea9131011a441b",
+      "date": "2026-10-13T02:23:56Z",
+      "expectedGithub": "yuseongmok",
+      "actualGithub": "losieee",
+      "gitAuthorName": "losieee",
+      "gitAuthorEmail": "dfdf334@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 21,
+        "additions": 3384,
+        "deletions": 22,
+        "meaningful_change": 3325,
+        "meaningful_file_count": 10,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "702c127976ecebd47990a09f5b89c33f36655fa7",
+      "message": "던전 이동 시스템 씬 리로드 버그 있음",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/702c127976ecebd47990a09f5b89c33f36655fa7",
+      "date": "2026-10-13T01:49:46Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "tjd6356-afk",
+      "gitAuthorName": "tjd6356-afk",
+      "gitAuthorEmail": "tjd6356@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 9,
+        "additions": 1195,
+        "deletions": 20,
+        "meaningful_change": 1209,
+        "meaningful_file_count": 6,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "8697269b3c66f19c60602b722b22d5ac9c6c7675",
+      "message": "던전 이동 시스템 만들기 전 커및",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/8697269b3c66f19c60602b722b22d5ac9c6c7675",
+      "date": "2026-10-13T01:07:49Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "tjd6356-afk",
+      "gitAuthorName": "tjd6356-afk",
+      "gitAuthorEmail": "tjd6356@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 235,
+        "deletions": 218,
+        "meaningful_change": 453,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "2학년 6팀",
       "repo": "jeonghyerin002/2026_2TeamProject",
@@ -3889,6 +4027,29 @@
         "deletions": 3,
         "meaningful_change": 24,
         "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 1팀",
+      "repo": "simo07d7PG/Team_JJAMBBAP",
+      "branch": "main",
+      "sha": "a7847f2e2042793df0f53c070522f77a4ae872e9",
+      "message": "refactor: 카페 맵 오브젝트를 프리팹으로 정리",
+      "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/a7847f2e2042793df0f53c070522f77a4ae872e9",
+      "date": "2026-10-08T06:34:48Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "simo07d7PG",
+      "gitAuthorName": "simo07d7PG",
+      "gitAuthorEmail": "simo07d7.pg@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 25,
+        "additions": 36087,
+        "deletions": 72009,
+        "meaningful_change": 108003,
+        "meaningful_file_count": 12,
         "suspicious_score": 0,
         "judgment": "정상"
       }
