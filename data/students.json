@@ -1,7 +1,7 @@
 {
   "course": "Git 프로젝트 활동 현황",
   "notionUrl": "https://abaft-vibraphone-8f7.notion.site/Git-3c28655a72df80199dafc115fef9ddd4?pvs=74",
-  "updatedAt": "2026. 10. 14. 06:25",
+  "updatedAt": "2026. 10. 14. 09:28",
   "students": [
     {
       "name": "2학년 1팀",
@@ -168,9 +168,9 @@
       "team": "2학년 1팀",
       "github": "kangxogh1013",
       "repo": "suyan05/PharaohCube",
-      "commits": 11,
+      "commits": 10,
       "semesterCommits": 41,
-      "activeDays": 3,
+      "activeDays": 2,
       "lastCommit": "2일 전",
       "status": "active",
       "weekly": [
@@ -179,8 +179,8 @@
         6,
         3,
         13,
-        8,
-        11
+        9,
+        10
       ],
       "recent": [
         {
@@ -274,10 +274,10 @@
       "team": "Taehyeon88",
       "github": "Taehyeon88",
       "repo": "Taehyeon88/Graduation-project",
-      "commits": 1,
+      "commits": 0,
       "semesterCommits": 15,
-      "activeDays": 1,
-      "lastCommit": "6일 전",
+      "activeDays": 0,
+      "lastCommit": "7일 전",
       "status": "watch",
       "weekly": [
         0,
@@ -285,13 +285,13 @@
         2,
         0,
         4,
-        6,
-        1
+        7,
+        0
       ],
       "recent": [
         {
           "message": "Update game genre and team member details in README",
-          "time": "6일 전",
+          "time": "7일 전",
           "sha": "08265a0",
           "url": "https://github.com/Taehyeon88/Graduation-project/commit/08265a0a39049ea5b3fb1a7ce686db98715c8a5b"
         },
@@ -456,19 +456,19 @@
         },
         {
           "message": "[Fix] 미션 오브젝트 수정, 게임 시간 수정",
-          "time": "어제",
+          "time": "2일 전",
           "sha": "7e1c3ad",
           "url": "https://github.com/ahyun04/26TeamProject_2/commit/7e1c3ad737cfc52fc409dc6706cd5bc3187c28a8"
         },
         {
           "message": "[Fix] UI 수정",
-          "time": "어제",
+          "time": "2일 전",
           "sha": "e567b99",
           "url": "https://github.com/ahyun04/26TeamProject_2/commit/e567b9965ef2860c8250c583861b47c4ec4b83cf"
         },
         {
           "message": "[Feat] UI 적용",
-          "time": "어제",
+          "time": "2일 전",
           "sha": "e7db311",
           "url": "https://github.com/ahyun04/26TeamProject_2/commit/e7db3115d02d470cfa25b3c4cc0c9c981c0a8784"
         },
@@ -757,7 +757,7 @@
       "lastCommit": "39일 전",
       "status": "inactive",
       "weekly": [
-        17,
+        16,
         3,
         0,
         0,
@@ -857,9 +857,9 @@
       "team": "3학년 4팀",
       "github": "shingumingi",
       "repo": "yuseongmok/Delivery-service",
-      "commits": 4,
+      "commits": 3,
       "semesterCommits": 21,
-      "activeDays": 4,
+      "activeDays": 3,
       "lastCommit": "오늘",
       "status": "active",
       "weekly": [
@@ -868,8 +868,8 @@
         3,
         1,
         2,
-        2,
-        4
+        3,
+        3
       ],
       "recent": [
         {
@@ -892,7 +892,7 @@
         },
         {
           "message": "[Fix] 주문 안받아지는 버그 수정",
-          "time": "6일 전",
+          "time": "7일 전",
           "sha": "1238a05",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/1238a0501d3258dda005221f5eae9b014e2fa0cb"
         },
@@ -963,9 +963,9 @@
       "team": "3학년 4팀",
       "github": "Woong1016",
       "repo": "yuseongmok/Delivery-service",
-      "commits": 6,
+      "commits": 4,
       "semesterCommits": 32,
-      "activeDays": 3,
+      "activeDays": 2,
       "lastCommit": "어제",
       "status": "active",
       "weekly": [
@@ -974,8 +974,8 @@
         3,
         4,
         5,
-        5,
-        6
+        7,
+        4
       ],
       "recent": [
         {
@@ -998,13 +998,13 @@
         },
         {
           "message": "[Feat] 오토바이 IsSnowing 변수 추가 및 빙판효과 추가",
-          "time": "어제",
+          "time": "2일 전",
           "sha": "1a5f6ee",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/1a5f6eed97fafb3fd6688f1a2198144cd4955910"
         },
         {
           "message": "[Feat] 오토바이 운전도중 하차시 레그돌 상태 + Next day -> 오토바이 가게앞 스폰되게끔",
-          "time": "6일 전",
+          "time": "7일 전",
           "sha": "0d1e5fe",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/0d1e5feb5af2a0b4ccc8ab024a3604be2dc270d7"
         }
@@ -1838,7 +1838,7 @@
         },
         {
           "message": "Initial commit",
-          "time": "28일 전",
+          "time": "29일 전",
           "sha": "a7471ec",
           "url": "https://github.com/jeolje934-dot/Placeholder_2026_1A_team-project/commit/a7471ec3212432eb7d0456f7a2d5801b9e7c8f91"
         }
@@ -2717,9 +2717,9 @@
       "team": "1학년 B반 6팀",
       "github": "tjd6356-afk",
       "repo": "tjd6356-afk/2-_-",
-      "commits": 19,
+      "commits": 18,
       "semesterCommits": 78,
-      "activeDays": 6,
+      "activeDays": 5,
       "lastCommit": "오늘",
       "status": "active",
       "weekly": [
@@ -2727,9 +2727,9 @@
         11,
         9,
         8,
-        12,
+        13,
         19,
-        19
+        18
       ],
       "recent": [
         {
@@ -2746,7 +2746,7 @@
         },
         {
           "message": "스테이지 이동 시스템 UI 배치",
-          "time": "오늘",
+          "time": "어제",
           "sha": "7aa87ff",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/7aa87ff350b4ad3dfb8ecd4858729bef06806d33"
         },
@@ -2802,8 +2802,8 @@
       "commits": 2,
       "semesterCommits": 2,
       "activeDays": 1,
-      "lastCommit": "3일 전",
-      "status": "active",
+      "lastCommit": "4일 전",
+      "status": "watch",
       "weekly": [
         0,
         0,
@@ -2816,7 +2816,7 @@
       "recent": [
         {
           "message": "업적 ui 추가",
-          "time": "3일 전",
+          "time": "4일 전",
           "sha": "10a8dba",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/10a8dba90a12b92a2144974b495bf64942e99867"
         },
@@ -3578,10 +3578,10 @@
       "team": "Taehyeon88",
       "github": "Taehyeon88",
       "repo": "Taehyeon88/Graduation-project",
-      "commits": 1,
+      "commits": 0,
       "semesterCommits": 15,
-      "activeDays": 1,
-      "lastCommit": "6일 전",
+      "activeDays": 0,
+      "lastCommit": "7일 전",
       "status": "watch",
       "weekly": [
         0,
@@ -3589,13 +3589,13 @@
         2,
         0,
         4,
-        6,
-        1
+        7,
+        0
       ],
       "recent": [
         {
           "message": "Update game genre and team member details in README",
-          "time": "6일 전",
+          "time": "7일 전",
           "sha": "08265a0",
           "url": "https://github.com/Taehyeon88/Graduation-project/commit/08265a0a39049ea5b3fb1a7ce686db98715c8a5b"
         },
@@ -3790,9 +3790,9 @@
       "team": "3학년 4팀",
       "github": "shingumingi",
       "repo": "yuseongmok/Delivery-service",
-      "commits": 4,
+      "commits": 3,
       "semesterCommits": 21,
-      "activeDays": 4,
+      "activeDays": 3,
       "lastCommit": "오늘",
       "status": "active",
       "weekly": [
@@ -3801,8 +3801,8 @@
         3,
         1,
         2,
-        2,
-        4
+        3,
+        3
       ],
       "recent": [
         {
@@ -3825,7 +3825,7 @@
         },
         {
           "message": "[Fix] 주문 안받아지는 버그 수정",
-          "time": "6일 전",
+          "time": "7일 전",
           "sha": "1238a05",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/1238a0501d3258dda005221f5eae9b014e2fa0cb"
         },
@@ -3896,9 +3896,9 @@
       "team": "3학년 4팀",
       "github": "Woong1016",
       "repo": "yuseongmok/Delivery-service",
-      "commits": 6,
+      "commits": 4,
       "semesterCommits": 32,
-      "activeDays": 3,
+      "activeDays": 2,
       "lastCommit": "어제",
       "status": "active",
       "weekly": [
@@ -3907,8 +3907,8 @@
         3,
         4,
         5,
-        5,
-        6
+        7,
+        4
       ],
       "recent": [
         {
@@ -3931,13 +3931,13 @@
         },
         {
           "message": "[Feat] 오토바이 IsSnowing 변수 추가 및 빙판효과 추가",
-          "time": "어제",
+          "time": "2일 전",
           "sha": "1a5f6ee",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/1a5f6eed97fafb3fd6688f1a2198144cd4955910"
         },
         {
           "message": "[Feat] 오토바이 운전도중 하차시 레그돌 상태 + Next day -> 오토바이 가게앞 스폰되게끔",
-          "time": "6일 전",
+          "time": "7일 전",
           "sha": "0d1e5fe",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/0d1e5feb5af2a0b4ccc8ab024a3604be2dc270d7"
         }
