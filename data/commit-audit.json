@@ -1,11 +1,149 @@
 {
-  "updatedAt": "2026. 10. 14. 09:28",
+  "updatedAt": "2026. 10. 14. 14:16",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "3학년 4팀",
+      "repo": "yuseongmok/Delivery-service",
+      "branch": "main",
+      "sha": "1f7d65f82fc40ef580ba682b2fad75bdd6933862",
+      "message": "[Feat] 설정창 캔버스 위치 조정 & ESC 클릭 시 인게임 시간 멈춤 구현",
+      "url": "https://github.com/yuseongmok/Delivery-service/commit/1f7d65f82fc40ef580ba682b2fad75bdd6933862",
+      "date": "2026-10-14T04:30:40Z",
+      "expectedGithub": "yuseongmok",
+      "actualGithub": "losieee",
+      "gitAuthorName": "losieee",
+      "gitAuthorEmail": "dfdf334@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 8,
+        "additions": 380,
+        "deletions": 4,
+        "meaningful_change": 380,
+        "meaningful_file_count": 6,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 3팀",
+      "repo": "jinjooyoung/DUAL-DUEL",
+      "branch": "main",
+      "sha": "b3489cf09e34b86fcb641f95c94cac8d8edbfcd7",
+      "message": "[Feat] 랭크데이터 중간다리 랭크DBSO 작성, 카드DBSO 수정",
+      "url": "https://github.com/jinjooyoung/DUAL-DUEL/commit/b3489cf09e34b86fcb641f95c94cac8d8edbfcd7",
+      "date": "2026-10-14T04:29:55Z",
+      "expectedGithub": "jinjooyoung",
+      "actualGithub": "jinjooyoung",
+      "gitAuthorName": "jinjooyoung",
+      "gitAuthorEmail": "jjy26297449@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 5,
+        "additions": 57,
+        "deletions": 38,
+        "meaningful_change": 93,
+        "meaningful_file_count": 4,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 4팀",
+      "repo": "yuseongmok/Delivery-service",
+      "branch": "main",
+      "sha": "fc1171b85bb4ecd4ea8501e56dc03081506c3714",
+      "message": "[Feat] 찐시티 설정창 적용",
+      "url": "https://github.com/yuseongmok/Delivery-service/commit/fc1171b85bb4ecd4ea8501e56dc03081506c3714",
+      "date": "2026-10-14T04:06:53Z",
+      "expectedGithub": "yuseongmok",
+      "actualGithub": "losieee",
+      "gitAuthorName": "losieee",
+      "gitAuthorEmail": "dfdf334@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 3,
+        "additions": 1245,
+        "deletions": 427,
+        "meaningful_change": 1672,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 4팀",
+      "repo": "yuseongmok/Delivery-service",
+      "branch": "main",
+      "sha": "b127954e63b59d495dd84c6b5f08a116ac2e6f92",
+      "message": "Merge branch 'main' of https://github.com/yuseongmok/Delivery-service",
+      "url": "https://github.com/yuseongmok/Delivery-service/commit/b127954e63b59d495dd84c6b5f08a116ac2e6f92",
+      "date": "2026-10-14T03:44:37Z",
+      "expectedGithub": "yuseongmok",
+      "actualGithub": "losieee",
+      "gitAuthorName": "losieee",
+      "gitAuthorEmail": "dfdf334@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 8,
+        "additions": 942,
+        "deletions": 1555,
+        "meaningful_change": 2497,
+        "meaningful_file_count": 8,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 4팀",
+      "repo": "yuseongmok/Delivery-service",
+      "branch": "main",
+      "sha": "a1025c776e2ec76dd71695971a9a3ce8378db81f",
+      "message": "[Feat] 설정창 리소스 추가 및 재배치",
+      "url": "https://github.com/yuseongmok/Delivery-service/commit/a1025c776e2ec76dd71695971a9a3ce8378db81f",
+      "date": "2026-10-14T03:43:59Z",
+      "expectedGithub": "yuseongmok",
+      "actualGithub": "losieee",
+      "gitAuthorName": "losieee",
+      "gitAuthorEmail": "dfdf334@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 6,
+        "additions": 5882,
+        "deletions": 3354,
+        "meaningful_change": 9232,
+        "meaningful_file_count": 4,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 3팀",
+      "repo": "jinjooyoung/DUAL-DUEL",
+      "branch": "main",
+      "sha": "f6bda1046c22353d79a979e96a71d7d26012c537",
+      "message": "[Feat] 등급별 데이터 리스트 저장. 데이터베이스 구조 수정",
+      "url": "https://github.com/jinjooyoung/DUAL-DUEL/commit/f6bda1046c22353d79a979e96a71d7d26012c537",
+      "date": "2026-10-14T03:25:01Z",
+      "expectedGithub": "jinjooyoung",
+      "actualGithub": "jinjooyoung",
+      "gitAuthorName": "jinjooyoung",
+      "gitAuthorEmail": "jjy26297449@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 48,
+        "deletions": 1,
+        "meaningful_change": 49,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "1학년 B반 3팀",
       "repo": "Tiphe0821/GameProject_T3_1_B",
