@@ -1,11 +1,57 @@
 {
-  "updatedAt": "2026. 10. 15. 00:22",
+  "updatedAt": "2026. 10. 15. 04:35",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "8937eee4c522c2d3de9e1c0598bdf7b582b25e81",
+      "message": "[Feat] 라방 P5 이미지 추가, UI 추가",
+      "url": "https://github.com/suyan05/PharaohCube/commit/8937eee4c522c2d3de9e1c0598bdf7b582b25e81",
+      "date": "2026-10-14T15:52:40Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "Kangyelim1",
+      "gitAuthorName": "Kangyelim1",
+      "gitAuthorEmail": "gyelim887@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 45,
+        "additions": 0,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 45,
+        "suspicious_score": 35,
+        "judgment": "확인필요"
+      }
+    },
+    {
+      "projectName": "2학년 6팀",
+      "repo": "jeonghyerin002/2026_2TeamProject",
+      "branch": "main",
+      "sha": "ea65404789219ce742b436aebc1fde4491f13101",
+      "message": "[Feat] 저장 기능 추가",
+      "url": "https://github.com/jeonghyerin002/2026_2TeamProject/commit/ea65404789219ce742b436aebc1fde4491f13101",
+      "date": "2026-10-14T15:49:16Z",
+      "expectedGithub": "jeonghyerin002",
+      "actualGithub": "blocks2094",
+      "gitAuthorName": "HyunWoo",
+      "gitAuthorEmail": "blocks2094@g.shingu.ac.kr",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 31,
+        "additions": 4833,
+        "deletions": 79,
+        "meaningful_change": 4853,
+        "meaningful_file_count": 18,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "3학년 4팀",
       "repo": "yuseongmok/Delivery-service",
