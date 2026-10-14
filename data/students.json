@@ -1,7 +1,7 @@
 {
   "course": "Git 프로젝트 활동 현황",
   "notionUrl": "https://abaft-vibraphone-8f7.notion.site/Git-3c28655a72df80199dafc115fef9ddd4?pvs=74",
-  "updatedAt": "2026. 10. 15. 04:35",
+  "updatedAt": "2026. 10. 15. 07:59",
   "students": [
     {
       "name": "2학년 1팀",
@@ -168,9 +168,9 @@
       "team": "2학년 1팀",
       "github": "parksarang04",
       "repo": "suyan05/PharaohCube",
-      "commits": 11,
+      "commits": 10,
       "semesterCommits": 64,
-      "activeDays": 6,
+      "activeDays": 5,
       "lastCommit": "2일 전",
       "status": "active",
       "weekly": [
@@ -179,8 +179,8 @@
         8,
         3,
         17,
-        25,
-        11
+        26,
+        10
       ],
       "recent": [
         {
@@ -224,7 +224,7 @@
       "commits": 10,
       "semesterCommits": 41,
       "activeDays": 2,
-      "lastCommit": "2일 전",
+      "lastCommit": "3일 전",
       "status": "active",
       "weekly": [
         0,
@@ -238,19 +238,19 @@
       "recent": [
         {
           "message": "[Chore] 아누비스 퍼즐 테스트용 치트키 추가",
-          "time": "2일 전",
+          "time": "3일 전",
           "sha": "97f6c11",
           "url": "https://github.com/suyan05/PharaohCube/commit/97f6c11cceeb9410f7a05c06ac3fc6c21869716b"
         },
         {
           "message": "[Feat] 아누비스 제단 순차 해금, 석문, 튜토리얼 출구 추가",
-          "time": "2일 전",
+          "time": "3일 전",
           "sha": "123b52c",
           "url": "https://github.com/suyan05/PharaohCube/commit/123b52ce1c243406aa4dafca6cc080603773fdd7"
         },
         {
           "message": "[Feat] 아누비스 실전 마방진 추가 (숫자 대신 신들의 상징)",
-          "time": "2일 전",
+          "time": "3일 전",
           "sha": "9fa7653",
           "url": "https://github.com/suyan05/PharaohCube/commit/9fa7653b036123bf6566ae100a25fd33747b55ed"
         },
@@ -456,19 +456,19 @@
         },
         {
           "message": "[Fix] 미션 오브젝트 수정, 게임 시간 수정",
-          "time": "2일 전",
+          "time": "3일 전",
           "sha": "7e1c3ad",
           "url": "https://github.com/ahyun04/26TeamProject_2/commit/7e1c3ad737cfc52fc409dc6706cd5bc3187c28a8"
         },
         {
           "message": "[Fix] UI 수정",
-          "time": "2일 전",
+          "time": "3일 전",
           "sha": "e567b99",
           "url": "https://github.com/ahyun04/26TeamProject_2/commit/e567b9965ef2860c8250c583861b47c4ec4b83cf"
         },
         {
           "message": "[Feat] UI 적용",
-          "time": "2일 전",
+          "time": "3일 전",
           "sha": "e7db311",
           "url": "https://github.com/ahyun04/26TeamProject_2/commit/e7db3115d02d470cfa25b3c4cc0c9c981c0a8784"
         },
@@ -754,7 +754,7 @@
       "commits": 0,
       "semesterCommits": 58,
       "activeDays": 0,
-      "lastCommit": "39일 전",
+      "lastCommit": "40일 전",
       "status": "inactive",
       "weekly": [
         14,
@@ -768,13 +768,13 @@
       "recent": [
         {
           "message": "[Feat] 타이머 및 게임 종료 결과 UI 추가",
-          "time": "39일 전",
+          "time": "40일 전",
           "sha": "76b6ffc",
           "url": "https://github.com/ahyun04/26TeamProject_2/commit/76b6ffc6ae207ddeb3d48a586ee9ca4a598a1880"
         },
         {
           "message": "[Feat] 게임 종료 시스템 제작",
-          "time": "39일 전",
+          "time": "40일 전",
           "sha": "48bacc9",
           "url": "https://github.com/ahyun04/26TeamProject_2/commit/48bacc928caadc45515074a23ad65c3a07cce4eb"
         },
@@ -939,13 +939,13 @@
         },
         {
           "message": "[Fix] 버그들 수정",
-          "time": "4일 전",
+          "time": "5일 전",
           "sha": "0d821bd",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/0d821bdfa01b38aabaa0f93bd95d1bf50a8622de"
         },
         {
           "message": "[Fix] 주문 안받아지는 버그 수정",
-          "time": "7일 전",
+          "time": "8일 전",
           "sha": "1238a05",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/1238a0501d3258dda005221f5eae9b014e2fa0cb"
         },
@@ -972,8 +972,8 @@
         2,
         2,
         3,
-        5,
-        4,
+        6,
+        3,
         7,
         4
       ],
@@ -998,13 +998,13 @@
         },
         {
           "message": "[Feat] 오토바이 IsSnowing 변수 추가 및 빙판효과 추가",
-          "time": "2일 전",
+          "time": "3일 전",
           "sha": "1a5f6ee",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/1a5f6eed97fafb3fd6688f1a2198144cd4955910"
         },
         {
           "message": "[Feat] 오토바이 운전도중 하차시 레그돌 상태 + Next day -> 오토바이 가게앞 스폰되게끔",
-          "time": "7일 전",
+          "time": "8일 전",
           "sha": "0d1e5fe",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/0d1e5feb5af2a0b4ccc8ab024a3604be2dc270d7"
         }
@@ -1650,7 +1650,7 @@
         },
         {
           "message": "[feat]: 도트 글꼴 추가",
-          "time": "14일 전",
+          "time": "15일 전",
           "sha": "4f96d73",
           "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/4f96d73abfbfb817c6a13ada812681f1e6d55625"
         },
@@ -1750,7 +1750,7 @@
         },
         {
           "message": "[feat]: 오브젝트 모델링 제작",
-          "time": "14일 전",
+          "time": "15일 전",
           "sha": "ae917ec",
           "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/ae917ec88a430d1f3ec4b657af243f1b7b8220d3"
         }
@@ -1879,7 +1879,7 @@
         },
         {
           "message": "Initial commit",
-          "time": "29일 전",
+          "time": "30일 전",
           "sha": "a7471ec",
           "url": "https://github.com/jeolje934-dot/Placeholder_2026_1A_team-project/commit/a7471ec3212432eb7d0456f7a2d5801b9e7c8f91"
         }
@@ -2495,13 +2495,13 @@
         },
         {
           "message": "[FEAT] 티켓 이펙트 마무리",
-          "time": "72일 전",
+          "time": "73일 전",
           "sha": "aa723aa",
           "url": "https://github.com/JungYS24/Tricky-Yacht/commit/aa723aa30cb827a4cca7b3ac9de5f385c0cfd53f"
         },
         {
           "message": "[feat] 티켓 이펙트 연출",
-          "time": "73일 전",
+          "time": "74일 전",
           "sha": "4c7c0ae",
           "url": "https://github.com/JungYS24/Tricky-Yacht/commit/4c7c0ae1fc7c873b5124572990746f97d0f2978d"
         },
@@ -2843,7 +2843,7 @@
       "commits": 2,
       "semesterCommits": 2,
       "activeDays": 1,
-      "lastCommit": "4일 전",
+      "lastCommit": "5일 전",
       "status": "watch",
       "weekly": [
         0,
@@ -2857,13 +2857,13 @@
       "recent": [
         {
           "message": "업적 ui 추가",
-          "time": "4일 전",
+          "time": "5일 전",
           "sha": "10a8dba",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/10a8dba90a12b92a2144974b495bf64942e99867"
         },
         {
           "message": "타이틀 화면 버튼 추가",
-          "time": "4일 전",
+          "time": "5일 전",
           "sha": "0aeff1f",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/0aeff1fcd0251d47756431f8377b13465cde3981"
         }
@@ -2950,10 +2950,10 @@
       "team": "1학년 B반 3팀",
       "github": "Tiphe0821",
       "repo": "Tiphe0821/GameProject_T3_1_B",
-      "commits": 5,
+      "commits": 4,
       "semesterCommits": 14,
-      "activeDays": 4,
-      "lastCommit": "오늘",
+      "activeDays": 3,
+      "lastCommit": "어제",
       "status": "active",
       "weekly": [
         0,
@@ -2961,13 +2961,13 @@
         0,
         5,
         4,
-        0,
-        5
+        1,
+        4
       ],
       "recent": [
         {
           "message": "[feat] 4강 인터렉션 내용 추가 및 프레임워크의 ItemData와 연결",
-          "time": "오늘",
+          "time": "어제",
           "sha": "d2b4b2f",
           "url": "https://github.com/Tiphe0821/GameProject_T3_1_B/commit/d2b4b2f7e5a7a9c7713a8319fad0adde26c5a0e2"
         },
@@ -2991,7 +2991,7 @@
         },
         {
           "message": "[feat] 테스트 프로젝트에 게임 프레임워크 임포트",
-          "time": "6일 전",
+          "time": "7일 전",
           "sha": "6c95297",
           "url": "https://github.com/Tiphe0821/GameProject_T3_1_B/commit/6c9529793ec85c0f13d434eb770b10c43d30e607"
         }
@@ -3059,7 +3059,7 @@
       "commits": 1,
       "semesterCommits": 1,
       "activeDays": 1,
-      "lastCommit": "5일 전",
+      "lastCommit": "6일 전",
       "status": "watch",
       "weekly": [
         0,
@@ -3073,7 +3073,7 @@
       "recent": [
         {
           "message": "[Feat] 함선 외형",
-          "time": "5일 전",
+          "time": "6일 전",
           "sha": "3e722e2",
           "url": "https://github.com/Tiphe0821/GameProject_T3_1_B/commit/3e722e2160af8d507f4578a00832ae5bfb1a433a"
         }
@@ -3132,11 +3132,11 @@
       "team": "surren01522-tech",
       "github": "sw4860",
       "repo": "surren01522-tech/2026_02_GameProject_Eurydice",
-      "commits": 0,
-      "semesterCommits": 41,
-      "activeDays": 0,
-      "lastCommit": "8일 전",
-      "status": "inactive",
+      "commits": 1,
+      "semesterCommits": 42,
+      "activeDays": 1,
+      "lastCommit": "오늘",
+      "status": "active",
       "weekly": [
         0,
         0,
@@ -3144,9 +3144,15 @@
         0,
         13,
         28,
-        0
+        1
       ],
       "recent": [
+        {
+          "message": "[Feat] 장착된 아이템 회수 및 완료 판단 조건 변경",
+          "time": "오늘",
+          "sha": "eacffc9",
+          "url": "https://github.com/surren01522-tech/2026_02_GameProject_Eurydice/commit/eacffc9d968b6d6119a72891e2658bd14e9fdd22"
+        },
         {
           "message": "[Feat] Addressable Import, 씬 로드 적용",
           "time": "8일 전",
@@ -3170,12 +3176,6 @@
           "time": "9일 전",
           "sha": "19dad3f",
           "url": "https://github.com/surren01522-tech/2026_02_GameProject_Eurydice/commit/19dad3f19d161347db273746c6d7a94294081de9"
-        },
-        {
-          "message": "[Feat] Seamless, 비동기 로드 시스템",
-          "time": "9일 전",
-          "sha": "1872991",
-          "url": "https://github.com/surren01522-tech/2026_02_GameProject_Eurydice/commit/1872991acde657289b8425624eca394701e7da83"
         }
       ]
     },
@@ -3188,7 +3188,7 @@
       "commits": 4,
       "semesterCommits": 27,
       "activeDays": 1,
-      "lastCommit": "5일 전",
+      "lastCommit": "6일 전",
       "status": "watch",
       "weekly": [
         0,
@@ -3202,25 +3202,25 @@
       "recent": [
         {
           "message": "[Fix] 쉐이더 변수 수정",
-          "time": "5일 전",
+          "time": "6일 전",
           "sha": "6c86ab3",
           "url": "https://github.com/surren01522-tech/2026_02_GameProject_Eurydice/commit/6c86ab3258ba57aa52280d0e3d4ff19722b071fd"
         },
         {
           "message": "[Feat] 쉐이더 최적화",
-          "time": "5일 전",
+          "time": "6일 전",
           "sha": "58cc62c",
           "url": "https://github.com/surren01522-tech/2026_02_GameProject_Eurydice/commit/58cc62c7e6f64fbe6239670cc16af365541f4784"
         },
         {
           "message": "[Fix] 라이팅 조금더 자연스럽게 수정",
-          "time": "5일 전",
+          "time": "6일 전",
           "sha": "c1f2e1b",
           "url": "https://github.com/surren01522-tech/2026_02_GameProject_Eurydice/commit/c1f2e1b13e4deb4d3776730f9c07e2f67bfd4757"
         },
         {
           "message": "[Feat] 노이즈 라이팅 추가",
-          "time": "5일 전",
+          "time": "6일 전",
           "sha": "99c8677",
           "url": "https://github.com/surren01522-tech/2026_02_GameProject_Eurydice/commit/99c8677991c6fdd91ed20b5ba01423e7256aa265"
         },
@@ -3913,13 +3913,13 @@
         },
         {
           "message": "[Fix] 버그들 수정",
-          "time": "4일 전",
+          "time": "5일 전",
           "sha": "0d821bd",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/0d821bdfa01b38aabaa0f93bd95d1bf50a8622de"
         },
         {
           "message": "[Fix] 주문 안받아지는 버그 수정",
-          "time": "7일 전",
+          "time": "8일 전",
           "sha": "1238a05",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/1238a0501d3258dda005221f5eae9b014e2fa0cb"
         },
@@ -3946,8 +3946,8 @@
         2,
         2,
         3,
-        5,
-        4,
+        6,
+        3,
         7,
         4
       ],
@@ -3972,13 +3972,13 @@
         },
         {
           "message": "[Feat] 오토바이 IsSnowing 변수 추가 및 빙판효과 추가",
-          "time": "2일 전",
+          "time": "3일 전",
           "sha": "1a5f6ee",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/1a5f6eed97fafb3fd6688f1a2198144cd4955910"
         },
         {
           "message": "[Feat] 오토바이 운전도중 하차시 레그돌 상태 + Next day -> 오토바이 가게앞 스폰되게끔",
-          "time": "7일 전",
+          "time": "8일 전",
           "sha": "0d1e5fe",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/0d1e5feb5af2a0b4ccc8ab024a3604be2dc270d7"
         }
