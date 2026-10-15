@@ -1,11 +1,103 @@
 {
-  "updatedAt": "2026. 10. 16. 01:20",
+  "updatedAt": "2026. 10. 16. 04:59",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "2학년 2팀",
+      "repo": "esuvean/PRESS-START_",
+      "branch": "main",
+      "sha": "404b9d40859c497d0996617784cc618758efea5c",
+      "message": "[feat] 미니게임 17구현",
+      "url": "https://github.com/esuvean/PRESS-START_/commit/404b9d40859c497d0996617784cc618758efea5c",
+      "date": "2026-10-15T17:50:27Z",
+      "expectedGithub": "esuvean",
+      "actualGithub": "flexinja99",
+      "gitAuthorName": "flexinja",
+      "gitAuthorEmail": "hjgo927@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 4,
+        "additions": 1835,
+        "deletions": 72,
+        "meaningful_change": 1905,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 6팀",
+      "repo": "jeonghyerin002/2026_2TeamProject",
+      "branch": "main",
+      "sha": "861aecbfb57ea7f5afc6579f82d1cda69347afa3",
+      "message": "[Feat] 캐릭터 애니메이션 폴더 추가 및 삽입",
+      "url": "https://github.com/jeonghyerin002/2026_2TeamProject/commit/861aecbfb57ea7f5afc6579f82d1cda69347afa3",
+      "date": "2026-10-15T16:48:05Z",
+      "expectedGithub": "jeonghyerin002",
+      "actualGithub": "chanzk1",
+      "gitAuthorName": "chanzk1",
+      "gitAuthorEmail": "ktop9224@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 3,
+        "additions": 541,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 1,
+        "suspicious_score": 35,
+        "judgment": "확인필요"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "89eb4c3786a9276359bc8b837236ef7d88409997",
+      "message": "[Fix] 유물,형판,아이콘 이미지 크기 수정",
+      "url": "https://github.com/suyan05/PharaohCube/commit/89eb4c3786a9276359bc8b837236ef7d88409997",
+      "date": "2026-10-15T16:35:33Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "khy1004",
+      "gitAuthorName": "khy1004",
+      "gitAuthorEmail": "khyseog08@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 20,
+        "additions": 78,
+        "deletions": 78,
+        "meaningful_change": 0,
+        "meaningful_file_count": 11,
+        "suspicious_score": 35,
+        "judgment": "확인필요"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "99a994f22bbe1575607e514ed90be4d0224f23ee",
+      "message": "[Fix] a4 타일 수정",
+      "url": "https://github.com/suyan05/PharaohCube/commit/99a994f22bbe1575607e514ed90be4d0224f23ee",
+      "date": "2026-10-15T16:32:10Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "khy1004",
+      "gitAuthorName": "khy1004",
+      "gitAuthorEmail": "khyseog08@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 77,
+        "additions": 7054,
+        "deletions": 611,
+        "meaningful_change": 0,
+        "meaningful_file_count": 18,
+        "suspicious_score": 35,
+        "judgment": "확인필요"
+      }
+    },
     {
       "projectName": "3학년 4팀",
       "repo": "yuseongmok/Delivery-service",
