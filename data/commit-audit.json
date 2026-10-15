@@ -1,11 +1,80 @@
 {
-  "updatedAt": "2026. 10. 15. 20:55",
+  "updatedAt": "2026. 10. 16. 01:20",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "3학년 4팀",
+      "repo": "yuseongmok/Delivery-service",
+      "branch": "main",
+      "sha": "50ffc2f756c805a2d7c418d9dd0a1ac670605dcf",
+      "message": "[Feat] 피자 토핑 수 에 따른 게이지 상승",
+      "url": "https://github.com/yuseongmok/Delivery-service/commit/50ffc2f756c805a2d7c418d9dd0a1ac670605dcf",
+      "date": "2026-10-15T14:53:17Z",
+      "expectedGithub": "yuseongmok",
+      "actualGithub": "shingumingi",
+      "gitAuthorName": "shingumingi",
+      "gitAuthorEmail": "pettid0314@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 7,
+        "additions": 735,
+        "deletions": 56,
+        "meaningful_change": 791,
+        "meaningful_file_count": 7,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 2팀",
+      "repo": "Taehyeon88/Graduation-project",
+      "branch": "main",
+      "sha": "6eb322bfeb429f0cc4326d37fee64895e564b518",
+      "message": "[Feat] 테스트 영웅 구현 1",
+      "url": "https://github.com/Taehyeon88/Graduation-project/commit/6eb322bfeb429f0cc4326d37fee64895e564b518",
+      "date": "2026-10-15T14:36:53Z",
+      "expectedGithub": "Taehyeon88",
+      "actualGithub": "Taehyeon88",
+      "gitAuthorName": "Taehyeon88",
+      "gitAuthorEmail": "Taehyeon5376@naver.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 80,
+        "additions": 2070,
+        "deletions": 1171,
+        "meaningful_change": 1582,
+        "meaningful_file_count": 47,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 2팀",
+      "repo": "esuvean/PRESS-START_",
+      "branch": "main",
+      "sha": "441f4f1d747a58631c3ad651249ca28277c29bde",
+      "message": "[feat] 미니게임 16구현",
+      "url": "https://github.com/esuvean/PRESS-START_/commit/441f4f1d747a58631c3ad651249ca28277c29bde",
+      "date": "2026-10-15T13:18:35Z",
+      "expectedGithub": "esuvean",
+      "actualGithub": "flexinja99",
+      "gitAuthorName": "flexinja",
+      "gitAuthorEmail": "hjgo927@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 10,
+        "additions": 2090,
+        "deletions": 152,
+        "meaningful_change": 2218,
+        "meaningful_file_count": 6,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "1학년 B반 6팀",
       "repo": "tjd6356-afk/2-_-",
