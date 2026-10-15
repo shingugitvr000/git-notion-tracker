@@ -1,11 +1,80 @@
 {
-  "updatedAt": "2026. 10. 15. 10:22",
+  "updatedAt": "2026. 10. 15. 15:12",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "3학년 2팀",
+      "repo": "Taehyeon88/Graduation-project",
+      "branch": "main",
+      "sha": "68037ac6ab5e8194c21cb3bf4ff2b9ff51f78b90",
+      "message": "[Feat] 웨이브 코어 시스템 삭제",
+      "url": "https://github.com/Taehyeon88/Graduation-project/commit/68037ac6ab5e8194c21cb3bf4ff2b9ff51f78b90",
+      "date": "2026-10-15T05:14:11Z",
+      "expectedGithub": "Taehyeon88",
+      "actualGithub": "Taehyeon88",
+      "gitAuthorName": "Taehyeon88",
+      "gitAuthorEmail": "Taehyeon5376@naver.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 45,
+        "additions": 975,
+        "deletions": 1412,
+        "meaningful_change": 1984,
+        "meaningful_file_count": 26,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 2팀",
+      "repo": "hawengtiger/2026_09_09_Team-1rock2bird-",
+      "branch": "main",
+      "sha": "e6fa9328ec3b9c56bc803bf60ac6e2ba40b338d6",
+      "message": "영롱이 표정 / 약 봉투 심장 약",
+      "url": "https://github.com/hawengtiger/2026_09_09_Team-1rock2bird-/commit/e6fa9328ec3b9c56bc803bf60ac6e2ba40b338d6",
+      "date": "2026-10-15T04:51:33Z",
+      "expectedGithub": "hawengtiger",
+      "actualGithub": "rol19-lab",
+      "gitAuthorName": "rol19-lab",
+      "gitAuthorEmail": "rorolri1119@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 34,
+        "additions": 3029,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 17,
+        "suspicious_score": 35,
+        "judgment": "확인필요"
+      }
+    },
+    {
+      "projectName": "1학년 A반 1팀",
+      "repo": "chimchimjam377/TeamProject---Singularity-Thief",
+      "branch": "main",
+      "sha": "9564f59359552cb0e809bb77312185e5308dc527",
+      "message": "[Feat] 공격 시스템 UI 스크립트 추가",
+      "url": "https://github.com/chimchimjam377/TeamProject---Singularity-Thief/commit/9564f59359552cb0e809bb77312185e5308dc527",
+      "date": "2026-10-15T02:23:06Z",
+      "expectedGithub": "chimchimjam377",
+      "actualGithub": "chimchimjam377",
+      "gitAuthorName": "chimchimjam377",
+      "gitAuthorEmail": "chimchimjam377@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 10,
+        "additions": 721,
+        "deletions": 18,
+        "meaningful_change": 733,
+        "meaningful_file_count": 7,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "1학년 A반 5팀",
       "repo": "surren01522-tech/2026_02_GameProject_Eurydice",
