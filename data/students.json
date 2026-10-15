@@ -1,7 +1,7 @@
 {
   "course": "Git 프로젝트 활동 현황",
   "notionUrl": "https://abaft-vibraphone-8f7.notion.site/Git-3c28655a72df80199dafc115fef9ddd4?pvs=74",
-  "updatedAt": "2026. 10. 15. 07:59",
+  "updatedAt": "2026. 10. 15. 10:22",
   "students": [
     {
       "name": "2학년 1팀",
@@ -277,8 +277,8 @@
       "commits": 0,
       "semesterCommits": 15,
       "activeDays": 0,
-      "lastCommit": "7일 전",
-      "status": "watch",
+      "lastCommit": "8일 전",
+      "status": "inactive",
       "weekly": [
         2,
         2,
@@ -291,7 +291,7 @@
       "recent": [
         {
           "message": "Update game genre and team member details in README",
-          "time": "7일 전",
+          "time": "8일 전",
           "sha": "08265a0",
           "url": "https://github.com/Taehyeon88/Graduation-project/commit/08265a0a39049ea5b3fb1a7ce686db98715c8a5b"
         },
@@ -1419,7 +1419,7 @@
       "commits": 0,
       "semesterCommits": 3,
       "activeDays": 0,
-      "lastCommit": "8일 전",
+      "lastCommit": "9일 전",
       "status": "inactive",
       "weekly": [
         0,
@@ -1433,7 +1433,7 @@
       "recent": [
         {
           "message": "2",
-          "time": "8일 전",
+          "time": "9일 전",
           "sha": "421cb69",
           "url": "https://github.com/Sine-aw/nohesitate/commit/421cb6992cbdd3d1f67350c23a57109b1cc9773d"
         },
@@ -2061,7 +2061,7 @@
         },
         {
           "message": "[Refactor] AGENTS.md 한글로 변경",
-          "time": "어제",
+          "time": "2일 전",
           "sha": "4e19bdc",
           "url": "https://github.com/jeonghyerin002/2026_2TeamProject/commit/4e19bdcd710e003db6c7c83fbfa926c91b8a1a01"
         },
@@ -2718,7 +2718,7 @@
         },
         {
           "message": "[Chore] 빌드, 스테이지 층수 9>17로 변경",
-          "time": "2일 전",
+          "time": "3일 전",
           "sha": "95ec173",
           "url": "https://github.com/jinjooyoung/DUAL-DUEL/commit/95ec1734240627e36e5c56e5b9541ece39b748b4"
         },
@@ -2765,9 +2765,9 @@
       "status": "active",
       "weekly": [
         0,
-        11,
+        12,
         9,
-        9,
+        8,
         16,
         17,
         16
@@ -2781,13 +2781,13 @@
         },
         {
           "message": "던전 이동 시스템 만들기 전 커및",
-          "time": "어제",
+          "time": "2일 전",
           "sha": "8697269",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/8697269b3c66f19c60602b722b22d5ac9c6c7675"
         },
         {
           "message": "스테이지 이동 시스템 UI 배치",
-          "time": "어제",
+          "time": "2일 전",
           "sha": "7aa87ff",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/7aa87ff350b4ad3dfb8ecd4858729bef06806d33"
         },
@@ -2814,7 +2814,7 @@
       "commits": 1,
       "semesterCommits": 1,
       "activeDays": 1,
-      "lastCommit": "2일 전",
+      "lastCommit": "3일 전",
       "status": "active",
       "weekly": [
         0,
@@ -2828,7 +2828,7 @@
       "recent": [
         {
           "message": "장수풍뎅이 NPC 이미지 추가",
-          "time": "2일 전",
+          "time": "3일 전",
           "sha": "adf0dc6",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/adf0dc690dcfa226f65ff66b9ac4f72ce9c13ada"
         }
@@ -3622,8 +3622,8 @@
       "commits": 0,
       "semesterCommits": 15,
       "activeDays": 0,
-      "lastCommit": "7일 전",
-      "status": "watch",
+      "lastCommit": "8일 전",
+      "status": "inactive",
       "weekly": [
         2,
         2,
@@ -3636,7 +3636,7 @@
       "recent": [
         {
           "message": "Update game genre and team member details in README",
-          "time": "7일 전",
+          "time": "8일 전",
           "sha": "08265a0",
           "url": "https://github.com/Taehyeon88/Graduation-project/commit/08265a0a39049ea5b3fb1a7ce686db98715c8a5b"
         },
