@@ -1,11 +1,172 @@
 {
-  "updatedAt": "2026. 10. 15. 15:12",
+  "updatedAt": "2026. 10. 15. 20:55",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "b84ee0f3637d58eb52bc031c9a6b049df7db4247",
+      "message": "스테이지 이동 버그 수정.",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/b84ee0f3637d58eb52bc031c9a6b049df7db4247",
+      "date": "2026-10-15T11:43:16Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "tjd6356-afk",
+      "gitAuthorName": "tjd6356-afk",
+      "gitAuthorEmail": "tjd6356@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 8,
+        "additions": 507,
+        "deletions": 92,
+        "meaningful_change": 599,
+        "meaningful_file_count": 8,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 3팀",
+      "repo": "jinjooyoung/DUAL-DUEL",
+      "branch": "main",
+      "sha": "93b34b93b996ef2d36b9fdfffe5a47db86028658",
+      "message": "[Feat] 리워드매니저 기반 작성",
+      "url": "https://github.com/jinjooyoung/DUAL-DUEL/commit/93b34b93b996ef2d36b9fdfffe5a47db86028658",
+      "date": "2026-10-15T11:36:13Z",
+      "expectedGithub": "jinjooyoung",
+      "actualGithub": "jinjooyoung",
+      "gitAuthorName": "jinjooyoung",
+      "gitAuthorEmail": "jjy26297449@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 103,
+        "deletions": 0,
+        "meaningful_change": 101,
+        "meaningful_file_count": 1,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 2팀",
+      "repo": "Taehyeon88/Graduation-project",
+      "branch": "main",
+      "sha": "2ce2285692676f2c99776d0c01d65d62a56c3868",
+      "message": "[Feat] 유물 시스템 -> 특성 시스템",
+      "url": "https://github.com/Taehyeon88/Graduation-project/commit/2ce2285692676f2c99776d0c01d65d62a56c3868",
+      "date": "2026-10-15T09:51:53Z",
+      "expectedGithub": "Taehyeon88",
+      "actualGithub": "Taehyeon88",
+      "gitAuthorName": "Taehyeon88",
+      "gitAuthorEmail": "Taehyeon5376@naver.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 181,
+        "additions": 1463,
+        "deletions": 437,
+        "meaningful_change": 928,
+        "meaningful_file_count": 91,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 2팀",
+      "repo": "Taehyeon88/Graduation-project",
+      "branch": "main",
+      "sha": "55cac4a5f617c53ff4f2806ad27db39b1711596a",
+      "message": "[Clean] 모든 Debug.Log() 함수 제거",
+      "url": "https://github.com/Taehyeon88/Graduation-project/commit/55cac4a5f617c53ff4f2806ad27db39b1711596a",
+      "date": "2026-10-15T08:38:51Z",
+      "expectedGithub": "Taehyeon88",
+      "actualGithub": "Taehyeon88",
+      "gitAuthorName": "Taehyeon88",
+      "gitAuthorEmail": "Taehyeon5376@naver.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 20,
+        "additions": 35,
+        "deletions": 66,
+        "meaningful_change": 66,
+        "meaningful_file_count": 17,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 2팀",
+      "repo": "Taehyeon88/Graduation-project",
+      "branch": "main",
+      "sha": "d3b48c6fa8efa44ce1e31e6f2adac726bfcdf484",
+      "message": "[Feat] 카드 시스템 구체화/시스템 정리",
+      "url": "https://github.com/Taehyeon88/Graduation-project/commit/d3b48c6fa8efa44ce1e31e6f2adac726bfcdf484",
+      "date": "2026-10-15T08:32:13Z",
+      "expectedGithub": "Taehyeon88",
+      "actualGithub": "Taehyeon88",
+      "gitAuthorName": "Taehyeon88",
+      "gitAuthorEmail": "Taehyeon5376@naver.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 29,
+        "additions": 474,
+        "deletions": 960,
+        "meaningful_change": 1365,
+        "meaningful_file_count": 19,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 2팀",
+      "repo": "esuvean/PRESS-START_",
+      "branch": "main",
+      "sha": "39f089b0bd691af84259d5e4b7fe0740f9543c0a",
+      "message": "[Feat] 아트 교체",
+      "url": "https://github.com/esuvean/PRESS-START_/commit/39f089b0bd691af84259d5e4b7fe0740f9543c0a",
+      "date": "2026-10-15T08:20:42Z",
+      "expectedGithub": "esuvean",
+      "actualGithub": "esuvean",
+      "gitAuthorName": "esuvean",
+      "gitAuthorEmail": "esuvean@naver.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 10,
+        "additions": 293,
+        "deletions": 51,
+        "meaningful_change": 102,
+        "meaningful_file_count": 7,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 2팀",
+      "repo": "Taehyeon88/Graduation-project",
+      "branch": "main",
+      "sha": "4cdb63f57282c1c9a739a2c075fa926141d3419e",
+      "message": "[Feat] 코어 시스템 추가",
+      "url": "https://github.com/Taehyeon88/Graduation-project/commit/4cdb63f57282c1c9a739a2c075fa926141d3419e",
+      "date": "2026-10-15T07:19:03Z",
+      "expectedGithub": "Taehyeon88",
+      "actualGithub": "Taehyeon88",
+      "gitAuthorName": "Taehyeon88",
+      "gitAuthorEmail": "Taehyeon5376@naver.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 28,
+        "additions": 843,
+        "deletions": 123,
+        "meaningful_change": 860,
+        "meaningful_file_count": 20,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "3학년 2팀",
       "repo": "Taehyeon88/Graduation-project",
