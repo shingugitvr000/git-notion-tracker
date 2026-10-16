@@ -1,11 +1,172 @@
 {
-  "updatedAt": "2026. 10. 17. 01:06",
+  "updatedAt": "2026. 10. 17. 04:38",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "1학년 A반 5팀",
+      "repo": "surren01522-tech/2026_02_GameProject_Eurydice",
+      "branch": "main",
+      "sha": "9944151c4c9aab906480353decfe4c29c521b667",
+      "message": "[chore] 스케치업 파일 이름 수정",
+      "url": "https://github.com/surren01522-tech/2026_02_GameProject_Eurydice/commit/9944151c4c9aab906480353decfe4c29c521b667",
+      "date": "2026-10-16T18:00:48Z",
+      "expectedGithub": "sw4860",
+      "actualGithub": "surren01522-tech",
+      "gitAuthorName": "surren01522-tech",
+      "gitAuthorEmail": "surren01522@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 2,
+        "deletions": 2,
+        "meaningful_change": 4,
+        "meaningful_file_count": 2,
+        "suspicious_score": 15,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 5팀",
+      "repo": "surren01522-tech/2026_02_GameProject_Eurydice",
+      "branch": "main",
+      "sha": "26ffe0511de261efb4817b6faef2cffc2f8ac77e",
+      "message": "[feat] 챕터1 레벨 스케치업",
+      "url": "https://github.com/surren01522-tech/2026_02_GameProject_Eurydice/commit/26ffe0511de261efb4817b6faef2cffc2f8ac77e",
+      "date": "2026-10-16T17:56:14Z",
+      "expectedGithub": "sw4860",
+      "actualGithub": "surren01522-tech",
+      "gitAuthorName": "surren01522-tech",
+      "gitAuthorEmail": "surren01522@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 51,
+        "additions": 3618,
+        "deletions": 159,
+        "meaningful_change": 2267,
+        "meaningful_file_count": 24,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "46d5cb77bf82400a682db1555bd1759b9be954e9",
+      "message": "[Feat] 아누비스 피드백 반영(저울 복수 정답·유물 넣고 빼기) 및 바스테트 메인 퍼즐 해와 달의 기억 추가",
+      "url": "https://github.com/suyan05/PharaohCube/commit/46d5cb77bf82400a682db1555bd1759b9be954e9",
+      "date": "2026-10-16T17:35:33Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "kangxogh1013",
+      "gitAuthorName": "kangxogh1013",
+      "gitAuthorEmail": "ho1013sl@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 22,
+        "additions": 9008,
+        "deletions": 8304,
+        "meaningful_change": 16722,
+        "meaningful_file_count": 15,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 4팀",
+      "repo": "yuseongmok/Delivery-service",
+      "branch": "main",
+      "sha": "da51cb3ac0ea2673a79531f90eca8c0b4a814b39",
+      "message": "[Feat] 네비게이션 버그 해결, 피자 재료 리모델링, 아이템 손에 들기, 포장 애니메이션, 등등",
+      "url": "https://github.com/yuseongmok/Delivery-service/commit/da51cb3ac0ea2673a79531f90eca8c0b4a814b39",
+      "date": "2026-10-16T16:56:23Z",
+      "expectedGithub": "yuseongmok",
+      "actualGithub": "yuseongmok",
+      "gitAuthorName": "yuseongmok",
+      "gitAuthorEmail": "yousm112783@daum.net",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 300,
+        "additions": 102427,
+        "deletions": 36518,
+        "meaningful_change": 1568,
+        "meaningful_file_count": 125,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "e7adcfffe57290d70d747c835431c75ba6eb6444",
+      "message": "[Feat] 활공 구현",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/e7adcfffe57290d70d747c835431c75ba6eb6444",
+      "date": "2026-10-16T16:30:09Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "rlfahtwkqdl",
+      "gitAuthorName": "rlfahtwkqdl",
+      "gitAuthorEmail": "hongjunsu87@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 60,
+        "deletions": 22,
+        "meaningful_change": 82,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "e401d0bf241e6241a70c615cb991877afedd7c6f",
+      "message": "Revert \"[Fix} NPC_01 다이얼로그 수정\"",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/e401d0bf241e6241a70c615cb991877afedd7c6f",
+      "date": "2026-10-16T16:17:05Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "rlfahtwkqdl",
+      "gitAuthorName": "rlfahtwkqdl",
+      "gitAuthorEmail": "hongjunsu87@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 8,
+        "deletions": 9,
+        "meaningful_change": 17,
+        "meaningful_file_count": 1,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "e19ee9bbb6dd1522c8fb1376db042fd6848720ab",
+      "message": "[Fix} NPC_01 다이얼로그 수정",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/e19ee9bbb6dd1522c8fb1376db042fd6848720ab",
+      "date": "2026-10-16T16:15:47Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "rlfahtwkqdl",
+      "gitAuthorName": "rlfahtwkqdl",
+      "gitAuthorEmail": "hongjunsu87@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 9,
+        "deletions": 8,
+        "meaningful_change": 17,
+        "meaningful_file_count": 1,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "2학년 1팀",
       "repo": "suyan05/PharaohCube",
