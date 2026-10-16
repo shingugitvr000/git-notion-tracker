@@ -1,11 +1,80 @@
 {
-  "updatedAt": "2026. 10. 16. 10:10",
+  "updatedAt": "2026. 10. 16. 15:08",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "52308013c799f4d59bc5f0e61ff09d12d8697e56",
+      "message": "스테이지 이동 시스템 뼈대 완성",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/52308013c799f4d59bc5f0e61ff09d12d8697e56",
+      "date": "2026-10-16T06:01:06Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "tjd6356-afk",
+      "gitAuthorName": "tjd6356-afk",
+      "gitAuthorEmail": "tjd6356@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 5,
+        "additions": 2082,
+        "deletions": 132,
+        "meaningful_change": 2214,
+        "meaningful_file_count": 5,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "ac2ab6647c64232b2b3e84349bb8c6f87e1e0a4b",
+      "message": "보스전 이동 시스템 코드만 구현",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/ac2ab6647c64232b2b3e84349bb8c6f87e1e0a4b",
+      "date": "2026-10-16T03:14:12Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "tjd6356-afk",
+      "gitAuthorName": "tjd6356-afk",
+      "gitAuthorEmail": "tjd6356@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 5,
+        "additions": 197,
+        "deletions": 33,
+        "meaningful_change": 214,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "52b4eefbceb1b8d3082e8ba7a315036ca9edaf14",
+      "message": "보스룸 배치",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/52b4eefbceb1b8d3082e8ba7a315036ca9edaf14",
+      "date": "2026-10-16T02:09:02Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "tjd6356-afk",
+      "gitAuthorName": "tjd6356-afk",
+      "gitAuthorEmail": "tjd6356@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 7,
+        "additions": 2463,
+        "deletions": 6,
+        "meaningful_change": 2455,
+        "meaningful_file_count": 4,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "2학년 1팀",
       "repo": "suyan05/PharaohCube",
@@ -117,6 +186,29 @@
         "deletions": 2216,
         "meaningful_change": 10720,
         "meaningful_file_count": 7,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 3팀",
+      "repo": "Tiphe0821/GameProject_T3_1_B",
+      "branch": "main",
+      "sha": "efe2a06bc4a9d9b53d0742054a1723c47994f63a",
+      "message": "[Feat] 플레이어 스테이터스 추가",
+      "url": "https://github.com/Tiphe0821/GameProject_T3_1_B/commit/efe2a06bc4a9d9b53d0742054a1723c47994f63a",
+      "date": "2026-10-15T18:25:47Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "dotcom4143",
+      "gitAuthorName": "dotcom4143",
+      "gitAuthorEmail": "eostmfhektzja4143@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 3,
+        "additions": 558,
+        "deletions": 1,
+        "meaningful_change": 557,
+        "meaningful_file_count": 2,
         "suspicious_score": 0,
         "judgment": "정상"
       }
