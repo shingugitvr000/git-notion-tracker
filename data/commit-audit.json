@@ -1,11 +1,172 @@
 {
-  "updatedAt": "2026. 10. 16. 20:45",
+  "updatedAt": "2026. 10. 17. 01:06",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "7b9258c4b00436c990c82eae79fd7c1a3b303800",
+      "message": "[Feat] 라방 벽화 이미지 추가",
+      "url": "https://github.com/suyan05/PharaohCube/commit/7b9258c4b00436c990c82eae79fd7c1a3b303800",
+      "date": "2026-10-16T15:34:57Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "Kangyelim1",
+      "gitAuthorName": "Kangyelim1",
+      "gitAuthorEmail": "gyelim887@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 4,
+        "additions": 0,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 4,
+        "suspicious_score": 35,
+        "judgment": "확인필요"
+      }
+    },
+    {
+      "projectName": "2학년 2팀",
+      "repo": "esuvean/PRESS-START_",
+      "branch": "main",
+      "sha": "3f6ed752b74133fc5e7a01875de15af28121786b",
+      "message": "[feat] 미니게임 19구현",
+      "url": "https://github.com/esuvean/PRESS-START_/commit/3f6ed752b74133fc5e7a01875de15af28121786b",
+      "date": "2026-10-16T13:02:26Z",
+      "expectedGithub": "esuvean",
+      "actualGithub": "flexinja99",
+      "gitAuthorName": "flexinja",
+      "gitAuthorEmail": "hjgo927@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 8,
+        "additions": 3328,
+        "deletions": 379,
+        "meaningful_change": 3696,
+        "meaningful_file_count": 5,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 3팀",
+      "repo": "Tiphe0821/GameProject_T3_1_B",
+      "branch": "main",
+      "sha": "ca0c6d37349c71a09c7143c57f564191b2c24a06",
+      "message": "[Feat] UI 파일 이동 및, 플레이어 스테이터스 패널 제작 중",
+      "url": "https://github.com/Tiphe0821/GameProject_T3_1_B/commit/ca0c6d37349c71a09c7143c57f564191b2c24a06",
+      "date": "2026-10-16T12:47:31Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "dotcom4143",
+      "gitAuthorName": "dotcom4143",
+      "gitAuthorEmail": "eostmfhektzja4143@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 300,
+        "additions": 63635,
+        "deletions": 260,
+        "meaningful_change": 10931,
+        "meaningful_file_count": 135,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 6팀",
+      "repo": "jeonghyerin002/2026_2TeamProject",
+      "branch": "main",
+      "sha": "8e0b57162ebeaf1f51229ce3774b4b1afd57e63d",
+      "message": "[Feat] Player 이동 애니메이션 제작",
+      "url": "https://github.com/jeonghyerin002/2026_2TeamProject/commit/8e0b57162ebeaf1f51229ce3774b4b1afd57e63d",
+      "date": "2026-10-16T12:10:19Z",
+      "expectedGithub": "jeonghyerin002",
+      "actualGithub": "blocks2094",
+      "gitAuthorName": "HyunWoo",
+      "gitAuthorEmail": "blocks2094@g.shingu.ac.kr",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 27,
+        "additions": 1636,
+        "deletions": 406,
+        "meaningful_change": 1850,
+        "meaningful_file_count": 12,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 3팀",
+      "repo": "Tiphe0821/GameProject_T3_1_B",
+      "branch": "main",
+      "sha": "c91a44305363be96a5d112a3d7d4eca4b083ca1f",
+      "message": "[Feat] SciFi 에셋 테스트",
+      "url": "https://github.com/Tiphe0821/GameProject_T3_1_B/commit/c91a44305363be96a5d112a3d7d4eca4b083ca1f",
+      "date": "2026-10-16T11:55:04Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "dotcom4143",
+      "gitAuthorName": "dotcom4143",
+      "gitAuthorEmail": "eostmfhektzja4143@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 278,
+        "additions": 26942,
+        "deletions": 0,
+        "meaningful_change": 13895,
+        "meaningful_file_count": 129,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 5팀",
+      "repo": "qkrgml59/2026_2_TeamProject",
+      "branch": "main",
+      "sha": "4bb29220b50ebabbcc7b83552dc05cd748c92cf6",
+      "message": "[Feat] 씬 적용 후 테스트 및 퍼즐 저장되도록 수정",
+      "url": "https://github.com/qkrgml59/2026_2_TeamProject/commit/4bb29220b50ebabbcc7b83552dc05cd748c92cf6",
+      "date": "2026-10-16T11:50:03Z",
+      "expectedGithub": "qkrgml59",
+      "actualGithub": "NunSaraam",
+      "gitAuthorName": "NunSaraam",
+      "gitAuthorEmail": "yjc22950037@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 21,
+        "additions": 6283,
+        "deletions": 2058,
+        "meaningful_change": 8322,
+        "meaningful_file_count": 17,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 5팀",
+      "repo": "qkrgml59/2026_2_TeamProject",
+      "branch": "main",
+      "sha": "9173b7dd7fa2f393e6473bd90b07bc4ab59d9727",
+      "message": "[Feat] Save & Load 시스템 제작",
+      "url": "https://github.com/qkrgml59/2026_2_TeamProject/commit/9173b7dd7fa2f393e6473bd90b07bc4ab59d9727",
+      "date": "2026-10-16T11:49:20Z",
+      "expectedGithub": "qkrgml59",
+      "actualGithub": "NunSaraam",
+      "gitAuthorName": "NunSaraam",
+      "gitAuthorEmail": "yjc22950037@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 19,
+        "additions": 732,
+        "deletions": 7,
+        "meaningful_change": 717,
+        "meaningful_file_count": 10,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "2학년 2팀",
       "repo": "esuvean/PRESS-START_",
