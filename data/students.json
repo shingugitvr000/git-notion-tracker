@@ -1,7 +1,7 @@
 {
   "course": "Git 프로젝트 활동 현황",
   "notionUrl": "https://abaft-vibraphone-8f7.notion.site/Git-3c28655a72df80199dafc115fef9ddd4?pvs=74",
-  "updatedAt": "2026. 10. 16. 07:59",
+  "updatedAt": "2026. 10. 16. 10:10",
   "students": [
     {
       "name": "2학년 1팀",
@@ -62,9 +62,9 @@
       "team": "2학년 1팀",
       "github": "kangxogh1013",
       "repo": "suyan05/PharaohCube",
-      "commits": 11,
-      "semesterCommits": 42,
-      "activeDays": 3,
+      "commits": 13,
+      "semesterCommits": 44,
+      "activeDays": 4,
       "lastCommit": "오늘",
       "status": "active",
       "weekly": [
@@ -74,9 +74,21 @@
         3,
         13,
         9,
-        11
+        13
       ],
       "recent": [
+        {
+          "message": "Merge branch 'main' of https://github.com/suyan05/PharaohCube",
+          "time": "오늘",
+          "sha": "2b92ea3",
+          "url": "https://github.com/suyan05/PharaohCube/commit/2b92ea3db6e1a55a29b1fe674eb37dd0e6ed78f9"
+        },
+        {
+          "message": "[Feat] 아누비스 메인 저울 실패 페널티추가 & 사자의 서 비문 4칸으로 정리",
+          "time": "오늘",
+          "sha": "0e856be",
+          "url": "https://github.com/suyan05/PharaohCube/commit/0e856be91a5870e7bea5771b33da3a057a107fb0"
+        },
         {
           "message": "[Feat] 아누비스 다음 제단 안내 연출 추가",
           "time": "오늘",
@@ -94,18 +106,59 @@
           "time": "4일 전",
           "sha": "123b52c",
           "url": "https://github.com/suyan05/PharaohCube/commit/123b52ce1c243406aa4dafca6cc080603773fdd7"
+        }
+      ]
+    },
+    {
+      "name": "parksarang04 (실제 커밋 작성자)",
+      "id": "parksarang04",
+      "team": "2학년 1팀",
+      "github": "parksarang04",
+      "repo": "suyan05/PharaohCube",
+      "commits": 7,
+      "semesterCommits": 65,
+      "activeDays": 5,
+      "lastCommit": "오늘",
+      "status": "active",
+      "weekly": [
+        0,
+        4,
+        4,
+        11,
+        9,
+        30,
+        7
+      ],
+      "recent": [
+        {
+          "message": "[Feat] 라의 방 단서 비석, 시작 연출, 소지품 바 추가 및 Reset 가드 적용",
+          "time": "오늘",
+          "sha": "d7dcee1",
+          "url": "https://github.com/suyan05/PharaohCube/commit/d7dcee1388a2125c1a8b492dd623895c47e9c320"
         },
         {
-          "message": "[Feat] 아누비스 실전 마방진 추가 (숫자 대신 신들의 상징)",
-          "time": "4일 전",
-          "sha": "9fa7653",
-          "url": "https://github.com/suyan05/PharaohCube/commit/9fa7653b036123bf6566ae100a25fd33747b55ed"
+          "message": "[Fix] 빌드 오류 수정 (AnubisProgressionSetup을 Editor 폴더로 이동)",
+          "time": "3일 전",
+          "sha": "9b8440a",
+          "url": "https://github.com/suyan05/PharaohCube/commit/9b8440a15b74c21c41359669e614370248cd13dd"
         },
         {
-          "message": "[Feat] 아누비스 실전 지렛대 천칭 추가 (5칸, 무게 숨김)",
+          "message": "[Feat] 해금 시 카메라가 열린 방 비추기 + P2 안내 문구 옆으로 이동",
+          "time": "3일 전",
+          "sha": "bb24ad2",
+          "url": "https://github.com/suyan05/PharaohCube/commit/bb24ad29105e2e5445b2d980e97e4409959b1ba9"
+        },
+        {
+          "message": "[Feat] 구역 해금 연출 추가 + P2 조각 삽입 오류 수정",
+          "time": "3일 전",
+          "sha": "c90a45d",
+          "url": "https://github.com/suyan05/PharaohCube/commit/c90a45dfa3132db12c0983e9b7c87d92bc09b6b9"
+        },
+        {
+          "message": "[Feat] P1 그림자 시계 새 규칙 적용 + 라의 방 빛의 길 추가",
           "time": "4일 전",
-          "sha": "259a01d",
-          "url": "https://github.com/suyan05/PharaohCube/commit/259a01db506e0a1280f6f224c43755a40e0c38b2"
+          "sha": "934d22d",
+          "url": "https://github.com/suyan05/PharaohCube/commit/934d22de6f04105917d9c0dea51c1d6efa7757e1"
         }
       ]
     },
@@ -212,59 +265,6 @@
           "time": "8일 전",
           "sha": "aee0b89",
           "url": "https://github.com/suyan05/PharaohCube/commit/aee0b891999ce3d64e365230a9a84da21bc96039"
-        }
-      ]
-    },
-    {
-      "name": "parksarang04 (실제 커밋 작성자)",
-      "id": "parksarang04",
-      "team": "2학년 1팀",
-      "github": "parksarang04",
-      "repo": "suyan05/PharaohCube",
-      "commits": 7,
-      "semesterCommits": 64,
-      "activeDays": 5,
-      "lastCommit": "3일 전",
-      "status": "active",
-      "weekly": [
-        0,
-        4,
-        4,
-        10,
-        10,
-        29,
-        7
-      ],
-      "recent": [
-        {
-          "message": "[Fix] 빌드 오류 수정 (AnubisProgressionSetup을 Editor 폴더로 이동)",
-          "time": "3일 전",
-          "sha": "9b8440a",
-          "url": "https://github.com/suyan05/PharaohCube/commit/9b8440a15b74c21c41359669e614370248cd13dd"
-        },
-        {
-          "message": "[Feat] 해금 시 카메라가 열린 방 비추기 + P2 안내 문구 옆으로 이동",
-          "time": "3일 전",
-          "sha": "bb24ad2",
-          "url": "https://github.com/suyan05/PharaohCube/commit/bb24ad29105e2e5445b2d980e97e4409959b1ba9"
-        },
-        {
-          "message": "[Feat] 구역 해금 연출 추가 + P2 조각 삽입 오류 수정",
-          "time": "3일 전",
-          "sha": "c90a45d",
-          "url": "https://github.com/suyan05/PharaohCube/commit/c90a45dfa3132db12c0983e9b7c87d92bc09b6b9"
-        },
-        {
-          "message": "[Feat] P1 그림자 시계 새 규칙 적용 + 라의 방 빛의 길 추가",
-          "time": "4일 전",
-          "sha": "934d22d",
-          "url": "https://github.com/suyan05/PharaohCube/commit/934d22de6f04105917d9c0dea51c1d6efa7757e1"
-        },
-        {
-          "message": "[Feat] 라의 방 퍼즐 낮/밤 데이터 분리 (ScriptableObject)",
-          "time": "5일 전",
-          "sha": "0885c2a",
-          "url": "https://github.com/suyan05/PharaohCube/commit/0885c2a5d16989bba5a1ae62f7c8032337852c29"
         }
       ]
     },
@@ -652,8 +652,8 @@
       "status": "watch",
       "weekly": [
         2,
-        1,
         2,
+        1,
         1,
         3,
         1,
@@ -2102,7 +2102,7 @@
         },
         {
           "message": "[Refactor] AGENTS.md 한글로 변경",
-          "time": "2일 전",
+          "time": "3일 전",
           "sha": "4e19bdc",
           "url": "https://github.com/jeonghyerin002/2026_2TeamProject/commit/4e19bdcd710e003db6c7c83fbfa926c91b8a1a01"
         },
@@ -2765,8 +2765,8 @@
       "github": "tjd6356-afk",
       "repo": "tjd6356-afk/2-_-",
       "commits": 13,
-      "semesterCommits": 79,
-      "activeDays": 5,
+      "semesterCommits": 80,
+      "activeDays": 4,
       "lastCommit": "오늘",
       "status": "active",
       "weekly": [
@@ -2775,10 +2775,16 @@
         9,
         7,
         17,
-        19,
+        20,
         13
       ],
       "recent": [
+        {
+          "message": "Event 시스템이 없어서 생겼던 버그 수정",
+          "time": "오늘",
+          "sha": "88fca20",
+          "url": "https://github.com/tjd6356-afk/2-_-/commit/88fca20bd4bdd130a86ec4cb75336a6a45c28dbd"
+        },
         {
           "message": "스테이지 이동 버그 수정.",
           "time": "오늘",
@@ -2793,21 +2799,15 @@
         },
         {
           "message": "던전 이동 시스템 만들기 전 커및",
-          "time": "2일 전",
+          "time": "3일 전",
           "sha": "8697269",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/8697269b3c66f19c60602b722b22d5ac9c6c7675"
         },
         {
           "message": "스테이지 이동 시스템 UI 배치",
-          "time": "2일 전",
+          "time": "3일 전",
           "sha": "7aa87ff",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/7aa87ff350b4ad3dfb8ecd4858729bef06806d33"
-        },
-        {
-          "message": "카메라 시스템 업그레이드",
-          "time": "3일 전",
-          "sha": "3ca3cb2",
-          "url": "https://github.com/tjd6356-afk/2-_-/commit/3ca3cb209266545e7cf8a4de1474de51f7ea8f87"
         }
       ]
     },
@@ -2820,8 +2820,8 @@
       "commits": 1,
       "semesterCommits": 1,
       "activeDays": 1,
-      "lastCommit": "3일 전",
-      "status": "active",
+      "lastCommit": "4일 전",
+      "status": "watch",
       "weekly": [
         0,
         0,
@@ -2834,7 +2834,7 @@
       "recent": [
         {
           "message": "장수풍뎅이 NPC 이미지 추가",
-          "time": "3일 전",
+          "time": "4일 전",
           "sha": "adf0dc6",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/adf0dc690dcfa226f65ff66b9ac4f72ce9c13ada"
         }

@@ -1,11 +1,103 @@
 {
-  "updatedAt": "2026. 10. 16. 07:59",
+  "updatedAt": "2026. 10. 16. 10:10",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "2b92ea3db6e1a55a29b1fe674eb37dd0e6ed78f9",
+      "message": "Merge branch 'main' of https://github.com/suyan05/PharaohCube",
+      "url": "https://github.com/suyan05/PharaohCube/commit/2b92ea3db6e1a55a29b1fe674eb37dd0e6ed78f9",
+      "date": "2026-10-16T00:52:38Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "kangxogh1013",
+      "gitAuthorName": "kangxogh1013",
+      "gitAuthorEmail": "ho1013sl@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 29,
+        "additions": 2559,
+        "deletions": 153,
+        "meaningful_change": 2654,
+        "meaningful_file_count": 18,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "0e856be91a5870e7bea5771b33da3a057a107fb0",
+      "message": "[Feat] 아누비스 메인 저울 실패 페널티추가 & 사자의 서 비문 4칸으로 정리",
+      "url": "https://github.com/suyan05/PharaohCube/commit/0e856be91a5870e7bea5771b33da3a057a107fb0",
+      "date": "2026-10-16T00:52:33Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "kangxogh1013",
+      "gitAuthorName": "kangxogh1013",
+      "gitAuthorEmail": "ho1013sl@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 31,
+        "additions": 12513,
+        "deletions": 17610,
+        "meaningful_change": 30091,
+        "meaningful_file_count": 21,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "d7dcee1388a2125c1a8b492dd623895c47e9c320",
+      "message": "[Feat] 라의 방 단서 비석, 시작 연출, 소지품 바 추가 및 Reset 가드 적용",
+      "url": "https://github.com/suyan05/PharaohCube/commit/d7dcee1388a2125c1a8b492dd623895c47e9c320",
+      "date": "2026-10-15T23:33:44Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "parksarang04",
+      "gitAuthorName": "parksarang04",
+      "gitAuthorEmail": "qkrtkfkd9074@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 29,
+        "additions": 2559,
+        "deletions": 153,
+        "meaningful_change": 2654,
+        "meaningful_file_count": 18,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "88fca20bd4bdd130a86ec4cb75336a6a45c28dbd",
+      "message": "Event 시스템이 없어서 생겼던 버그 수정",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/88fca20bd4bdd130a86ec4cb75336a6a45c28dbd",
+      "date": "2026-10-15T23:29:29Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "tjd6356-afk",
+      "gitAuthorName": "tjd6356-afk",
+      "gitAuthorEmail": "tjd6356@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 81,
+        "deletions": 1,
+        "meaningful_change": 82,
+        "meaningful_file_count": 1,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "2학년 1팀",
       "repo": "suyan05/PharaohCube",
