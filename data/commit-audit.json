@@ -1,11 +1,149 @@
 {
-  "updatedAt": "2026. 10. 18. 01:50",
+  "updatedAt": "2026. 10. 18. 04:01",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "2학년 6팀",
+      "repo": "jeonghyerin002/2026_2TeamProject",
+      "branch": "main",
+      "sha": "9e16eaac7378ffe715fae19033d58cdfa80f2d9e",
+      "message": "[Test] UI 크기 조절 및 배치 테스트",
+      "url": "https://github.com/jeonghyerin002/2026_2TeamProject/commit/9e16eaac7378ffe715fae19033d58cdfa80f2d9e",
+      "date": "2026-10-17T18:00:03Z",
+      "expectedGithub": "jeonghyerin002",
+      "actualGithub": "chanzk1",
+      "gitAuthorName": "chanzk1",
+      "gitAuthorEmail": "ktop9224@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 12,
+        "additions": 2349,
+        "deletions": 0,
+        "meaningful_change": 1211,
+        "meaningful_file_count": 6,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 1팀",
+      "repo": "ahyun04/26TeamProject_2",
+      "branch": "main",
+      "sha": "1818cbb253b72147b72ed6634f0fd80d19a5d58f",
+      "message": "[Feat] 플레이어 피드백 및 방 규칙 개선",
+      "url": "https://github.com/ahyun04/26TeamProject_2/commit/1818cbb253b72147b72ed6634f0fd80d19a5d58f",
+      "date": "2026-10-17T17:31:08Z",
+      "expectedGithub": "ahyun04",
+      "actualGithub": "Im-Dinosaur",
+      "gitAuthorName": "Im-Dinosaur",
+      "gitAuthorEmail": "wnsdl80100@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 44,
+        "additions": 6096,
+        "deletions": 46,
+        "meaningful_change": 6026,
+        "meaningful_file_count": 34,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 4팀",
+      "repo": "yuseongmok/Delivery-service",
+      "branch": "main",
+      "sha": "e3a38853bb2551754fd170513a69aa380cfdaaa8",
+      "message": "[Feat] 주행 & 충돌 사운드 재업",
+      "url": "https://github.com/yuseongmok/Delivery-service/commit/e3a38853bb2551754fd170513a69aa380cfdaaa8",
+      "date": "2026-10-17T17:11:34Z",
+      "expectedGithub": "yuseongmok",
+      "actualGithub": "losieee",
+      "gitAuthorName": "losieee",
+      "gitAuthorEmail": "dfdf334@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 239,
+        "deletions": 119,
+        "meaningful_change": 358,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 4팀",
+      "repo": "yuseongmok/Delivery-service",
+      "branch": "main",
+      "sha": "70b230c1d1cecb30debffd296d50942cf3961780",
+      "message": "Merge branch 'main' of https://github.com/yuseongmok/Delivery-service",
+      "url": "https://github.com/yuseongmok/Delivery-service/commit/70b230c1d1cecb30debffd296d50942cf3961780",
+      "date": "2026-10-17T17:02:58Z",
+      "expectedGithub": "yuseongmok",
+      "actualGithub": "losieee",
+      "gitAuthorName": "losieee",
+      "gitAuthorEmail": "dfdf334@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 28,
+        "additions": 699439,
+        "deletions": 145,
+        "meaningful_change": 699541,
+        "meaningful_file_count": 15,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 4팀",
+      "repo": "yuseongmok/Delivery-service",
+      "branch": "main",
+      "sha": "b185a8657fc5637ed6ba3e563a727da0ad238e53",
+      "message": "[Feat] 주행 소리 수정 & 충돌 사운드 추가",
+      "url": "https://github.com/yuseongmok/Delivery-service/commit/b185a8657fc5637ed6ba3e563a727da0ad238e53",
+      "date": "2026-10-17T17:01:37Z",
+      "expectedGithub": "yuseongmok",
+      "actualGithub": "losieee",
+      "gitAuthorName": "losieee",
+      "gitAuthorEmail": "dfdf334@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 27,
+        "additions": 676,
+        "deletions": 97,
+        "meaningful_change": 627,
+        "meaningful_file_count": 17,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 4팀",
+      "repo": "yuseongmok/Delivery-service",
+      "branch": "main",
+      "sha": "5427517f0a725254a644fa90709cd5aac2f90ca8",
+      "message": "[Feat] 로비 제작 (임시)",
+      "url": "https://github.com/yuseongmok/Delivery-service/commit/5427517f0a725254a644fa90709cd5aac2f90ca8",
+      "date": "2026-10-17T17:00:58Z",
+      "expectedGithub": "yuseongmok",
+      "actualGithub": "yuseongmok",
+      "gitAuthorName": "yuseongmok",
+      "gitAuthorEmail": "yousm112783@daum.net",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 28,
+        "additions": 699438,
+        "deletions": 24,
+        "meaningful_change": 699419,
+        "meaningful_file_count": 15,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "1학년 A반 5팀",
       "repo": "surren01522-tech/2026_02_GameProject_Eurydice",
