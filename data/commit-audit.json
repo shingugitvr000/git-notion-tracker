@@ -1,11 +1,80 @@
 {
-  "updatedAt": "2026. 10. 17. 10:03",
+  "updatedAt": "2026. 10. 17. 14:54",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "3학년 4팀",
+      "repo": "yuseongmok/Delivery-service",
+      "branch": "main",
+      "sha": "9bc7cb70ae2e1169cc3154410434381b445109f1",
+      "message": "[Feat] 오토바이 주행음 & 브레이크소리 추가",
+      "url": "https://github.com/yuseongmok/Delivery-service/commit/9bc7cb70ae2e1169cc3154410434381b445109f1",
+      "date": "2026-10-17T05:48:19Z",
+      "expectedGithub": "yuseongmok",
+      "actualGithub": "losieee",
+      "gitAuthorName": "losieee",
+      "gitAuthorEmail": "dfdf334@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 12,
+        "additions": 288,
+        "deletions": 5,
+        "meaningful_change": 235,
+        "meaningful_file_count": 7,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 4팀",
+      "repo": "yuseongmok/Delivery-service",
+      "branch": "main",
+      "sha": "3af5dc9e652b7a97a71b790cadf8d9cfa09f8949",
+      "message": "[Feat] 주식 시스템 제작",
+      "url": "https://github.com/yuseongmok/Delivery-service/commit/3af5dc9e652b7a97a71b790cadf8d9cfa09f8949",
+      "date": "2026-10-17T03:41:07Z",
+      "expectedGithub": "yuseongmok",
+      "actualGithub": "yuseongmok",
+      "gitAuthorName": "yuseongmok",
+      "gitAuthorEmail": "yousm112783@daum.net",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 24,
+        "additions": 1814,
+        "deletions": 125,
+        "meaningful_change": 1921,
+        "meaningful_file_count": 15,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 4팀",
+      "repo": "yuseongmok/Delivery-service",
+      "branch": "main",
+      "sha": "c015ef9e6182fa07e79e274562e9650dc8a5b62e",
+      "message": "[Feat] 강도 애니메이션, 매커니즘 변경",
+      "url": "https://github.com/yuseongmok/Delivery-service/commit/c015ef9e6182fa07e79e274562e9650dc8a5b62e",
+      "date": "2026-10-17T02:54:46Z",
+      "expectedGithub": "yuseongmok",
+      "actualGithub": "yuseongmok",
+      "gitAuthorName": "yuseongmok",
+      "gitAuthorEmail": "yousm112783@daum.net",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 104,
+        "additions": 3821,
+        "deletions": 1710,
+        "meaningful_change": 5427,
+        "meaningful_file_count": 82,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "1학년 A반 5팀",
       "repo": "surren01522-tech/2026_02_GameProject_Eurydice",
