@@ -1,7 +1,7 @@
 {
   "course": "Git 프로젝트 활동 현황",
   "notionUrl": "https://abaft-vibraphone-8f7.notion.site/Git-3c28655a72df80199dafc115fef9ddd4?pvs=74",
-  "updatedAt": "2026. 10. 18. 06:35",
+  "updatedAt": "2026. 10. 18. 08:45",
   "students": [
     {
       "name": "2학년 1팀",
@@ -72,8 +72,8 @@
         3,
         3,
         7,
-        10,
-        10,
+        11,
+        9,
         14
       ],
       "recent": [
@@ -256,7 +256,7 @@
         },
         {
           "message": "[Feat] 라의 방 단서 비석, 시작 연출, 소지품 바 추가 및 Reset 가드 적용",
-          "time": "어제",
+          "time": "2일 전",
           "sha": "d7dcee1",
           "url": "https://github.com/suyan05/PharaohCube/commit/d7dcee1388a2125c1a8b492dd623895c47e9c320"
         },
@@ -456,19 +456,19 @@
         },
         {
           "message": "[Fix] 미션 오브젝트 수정, 게임 시간 수정",
-          "time": "5일 전",
+          "time": "6일 전",
           "sha": "7e1c3ad",
           "url": "https://github.com/ahyun04/26TeamProject_2/commit/7e1c3ad737cfc52fc409dc6706cd5bc3187c28a8"
         },
         {
           "message": "[Fix] UI 수정",
-          "time": "5일 전",
+          "time": "6일 전",
           "sha": "e567b99",
           "url": "https://github.com/ahyun04/26TeamProject_2/commit/e567b9965ef2860c8250c583861b47c4ec4b83cf"
         },
         {
           "message": "[Feat] UI 적용",
-          "time": "5일 전",
+          "time": "6일 전",
           "sha": "e7db311",
           "url": "https://github.com/ahyun04/26TeamProject_2/commit/e7db3115d02d470cfa25b3c4cc0c9c981c0a8784"
         },
@@ -951,7 +951,7 @@
         },
         {
           "message": "[Fix] 주문 안받아지는 버그 수정",
-          "time": "10일 전",
+          "time": "11일 전",
           "sha": "1238a05",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/1238a0501d3258dda005221f5eae9b014e2fa0cb"
         }
@@ -998,13 +998,13 @@
         },
         {
           "message": "[Feat] 오토바이 IsSnowing 변수 추가 및 빙판효과 추가",
-          "time": "5일 전",
+          "time": "6일 전",
           "sha": "1a5f6ee",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/1a5f6eed97fafb3fd6688f1a2198144cd4955910"
         },
         {
           "message": "[Feat] 오토바이 운전도중 하차시 레그돌 상태 + Next day -> 오토바이 가게앞 스폰되게끔",
-          "time": "10일 전",
+          "time": "11일 전",
           "sha": "0d1e5fe",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/0d1e5feb5af2a0b4ccc8ab024a3604be2dc270d7"
         }
@@ -1891,7 +1891,7 @@
         },
         {
           "message": "Initial commit",
-          "time": "32일 전",
+          "time": "33일 전",
           "sha": "a7471ec",
           "url": "https://github.com/jeolje934-dot/Placeholder_2026_1A_team-project/commit/a7471ec3212432eb7d0456f7a2d5801b9e7c8f91"
         }
@@ -2805,7 +2805,7 @@
         },
         {
           "message": "업적 ui 추가",
-          "time": "7일 전",
+          "time": "8일 전",
           "sha": "10a8dba",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/10a8dba90a12b92a2144974b495bf64942e99867"
         },
@@ -2911,7 +2911,7 @@
         },
         {
           "message": "Event 시스템이 없어서 생겼던 버그 수정",
-          "time": "어제",
+          "time": "2일 전",
           "sha": "88fca20",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/88fca20bd4bdd130a86ec4cb75336a6a45c28dbd"
         },
@@ -3300,8 +3300,8 @@
         0,
         0,
         0,
-        1,
-        15,
+        2,
+        14,
         11,
         2
       ],
@@ -4049,7 +4049,7 @@
         },
         {
           "message": "[Fix] 주문 안받아지는 버그 수정",
-          "time": "10일 전",
+          "time": "11일 전",
           "sha": "1238a05",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/1238a0501d3258dda005221f5eae9b014e2fa0cb"
         }
@@ -4096,13 +4096,13 @@
         },
         {
           "message": "[Feat] 오토바이 IsSnowing 변수 추가 및 빙판효과 추가",
-          "time": "5일 전",
+          "time": "6일 전",
           "sha": "1a5f6ee",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/1a5f6eed97fafb3fd6688f1a2198144cd4955910"
         },
         {
           "message": "[Feat] 오토바이 운전도중 하차시 레그돌 상태 + Next day -> 오토바이 가게앞 스폰되게끔",
-          "time": "10일 전",
+          "time": "11일 전",
           "sha": "0d1e5fe",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/0d1e5feb5af2a0b4ccc8ab024a3604be2dc270d7"
         }
