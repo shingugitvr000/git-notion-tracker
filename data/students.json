@@ -1,7 +1,7 @@
 {
   "course": "Git 프로젝트 활동 현황",
   "notionUrl": "https://abaft-vibraphone-8f7.notion.site/Git-3c28655a72df80199dafc115fef9ddd4?pvs=74",
-  "updatedAt": "2026. 10. 18. 04:01",
+  "updatedAt": "2026. 10. 18. 06:35",
   "students": [
     {
       "name": "2학년 1팀",
@@ -62,19 +62,19 @@
       "team": "2학년 1팀",
       "github": "kangxogh1013",
       "repo": "suyan05/PharaohCube",
-      "commits": 15,
+      "commits": 14,
       "semesterCommits": 47,
-      "activeDays": 5,
+      "activeDays": 4,
       "lastCommit": "오늘",
       "status": "active",
       "weekly": [
         0,
         3,
         3,
-        6,
+        7,
         10,
         10,
-        15
+        14
       ],
       "recent": [
         {
@@ -229,8 +229,8 @@
       "weekly": [
         0,
         8,
-        1,
-        14,
+        2,
+        13,
         5,
         32,
         8
@@ -754,7 +754,7 @@
       "commits": 0,
       "semesterCommits": 58,
       "activeDays": 0,
-      "lastCommit": "42일 전",
+      "lastCommit": "43일 전",
       "status": "inactive",
       "weekly": [
         5,
@@ -768,13 +768,13 @@
       "recent": [
         {
           "message": "[Feat] 타이머 및 게임 종료 결과 UI 추가",
-          "time": "42일 전",
+          "time": "43일 전",
           "sha": "76b6ffc",
           "url": "https://github.com/ahyun04/26TeamProject_2/commit/76b6ffc6ae207ddeb3d48a586ee9ca4a598a1880"
         },
         {
           "message": "[Feat] 게임 종료 시스템 제작",
-          "time": "42일 전",
+          "time": "43일 전",
           "sha": "48bacc9",
           "url": "https://github.com/ahyun04/26TeamProject_2/commit/48bacc928caadc45515074a23ad65c3a07cce4eb"
         },
@@ -945,7 +945,7 @@
         },
         {
           "message": "[Fix] 버그들 수정",
-          "time": "7일 전",
+          "time": "8일 전",
           "sha": "0d821bd",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/0d821bdfa01b38aabaa0f93bd95d1bf50a8622de"
         },
@@ -972,8 +972,8 @@
         1,
         4,
         1,
-        6,
-        3,
+        7,
+        2,
         7,
         4
       ],
@@ -1662,7 +1662,7 @@
         },
         {
           "message": "[feat]: 도트 글꼴 추가",
-          "time": "17일 전",
+          "time": "18일 전",
           "sha": "4f96d73",
           "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/4f96d73abfbfb817c6a13ada812681f1e6d55625"
         },
@@ -1762,7 +1762,7 @@
         },
         {
           "message": "[feat]: 오브젝트 모델링 제작",
-          "time": "17일 전",
+          "time": "18일 전",
           "sha": "ae917ec",
           "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/ae917ec88a430d1f3ec4b657af243f1b7b8220d3"
         }
@@ -2092,8 +2092,8 @@
       "status": "active",
       "weekly": [
         0,
-        4,
         5,
+        4,
         11,
         3,
         14,
@@ -2519,13 +2519,13 @@
         },
         {
           "message": "[FEAT] 티켓 이펙트 마무리",
-          "time": "75일 전",
+          "time": "76일 전",
           "sha": "aa723aa",
           "url": "https://github.com/JungYS24/Tricky-Yacht/commit/aa723aa30cb827a4cca7b3ac9de5f385c0cfd53f"
         },
         {
           "message": "[feat] 티켓 이펙트 연출",
-          "time": "76일 전",
+          "time": "77일 전",
           "sha": "4c7c0ae",
           "url": "https://github.com/JungYS24/Tricky-Yacht/commit/4c7c0ae1fc7c873b5124572990746f97d0f2978d"
         },
@@ -2777,6 +2777,47 @@
       "recent": []
     },
     {
+      "name": "imnakyung (실제 커밋 작성자)",
+      "id": "imnakyung",
+      "team": "1학년 B반 6팀",
+      "github": "imnakyung",
+      "repo": "tjd6356-afk/2-_-",
+      "commits": 1,
+      "semesterCommits": 3,
+      "activeDays": 1,
+      "lastCommit": "오늘",
+      "status": "active",
+      "weekly": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1
+      ],
+      "recent": [
+        {
+          "message": "종료창 배경 추가",
+          "time": "오늘",
+          "sha": "a757e14",
+          "url": "https://github.com/tjd6356-afk/2-_-/commit/a757e1430785bcd970965046471aa3bb63343fab"
+        },
+        {
+          "message": "업적 ui 추가",
+          "time": "7일 전",
+          "sha": "10a8dba",
+          "url": "https://github.com/tjd6356-afk/2-_-/commit/10a8dba90a12b92a2144974b495bf64942e99867"
+        },
+        {
+          "message": "타이틀 화면 버튼 추가",
+          "time": "8일 전",
+          "sha": "0aeff1f",
+          "url": "https://github.com/tjd6356-afk/2-_-/commit/0aeff1fcd0251d47756431f8377b13465cde3981"
+        }
+      ]
+    },
+    {
       "name": "rlfahtwkqdl (실제 커밋 작성자)",
       "id": "rlfahtwkqdl",
       "team": "1학년 B반 6팀",
@@ -2912,41 +2953,6 @@
       ]
     },
     {
-      "name": "imnakyung (실제 커밋 작성자)",
-      "id": "imnakyung",
-      "team": "1학년 B반 6팀",
-      "github": "imnakyung",
-      "repo": "tjd6356-afk/2-_-",
-      "commits": 0,
-      "semesterCommits": 2,
-      "activeDays": 0,
-      "lastCommit": "7일 전",
-      "status": "watch",
-      "weekly": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        2,
-        0
-      ],
-      "recent": [
-        {
-          "message": "업적 ui 추가",
-          "time": "7일 전",
-          "sha": "10a8dba",
-          "url": "https://github.com/tjd6356-afk/2-_-/commit/10a8dba90a12b92a2144974b495bf64942e99867"
-        },
-        {
-          "message": "타이틀 화면 버튼 추가",
-          "time": "7일 전",
-          "sha": "0aeff1f",
-          "url": "https://github.com/tjd6356-afk/2-_-/commit/0aeff1fcd0251d47756431f8377b13465cde3981"
-        }
-      ]
-    },
-    {
       "name": "1학년 B반 3팀",
       "id": "simo07d7PG",
       "team": "Tiphe0821",
@@ -2977,7 +2983,7 @@
       "commits": 1,
       "semesterCommits": 2,
       "activeDays": 1,
-      "lastCommit": "오늘",
+      "lastCommit": "어제",
       "status": "active",
       "weekly": [
         0,
@@ -2991,13 +2997,13 @@
       "recent": [
         {
           "message": "[Feat] 중앙코어",
-          "time": "오늘",
+          "time": "어제",
           "sha": "813b4f1",
           "url": "https://github.com/Tiphe0821/GameProject_T3_1_B/commit/813b4f1dfe68d2af8d0cb5fcbc8348f844ad7c5a"
         },
         {
           "message": "[Feat] 함선 외형",
-          "time": "8일 전",
+          "time": "9일 전",
           "sha": "3e722e2",
           "url": "https://github.com/Tiphe0821/GameProject_T3_1_B/commit/3e722e2160af8d507f4578a00832ae5bfb1a433a"
         }
@@ -3053,8 +3059,8 @@
       "commits": 2,
       "semesterCommits": 14,
       "activeDays": 1,
-      "lastCommit": "3일 전",
-      "status": "active",
+      "lastCommit": "4일 전",
+      "status": "watch",
       "weekly": [
         0,
         0,
@@ -3067,7 +3073,7 @@
       "recent": [
         {
           "message": "[feat] 4강 인터렉션 내용 추가 및 프레임워크의 ItemData와 연결",
-          "time": "3일 전",
+          "time": "4일 전",
           "sha": "d2b4b2f",
           "url": "https://github.com/Tiphe0821/GameProject_T3_1_B/commit/d2b4b2f7e5a7a9c7713a8319fad0adde26c5a0e2"
         },
@@ -3079,7 +3085,7 @@
         },
         {
           "message": "[feat] 테스트 프로젝트 인벤토리 상호작용 구현",
-          "time": "7일 전",
+          "time": "8일 전",
           "sha": "d835a3b",
           "url": "https://github.com/Tiphe0821/GameProject_T3_1_B/commit/d835a3b12d97bb37d26b4c13b5a3c702d0758bbd"
         },
@@ -3091,7 +3097,7 @@
         },
         {
           "message": "[feat] 테스트 프로젝트에 게임 프레임워크 임포트",
-          "time": "9일 전",
+          "time": "10일 전",
           "sha": "6c95297",
           "url": "https://github.com/Tiphe0821/GameProject_T3_1_B/commit/6c9529793ec85c0f13d434eb770b10c43d30e607"
         }
@@ -3235,7 +3241,7 @@
       "commits": 1,
       "semesterCommits": 42,
       "activeDays": 1,
-      "lastCommit": "2일 전",
+      "lastCommit": "3일 전",
       "status": "active",
       "weekly": [
         0,
@@ -3249,7 +3255,7 @@
       "recent": [
         {
           "message": "[Feat] 장착된 아이템 회수 및 완료 판단 조건 변경",
-          "time": "2일 전",
+          "time": "3일 전",
           "sha": "eacffc9",
           "url": "https://github.com/surren01522-tech/2026_02_GameProject_Eurydice/commit/eacffc9d968b6d6119a72891e2658bd14e9fdd22"
         },
@@ -3314,19 +3320,19 @@
         },
         {
           "message": "[Fix] 쉐이더 변수 수정",
-          "time": "8일 전",
+          "time": "9일 전",
           "sha": "6c86ab3",
           "url": "https://github.com/surren01522-tech/2026_02_GameProject_Eurydice/commit/6c86ab3258ba57aa52280d0e3d4ff19722b071fd"
         },
         {
           "message": "[Feat] 쉐이더 최적화",
-          "time": "8일 전",
+          "time": "9일 전",
           "sha": "58cc62c",
           "url": "https://github.com/surren01522-tech/2026_02_GameProject_Eurydice/commit/58cc62c7e6f64fbe6239670cc16af365541f4784"
         },
         {
           "message": "[Fix] 라이팅 조금더 자연스럽게 수정",
-          "time": "8일 전",
+          "time": "9일 전",
           "sha": "c1f2e1b",
           "url": "https://github.com/surren01522-tech/2026_02_GameProject_Eurydice/commit/c1f2e1b13e4deb4d3776730f9c07e2f67bfd4757"
         }
@@ -4037,7 +4043,7 @@
         },
         {
           "message": "[Fix] 버그들 수정",
-          "time": "7일 전",
+          "time": "8일 전",
           "sha": "0d821bd",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/0d821bdfa01b38aabaa0f93bd95d1bf50a8622de"
         },
@@ -4064,8 +4070,8 @@
         1,
         4,
         1,
-        6,
-        3,
+        7,
+        2,
         7,
         4
       ],
