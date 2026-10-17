@@ -1,11 +1,80 @@
 {
-  "updatedAt": "2026. 10. 17. 22:51",
+  "updatedAt": "2026. 10. 18. 01:50",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "1학년 A반 5팀",
+      "repo": "surren01522-tech/2026_02_GameProject_Eurydice",
+      "branch": "main",
+      "sha": "93746933b026146d989c2e57f7629c564ea00011",
+      "message": "[Feat] 스테이지 0 맵 지형 추가",
+      "url": "https://github.com/surren01522-tech/2026_02_GameProject_Eurydice/commit/93746933b026146d989c2e57f7629c564ea00011",
+      "date": "2026-10-17T16:26:31Z",
+      "expectedGithub": "sw4860",
+      "actualGithub": "yoojoonlee0424",
+      "gitAuthorName": "yoojoonlee0424",
+      "gitAuthorEmail": "yoojoonlee0424@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 14,
+        "additions": 10688,
+        "deletions": 1971,
+        "meaningful_change": 12635,
+        "meaningful_file_count": 11,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 6팀",
+      "repo": "jeonghyerin002/2026_2TeamProject",
+      "branch": "main",
+      "sha": "ca10db30d4efa50d9dd01de55120eb203d440c6b",
+      "message": "[Feat] PalletTownTilemap 배치",
+      "url": "https://github.com/jeonghyerin002/2026_2TeamProject/commit/ca10db30d4efa50d9dd01de55120eb203d440c6b",
+      "date": "2026-10-17T16:12:21Z",
+      "expectedGithub": "jeonghyerin002",
+      "actualGithub": "jeonghyerin002",
+      "gitAuthorName": "jeonghyerin002",
+      "gitAuthorEmail": "jhr102446@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 83,
+        "additions": 15779,
+        "deletions": 49,
+        "meaningful_change": 12956,
+        "meaningful_file_count": 40,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "76df9772b87e538a4ddc824bfa4f59edf55d51e8",
+      "message": "[Fix] 비석 \"!\" 순서 표시, 처벌 후 양피지 조각과 비석 다시 진행",
+      "url": "https://github.com/suyan05/PharaohCube/commit/76df9772b87e538a4ddc824bfa4f59edf55d51e8",
+      "date": "2026-10-17T14:51:08Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "kangxogh1013",
+      "gitAuthorName": "kangxogh1013",
+      "gitAuthorEmail": "ho1013sl@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 10,
+        "additions": 387,
+        "deletions": 335,
+        "meaningful_change": 720,
+        "meaningful_file_count": 9,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "3학년 1팀",
       "repo": "ahyun04/26TeamProject_2",
