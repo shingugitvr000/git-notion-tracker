@@ -1,11 +1,103 @@
 {
-  "updatedAt": "2026. 10. 18. 12:04",
+  "updatedAt": "2026. 10. 18. 17:14",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "2학년 3팀",
+      "repo": "jinjooyoung/DUAL-DUEL",
+      "branch": "main",
+      "sha": "94759361dcbec781c266d1e091956d50f9c603cf",
+      "message": "[Feat] 툴팁 ui 기능 추가",
+      "url": "https://github.com/jinjooyoung/DUAL-DUEL/commit/94759361dcbec781c266d1e091956d50f9c603cf",
+      "date": "2026-10-18T08:08:24Z",
+      "expectedGithub": "jinjooyoung",
+      "actualGithub": "jinjooyoung",
+      "gitAuthorName": "jinjooyoung",
+      "gitAuthorEmail": "jjy26297449@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 10,
+        "additions": 895,
+        "deletions": 15,
+        "meaningful_change": 899,
+        "meaningful_file_count": 7,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 1팀",
+      "repo": "chimchimjam377/TeamProject---Singularity-Thief",
+      "branch": "main",
+      "sha": "5201e2b0008983842a211eb79acd8b4d3bf5b0f5",
+      "message": "[Feat] 에니메이션 수정",
+      "url": "https://github.com/chimchimjam377/TeamProject---Singularity-Thief/commit/5201e2b0008983842a211eb79acd8b4d3bf5b0f5",
+      "date": "2026-10-18T05:42:47Z",
+      "expectedGithub": "chimchimjam377",
+      "actualGithub": "Ljs0201",
+      "gitAuthorName": "Ljs0201",
+      "gitAuthorEmail": "a01029950314@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 3,
+        "additions": 476,
+        "deletions": 79,
+        "meaningful_change": 555,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 3팀",
+      "repo": "Tiphe0821/GameProject_T3_1_B",
+      "branch": "main",
+      "sha": "a54e6494d2ab66b3009b8738edfa01822eb7c2e4",
+      "message": "[Feat] 무중력 플라즈마 커터 추가",
+      "url": "https://github.com/Tiphe0821/GameProject_T3_1_B/commit/a54e6494d2ab66b3009b8738edfa01822eb7c2e4",
+      "date": "2026-10-18T05:38:50Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "ih551311",
+      "gitAuthorName": "ih551311",
+      "gitAuthorEmail": "ih551311@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 8,
+        "additions": 1673,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 1,
+        "suspicious_score": 35,
+        "judgment": "확인필요"
+      }
+    },
+    {
+      "projectName": "1학년 B반 3팀",
+      "repo": "Tiphe0821/GameProject_T3_1_B",
+      "branch": "main",
+      "sha": "62350bb9aa4776e41f4bb3aaac1c30961663a390",
+      "message": "[Feat] 레이저 용접기 추가",
+      "url": "https://github.com/Tiphe0821/GameProject_T3_1_B/commit/62350bb9aa4776e41f4bb3aaac1c30961663a390",
+      "date": "2026-10-18T05:37:18Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "ih551311",
+      "gitAuthorName": "ih551311",
+      "gitAuthorEmail": "ih551311@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 8,
+        "additions": 1821,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 1,
+        "suspicious_score": 35,
+        "judgment": "확인필요"
+      }
+    },
     {
       "projectName": "1학년 B반 6팀",
       "repo": "tjd6356-afk/2-_-",
