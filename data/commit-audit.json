@@ -1,11 +1,149 @@
 {
-  "updatedAt": "2026. 10. 19. 03:46",
+  "updatedAt": "2026. 10. 19. 06:15",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "f0182d0784274524570b8d900027830afcd9646f",
+      "message": "[feat] 바스테트 튜토리얼 임시 맵 추가 수정",
+      "url": "https://github.com/suyan05/PharaohCube/commit/f0182d0784274524570b8d900027830afcd9646f",
+      "date": "2026-10-18T20:19:16Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "kangxogh1013",
+      "gitAuthorName": "kangxogh1013",
+      "gitAuthorEmail": "ho1013sl@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 5,
+        "additions": 229,
+        "deletions": 47,
+        "meaningful_change": 276,
+        "meaningful_file_count": 5,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "f21da2c8776acb0bf147c56ecde2a916e1c623eb",
+      "message": "[Chore] 바스테트 튜토리얼 임시 맵 씬 세팅",
+      "url": "https://github.com/suyan05/PharaohCube/commit/f21da2c8776acb0bf147c56ecde2a916e1c623eb",
+      "date": "2026-10-18T20:04:29Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "kangxogh1013",
+      "gitAuthorName": "kangxogh1013",
+      "gitAuthorEmail": "ho1013sl@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 31,
+        "additions": 43473,
+        "deletions": 27601,
+        "meaningful_change": 70993,
+        "meaningful_file_count": 15,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 5팀",
+      "repo": "qkrgml59/2026_2_TeamProject",
+      "branch": "main",
+      "sha": "5eb60faa7566714a19e248d719d339d7e545baf3",
+      "message": "[chore] Prefabs 폴더 롤백",
+      "url": "https://github.com/qkrgml59/2026_2_TeamProject/commit/5eb60faa7566714a19e248d719d339d7e545baf3",
+      "date": "2026-10-18T19:46:46Z",
+      "expectedGithub": "qkrgml59",
+      "actualGithub": "qkrgml59",
+      "gitAuthorName": "qkrgml59",
+      "gitAuthorEmail": "qkrgml59@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 9,
+        "additions": 16,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 3,
+        "suspicious_score": 35,
+        "judgment": "확인필요"
+      }
+    },
+    {
+      "projectName": "2학년 5팀",
+      "repo": "qkrgml59/2026_2_TeamProject",
+      "branch": "main",
+      "sha": "8264b3ae9368fd9753d4ebc8adb99b9d842e404a",
+      "message": "[chore] MangerPrefabs 폴더 위치 롤백",
+      "url": "https://github.com/qkrgml59/2026_2_TeamProject/commit/8264b3ae9368fd9753d4ebc8adb99b9d842e404a",
+      "date": "2026-10-18T19:36:10Z",
+      "expectedGithub": "qkrgml59",
+      "actualGithub": "qkrgml59",
+      "gitAuthorName": "qkrgml59",
+      "gitAuthorEmail": "qkrgml59@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 8,
+        "additions": 3,
+        "deletions": 3,
+        "meaningful_change": 6,
+        "meaningful_file_count": 4,
+        "suspicious_score": 15,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 5팀",
+      "repo": "qkrgml59/2026_2_TeamProject",
+      "branch": "main",
+      "sha": "43aee9edaed7a5a0115f991b2e46b5f4ba967aa5",
+      "message": "[chore] Boss 카메라 세팅",
+      "url": "https://github.com/qkrgml59/2026_2_TeamProject/commit/43aee9edaed7a5a0115f991b2e46b5f4ba967aa5",
+      "date": "2026-10-18T19:25:02Z",
+      "expectedGithub": "qkrgml59",
+      "actualGithub": "qkrgml59",
+      "gitAuthorName": "qkrgml59",
+      "gitAuthorEmail": "qkrgml59@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 4,
+        "additions": 86,
+        "deletions": 2,
+        "meaningful_change": 86,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 5팀",
+      "repo": "qkrgml59/2026_2_TeamProject",
+      "branch": "main",
+      "sha": "ce8af564550286d817e9d6bd3ce968ce15eecc43",
+      "message": "[Feat] Boss 1페이즈 2페이즈 패턴 임시구현 완료",
+      "url": "https://github.com/qkrgml59/2026_2_TeamProject/commit/ce8af564550286d817e9d6bd3ce968ce15eecc43",
+      "date": "2026-10-18T19:23:56Z",
+      "expectedGithub": "qkrgml59",
+      "actualGithub": "qkrgml59",
+      "gitAuthorName": "qkrgml59",
+      "gitAuthorEmail": "qkrgml59@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 48,
+        "additions": 10527,
+        "deletions": 8,
+        "meaningful_change": 10470,
+        "meaningful_file_count": 22,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "3학년 4팀",
       "repo": "yuseongmok/Delivery-service",
