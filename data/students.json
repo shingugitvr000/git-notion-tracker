@@ -1,7 +1,7 @@
 {
   "course": "Git 프로젝트 활동 현황",
   "notionUrl": "https://abaft-vibraphone-8f7.notion.site/Git-3c28655a72df80199dafc115fef9ddd4?pvs=74",
-  "updatedAt": "2026. 10. 18. 08:45",
+  "updatedAt": "2026. 10. 18. 12:04",
   "students": [
     {
       "name": "2학년 1팀",
@@ -97,13 +97,13 @@
         },
         {
           "message": "Merge branch 'main' of https://github.com/suyan05/PharaohCube",
-          "time": "어제",
+          "time": "2일 전",
           "sha": "2b92ea3",
           "url": "https://github.com/suyan05/PharaohCube/commit/2b92ea3db6e1a55a29b1fe674eb37dd0e6ed78f9"
         },
         {
           "message": "[Feat] 아누비스 메인 저울 실패 페널티추가 & 사자의 서 비문 4칸으로 정리",
-          "time": "어제",
+          "time": "2일 전",
           "sha": "0e856be",
           "url": "https://github.com/suyan05/PharaohCube/commit/0e856be91a5870e7bea5771b33da3a057a107fb0"
         }
@@ -221,9 +221,9 @@
       "team": "2학년 1팀",
       "github": "parksarang04",
       "repo": "suyan05/PharaohCube",
-      "commits": 8,
+      "commits": 7,
       "semesterCommits": 68,
-      "activeDays": 4,
+      "activeDays": 3,
       "lastCommit": "어제",
       "status": "active",
       "weekly": [
@@ -232,8 +232,8 @@
         2,
         13,
         5,
-        32,
-        8
+        33,
+        7
       ],
       "recent": [
         {
@@ -651,8 +651,8 @@
       "lastCommit": "오늘",
       "status": "active",
       "weekly": [
-        0,
-        2,
+        1,
+        1,
         2,
         1,
         2,
@@ -833,7 +833,7 @@
         },
         {
           "message": "[Feat] 강도 애니메이션, 매커니즘 변경",
-          "time": "오늘",
+          "time": "어제",
           "sha": "c015ef9",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/c015ef9e6182fa07e79e274562e9650dc8a5b62e"
         },
@@ -1110,7 +1110,7 @@
         },
         {
           "message": "[Feat] 힐 디버프 효과 구현",
-          "time": "9일 전",
+          "time": "10일 전",
           "sha": "8235641",
           "url": "https://github.com/23jihwan/7_tim/commit/8235641b6bd68b8a18d5c9bd170e6779795579f6"
         }
@@ -1178,7 +1178,7 @@
       "commits": 0,
       "semesterCommits": 1,
       "activeDays": 0,
-      "lastCommit": "9일 전",
+      "lastCommit": "10일 전",
       "status": "inactive",
       "weekly": [
         0,
@@ -1192,7 +1192,7 @@
       "recent": [
         {
           "message": "[Feat] 메인화면 & 지도 로딩화면 제작",
-          "time": "9일 전",
+          "time": "10일 전",
           "sha": "bdb5f2a",
           "url": "https://github.com/23jihwan/7_tim/commit/bdb5f2ab3341d36273ba1c12d59705165e5f9327"
         }
@@ -1439,7 +1439,7 @@
         },
         {
           "message": "2",
-          "time": "11일 전",
+          "time": "12일 전",
           "sha": "421cb69",
           "url": "https://github.com/Sine-aw/nohesitate/commit/421cb6992cbdd3d1f67350c23a57109b1cc9773d"
         },
@@ -2126,7 +2126,7 @@
         },
         {
           "message": "[Refactor] AGENTS.md 한글로 변경",
-          "time": "4일 전",
+          "time": "5일 전",
           "sha": "4e19bdc",
           "url": "https://github.com/jeonghyerin002/2026_2TeamProject/commit/4e19bdcd710e003db6c7c83fbfa926c91b8a1a01"
         }
@@ -2578,13 +2578,13 @@
         },
         {
           "message": "Data : 족보 이펙트 수치 변경",
-          "time": "186일 전",
+          "time": "187일 전",
           "sha": "ecf432e",
           "url": "https://github.com/JungYS24/Tricky-Yacht/commit/ecf432eede1d429207a7bf97825eea728e03e0b9"
         },
         {
           "message": "feat : 코팅 색상 변경 및 수치 조정 (족보작업중)",
-          "time": "186일 전",
+          "time": "187일 전",
           "sha": "2528dc0",
           "url": "https://github.com/JungYS24/Tricky-Yacht/commit/2528dc0a26735faed642ed3c5fe140f52e2cac05"
         }
@@ -2884,8 +2884,8 @@
       "weekly": [
         3,
         13,
-        11,
-        6,
+        12,
+        5,
         15,
         20,
         15
@@ -2905,7 +2905,7 @@
         },
         {
           "message": "보스룸 배치",
-          "time": "어제",
+          "time": "2일 전",
           "sha": "52b4eef",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/52b4eefbceb1b8d3082e8ba7a315036ca9edaf14"
         },
@@ -2932,7 +2932,7 @@
       "commits": 1,
       "semesterCommits": 1,
       "activeDays": 1,
-      "lastCommit": "5일 전",
+      "lastCommit": "6일 전",
       "status": "watch",
       "weekly": [
         0,
@@ -2946,7 +2946,7 @@
       "recent": [
         {
           "message": "장수풍뎅이 NPC 이미지 추가",
-          "time": "5일 전",
+          "time": "6일 전",
           "sha": "adf0dc6",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/adf0dc690dcfa226f65ff66b9ac4f72ce9c13ada"
         }
@@ -3314,7 +3314,7 @@
         },
         {
           "message": "[Feat] 스테이지 0 맵 제작 시작",
-          "time": "오늘",
+          "time": "어제",
           "sha": "1c35b4a",
           "url": "https://github.com/surren01522-tech/2026_02_GameProject_Eurydice/commit/1c35b4a6127ac88744e9cc65b45a011714f4e337"
         },
@@ -3532,7 +3532,7 @@
         },
         {
           "message": "[Feat] 공격 시스템 UI 스크립트 추가",
-          "time": "2일 전",
+          "time": "3일 전",
           "sha": "9564f59",
           "url": "https://github.com/chimchimjam377/TeamProject---Singularity-Thief/commit/9564f59359552cb0e809bb77312185e5308dc527"
         },
@@ -3931,7 +3931,7 @@
         },
         {
           "message": "[Feat] 강도 애니메이션, 매커니즘 변경",
-          "time": "오늘",
+          "time": "어제",
           "sha": "c015ef9",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/c015ef9e6182fa07e79e274562e9650dc8a5b62e"
         },
