@@ -1,11 +1,103 @@
 {
-  "updatedAt": "2026. 10. 18. 21:43",
+  "updatedAt": "2026. 10. 19. 01:21",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "2학년 2팀",
+      "repo": "esuvean/PRESS-START_",
+      "branch": "main",
+      "sha": "8299dc9bff6ad0fe684c6b1498847430765a12e9",
+      "message": "[feat] 미니게임08테두리추가",
+      "url": "https://github.com/esuvean/PRESS-START_/commit/8299dc9bff6ad0fe684c6b1498847430765a12e9",
+      "date": "2026-10-18T15:59:58Z",
+      "expectedGithub": "esuvean",
+      "actualGithub": "hunmin5296",
+      "gitAuthorName": "hunmin5296",
+      "gitAuthorEmail": "kimhunmin04@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 4,
+        "additions": 140,
+        "deletions": 0,
+        "meaningful_change": 15,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 3팀",
+      "repo": "jinjooyoung/DUAL-DUEL",
+      "branch": "main",
+      "sha": "7ad9ea5c0dde08eb06372398c43a79216327e7d0",
+      "message": "[Feat] 사운드 시스템 추가, BGM 재생까지",
+      "url": "https://github.com/jinjooyoung/DUAL-DUEL/commit/7ad9ea5c0dde08eb06372398c43a79216327e7d0",
+      "date": "2026-10-18T15:10:53Z",
+      "expectedGithub": "jinjooyoung",
+      "actualGithub": "jinjooyoung",
+      "gitAuthorName": "jinjooyoung",
+      "gitAuthorEmail": "jjy26297449@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 20,
+        "additions": 866,
+        "deletions": 1,
+        "meaningful_change": 666,
+        "meaningful_file_count": 10,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 1팀",
+      "repo": "simo07d7PG/Team_JJAMBBAP",
+      "branch": "main",
+      "sha": "c003d21f2aa6b2c9eeeb869bc9b2e8d1ea086e3f",
+      "message": "[Feat] 스크롤뷰제작",
+      "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/c003d21f2aa6b2c9eeeb869bc9b2e8d1ea086e3f",
+      "date": "2026-10-18T13:10:58Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "cocomakid",
+      "gitAuthorName": "cocomakid",
+      "gitAuthorEmail": "joonyoung0113@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 5545,
+        "deletions": 1182,
+        "meaningful_change": 6727,
+        "meaningful_file_count": 1,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 2팀",
+      "repo": "esuvean/PRESS-START_",
+      "branch": "main",
+      "sha": "8dbffd026b09d84ecbeb5ca3c7cb202a254500df",
+      "message": "[feat] 미니게임 20수정",
+      "url": "https://github.com/esuvean/PRESS-START_/commit/8dbffd026b09d84ecbeb5ca3c7cb202a254500df",
+      "date": "2026-10-18T12:52:38Z",
+      "expectedGithub": "esuvean",
+      "actualGithub": "flexinja99",
+      "gitAuthorName": "flexinja",
+      "gitAuthorEmail": "hjgo927@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 1,
+        "deletions": 104,
+        "meaningful_change": 105,
+        "meaningful_file_count": 1,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "2학년 2팀",
       "repo": "esuvean/PRESS-START_",
