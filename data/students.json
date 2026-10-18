@@ -1,7 +1,7 @@
 {
   "course": "Git 프로젝트 활동 현황",
   "notionUrl": "https://abaft-vibraphone-8f7.notion.site/Git-3c28655a72df80199dafc115fef9ddd4?pvs=74",
-  "updatedAt": "2026. 10. 19. 06:15",
+  "updatedAt": "2026. 10. 19. 08:28",
   "students": [
     {
       "name": "2학년 1팀",
@@ -433,9 +433,9 @@
       "team": "ahyun04",
       "github": "ahyun04",
       "repo": "ahyun04/26TeamProject_2",
-      "commits": 4,
+      "commits": 1,
       "semesterCommits": 18,
-      "activeDays": 2,
+      "activeDays": 1,
       "lastCommit": "6일 전",
       "status": "watch",
       "weekly": [
@@ -444,8 +444,8 @@
         0,
         0,
         1,
-        2,
-        4
+        5,
+        1
       ],
       "recent": [
         {
@@ -456,19 +456,19 @@
         },
         {
           "message": "[Fix] 미션 오브젝트 수정, 게임 시간 수정",
-          "time": "6일 전",
+          "time": "7일 전",
           "sha": "7e1c3ad",
           "url": "https://github.com/ahyun04/26TeamProject_2/commit/7e1c3ad737cfc52fc409dc6706cd5bc3187c28a8"
         },
         {
           "message": "[Fix] UI 수정",
-          "time": "6일 전",
+          "time": "7일 전",
           "sha": "e567b99",
           "url": "https://github.com/ahyun04/26TeamProject_2/commit/e567b9965ef2860c8250c583861b47c4ec4b83cf"
         },
         {
           "message": "[Feat] UI 적용",
-          "time": "6일 전",
+          "time": "7일 전",
           "sha": "e7db311",
           "url": "https://github.com/ahyun04/26TeamProject_2/commit/e7db3115d02d470cfa25b3c4cc0c9c981c0a8784"
         },
@@ -857,9 +857,9 @@
       "team": "3학년 4팀",
       "github": "Woong1016",
       "repo": "yuseongmok/Delivery-service",
-      "commits": 9,
+      "commits": 8,
       "semesterCommits": 37,
-      "activeDays": 3,
+      "activeDays": 2,
       "lastCommit": "오늘",
       "status": "active",
       "weekly": [
@@ -868,8 +868,8 @@
         2,
         5,
         3,
-        6,
-        9
+        7,
+        8
       ],
       "recent": [
         {
@@ -1252,6 +1252,59 @@
       ]
     },
     {
+      "name": "flexinja99 (실제 커밋 작성자)",
+      "id": "flexinja99",
+      "team": "2학년 2팀",
+      "github": "flexinja99",
+      "repo": "esuvean/PRESS-START_",
+      "commits": 10,
+      "semesterCommits": 59,
+      "activeDays": 4,
+      "lastCommit": "오늘",
+      "status": "active",
+      "weekly": [
+        3,
+        1,
+        2,
+        16,
+        3,
+        3,
+        10
+      ],
+      "recent": [
+        {
+          "message": "[FEAT] 챕터 4연결 수정",
+          "time": "오늘",
+          "sha": "bca2fe8",
+          "url": "https://github.com/esuvean/PRESS-START_/commit/bca2fe825074f1b5926ff5cdd61d3c08b7c63dce"
+        },
+        {
+          "message": "[feat] 미니게임 20수정",
+          "time": "오늘",
+          "sha": "8dbffd0",
+          "url": "https://github.com/esuvean/PRESS-START_/commit/8dbffd026b09d84ecbeb5ca3c7cb202a254500df"
+        },
+        {
+          "message": "[feat] 챕터 20 프리팹",
+          "time": "오늘",
+          "sha": "23d7b96",
+          "url": "https://github.com/esuvean/PRESS-START_/commit/23d7b9654bd59acc071f74f596aa3e7d32268457"
+        },
+        {
+          "message": "[feat] 챕터 4완료",
+          "time": "어제",
+          "sha": "52dd635",
+          "url": "https://github.com/esuvean/PRESS-START_/commit/52dd6358430dd4417d86e45acb4f02208da093ca"
+        },
+        {
+          "message": "[feat] 마니게임 20 구현 1차",
+          "time": "어제",
+          "sha": "d1eb82f",
+          "url": "https://github.com/esuvean/PRESS-START_/commit/d1eb82fb1942189b0e88f7a9f3e76fe78e2a9ce8"
+        }
+      ]
+    },
+    {
       "name": "hunmin5296 (실제 커밋 작성자)",
       "id": "hunmin5296",
       "team": "2학년 2팀",
@@ -1301,59 +1354,6 @@
           "time": "7일 전",
           "sha": "420efce",
           "url": "https://github.com/esuvean/PRESS-START_/commit/420efce6d1d23324893bfc52930264843aa2c1b6"
-        }
-      ]
-    },
-    {
-      "name": "flexinja99 (실제 커밋 작성자)",
-      "id": "flexinja99",
-      "team": "2학년 2팀",
-      "github": "flexinja99",
-      "repo": "esuvean/PRESS-START_",
-      "commits": 9,
-      "semesterCommits": 58,
-      "activeDays": 4,
-      "lastCommit": "오늘",
-      "status": "active",
-      "weekly": [
-        3,
-        1,
-        2,
-        16,
-        3,
-        3,
-        9
-      ],
-      "recent": [
-        {
-          "message": "[feat] 미니게임 20수정",
-          "time": "오늘",
-          "sha": "8dbffd0",
-          "url": "https://github.com/esuvean/PRESS-START_/commit/8dbffd026b09d84ecbeb5ca3c7cb202a254500df"
-        },
-        {
-          "message": "[feat] 챕터 20 프리팹",
-          "time": "오늘",
-          "sha": "23d7b96",
-          "url": "https://github.com/esuvean/PRESS-START_/commit/23d7b9654bd59acc071f74f596aa3e7d32268457"
-        },
-        {
-          "message": "[feat] 챕터 4완료",
-          "time": "어제",
-          "sha": "52dd635",
-          "url": "https://github.com/esuvean/PRESS-START_/commit/52dd6358430dd4417d86e45acb4f02208da093ca"
-        },
-        {
-          "message": "[feat] 마니게임 20 구현 1차",
-          "time": "어제",
-          "sha": "d1eb82f",
-          "url": "https://github.com/esuvean/PRESS-START_/commit/d1eb82fb1942189b0e88f7a9f3e76fe78e2a9ce8"
-        },
-        {
-          "message": "[feat] 미니게임 19구현",
-          "time": "2일 전",
-          "sha": "3f6ed75",
-          "url": "https://github.com/esuvean/PRESS-START_/commit/3f6ed752b74133fc5e7a01875de15af28121786b"
         }
       ]
     },
@@ -1891,7 +1891,7 @@
         },
         {
           "message": "Initial commit",
-          "time": "33일 전",
+          "time": "34일 전",
           "sha": "a7471ec",
           "url": "https://github.com/jeolje934-dot/Placeholder_2026_1A_team-project/commit/a7471ec3212432eb7d0456f7a2d5801b9e7c8f91"
         }
@@ -2229,8 +2229,8 @@
         0,
         3,
         1,
-        2,
-        3,
+        5,
+        0,
         9,
         5
       ],
@@ -2817,7 +2817,7 @@
         },
         {
           "message": "업적 ui 추가",
-          "time": "8일 전",
+          "time": "9일 전",
           "sha": "10a8dba",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/10a8dba90a12b92a2144974b495bf64942e99867"
         },
@@ -2894,8 +2894,8 @@
       "lastCommit": "2일 전",
       "status": "active",
       "weekly": [
-        3,
-        13,
+        4,
+        12,
         12,
         5,
         17,
@@ -3285,7 +3285,7 @@
         },
         {
           "message": "[Feat] 장착된 아이템 회수 및 완료 판단 조건 변경",
-          "time": "3일 전",
+          "time": "4일 전",
           "sha": "eacffc9",
           "url": "https://github.com/surren01522-tech/2026_02_GameProject_Eurydice/commit/eacffc9d968b6d6119a72891e2658bd14e9fdd22"
         },
@@ -3979,9 +3979,9 @@
       "team": "3학년 4팀",
       "github": "Woong1016",
       "repo": "yuseongmok/Delivery-service",
-      "commits": 9,
+      "commits": 8,
       "semesterCommits": 37,
-      "activeDays": 3,
+      "activeDays": 2,
       "lastCommit": "오늘",
       "status": "active",
       "weekly": [
@@ -3990,8 +3990,8 @@
         2,
         5,
         3,
-        6,
-        9
+        7,
+        8
       ],
       "recent": [
         {
