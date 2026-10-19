@@ -1,7 +1,7 @@
 {
   "course": "Git 프로젝트 활동 현황",
   "notionUrl": "https://abaft-vibraphone-8f7.notion.site/Git-3c28655a72df80199dafc115fef9ddd4?pvs=74",
-  "updatedAt": "2026. 10. 19. 08:28",
+  "updatedAt": "2026. 10. 19. 10:34",
   "students": [
     {
       "name": "2학년 1팀",
@@ -256,7 +256,7 @@
         },
         {
           "message": "[Feat] 라의 방 단서 비석, 시작 연출, 소지품 바 추가 및 Reset 가드 적용",
-          "time": "2일 전",
+          "time": "3일 전",
           "sha": "d7dcee1",
           "url": "https://github.com/suyan05/PharaohCube/commit/d7dcee1388a2125c1a8b492dd623895c47e9c320"
         },
@@ -866,8 +866,8 @@
         2,
         3,
         2,
-        5,
-        3,
+        6,
+        2,
         7,
         8
       ],
@@ -1204,10 +1204,10 @@
       "team": "esuvean",
       "github": "esuvean",
       "repo": "esuvean/PRESS-START_",
-      "commits": 4,
-      "semesterCommits": 34,
-      "activeDays": 2,
-      "lastCommit": "2일 전",
+      "commits": 5,
+      "semesterCommits": 35,
+      "activeDays": 3,
+      "lastCommit": "오늘",
       "status": "active",
       "weekly": [
         2,
@@ -1216,9 +1216,15 @@
         3,
         1,
         5,
-        4
+        5
       ],
       "recent": [
+        {
+          "message": "[feat] 메인 빌드 수정",
+          "time": "오늘",
+          "sha": "5d6e328",
+          "url": "https://github.com/esuvean/PRESS-START_/commit/5d6e3286715ce21293b7acde3a42ebbce4d5438d"
+        },
         {
           "message": "[Update] 로딩화면 UI변경",
           "time": "2일 전",
@@ -1242,12 +1248,6 @@
           "time": "3일 전",
           "sha": "39f089b",
           "url": "https://github.com/esuvean/PRESS-START_/commit/39f089b0bd691af84259d5e4b7fe0740f9543c0a"
-        },
-        {
-          "message": "[Feat] 배경 제작 , UI 바꿈 , 챕터3 노이즈 추가",
-          "time": "7일 전",
-          "sha": "bc47019",
-          "url": "https://github.com/esuvean/PRESS-START_/commit/bc470199e89c5f5d017e3bf01407d1650e9bee52"
         }
       ]
     },
@@ -1439,7 +1439,7 @@
         },
         {
           "message": "2",
-          "time": "12일 전",
+          "time": "13일 전",
           "sha": "421cb69",
           "url": "https://github.com/Sine-aw/nohesitate/commit/421cb6992cbdd3d1f67350c23a57109b1cc9773d"
         },
@@ -2126,7 +2126,7 @@
         },
         {
           "message": "[Refactor] AGENTS.md 한글로 변경",
-          "time": "5일 전",
+          "time": "6일 전",
           "sha": "4e19bdc",
           "url": "https://github.com/jeonghyerin002/2026_2TeamProject/commit/4e19bdcd710e003db6c7c83fbfa926c91b8a1a01"
         }
@@ -2713,19 +2713,19 @@
       "team": "jinjooyoung",
       "github": "jinjooyoung",
       "repo": "jinjooyoung/DUAL-DUEL",
-      "commits": 13,
+      "commits": 12,
       "semesterCommits": 109,
-      "activeDays": 6,
+      "activeDays": 5,
       "lastCommit": "오늘",
       "status": "active",
       "weekly": [
         8,
         4,
         31,
-        19,
-        17,
-        14,
-        13
+        20,
+        16,
+        15,
+        12
       ],
       "recent": [
         {
@@ -2781,6 +2781,41 @@
         0
       ],
       "recent": []
+    },
+    {
+      "name": "ksmxxx-glitch (실제 커밋 작성자)",
+      "id": "ksmxxx-glitch",
+      "team": "1학년 B반 6팀",
+      "github": "ksmxxx-glitch",
+      "repo": "tjd6356-afk/2-_-",
+      "commits": 1,
+      "semesterCommits": 2,
+      "activeDays": 1,
+      "lastCommit": "오늘",
+      "status": "active",
+      "weekly": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "recent": [
+        {
+          "message": "다이얼로그 패널 이미지 추가",
+          "time": "오늘",
+          "sha": "e4ef150",
+          "url": "https://github.com/tjd6356-afk/2-_-/commit/e4ef1502ec5d78899bd2d5751542f927817bd6aa"
+        },
+        {
+          "message": "장수풍뎅이 NPC 이미지 추가",
+          "time": "7일 전",
+          "sha": "adf0dc6",
+          "url": "https://github.com/tjd6356-afk/2-_-/commit/adf0dc690dcfa226f65ff66b9ac4f72ce9c13ada"
+        }
+      ]
     },
     {
       "name": "imnakyung (실제 커밋 작성자)",
@@ -2888,19 +2923,19 @@
       "team": "1학년 B반 6팀",
       "github": "tjd6356-afk",
       "repo": "tjd6356-afk/2-_-",
-      "commits": 15,
+      "commits": 12,
       "semesterCommits": 83,
       "activeDays": 4,
       "lastCommit": "2일 전",
       "status": "active",
       "weekly": [
-        4,
-        12,
-        12,
+        6,
+        11,
+        11,
         5,
         17,
-        18,
-        15
+        21,
+        12
       ],
       "recent": [
         {
@@ -2923,7 +2958,7 @@
         },
         {
           "message": "Event 시스템이 없어서 생겼던 버그 수정",
-          "time": "2일 전",
+          "time": "3일 전",
           "sha": "88fca20",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/88fca20bd4bdd130a86ec4cb75336a6a45c28dbd"
         },
@@ -2932,35 +2967,6 @@
           "time": "3일 전",
           "sha": "b84ee0f",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/b84ee0f3637d58eb52bc031c9a6b049df7db4247"
-        }
-      ]
-    },
-    {
-      "name": "ksmxxx-glitch (실제 커밋 작성자)",
-      "id": "ksmxxx-glitch",
-      "team": "1학년 B반 6팀",
-      "github": "ksmxxx-glitch",
-      "repo": "tjd6356-afk/2-_-",
-      "commits": 1,
-      "semesterCommits": 1,
-      "activeDays": 1,
-      "lastCommit": "6일 전",
-      "status": "watch",
-      "weekly": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1
-      ],
-      "recent": [
-        {
-          "message": "장수풍뎅이 NPC 이미지 추가",
-          "time": "6일 전",
-          "sha": "adf0dc6",
-          "url": "https://github.com/tjd6356-afk/2-_-/commit/adf0dc690dcfa226f65ff66b9ac4f72ce9c13ada"
         }
       ]
     },
@@ -3135,8 +3141,8 @@
       "weekly": [
         0,
         0,
-        0,
-        6,
+        1,
+        5,
         3,
         3,
         2
@@ -3338,7 +3344,7 @@
         },
         {
           "message": "[Feat] 스테이지 0 맵 제작 시작",
-          "time": "어제",
+          "time": "2일 전",
           "sha": "1c35b4a",
           "url": "https://github.com/surren01522-tech/2026_02_GameProject_Eurydice/commit/1c35b4a6127ac88744e9cc65b45a011714f4e337"
         },
@@ -3988,8 +3994,8 @@
         2,
         3,
         2,
-        5,
-        3,
+        6,
+        2,
         7,
         8
       ],
