@@ -1,11 +1,563 @@
 {
-  "updatedAt": "2026. 10. 19. 23:52",
+  "updatedAt": "2026. 10. 20. 05:22",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "3학년 4팀",
+      "repo": "yuseongmok/Delivery-service",
+      "branch": "main",
+      "sha": "fe65c1322fbac806bd69002751b490a2e050d3a3",
+      "message": "[Feat] 물에 빠지면 견인비용 내기 & 원거리 공격 강도, 경찰 추가, 인게임 시간흐름 현실 10분",
+      "url": "https://github.com/yuseongmok/Delivery-service/commit/fe65c1322fbac806bd69002751b490a2e050d3a3",
+      "date": "2026-10-19T19:06:54Z",
+      "expectedGithub": "yuseongmok",
+      "actualGithub": "yuseongmok",
+      "gitAuthorName": "yuseongmok",
+      "gitAuthorEmail": "yousm112783@daum.net",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 94,
+        "additions": 2833,
+        "deletions": 184,
+        "meaningful_change": 2906,
+        "meaningful_file_count": 56,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 6팀",
+      "repo": "jeonghyerin002/2026_2TeamProject",
+      "branch": "main",
+      "sha": "3f78935a4b85987769fe9e2bd83a71874f827331",
+      "message": "[Feat] 진무가문 내부",
+      "url": "https://github.com/jeonghyerin002/2026_2TeamProject/commit/3f78935a4b85987769fe9e2bd83a71874f827331",
+      "date": "2026-10-19T19:00:16Z",
+      "expectedGithub": "jeonghyerin002",
+      "actualGithub": "jeonghyerin002",
+      "gitAuthorName": "jeonghyerin002",
+      "gitAuthorEmail": "jhr102446@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 79,
+        "additions": 71216,
+        "deletions": 11,
+        "meaningful_change": 13148,
+        "meaningful_file_count": 35,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "b5cd7fb3741716d068cb77e2c4e8c1b39a7f1329",
+      "message": "[feat] 퍼즐 이미지, 말풍선 추가",
+      "url": "https://github.com/suyan05/PharaohCube/commit/b5cd7fb3741716d068cb77e2c4e8c1b39a7f1329",
+      "date": "2026-10-19T18:38:10Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "khy1004",
+      "gitAuthorName": "khy1004",
+      "gitAuthorEmail": "khyseog08@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 50,
+        "additions": 3185,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 22,
+        "suspicious_score": 35,
+        "judgment": "확인필요"
+      }
+    },
+    {
+      "projectName": "2학년 7팀",
+      "repo": "23jihwan/7_tim",
+      "branch": "main",
+      "sha": "8d516dc42ab42aa8d29a64059d1980c22196df00",
+      "message": "[Feat] 설정창 임시 구현 완료",
+      "url": "https://github.com/23jihwan/7_tim/commit/8d516dc42ab42aa8d29a64059d1980c22196df00",
+      "date": "2026-10-19T18:01:09Z",
+      "expectedGithub": "23jihwan",
+      "actualGithub": "omh1228",
+      "gitAuthorName": "omh1228",
+      "gitAuthorEmail": "pigoh041228@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 4,
+        "additions": 337,
+        "deletions": 0,
+        "meaningful_change": 192,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 4팀",
+      "repo": "yuseongmok/Delivery-service",
+      "branch": "main",
+      "sha": "dcbbbcfbb7f0d29518f5be3f2f987fd239e88cb1",
+      "message": "[Feat] 대출앱, 도박앱 추가 & 일일임대료 추가",
+      "url": "https://github.com/yuseongmok/Delivery-service/commit/dcbbbcfbb7f0d29518f5be3f2f987fd239e88cb1",
+      "date": "2026-10-19T17:42:40Z",
+      "expectedGithub": "yuseongmok",
+      "actualGithub": "yuseongmok",
+      "gitAuthorName": "yuseongmok",
+      "gitAuthorEmail": "yousm112783@daum.net",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 100,
+        "additions": 1871,
+        "deletions": 1479,
+        "meaningful_change": 3276,
+        "meaningful_file_count": 63,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "0e3bed230c4eb5973ffc1a0d3bd9121076375442",
+      "message": "[Chore] 리딤 복구",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/0e3bed230c4eb5973ffc1a0d3bd9121076375442",
+      "date": "2026-10-19T17:39:35Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "JungYS24",
+      "gitAuthorName": "JungYoonSung",
+      "gitAuthorEmail": "ys47497568@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 53,
+        "deletions": 8,
+        "meaningful_change": 0,
+        "meaningful_file_count": 0,
+        "suspicious_score": 95,
+        "judgment": "뻥의심"
+      }
+    },
+    {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "4a97a979b522ae1aca444df9d6d9d379c1f9fdbe",
+      "message": "Merge pull request #80 from JungYS24/develop",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/4a97a979b522ae1aca444df9d6d9d379c1f9fdbe",
+      "date": "2026-10-19T17:35:27Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "JungYS24",
+      "gitAuthorName": "JungYoonSung",
+      "gitAuthorEmail": "127703516+JungYS24@users.noreply.github.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 0,
+        "additions": 0,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 0,
+        "suspicious_score": 80,
+        "judgment": "뻥의심"
+      }
+    },
+    {
+      "projectName": "2학년 7팀",
+      "repo": "23jihwan/7_tim",
+      "branch": "main",
+      "sha": "f0ae7257113df041aec099ee2c2c462aba42d92e",
+      "message": "[Feat]조합 추가 및 속성 공격 추가 완성",
+      "url": "https://github.com/23jihwan/7_tim/commit/f0ae7257113df041aec099ee2c2c462aba42d92e",
+      "date": "2026-10-19T17:31:26Z",
+      "expectedGithub": "23jihwan",
+      "actualGithub": "23jihwan",
+      "gitAuthorName": "23jihwan",
+      "gitAuthorEmail": "dbwlghks7410@naver.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 63,
+        "additions": 1413,
+        "deletions": 3247,
+        "meaningful_change": 4570,
+        "meaningful_file_count": 30,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "32f4986cae20ce3931526e2d0136e8b0d07147d5",
+      "message": "Merge develop into main (develop 기준) (#79)",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/32f4986cae20ce3931526e2d0136e8b0d07147d5",
+      "date": "2026-10-19T17:30:22Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "JungYS24",
+      "gitAuthorName": "JungYoonSung",
+      "gitAuthorEmail": "127703516+JungYS24@users.noreply.github.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 300,
+        "additions": 85599,
+        "deletions": 16498,
+        "meaningful_change": 26483,
+        "meaningful_file_count": 165,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "5168ad2888cfa76fe1b4beaec97034e1177b6c0e",
+      "message": "Merge remote-tracking branch 'origin/main' into merge/main-into-develop",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/5168ad2888cfa76fe1b4beaec97034e1177b6c0e",
+      "date": "2026-10-19T17:27:04Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "JungYS24",
+      "gitAuthorName": "JungYoonSung",
+      "gitAuthorEmail": "ys47497568@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 0,
+        "additions": 0,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 0,
+        "suspicious_score": 80,
+        "judgment": "뻥의심"
+      }
+    },
+    {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "e035b86b75cf50a8bf8ad13ab656cecf07e40343",
+      "message": "[Fix] 맵·튜토리얼 씬의 미싱 MonsterDataManager 제거",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/e035b86b75cf50a8bf8ad13ab656cecf07e40343",
+      "date": "2026-10-19T17:17:31Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "JungYS24",
+      "gitAuthorName": "JungYoonSung",
+      "gitAuthorEmail": "ys47497568@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 4,
+        "deletions": 4,
+        "meaningful_change": 8,
+        "meaningful_file_count": 2,
+        "suspicious_score": 15,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "4e44ff1a603ce9e0653b25b1aeec8261a964c9dc",
+      "message": "[Chore] 신규 SFX Cue 생성",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/4e44ff1a603ce9e0653b25b1aeec8261a964c9dc",
+      "date": "2026-10-19T16:49:02Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "JungYS24",
+      "gitAuthorName": "JungYoonSung",
+      "gitAuthorEmail": "ys47497568@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 37,
+        "additions": 206,
+        "deletions": 0,
+        "meaningful_change": 54,
+        "meaningful_file_count": 18,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "f32ed268c092032cd868d86aeba8d1aeb569099d",
+      "message": "[Chore] SFX 연결 마무리",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/f32ed268c092032cd868d86aeba8d1aeb569099d",
+      "date": "2026-10-19T16:34:37Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "JungYS24",
+      "gitAuthorName": "JungYoonSung",
+      "gitAuthorEmail": "ys47497568@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 14,
+        "additions": 132,
+        "deletions": 19,
+        "meaningful_change": 151,
+        "meaningful_file_count": 14,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "a74c39e924800f7672d9937161a8a935396875a2",
+      "message": "[Chore] 조우자 곰소녀 리워크 넣기",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/a74c39e924800f7672d9937161a8a935396875a2",
+      "date": "2026-10-19T16:18:22Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "JungYS24",
+      "gitAuthorName": "JungYoonSung",
+      "gitAuthorEmail": "ys47497568@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 9,
+        "additions": 450,
+        "deletions": 127,
+        "meaningful_change": 374,
+        "meaningful_file_count": 7,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "ce11f97b7dc79640c1203ab850f10704b0ff8c70",
+      "message": "[Fix] 조우자 선택지 버튼 스프라이트 제거하고 글자 크기 축소",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/ce11f97b7dc79640c1203ab850f10704b0ff8c70",
+      "date": "2026-10-19T16:16:15Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "JungYS24",
+      "gitAuthorName": "JungYoonSung",
+      "gitAuthorEmail": "ys47497568@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 6,
+        "additions": 129,
+        "deletions": 239,
+        "meaningful_change": 223,
+        "meaningful_file_count": 4,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "4a78ae93c1010e9d41dd7e1102f3c693d5f9ef9d",
+      "message": "[Feat] 조우자 패널 대화창과 선택지 버튼을 나무 프레임 UI로 교체",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/4a78ae93c1010e9d41dd7e1102f3c693d5f9ef9d",
+      "date": "2026-10-19T15:56:03Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "JungYS24",
+      "gitAuthorName": "JungYoonSung",
+      "gitAuthorEmail": "ys47497568@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 6,
+        "additions": 458,
+        "deletions": 0,
+        "meaningful_change": 164,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 5팀",
+      "repo": "qkrgml59/2026_2_TeamProject",
+      "branch": "main",
+      "sha": "1af8cf7160f02c6f6ac9553925997db0059facad",
+      "message": "[Art] Death 업로드",
+      "url": "https://github.com/qkrgml59/2026_2_TeamProject/commit/1af8cf7160f02c6f6ac9553925997db0059facad",
+      "date": "2026-10-19T15:41:32Z",
+      "expectedGithub": "qkrgml59",
+      "actualGithub": "Jasimkun",
+      "gitAuthorName": "jasimkun",
+      "gitAuthorEmail": "lse061123@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 283,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 1,
+        "suspicious_score": 35,
+        "judgment": "확인필요"
+      }
+    },
+    {
+      "projectName": "3학년 4팀",
+      "repo": "yuseongmok/Delivery-service",
+      "branch": "main",
+      "sha": "f7ab01e4b947b0222e5960a54aa34ffb9071852f",
+      "message": "[Feat] 무기점 추가, 배달 시간 조정",
+      "url": "https://github.com/yuseongmok/Delivery-service/commit/f7ab01e4b947b0222e5960a54aa34ffb9071852f",
+      "date": "2026-10-19T15:38:38Z",
+      "expectedGithub": "yuseongmok",
+      "actualGithub": "yuseongmok",
+      "gitAuthorName": "yuseongmok",
+      "gitAuthorEmail": "yousm112783@daum.net",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 92,
+        "additions": 10354,
+        "deletions": 510,
+        "meaningful_change": 10649,
+        "meaningful_file_count": 51,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "20c5a7e9e1425fe7df1e4877411390fdca8847dd",
+      "message": "[Chore] 효과음 적용하기",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/20c5a7e9e1425fe7df1e4877411390fdca8847dd",
+      "date": "2026-10-19T15:34:53Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "JungYS24",
+      "gitAuthorName": "JungYoonSung",
+      "gitAuthorEmail": "ys47497568@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 18,
+        "additions": 309,
+        "deletions": 14,
+        "meaningful_change": 315,
+        "meaningful_file_count": 14,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 2팀",
+      "repo": "esuvean/PRESS-START_",
+      "branch": "main",
+      "sha": "cfff74020d4c5485596b57c6a483acf2d6356db8",
+      "message": "[feat]미니게임08,09 ui추가",
+      "url": "https://github.com/esuvean/PRESS-START_/commit/cfff74020d4c5485596b57c6a483acf2d6356db8",
+      "date": "2026-10-19T15:20:53Z",
+      "expectedGithub": "esuvean",
+      "actualGithub": "hunmin5296",
+      "gitAuthorName": "hunmin5296",
+      "gitAuthorEmail": "kimhunmin04@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 18,
+        "additions": 1053,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 9,
+        "suspicious_score": 35,
+        "judgment": "확인필요"
+      }
+    },
+    {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "cd44c64a831b046c878060c8cd1317286c67b470",
+      "message": "Merge pull request #78 from JungYS24/feat/UiPanelFix2",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/cd44c64a831b046c878060c8cd1317286c67b470",
+      "date": "2026-10-19T15:17:42Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "dlckdddbs",
+      "gitAuthorName": "dlckdddbs",
+      "gitAuthorEmail": "85083646+dlckdddbs@users.noreply.github.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 41,
+        "additions": 289,
+        "deletions": 1518,
+        "meaningful_change": 906,
+        "meaningful_file_count": 27,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "cbea7107d6d50905b9dc015836f7d8ebb654548c",
+      "message": "Fix : DebuffFIX 및 계산식ui 수정",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/cbea7107d6d50905b9dc015836f7d8ebb654548c",
+      "date": "2026-10-19T15:16:51Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "dlckdddbs",
+      "gitAuthorName": "dlckdddbs",
+      "gitAuthorEmail": "booms5@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 41,
+        "additions": 289,
+        "deletions": 1518,
+        "meaningful_change": 906,
+        "meaningful_file_count": 27,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 7팀",
+      "repo": "23jihwan/7_tim",
+      "branch": "main",
+      "sha": "399137e33ce22fcd49d566452f0f01173aec5f07",
+      "message": "[Feat]에셋 추가 및 속성,조합식 추가",
+      "url": "https://github.com/23jihwan/7_tim/commit/399137e33ce22fcd49d566452f0f01173aec5f07",
+      "date": "2026-10-19T14:57:46Z",
+      "expectedGithub": "23jihwan",
+      "actualGithub": "23jihwan",
+      "gitAuthorName": "23jihwan",
+      "gitAuthorEmail": "dbwlghks7410@naver.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 206,
+        "additions": 18024,
+        "deletions": 108,
+        "meaningful_change": 9057,
+        "meaningful_file_count": 88,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "53af5b126c776390f0615c0e4d5af414e339dabe",
+      "message": "[Feat] 하이롤러 널이미지 버그수정 / 효과음 추가 (#77)",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/53af5b126c776390f0615c0e4d5af414e339dabe",
+      "date": "2026-10-19T14:51:39Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "JungYS24",
+      "gitAuthorName": "JungYoonSung",
+      "gitAuthorEmail": "127703516+JungYS24@users.noreply.github.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 54,
+        "additions": 715,
+        "deletions": 15,
+        "meaningful_change": 147,
+        "meaningful_file_count": 28,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "2학년 3팀",
       "repo": "jinjooyoung/DUAL-DUEL",
@@ -76,6 +628,29 @@
       }
     },
     {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "f2b1b10a14cd563ab8c68631ec2b282b1ebaa78f",
+      "message": "[Feat] 로비 씬 UI 리워크 (#76)",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/f2b1b10a14cd563ab8c68631ec2b282b1ebaa78f",
+      "date": "2026-10-19T14:09:44Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "JungYS24",
+      "gitAuthorName": "JungYoonSung",
+      "gitAuthorEmail": "127703516+JungYS24@users.noreply.github.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 42,
+        "additions": 3430,
+        "deletions": 4,
+        "meaningful_change": 488,
+        "meaningful_file_count": 21,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
       "projectName": "3학년 1팀",
       "repo": "ahyun04/26TeamProject_2",
       "branch": "main",
@@ -117,6 +692,75 @@
         "deletions": 2704,
         "meaningful_change": 4603,
         "meaningful_file_count": 5,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "1a2186fd3da45790a47ded31fc5b980b1ba46085",
+      "message": "[Chore] 몬스터 슬롯 위치 조정 Position Y",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/1a2186fd3da45790a47ded31fc5b980b1ba46085",
+      "date": "2026-10-19T12:43:40Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "JungYS24",
+      "gitAuthorName": "JungYoonSung",
+      "gitAuthorEmail": "ys47497568@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 2,
+        "deletions": 2,
+        "meaningful_change": 4,
+        "meaningful_file_count": 1,
+        "suspicious_score": 30,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "63081d6d798f8f608620e454233b36d3ef3dae13",
+      "message": "[Fix] 몬스터 스프라이트 피벗·PPU 통일 및 스폰 위치 교정",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/63081d6d798f8f608620e454233b36d3ef3dae13",
+      "date": "2026-10-19T12:34:35Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "JungYS24",
+      "gitAuthorName": "JungYoonSung",
+      "gitAuthorEmail": "ys47497568@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 60,
+        "additions": 499,
+        "deletions": 499,
+        "meaningful_change": 4,
+        "meaningful_file_count": 1,
+        "suspicious_score": 15,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "2f8e93b565d7e17b0358319aa534408a0fbca61f",
+      "message": "[Feat] 여정주사위_리워크 / 메인씬 오디오개선 / 지도 노드 배치",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/2f8e93b565d7e17b0358319aa534408a0fbca61f",
+      "date": "2026-10-19T12:27:18Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "JungYS24",
+      "gitAuthorName": "JungYoonSung",
+      "gitAuthorEmail": "ys47497568@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 18,
+        "additions": 116,
+        "deletions": 55,
+        "meaningful_change": 167,
+        "meaningful_file_count": 17,
         "suspicious_score": 0,
         "judgment": "정상"
       }
@@ -306,6 +950,52 @@
       }
     },
     {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "a0c5d74197128bbea8aeb80dd18628e62e2b4920",
+      "message": "Merge pull request #75 from JungYS24/feat/UiPanelFix",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/a0c5d74197128bbea8aeb80dd18628e62e2b4920",
+      "date": "2026-10-19T11:32:46Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "dlckdddbs",
+      "gitAuthorName": "dlckdddbs",
+      "gitAuthorEmail": "85083646+dlckdddbs@users.noreply.github.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 52,
+        "additions": 3568,
+        "deletions": 15,
+        "meaningful_change": 771,
+        "meaningful_file_count": 30,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "38970f9acea23c173f559418f8319d5a8b265db1",
+      "message": "Fix : UiPanel",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/38970f9acea23c173f559418f8319d5a8b265db1",
+      "date": "2026-10-19T11:32:00Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "dlckdddbs",
+      "gitAuthorName": "dlckdddbs",
+      "gitAuthorEmail": "booms5@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 52,
+        "additions": 3568,
+        "deletions": 15,
+        "meaningful_change": 771,
+        "meaningful_file_count": 30,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
       "projectName": "2학년 5팀",
       "repo": "qkrgml59/2026_2_TeamProject",
       "branch": "main",
@@ -347,6 +1037,29 @@
         "deletions": 0,
         "meaningful_change": 2365,
         "meaningful_file_count": 8,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "84c8f392b0c28c5453a63d50289ff1a236f5e4d9",
+      "message": "[Feat] 몬스터 PPU·슬라이스 교정 및 플레이어블 3종 리워크 (#74)",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/84c8f392b0c28c5453a63d50289ff1a236f5e4d9",
+      "date": "2026-10-19T10:54:34Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "JungYS24",
+      "gitAuthorName": "JungYoonSung",
+      "gitAuthorEmail": "127703516+JungYS24@users.noreply.github.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 60,
+        "additions": 1272,
+        "deletions": 1480,
+        "meaningful_change": 78,
+        "meaningful_file_count": 10,
         "suspicious_score": 0,
         "judgment": "정상"
       }
@@ -1548,6 +2261,98 @@
       }
     },
     {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "fa1ae6361db99a03ff1583929e21fc39a74fa110",
+      "message": "[Chore] 사원·유적 몬스터 리워크 및 덱/볼륨 수정 (#73)",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/fa1ae6361db99a03ff1583929e21fc39a74fa110",
+      "date": "2026-10-18T14:47:03Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "JungYS24",
+      "gitAuthorName": "JungYoonSung",
+      "gitAuthorEmail": "127703516+JungYS24@users.noreply.github.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 51,
+        "additions": 1139,
+        "deletions": 1228,
+        "meaningful_change": 635,
+        "meaningful_file_count": 39,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "78a7bd41c59b08ba76565da68632fb86b7afdc6e",
+      "message": "Merge pull request #72 from JungYS24/feat/StampFix",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/78a7bd41c59b08ba76565da68632fb86b7afdc6e",
+      "date": "2026-10-18T14:03:01Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "dlckdddbs",
+      "gitAuthorName": "dlckdddbs",
+      "gitAuthorEmail": "85083646+dlckdddbs@users.noreply.github.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 45,
+        "additions": 1444,
+        "deletions": 96,
+        "meaningful_change": 1288,
+        "meaningful_file_count": 33,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "40e5c3fa04cd0316b3d77b7f2e83907c8ecc7f48",
+      "message": "FIX : 스탬프 연출 및 기능 추가,피규어 이펙트 상세 조절",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/40e5c3fa04cd0316b3d77b7f2e83907c8ecc7f48",
+      "date": "2026-10-18T14:02:06Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "dlckdddbs",
+      "gitAuthorName": "dlckdddbs",
+      "gitAuthorEmail": "booms5@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 45,
+        "additions": 1444,
+        "deletions": 96,
+        "meaningful_change": 1288,
+        "meaningful_file_count": 33,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "f07eb0c82ea7648531b952ab76d23e875851e29b",
+      "message": "[Chore] 몬스터 픽셀아트 리워크 (#71)",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/f07eb0c82ea7648531b952ab76d23e875851e29b",
+      "date": "2026-10-18T13:18:54Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "JungYS24",
+      "gitAuthorName": "JungYoonSung",
+      "gitAuthorEmail": "127703516+JungYS24@users.noreply.github.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 104,
+        "additions": 2675,
+        "deletions": 3522,
+        "meaningful_change": 931,
+        "meaningful_file_count": 72,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
       "projectName": "1학년 B반 1팀",
       "repo": "simo07d7PG/Team_JJAMBBAP",
       "branch": "main",
@@ -1658,6 +2463,29 @@
         "deletions": 3512,
         "meaningful_change": 6905,
         "meaningful_file_count": 18,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "1ad09b724a2db45fe69d0ad811c462e889c6a690",
+      "message": "Merge pull request #62 from JungYS24/feat/stamp",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/1ad09b724a2db45fe69d0ad811c462e889c6a690",
+      "date": "2026-10-18T11:16:07Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "KimBH04",
+      "gitAuthorName": "KimBH",
+      "gitAuthorEmail": "102945597+KimBH04@users.noreply.github.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 30,
+        "additions": 400,
+        "deletions": 31,
+        "meaningful_change": 207,
+        "meaningful_file_count": 16,
         "suspicious_score": 0,
         "judgment": "정상"
       }
@@ -1847,6 +2675,29 @@
       }
     },
     {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "12a12649021897c4a84e78e30d9bcaabb3c706bf",
+      "message": "[Chore] 13_Snow , 14_Grave , 15_Circus, 16_Void 몬스터 15종 리워크 (#70)",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/12a12649021897c4a84e78e30d9bcaabb3c706bf",
+      "date": "2026-10-18T08:54:44Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "JungYS24",
+      "gitAuthorName": "JungYoonSung",
+      "gitAuthorEmail": "127703516+JungYS24@users.noreply.github.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 48,
+        "additions": 844,
+        "deletions": 1028,
+        "meaningful_change": 371,
+        "meaningful_file_count": 31,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
       "projectName": "3학년 4팀",
       "repo": "yuseongmok/Delivery-service",
       "branch": "main",
@@ -2031,6 +2882,29 @@
       }
     },
     {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "8108360b2725ee15ce8f43770246893cd6a00c55",
+      "message": "[Chore] 스카이아일랜드 캐릭터 스프라이트와 애니메이터를 리메이크본으로 교체 (#69)",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/8108360b2725ee15ce8f43770246893cd6a00c55",
+      "date": "2026-10-18T03:43:44Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "JungYS24",
+      "gitAuthorName": "JungYoonSung",
+      "gitAuthorEmail": "127703516+JungYS24@users.noreply.github.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 17,
+        "additions": 300,
+        "deletions": 655,
+        "meaningful_change": 297,
+        "meaningful_file_count": 12,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
       "projectName": "1학년 B반 6팀",
       "repo": "tjd6356-afk/2-_-",
       "branch": "main",
@@ -2051,6 +2925,52 @@
         "meaningful_file_count": 1,
         "suspicious_score": 35,
         "judgment": "확인필요"
+      }
+    },
+    {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "aa792aa12fcd6db54974d3ab21b3d96a5aee04a1",
+      "message": "Merge pull request #68 from JungYS24/feat/functionFix",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/aa792aa12fcd6db54974d3ab21b3d96a5aee04a1",
+      "date": "2026-10-17T19:17:14Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "dlckdddbs",
+      "gitAuthorName": "dlckdddbs",
+      "gitAuthorEmail": "85083646+dlckdddbs@users.noreply.github.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 28,
+        "additions": 1909,
+        "deletions": 181,
+        "meaningful_change": 1085,
+        "meaningful_file_count": 19,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "9ad0c13ba6c03f6e7b647a5a1121b19653cac90c",
+      "message": "fix : 족보 함수 중복 제거 및 디버프 이펙트 및 설명창 추가",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/9ad0c13ba6c03f6e7b647a5a1121b19653cac90c",
+      "date": "2026-10-17T19:16:23Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "dlckdddbs",
+      "gitAuthorName": "dlckdddbs",
+      "gitAuthorEmail": "booms5@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 28,
+        "additions": 1909,
+        "deletions": 181,
+        "meaningful_change": 1085,
+        "meaningful_file_count": 19,
+        "suspicious_score": 0,
+        "judgment": "정상"
       }
     },
     {
@@ -2233,6 +3153,29 @@
         "deletions": 49,
         "meaningful_change": 12956,
         "meaningful_file_count": 40,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "6a234b6e1e014c0410c9978671dbe4a1cbacc754",
+      "message": "[Feat] 도감 피규어 탭 마무리 (#67)",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/6a234b6e1e014c0410c9978671dbe4a1cbacc754",
+      "date": "2026-10-17T15:39:26Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "JungYS24",
+      "gitAuthorName": "JungYoonSung",
+      "gitAuthorEmail": "127703516+JungYS24@users.noreply.github.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 104,
+        "additions": 7412,
+        "deletions": 389,
+        "meaningful_change": 4159,
+        "meaningful_file_count": 72,
         "suspicious_score": 0,
         "judgment": "정상"
       }
@@ -2511,6 +3454,52 @@
         "meaningful_file_count": 0,
         "suspicious_score": 80,
         "judgment": "뻥의심"
+      }
+    },
+    {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "7bd52ae92d1ebf24470920a74929eddb48e7fcf7",
+      "message": "Merge pull request #66 from JungYS24/feat/DeBuffEffect",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/7bd52ae92d1ebf24470920a74929eddb48e7fcf7",
+      "date": "2026-10-17T11:26:35Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "dlckdddbs",
+      "gitAuthorName": "dlckdddbs",
+      "gitAuthorEmail": "85083646+dlckdddbs@users.noreply.github.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 3,
+        "additions": 357,
+        "deletions": 125,
+        "meaningful_change": 482,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "c6dcc82e0362bd4a5528788a74e0fcdc4fb4aa87",
+      "message": "fix : 디버프 이펙트 수정",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/c6dcc82e0362bd4a5528788a74e0fcdc4fb4aa87",
+      "date": "2026-10-17T11:24:34Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "dlckdddbs",
+      "gitAuthorName": "dlckdddbs",
+      "gitAuthorEmail": "booms5@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 3,
+        "additions": 357,
+        "deletions": 125,
+        "meaningful_change": 482,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
       }
     },
     {
@@ -2882,6 +3871,52 @@
       }
     },
     {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "8b953763a8e6c1c1262d580e7720e8a81089dad9",
+      "message": "[Feat] 시너지 도감까지 병합 (#65)",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/8b953763a8e6c1c1262d580e7720e8a81089dad9",
+      "date": "2026-10-17T04:31:31Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "JungYS24",
+      "gitAuthorName": "JungYoonSung",
+      "gitAuthorEmail": "127703516+JungYS24@users.noreply.github.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 3,
+        "additions": 62,
+        "deletions": 8,
+        "meaningful_change": 70,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "e5a9de686587baaf235405a5a0cc54c4c9ebf759",
+      "message": "[Fix] 도감 셋업 재실행 시 씬이 달라지던 문제",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/e5a9de686587baaf235405a5a0cc54c4c9ebf759",
+      "date": "2026-10-17T04:08:11Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "JungYS24",
+      "gitAuthorName": "JungYoonSung",
+      "gitAuthorEmail": "ys47497568@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 11,
+        "additions": 175,
+        "deletions": 91,
+        "meaningful_change": 262,
+        "meaningful_file_count": 10,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
       "projectName": "3학년 4팀",
       "repo": "yuseongmok/Delivery-service",
       "branch": "main",
@@ -2900,6 +3935,29 @@
         "deletions": 125,
         "meaningful_change": 1921,
         "meaningful_file_count": 15,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "788a2d0b48abd7706f38a710965f3c803583d25b",
+      "message": "[Feat] 도감 패널 정리 및 시너지 도감 병합",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/788a2d0b48abd7706f38a710965f3c803583d25b",
+      "date": "2026-10-17T03:35:51Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "JungYS24",
+      "gitAuthorName": "JungYoonSung",
+      "gitAuthorEmail": "ys47497568@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 20,
+        "additions": 3899,
+        "deletions": 119,
+        "meaningful_change": 3980,
+        "meaningful_file_count": 14,
         "suspicious_score": 0,
         "judgment": "정상"
       }
@@ -2924,6 +3982,75 @@
         "meaningful_change": 5427,
         "meaningful_file_count": 82,
         "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "4573087f45ef43595c827cb9bab459656b123af9",
+      "message": "Feat/synergy (#60)",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/4573087f45ef43595c827cb9bab459656b123af9",
+      "date": "2026-10-17T02:52:12Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "KimBH04",
+      "gitAuthorName": "KimBH",
+      "gitAuthorEmail": "102945597+KimBH04@users.noreply.github.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 56,
+        "additions": 1335,
+        "deletions": 108,
+        "meaningful_change": 1386,
+        "meaningful_file_count": 47,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "fdfa5c6634ff90f1ef28bbba14b67b80c97f9047",
+      "message": "[feat] 스탬프 데이터 생성",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/fdfa5c6634ff90f1ef28bbba14b67b80c97f9047",
+      "date": "2026-10-17T01:09:48Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "KimBH04",
+      "gitAuthorName": "KimBH",
+      "gitAuthorEmail": "kimbh0437@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 9,
+        "additions": 52,
+        "deletions": 0,
+        "meaningful_change": 12,
+        "meaningful_file_count": 4,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "4dc305309ed687f9966c7fc26f00e22e8e456dc1",
+      "message": "[Refactor] 스탬프 데이터 처리 변경",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/4dc305309ed687f9966c7fc26f00e22e8e456dc1",
+      "date": "2026-10-17T01:09:23Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "KimBH04",
+      "gitAuthorName": "KimBH",
+      "gitAuthorEmail": "kimbh0437@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 1,
+        "deletions": 3,
+        "meaningful_change": 4,
+        "meaningful_file_count": 1,
+        "suspicious_score": 30,
         "judgment": "정상"
       }
     },
@@ -2971,6 +4098,52 @@
         "meaningful_file_count": 1,
         "suspicious_score": 35,
         "judgment": "확인필요"
+      }
+    },
+    {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "63d78fe75f96dfb9291762daade90f7895da51ea",
+      "message": "Merge pull request #64 from JungYS24/feat/Debuff",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/63d78fe75f96dfb9291762daade90f7895da51ea",
+      "date": "2026-10-16T19:30:24Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "dlckdddbs",
+      "gitAuthorName": "dlckdddbs",
+      "gitAuthorEmail": "85083646+dlckdddbs@users.noreply.github.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 37,
+        "additions": 2405,
+        "deletions": 45,
+        "meaningful_change": 1277,
+        "meaningful_file_count": 25,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "037f56780e6620f99d9429d8636c8c198ae9aedc",
+      "message": "[Fix] : 디버프 다이스 테스트 및 임시 이펙트 추가",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/037f56780e6620f99d9429d8636c8c198ae9aedc",
+      "date": "2026-10-16T19:29:20Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "dlckdddbs",
+      "gitAuthorName": "dlckdddbs",
+      "gitAuthorEmail": "booms5@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 37,
+        "additions": 2405,
+        "deletions": 45,
+        "meaningful_change": 1277,
+        "meaningful_file_count": 25,
+        "suspicious_score": 0,
+        "judgment": "정상"
       }
     },
     {
@@ -3227,6 +4400,52 @@
       }
     },
     {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "c0adbb911cb77926d26c67ac69a092721e538d91",
+      "message": "Merge pull request #63 from JungYS24/feat/Debuff",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/c0adbb911cb77926d26c67ac69a092721e538d91",
+      "date": "2026-10-16T12:05:41Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "dlckdddbs",
+      "gitAuthorName": "dlckdddbs",
+      "gitAuthorEmail": "85083646+dlckdddbs@users.noreply.github.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 43,
+        "additions": 349,
+        "deletions": 212,
+        "meaningful_change": 483,
+        "meaningful_file_count": 31,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "33006eb1d4789cd3954a928ae612cd3b5cb44c43",
+      "message": "FEAT : 디버프 주사위 추가(엘리트,차원문)",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/33006eb1d4789cd3954a928ae612cd3b5cb44c43",
+      "date": "2026-10-16T12:00:35Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "dlckdddbs",
+      "gitAuthorName": "dlckdddbs",
+      "gitAuthorEmail": "booms5@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 43,
+        "additions": 349,
+        "deletions": 212,
+        "meaningful_change": 483,
+        "meaningful_file_count": 31,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
       "projectName": "1학년 B반 3팀",
       "repo": "Tiphe0821/GameProject_T3_1_B",
       "branch": "main",
@@ -3296,6 +4515,29 @@
       }
     },
     {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "95199c0f77c5803feb4a52b90a009e6bd044a770",
+      "message": "[Chore] 스탬프 스프라이트 5종 교체",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/95199c0f77c5803feb4a52b90a009e6bd044a770",
+      "date": "2026-10-16T11:12:40Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "JungYS24",
+      "gitAuthorName": "JungYoonSung",
+      "gitAuthorEmail": "ys47497568@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 10,
+        "additions": 160,
+        "deletions": 30,
+        "meaningful_change": 20,
+        "meaningful_file_count": 5,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
       "projectName": "2학년 2팀",
       "repo": "esuvean/PRESS-START_",
       "branch": "main",
@@ -3316,6 +4558,52 @@
         "meaningful_file_count": 9,
         "suspicious_score": 35,
         "judgment": "확인필요"
+      }
+    },
+    {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "d260ada8234731b08851960a5e8b5eb3a1c468bf",
+      "message": "[Feat] 클로버 스탬프 효과 구현",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/d260ada8234731b08851960a5e8b5eb3a1c468bf",
+      "date": "2026-10-16T10:57:56Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "KimBH04",
+      "gitAuthorName": "KimBH",
+      "gitAuthorEmail": "kimbh0437@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 5,
+        "deletions": 1,
+        "meaningful_change": 6,
+        "meaningful_file_count": 1,
+        "suspicious_score": 15,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "d1c2534f2a896253c96b157de1b9bb55799fd563",
+      "message": "[Feat] 스페이드 효과 구현",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/d1c2534f2a896253c96b157de1b9bb55799fd563",
+      "date": "2026-10-16T10:33:48Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "KimBH04",
+      "gitAuthorName": "KimBH",
+      "gitAuthorEmail": "kimbh0437@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 20,
+        "deletions": 2,
+        "meaningful_change": 22,
+        "meaningful_file_count": 1,
+        "suspicious_score": 0,
+        "judgment": "정상"
       }
     },
     {
@@ -3521,6 +4809,29 @@
         "deletions": 36,
         "meaningful_change": 7185,
         "meaningful_file_count": 7,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "6b79a5d1d6ade41c31f5c99cf692b9fb92193f7f",
+      "message": "feat : 여정 주사위 지도 이동과 결과 연출, 지도 노드·UI 개편 (#61)",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/6b79a5d1d6ade41c31f5c99cf692b9fb92193f7f",
+      "date": "2026-10-16T07:55:42Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "JungYS24",
+      "gitAuthorName": "JungYoonSung",
+      "gitAuthorEmail": "127703516+JungYS24@users.noreply.github.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 80,
+        "additions": 3575,
+        "deletions": 380,
+        "meaningful_change": 2254,
+        "meaningful_file_count": 57,
         "suspicious_score": 0,
         "judgment": "정상"
       }
@@ -18476,6 +19787,29 @@
       }
     },
     {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "0466bc5ace576a03d7a1a83f692e1401b5de8c03",
+      "message": "feat: 스탬프 데이터 추가",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/0466bc5ace576a03d7a1a83f692e1401b5de8c03",
+      "date": "2026-09-27T05:06:23Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "KimBH04",
+      "gitAuthorName": "KimBH",
+      "gitAuthorEmail": "kimbh0437@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 3,
+        "additions": 31,
+        "deletions": 1,
+        "meaningful_change": 32,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
       "projectName": "1학년 B반 6팀",
       "repo": "tjd6356-afk/2-_-",
       "branch": "main",
@@ -18637,6 +19971,29 @@
       }
     },
     {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "67fcb4413f840ec3cfb1ada8b958a5e77ddc2fd7",
+      "message": "feat ; 스탬프 패널 함수 추가",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/67fcb4413f840ec3cfb1ada8b958a5e77ddc2fd7",
+      "date": "2026-09-26T15:18:54Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "dlckdddbs",
+      "gitAuthorName": "dlckdddbs",
+      "gitAuthorEmail": "booms5@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 3,
+        "additions": 103,
+        "deletions": 0,
+        "meaningful_change": 101,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
       "projectName": "3학년 2팀",
       "repo": "Taehyeon88/Graduation-project",
       "branch": "main",
@@ -18701,6 +20058,29 @@
         "deletions": 0,
         "meaningful_change": 17906,
         "meaningful_file_count": 9,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 4팀",
+      "repo": "JungYS24/Tricky-Yacht",
+      "branch": "main",
+      "sha": "b400eeb9889c0f605b8fcc21bdcee44d7b85a921",
+      "message": "feat: 스탬프 so 작성",
+      "url": "https://github.com/JungYS24/Tricky-Yacht/commit/b400eeb9889c0f605b8fcc21bdcee44d7b85a921",
+      "date": "2026-09-26T14:17:42Z",
+      "expectedGithub": "JungYS24",
+      "actualGithub": "KimBH04",
+      "gitAuthorName": "KimBH",
+      "gitAuthorEmail": "kimbh0437@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 5,
+        "additions": 34,
+        "deletions": 0,
+        "meaningful_change": 22,
+        "meaningful_file_count": 2,
         "suspicious_score": 0,
         "judgment": "정상"
       }
