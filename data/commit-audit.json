@@ -1,11 +1,172 @@
 {
-  "updatedAt": "2026. 10. 20. 05:22",
+  "updatedAt": "2026. 10. 20. 08:52",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "026a5a1ab8ac7de7f1e6f11b95baad4effd43793",
+      "message": "인벤토리 시스템",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/026a5a1ab8ac7de7f1e6f11b95baad4effd43793",
+      "date": "2026-10-19T23:46:25Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "tjd6356-afk",
+      "gitAuthorName": "tjd6356-afk",
+      "gitAuthorEmail": "tjd6356@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 3,
+        "additions": 34,
+        "deletions": 2159,
+        "meaningful_change": 2193,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "1c33ac263078f1aa8fcf9a8e2f3b96924420b4f7",
+      "message": "던전에서 ground 체크가 안되는 버그",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/1c33ac263078f1aa8fcf9a8e2f3b96924420b4f7",
+      "date": "2026-10-19T23:32:57Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "tjd6356-afk",
+      "gitAuthorName": "tjd6356-afk",
+      "gitAuthorEmail": "tjd6356@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 25,
+        "additions": 5570,
+        "deletions": 1481,
+        "meaningful_change": 6996,
+        "meaningful_file_count": 22,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 6팀",
+      "repo": "jeonghyerin002/2026_2TeamProject",
+      "branch": "main",
+      "sha": "2e0d892840157c13e1d35a181383f9962352e3ea",
+      "message": "[Feat] 무기 장착 여부에 따른 경비 NPC 통행 제어 추가",
+      "url": "https://github.com/jeonghyerin002/2026_2TeamProject/commit/2e0d892840157c13e1d35a181383f9962352e3ea",
+      "date": "2026-10-19T22:59:09Z",
+      "expectedGithub": "jeonghyerin002",
+      "actualGithub": "blocks2094",
+      "gitAuthorName": "HyunWoo",
+      "gitAuthorEmail": "blocks2094@g.shingu.ac.kr",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 25,
+        "additions": 917,
+        "deletions": 1,
+        "meaningful_change": 681,
+        "meaningful_file_count": 5,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "b253b39888aee8d7a7d4b8686f0e544957111040",
+      "message": "씬 전환 시 무기 바뀌는 버그 수정",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/b253b39888aee8d7a7d4b8686f0e544957111040",
+      "date": "2026-10-19T22:55:38Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "tjd6356-afk",
+      "gitAuthorName": "tjd6356-afk",
+      "gitAuthorEmail": "tjd6356@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 5,
+        "additions": 930,
+        "deletions": 29,
+        "meaningful_change": 959,
+        "meaningful_file_count": 4,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 6팀",
+      "repo": "jeonghyerin002/2026_2TeamProject",
+      "branch": "main",
+      "sha": "9842b6d91047ff378cff416bafdf74392bbc3e34",
+      "message": "[Feat] NPC 상호작용 유형별 동작과 조건부 Inspector 추가",
+      "url": "https://github.com/jeonghyerin002/2026_2TeamProject/commit/9842b6d91047ff378cff416bafdf74392bbc3e34",
+      "date": "2026-10-19T22:23:55Z",
+      "expectedGithub": "jeonghyerin002",
+      "actualGithub": "blocks2094",
+      "gitAuthorName": "HyunWoo",
+      "gitAuthorEmail": "blocks2094@g.shingu.ac.kr",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 20,
+        "additions": 523,
+        "deletions": 233,
+        "meaningful_change": 575,
+        "meaningful_file_count": 6,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 7팀",
+      "repo": "23jihwan/7_tim",
+      "branch": "main",
+      "sha": "57754a5d1ec2919f45409a3f53592550b866edce",
+      "message": "[Feat]인벤토리 시스템 구현, 유물시스템 구현",
+      "url": "https://github.com/23jihwan/7_tim/commit/57754a5d1ec2919f45409a3f53592550b866edce",
+      "date": "2026-10-19T21:38:09Z",
+      "expectedGithub": "23jihwan",
+      "actualGithub": "junhae01",
+      "gitAuthorName": "junhae0",
+      "gitAuthorEmail": "jh040101@g.shingu.ac.kr",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 44,
+        "additions": 6516,
+        "deletions": 0,
+        "meaningful_change": 5253,
+        "meaningful_file_count": 21,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 6팀",
+      "repo": "jeonghyerin002/2026_2TeamProject",
+      "branch": "main",
+      "sha": "e6b18d59c1a928a07a3c4e819a70bd996973360c",
+      "message": "[Refactor] NPC 대화를 공용 DialogManager 참조 구조로 전환",
+      "url": "https://github.com/jeonghyerin002/2026_2TeamProject/commit/e6b18d59c1a928a07a3c4e819a70bd996973360c",
+      "date": "2026-10-19T21:09:39Z",
+      "expectedGithub": "jeonghyerin002",
+      "actualGithub": "blocks2094",
+      "gitAuthorName": "HyunWoo",
+      "gitAuthorEmail": "blocks2094@g.shingu.ac.kr",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 4,
+        "additions": 319,
+        "deletions": 63,
+        "meaningful_change": 382,
+        "meaningful_file_count": 4,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "3학년 4팀",
       "repo": "yuseongmok/Delivery-service",
