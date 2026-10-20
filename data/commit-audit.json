@@ -1,11 +1,103 @@
 {
-  "updatedAt": "2026. 10. 20. 12:27",
+  "updatedAt": "2026. 10. 20. 17:49",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "2학년 2팀",
+      "repo": "esuvean/PRESS-START_",
+      "branch": "main",
+      "sha": "86395c7add2f1ded83754208c1c2b8e5fb1becd0",
+      "message": "[Feat] 버튼 누르는 사운드 이펙트 넣기, 타이머10초전 연출 넣기",
+      "url": "https://github.com/esuvean/PRESS-START_/commit/86395c7add2f1ded83754208c1c2b8e5fb1becd0",
+      "date": "2026-10-20T08:48:22Z",
+      "expectedGithub": "esuvean",
+      "actualGithub": "esuvean",
+      "gitAuthorName": "esuvean",
+      "gitAuthorEmail": "esuvean@naver.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 14,
+        "additions": 1123,
+        "deletions": 101,
+        "meaningful_change": 1208,
+        "meaningful_file_count": 9,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 5팀",
+      "repo": "qkrgml59/2026_2_TeamProject",
+      "branch": "main",
+      "sha": "316824469c3115b90a8ca414c983def305566a23",
+      "message": "Merge branch 'main' of https://github.com/qkrgml59/2026_2_TeamProject",
+      "url": "https://github.com/qkrgml59/2026_2_TeamProject/commit/316824469c3115b90a8ca414c983def305566a23",
+      "date": "2026-10-20T08:07:32Z",
+      "expectedGithub": "qkrgml59",
+      "actualGithub": "qkrgml59",
+      "gitAuthorName": "qkrgml59",
+      "gitAuthorEmail": "qkrgml59@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 91,
+        "additions": 432246,
+        "deletions": 11,
+        "meaningful_change": 431817,
+        "meaningful_file_count": 45,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 5팀",
+      "repo": "qkrgml59/2026_2_TeamProject",
+      "branch": "main",
+      "sha": "c423e4d2e3c744a4431603ba091b70af3ab44ebe",
+      "message": "[Fix] player 퍼즐 공격 안 되는 거 수정",
+      "url": "https://github.com/qkrgml59/2026_2_TeamProject/commit/c423e4d2e3c744a4431603ba091b70af3ab44ebe",
+      "date": "2026-10-20T08:04:28Z",
+      "expectedGithub": "qkrgml59",
+      "actualGithub": "qkrgml59",
+      "gitAuthorName": "qkrgml59",
+      "gitAuthorEmail": "qkrgml59@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 5,
+        "additions": 614,
+        "deletions": 8,
+        "meaningful_change": 615,
+        "meaningful_file_count": 4,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 3팀",
+      "repo": "Tiphe0821/GameProject_T3_1_B",
+      "branch": "main",
+      "sha": "3671723c90ec656acc35d75dfa24f94915b702c8",
+      "message": "[Feat] 나레이션ai 스탠딩 일러스트 추가",
+      "url": "https://github.com/Tiphe0821/GameProject_T3_1_B/commit/3671723c90ec656acc35d75dfa24f94915b702c8",
+      "date": "2026-10-20T05:50:19Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "chobin1253",
+      "gitAuthorName": "chobin1253",
+      "gitAuthorEmail": "dlchqls06@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 11,
+        "additions": 494,
+        "deletions": 237,
+        "meaningful_change": 247,
+        "meaningful_file_count": 5,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "1학년 B반 6팀",
       "repo": "tjd6356-afk/2-_-",
