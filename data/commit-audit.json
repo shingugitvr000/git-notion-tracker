@@ -1,11 +1,126 @@
 {
-  "updatedAt": "2026. 10. 21. 03:36",
+  "updatedAt": "2026. 10. 21. 07:06",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "1학년 A반 2팀",
+      "repo": "hoshinouhee123/gacha-game-teamplay",
+      "branch": "main",
+      "sha": "0d92a659ea554519da823e944c42e1b79913b8b2",
+      "message": "[Fix] 스크립트 붙이는걸 깜빡해서 수정",
+      "url": "https://github.com/hoshinouhee123/gacha-game-teamplay/commit/0d92a659ea554519da823e944c42e1b79913b8b2",
+      "date": "2026-10-20T19:25:51Z",
+      "expectedGithub": "hoshinouhee123",
+      "actualGithub": "hoshinouhee123",
+      "gitAuthorName": "hoshinouhee123",
+      "gitAuthorEmail": "mna209459@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 59,
+        "deletions": 1,
+        "meaningful_change": 60,
+        "meaningful_file_count": 1,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 2팀",
+      "repo": "hoshinouhee123/gacha-game-teamplay",
+      "branch": "main",
+      "sha": "9c56b4b12832f49896b20cf7163a7098979b86d3",
+      "message": "[Feat] 전투 후 결과창 닫기 버튼을 통해 메인 메뉴로 돌아가도록 설정",
+      "url": "https://github.com/hoshinouhee123/gacha-game-teamplay/commit/9c56b4b12832f49896b20cf7163a7098979b86d3",
+      "date": "2026-10-20T19:24:06Z",
+      "expectedGithub": "hoshinouhee123",
+      "actualGithub": "hoshinouhee123",
+      "gitAuthorName": "hoshinouhee123",
+      "gitAuthorEmail": "mna209459@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 5,
+        "additions": 19,
+        "deletions": 1,
+        "meaningful_change": 18,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 2팀",
+      "repo": "hoshinouhee123/gacha-game-teamplay",
+      "branch": "main",
+      "sha": "8798e0e20fc3b9b6c26ba3c912bc70c0b3f85df6",
+      "message": "[Feat] 스테이지 데이터 구현 및 스테이지 선택 후 배틀 씬 전환 구현",
+      "url": "https://github.com/hoshinouhee123/gacha-game-teamplay/commit/8798e0e20fc3b9b6c26ba3c912bc70c0b3f85df6",
+      "date": "2026-10-20T19:19:12Z",
+      "expectedGithub": "hoshinouhee123",
+      "actualGithub": "hoshinouhee123",
+      "gitAuthorName": "hoshinouhee123",
+      "gitAuthorEmail": "mna209459@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 46,
+        "additions": 2192,
+        "deletions": 1307,
+        "meaningful_change": 3337,
+        "meaningful_file_count": 24,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 5팀",
+      "repo": "surren01522-tech/2026_02_GameProject_Eurydice",
+      "branch": "main",
+      "sha": "b733855609f96ca16c4b9aef4d28d9fb3d21c9ef",
+      "message": "[Feat] 업적 시스템 구현",
+      "url": "https://github.com/surren01522-tech/2026_02_GameProject_Eurydice/commit/b733855609f96ca16c4b9aef4d28d9fb3d21c9ef",
+      "date": "2026-10-20T19:13:48Z",
+      "expectedGithub": "sw4860",
+      "actualGithub": "sw4860",
+      "gitAuthorName": "sand",
+      "gitAuthorEmail": "68569225+sw4860@users.noreply.github.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 40,
+        "additions": 2280,
+        "deletions": 687,
+        "meaningful_change": 2868,
+        "meaningful_file_count": 26,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 2팀",
+      "repo": "hoshinouhee123/gacha-game-teamplay",
+      "branch": "main",
+      "sha": "2ec523f37e56c781f286e8c268ab83195730f680",
+      "message": "[Feat] 스테이지 씬 제작",
+      "url": "https://github.com/hoshinouhee123/gacha-game-teamplay/commit/2ec523f37e56c781f286e8c268ab83195730f680",
+      "date": "2026-10-20T18:46:23Z",
+      "expectedGithub": "hoshinouhee123",
+      "actualGithub": "hoshinouhee123",
+      "gitAuthorName": "hoshinouhee123",
+      "gitAuthorEmail": "mna209459@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 5,
+        "additions": 73359,
+        "deletions": 68509,
+        "meaningful_change": 141859,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "1학년 A반 2팀",
       "repo": "hoshinouhee123/gacha-game-teamplay",
