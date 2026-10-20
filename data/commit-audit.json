@@ -1,11 +1,57 @@
 {
-  "updatedAt": "2026. 10. 20. 08:52",
+  "updatedAt": "2026. 10. 20. 12:27",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "ab29b37d95c01261f3bf503e95d2784dd8d185fd",
+      "message": "인벤토리 키고 끄는 시스템",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/ab29b37d95c01261f3bf503e95d2784dd8d185fd",
+      "date": "2026-10-20T01:34:50Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "tjd6356-afk",
+      "gitAuthorName": "tjd6356-afk",
+      "gitAuthorEmail": "tjd6356@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 6,
+        "additions": 1722,
+        "deletions": 1284,
+        "meaningful_change": 3006,
+        "meaningful_file_count": 6,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 6팀",
+      "repo": "jeonghyerin002/2026_2TeamProject",
+      "branch": "main",
+      "sha": "7bd475fd2ee07cf4ccc6ef1cbacd2ac1deeee28e",
+      "message": "[Refector] 경비 NPC 조건 충족한 후 다이어로그 추가",
+      "url": "https://github.com/jeonghyerin002/2026_2TeamProject/commit/7bd475fd2ee07cf4ccc6ef1cbacd2ac1deeee28e",
+      "date": "2026-10-20T01:00:20Z",
+      "expectedGithub": "jeonghyerin002",
+      "actualGithub": "blocks2094",
+      "gitAuthorName": "HyunWoo",
+      "gitAuthorEmail": "blocks2094@g.shingu.ac.kr",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 6,
+        "additions": 92,
+        "deletions": 9,
+        "meaningful_change": 71,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "1학년 B반 6팀",
       "repo": "tjd6356-afk/2-_-",
