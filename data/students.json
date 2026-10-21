@@ -1,7 +1,7 @@
 {
   "course": "Git 프로젝트 활동 현황",
   "notionUrl": "https://abaft-vibraphone-8f7.notion.site/Git-3c28655a72df80199dafc115fef9ddd4?pvs=74",
-  "updatedAt": "2026. 10. 22. 05:17",
+  "updatedAt": "2026. 10. 22. 08:31",
   "students": [
     {
       "name": "2학년 1팀",
@@ -125,8 +125,8 @@
         8,
         3,
         17,
-        25,
-        11,
+        26,
+        10,
         10
       ],
       "recent": [
@@ -250,7 +250,7 @@
         },
         {
           "message": "[feat] 바스테트 튜토리얼 임시 맵 추가 수정",
-          "time": "2일 전",
+          "time": "3일 전",
           "sha": "f0182d0",
           "url": "https://github.com/suyan05/PharaohCube/commit/f0182d0784274524570b8d900027830afcd9646f"
         },
@@ -462,19 +462,19 @@
         },
         {
           "message": "[Fix] 미션 오브젝트 수정, 게임 시간 수정",
-          "time": "9일 전",
+          "time": "10일 전",
           "sha": "7e1c3ad",
           "url": "https://github.com/ahyun04/26TeamProject_2/commit/7e1c3ad737cfc52fc409dc6706cd5bc3187c28a8"
         },
         {
           "message": "[Fix] UI 수정",
-          "time": "9일 전",
+          "time": "10일 전",
           "sha": "e567b99",
           "url": "https://github.com/ahyun04/26TeamProject_2/commit/e567b9965ef2860c8250c583861b47c4ec4b83cf"
         },
         {
           "message": "[Feat] UI 적용",
-          "time": "9일 전",
+          "time": "10일 전",
           "sha": "e7db311",
           "url": "https://github.com/ahyun04/26TeamProject_2/commit/e7db3115d02d470cfa25b3c4cc0c9c981c0a8784"
         }
@@ -754,7 +754,7 @@
       "commits": 0,
       "semesterCommits": 58,
       "activeDays": 0,
-      "lastCommit": "46일 전",
+      "lastCommit": "47일 전",
       "status": "inactive",
       "weekly": [
         3,
@@ -768,7 +768,7 @@
       "recent": [
         {
           "message": "[Feat] 타이머 및 게임 종료 결과 UI 추가",
-          "time": "46일 전",
+          "time": "47일 전",
           "sha": "76b6ffc",
           "url": "https://github.com/ahyun04/26TeamProject_2/commit/76b6ffc6ae207ddeb3d48a586ee9ca4a598a1880"
         },
@@ -1125,7 +1125,7 @@
       "commits": 1,
       "semesterCommits": 6,
       "activeDays": 1,
-      "lastCommit": "어제",
+      "lastCommit": "2일 전",
       "status": "active",
       "weekly": [
         0,
@@ -1139,7 +1139,7 @@
       "recent": [
         {
           "message": "[Feat]인벤토리 시스템 구현, 유물시스템 구현",
-          "time": "어제",
+          "time": "2일 전",
           "sha": "57754a5",
           "url": "https://github.com/23jihwan/7_tim/commit/57754a5d1ec2919f45409a3f53592550b866edce"
         },
@@ -1280,7 +1280,7 @@
         },
         {
           "message": "[FEAT] 챕터 4연결 수정",
-          "time": "2일 전",
+          "time": "3일 전",
           "sha": "bca2fe8",
           "url": "https://github.com/esuvean/PRESS-START_/commit/bca2fe825074f1b5926ff5cdd61d3c08b7c63dce"
         },
@@ -1634,6 +1634,59 @@
       ]
     },
     {
+      "name": "cho70806-lab (실제 커밋 작성자)",
+      "id": "cho70806-lab",
+      "team": "1학년 B반 1팀",
+      "github": "cho70806-lab",
+      "repo": "simo07d7PG/Team_JJAMBBAP",
+      "commits": 1,
+      "semesterCommits": 5,
+      "activeDays": 1,
+      "lastCommit": "오늘",
+      "status": "active",
+      "weekly": [
+        0,
+        0,
+        0,
+        1,
+        2,
+        1,
+        1
+      ],
+      "recent": [
+        {
+          "message": "[feat] NPC 모델링 제작",
+          "time": "오늘",
+          "sha": "9c0ffe2",
+          "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/9c0ffe255a5ac49c7274b51c3bb4104049ea9412"
+        },
+        {
+          "message": "[Feat]오브젝트 모델링 제작4",
+          "time": "8일 전",
+          "sha": "359c561",
+          "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/359c5618fc44d9bd4e046c3c09f898bcf6ba4f01"
+        },
+        {
+          "message": "[feat]오브젝트 모델링 제작3",
+          "time": "15일 전",
+          "sha": "c95905d",
+          "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/c95905d49d3fd5a1f54c0bd2e587801c2c2dd781"
+        },
+        {
+          "message": "[feat]오브젝트 모델링 제작",
+          "time": "17일 전",
+          "sha": "38aa264",
+          "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/38aa264110a70324d3804ad6982ca42df4cb7f27"
+        },
+        {
+          "message": "[feat]: 오브젝트 모델링 제작",
+          "time": "22일 전",
+          "sha": "ae917ec",
+          "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/ae917ec88a430d1f3ec4b657af243f1b7b8220d3"
+        }
+      ]
+    },
+    {
       "name": "cocomakid (실제 커밋 작성자)",
       "id": "cocomakid",
       "team": "1학년 B반 1팀",
@@ -1733,7 +1786,7 @@
         },
         {
           "message": "[feat]: 도트 글꼴 추가",
-          "time": "21일 전",
+          "time": "22일 전",
           "sha": "4f96d73",
           "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/4f96d73abfbfb817c6a13ada812681f1e6d55625"
         }
@@ -1783,53 +1836,6 @@
           "time": "16일 전",
           "sha": "4e3cd15",
           "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/4e3cd1525ba03a7edeeb58c14963f76f476f1681"
-        }
-      ]
-    },
-    {
-      "name": "cho70806-lab (실제 커밋 작성자)",
-      "id": "cho70806-lab",
-      "team": "1학년 B반 1팀",
-      "github": "cho70806-lab",
-      "repo": "simo07d7PG/Team_JJAMBBAP",
-      "commits": 0,
-      "semesterCommits": 4,
-      "activeDays": 0,
-      "lastCommit": "8일 전",
-      "status": "inactive",
-      "weekly": [
-        0,
-        0,
-        0,
-        1,
-        2,
-        1,
-        0
-      ],
-      "recent": [
-        {
-          "message": "[Feat]오브젝트 모델링 제작4",
-          "time": "8일 전",
-          "sha": "359c561",
-          "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/359c5618fc44d9bd4e046c3c09f898bcf6ba4f01"
-        },
-        {
-          "message": "[feat]오브젝트 모델링 제작3",
-          "time": "15일 전",
-          "sha": "c95905d",
-          "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/c95905d49d3fd5a1f54c0bd2e587801c2c2dd781"
-        },
-        {
-          "message": "[feat]오브젝트 모델링 제작",
-          "time": "17일 전",
-          "sha": "38aa264",
-          "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/38aa264110a70324d3804ad6982ca42df4cb7f27"
-        },
-        {
-          "message": "[feat]: 오브젝트 모델링 제작",
-          "time": "21일 전",
-          "sha": "ae917ec",
-          "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/ae917ec88a430d1f3ec4b657af243f1b7b8220d3"
         }
       ]
     },
@@ -1903,7 +1909,7 @@
         },
         {
           "message": "Initial commit",
-          "time": "36일 전",
+          "time": "37일 전",
           "sha": "a7471ec",
           "url": "https://github.com/jeolje934-dot/Placeholder_2026_1A_team-project/commit/a7471ec3212432eb7d0456f7a2d5801b9e7c8f91"
         }
@@ -2626,7 +2632,7 @@
         },
         {
           "message": "[feat] 티켓 이펙트 연출",
-          "time": "80일 전",
+          "time": "81일 전",
           "sha": "4c7c0ae",
           "url": "https://github.com/JungYS24/Tricky-Yacht/commit/4c7c0ae1fc7c873b5124572990746f97d0f2978d"
         },
@@ -2971,7 +2977,7 @@
         },
         {
           "message": "씬 전환 시 무기 바뀌는 버그 수정",
-          "time": "어제",
+          "time": "2일 전",
           "sha": "b253b39",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/b253b39888aee8d7a7d4b8686f0e544957111040"
         },
@@ -3053,13 +3059,13 @@
         },
         {
           "message": "업적 ui 추가",
-          "time": "11일 전",
+          "time": "12일 전",
           "sha": "10a8dba",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/10a8dba90a12b92a2144974b495bf64942e99867"
         },
         {
           "message": "타이틀 화면 버튼 추가",
-          "time": "11일 전",
+          "time": "12일 전",
           "sha": "0aeff1f",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/0aeff1fcd0251d47756431f8377b13465cde3981"
         }
@@ -3398,9 +3404,9 @@
       "team": "surren01522-tech",
       "github": "sw4860",
       "repo": "surren01522-tech/2026_02_GameProject_Eurydice",
-      "commits": 6,
+      "commits": 5,
       "semesterCommits": 47,
-      "activeDays": 4,
+      "activeDays": 3,
       "lastCommit": "오늘",
       "status": "active",
       "weekly": [
@@ -3409,8 +3415,8 @@
         0,
         13,
         28,
-        0,
-        6
+        1,
+        5
       ],
       "recent": [
         {
