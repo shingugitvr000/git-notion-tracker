@@ -1,11 +1,126 @@
 {
-  "updatedAt": "2026. 10. 21. 14:43",
+  "updatedAt": "2026. 10. 21. 20:11",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "1학년 A반 1팀",
+      "repo": "chimchimjam377/TeamProject---Singularity-Thief",
+      "branch": "main",
+      "sha": "dd6af69e307337bfee9071d42f2672d14b7a1ac3",
+      "message": "적(임시) 아트 추가",
+      "url": "https://github.com/chimchimjam377/TeamProject---Singularity-Thief/commit/dd6af69e307337bfee9071d42f2672d14b7a1ac3",
+      "date": "2026-10-21T10:31:20Z",
+      "expectedGithub": "chimchimjam377",
+      "actualGithub": "chimchimjam377",
+      "gitAuthorName": "chimchimjam377",
+      "gitAuthorEmail": "chimchimjam377@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 0,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 0,
+        "suspicious_score": 95,
+        "judgment": "뻥의심"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "30c9a6e5ce83c872b52e66fcd1014cad65e21c34",
+      "message": "[Feat]: 프롤로그 1 발굴 현장 진행 구현",
+      "url": "https://github.com/suyan05/PharaohCube/commit/30c9a6e5ce83c872b52e66fcd1014cad65e21c34",
+      "date": "2026-10-21T08:22:59Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "parksarang04",
+      "gitAuthorName": "parksarang04",
+      "gitAuthorEmail": "qkrtkfkd9074@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 157,
+        "additions": 19385,
+        "deletions": 218,
+        "meaningful_change": 14122,
+        "meaningful_file_count": 73,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 2팀",
+      "repo": "Taehyeon88/Graduation-project",
+      "branch": "main",
+      "sha": "1f6ca497e4170fb311aa7803fc3ae0ba6d1a6c3e",
+      "message": "[Feat] 회피 상태효과 구현 및 방어 상태효과 삭제",
+      "url": "https://github.com/Taehyeon88/Graduation-project/commit/1f6ca497e4170fb311aa7803fc3ae0ba6d1a6c3e",
+      "date": "2026-10-21T07:20:41Z",
+      "expectedGithub": "Taehyeon88",
+      "actualGithub": "Taehyeon88",
+      "gitAuthorName": "Taehyeon88",
+      "gitAuthorEmail": "Taehyeon5376@naver.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 44,
+        "additions": 703,
+        "deletions": 909,
+        "meaningful_change": 893,
+        "meaningful_file_count": 21,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "2440da2175b490e97c0754add605c4fe0e9d1c62",
+      "message": "[Feat] 공통 상호작용 기반 추가 (조사 오브젝트, 획득 팝업, 대사창)",
+      "url": "https://github.com/suyan05/PharaohCube/commit/2440da2175b490e97c0754add605c4fe0e9d1c62",
+      "date": "2026-10-21T06:41:35Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "parksarang04",
+      "gitAuthorName": "parksarang04",
+      "gitAuthorEmail": "qkrtkfkd9074@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 20,
+        "additions": 2293,
+        "deletions": 9,
+        "meaningful_change": 2264,
+        "meaningful_file_count": 10,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 2팀",
+      "repo": "Taehyeon88/Graduation-project",
+      "branch": "main",
+      "sha": "93f52e06aa3fd560921514aae7d1fd6ab88ba5ff",
+      "message": "[Feat] 적 및 아군 진영 Core 구현",
+      "url": "https://github.com/Taehyeon88/Graduation-project/commit/93f52e06aa3fd560921514aae7d1fd6ab88ba5ff",
+      "date": "2026-10-21T06:08:50Z",
+      "expectedGithub": "Taehyeon88",
+      "actualGithub": "Taehyeon88",
+      "gitAuthorName": "Taehyeon88",
+      "gitAuthorEmail": "Taehyeon5376@naver.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 80,
+        "additions": 2868,
+        "deletions": 821,
+        "meaningful_change": 2945,
+        "meaningful_file_count": 44,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "3학년 1팀",
       "repo": "ahyun04/26TeamProject_2",
