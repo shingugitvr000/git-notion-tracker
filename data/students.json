@@ -1,7 +1,7 @@
 {
   "course": "Git 프로젝트 활동 현황",
   "notionUrl": "https://abaft-vibraphone-8f7.notion.site/Git-3c28655a72df80199dafc115fef9ddd4?pvs=74",
-  "updatedAt": "2026. 10. 21. 07:06",
+  "updatedAt": "2026. 10. 21. 09:45",
   "students": [
     {
       "name": "2학년 1팀",
@@ -284,8 +284,8 @@
         2,
         0,
         4,
-        6,
-        1,
+        7,
+        0,
         7
       ],
       "recent": [
@@ -462,7 +462,7 @@
         },
         {
           "message": "[Fix] 미션 오브젝트 수정, 게임 시간 수정",
-          "time": "8일 전",
+          "time": "9일 전",
           "sha": "7e1c3ad",
           "url": "https://github.com/ahyun04/26TeamProject_2/commit/7e1c3ad737cfc52fc409dc6706cd5bc3187c28a8"
         },
@@ -920,8 +920,8 @@
         3,
         1,
         2,
-        2,
-        4,
+        3,
+        3,
         2
       ],
       "recent": [
@@ -1313,7 +1313,7 @@
       "commits": 10,
       "semesterCommits": 59,
       "activeDays": 4,
-      "lastCommit": "어제",
+      "lastCommit": "2일 전",
       "status": "active",
       "weekly": [
         1,
@@ -1327,7 +1327,7 @@
       "recent": [
         {
           "message": "[FEAT] 챕터 4연결 수정",
-          "time": "어제",
+          "time": "2일 전",
           "sha": "bca2fe8",
           "url": "https://github.com/esuvean/PRESS-START_/commit/bca2fe825074f1b5926ff5cdd61d3c08b7c63dce"
         },
@@ -1891,7 +1891,7 @@
         },
         {
           "message": "Initial commit",
-          "time": "35일 전",
+          "time": "36일 전",
           "sha": "a7471ec",
           "url": "https://github.com/jeolje934-dot/Placeholder_2026_1A_team-project/commit/a7471ec3212432eb7d0456f7a2d5801b9e7c8f91"
         }
@@ -2073,13 +2073,13 @@
         },
         {
           "message": "[Feat] 무기 장착 여부에 따른 경비 NPC 통행 제어 추가",
-          "time": "오늘",
+          "time": "어제",
           "sha": "2e0d892",
           "url": "https://github.com/jeonghyerin002/2026_2TeamProject/commit/2e0d892840157c13e1d35a181383f9962352e3ea"
         },
         {
           "message": "[Feat] NPC 상호작용 유형별 동작과 조건부 Inspector 추가",
-          "time": "오늘",
+          "time": "어제",
           "sha": "9842b6d",
           "url": "https://github.com/jeonghyerin002/2026_2TeamProject/commit/9842b6d91047ff378cff416bafdf74392bbc3e34"
         }
@@ -2803,8 +2803,8 @@
       "status": "active",
       "weekly": [
         9,
-        7,
-        30,
+        9,
+        28,
         17,
         17,
         12,
@@ -2880,9 +2880,9 @@
         11,
         9,
         8,
-        12,
-        19,
-        19,
+        15,
+        17,
+        18,
         10
       ],
       "recent": [
@@ -2894,19 +2894,19 @@
         },
         {
           "message": "인벤토리 시스템",
-          "time": "오늘",
+          "time": "어제",
           "sha": "026a5a1",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/026a5a1ab8ac7de7f1e6f11b95baad4effd43793"
         },
         {
           "message": "던전에서 ground 체크가 안되는 버그",
-          "time": "오늘",
+          "time": "어제",
           "sha": "1c33ac2",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/1c33ac263078f1aa8fcf9a8e2f3b96924420b4f7"
         },
         {
           "message": "씬 전환 시 무기 바뀌는 버그 수정",
-          "time": "오늘",
+          "time": "어제",
           "sha": "b253b39",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/b253b39888aee8d7a7d4b8686f0e544957111040"
         },
@@ -3474,7 +3474,7 @@
         },
         {
           "message": "[Feat] 스테이지 0 맵 제작 시작",
-          "time": "3일 전",
+          "time": "4일 전",
           "sha": "1c35b4a",
           "url": "https://github.com/surren01522-tech/2026_02_GameProject_Eurydice/commit/1c35b4a6127ac88744e9cc65b45a011714f4e337"
         },
@@ -3651,10 +3651,10 @@
       "team": "chimchimjam377",
       "github": "chimchimjam377",
       "repo": "chimchimjam377/TeamProject---Singularity-Thief",
-      "commits": 4,
-      "semesterCommits": 23,
-      "activeDays": 3,
-      "lastCommit": "3일 전",
+      "commits": 5,
+      "semesterCommits": 24,
+      "activeDays": 4,
+      "lastCommit": "오늘",
       "status": "active",
       "weekly": [
         0,
@@ -3663,9 +3663,15 @@
         4,
         10,
         4,
-        4
+        5
       ],
       "recent": [
+        {
+          "message": "[Fix] 버그 수정",
+          "time": "오늘",
+          "sha": "73bc32a",
+          "url": "https://github.com/chimchimjam377/TeamProject---Singularity-Thief/commit/73bc32a95df126dcdd700616ee42dd405818dde4"
+        },
         {
           "message": "Merge branch 'main' of https://github.com/chimchimjam377/TeamProject---Singularity-Thief",
           "time": "3일 전",
@@ -3689,12 +3695,6 @@
           "time": "6일 전",
           "sha": "9f9c9a8",
           "url": "https://github.com/chimchimjam377/TeamProject---Singularity-Thief/commit/9f9c9a8a1e78dd1bcc012a73bcb4018d0c97d76d"
-        },
-        {
-          "message": "[Feat]플레이어 어택 모션 추가(임시)",
-          "time": "7일 전",
-          "sha": "0ab8d2e",
-          "url": "https://github.com/chimchimjam377/TeamProject---Singularity-Thief/commit/0ab8d2e004d0f8a2b400edd71228a5e38d89b879"
         }
       ]
     },
@@ -3913,8 +3913,8 @@
         2,
         0,
         4,
-        6,
-        1,
+        7,
+        0,
         7
       ],
       "recent": [
@@ -4178,8 +4178,8 @@
         3,
         1,
         2,
-        2,
-        4,
+        3,
+        3,
         2
       ],
       "recent": [
