@@ -1,11 +1,80 @@
 {
-  "updatedAt": "2026. 10. 22. 01:02",
+  "updatedAt": "2026. 10. 22. 05:17",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "bb0fb2d34ab0a4d39797563eb31433fabd26abab",
+      "message": "[Feat] 프롤로그 이미지 추가",
+      "url": "https://github.com/suyan05/PharaohCube/commit/bb0fb2d34ab0a4d39797563eb31433fabd26abab",
+      "date": "2026-10-21T19:28:27Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "khy1004",
+      "gitAuthorName": "khy1004",
+      "gitAuthorEmail": "khyseog08@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 103,
+        "additions": 11734,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 20,
+        "suspicious_score": 35,
+        "judgment": "확인필요"
+      }
+    },
+    {
+      "projectName": "2학년 7팀",
+      "repo": "23jihwan/7_tim",
+      "branch": "main",
+      "sha": "d440f0fa99f84754d519c13763b7b4d1fdbdc356",
+      "message": "[Feat] 설정창 완성 메인화면 사운드 추가 및 사운드 메니저 추가",
+      "url": "https://github.com/23jihwan/7_tim/commit/d440f0fa99f84754d519c13763b7b4d1fdbdc356",
+      "date": "2026-10-21T17:46:16Z",
+      "expectedGithub": "23jihwan",
+      "actualGithub": "omh1228",
+      "gitAuthorName": "omh1228",
+      "gitAuthorEmail": "pigoh041228@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 17,
+        "additions": 734,
+        "deletions": 33,
+        "meaningful_change": 546,
+        "meaningful_file_count": 6,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 2팀",
+      "repo": "esuvean/PRESS-START_",
+      "branch": "main",
+      "sha": "adde166cda9e6e7ebffbd0ab10b0321c529046e8",
+      "message": "[FEAT] 미니게임 19 수정",
+      "url": "https://github.com/esuvean/PRESS-START_/commit/adde166cda9e6e7ebffbd0ab10b0321c529046e8",
+      "date": "2026-10-21T17:36:53Z",
+      "expectedGithub": "esuvean",
+      "actualGithub": "flexinja99",
+      "gitAuthorName": "flexinja",
+      "gitAuthorEmail": "hjgo927@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 3,
+        "additions": 273,
+        "deletions": 527,
+        "meaningful_change": 800,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "1학년 B반 3팀",
       "repo": "Tiphe0821/GameProject_T3_1_B",
