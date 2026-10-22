@@ -1,11 +1,126 @@
 {
-  "updatedAt": "2026. 10. 22. 12:20",
+  "updatedAt": "2026. 10. 22. 17:50",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "1학년 A반 5팀",
+      "repo": "surren01522-tech/2026_02_GameProject_Eurydice",
+      "branch": "main",
+      "sha": "6f58254522148a37a1b0633e7223d320c1b4dfe9",
+      "message": "[Chore] DOTween Import",
+      "url": "https://github.com/surren01522-tech/2026_02_GameProject_Eurydice/commit/6f58254522148a37a1b0633e7223d320c1b4dfe9",
+      "date": "2026-10-22T06:31:01Z",
+      "expectedGithub": "sw4860",
+      "actualGithub": "sw4860",
+      "gitAuthorName": "sand",
+      "gitAuthorEmail": "68569225+sw4860@users.noreply.github.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 46,
+        "additions": 6199,
+        "deletions": 0,
+        "meaningful_change": 2288,
+        "meaningful_file_count": 15,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 5팀",
+      "repo": "surren01522-tech/2026_02_GameProject_Eurydice",
+      "branch": "main",
+      "sha": "58404b3f05aef41229f83f810316246cdabadf90",
+      "message": "[Chore] 프로젝트 정리 및 Scene 변경 사항 적용",
+      "url": "https://github.com/surren01522-tech/2026_02_GameProject_Eurydice/commit/58404b3f05aef41229f83f810316246cdabadf90",
+      "date": "2026-10-22T06:23:31Z",
+      "expectedGithub": "sw4860",
+      "actualGithub": "sw4860",
+      "gitAuthorName": "sand",
+      "gitAuthorEmail": "68569225+sw4860@users.noreply.github.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 20,
+        "additions": 168,
+        "deletions": 1677,
+        "meaningful_change": 932,
+        "meaningful_file_count": 9,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 5팀",
+      "repo": "surren01522-tech/2026_02_GameProject_Eurydice",
+      "branch": "main",
+      "sha": "f2af4550449165b581df11c7b4fe9267fa38375b",
+      "message": "[Feat] 메인 메뉴 컨트롤러",
+      "url": "https://github.com/surren01522-tech/2026_02_GameProject_Eurydice/commit/f2af4550449165b581df11c7b4fe9267fa38375b",
+      "date": "2026-10-22T06:09:09Z",
+      "expectedGithub": "sw4860",
+      "actualGithub": "sw4860",
+      "gitAuthorName": "sand",
+      "gitAuthorEmail": "68569225+sw4860@users.noreply.github.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 10,
+        "additions": 4105,
+        "deletions": 59,
+        "meaningful_change": 4147,
+        "meaningful_file_count": 7,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "3ed8b0757c2a3195231a38b829d48caa4078a401",
+      "message": "[Chore] 아이템 아이콘 자동 연결 메뉴 추가",
+      "url": "https://github.com/suyan05/PharaohCube/commit/3ed8b0757c2a3195231a38b829d48caa4078a401",
+      "date": "2026-10-22T05:53:15Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "parksarang04",
+      "gitAuthorName": "parksarang04",
+      "gitAuthorEmail": "qkrtkfkd9074@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 41,
+        "additions": 1410,
+        "deletions": 3,
+        "meaningful_change": 108,
+        "meaningful_file_count": 20,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "89784e0a6ae22ff3ff1b668a215d235d1cfa6d70",
+      "message": "[Feat] 프롤로그 1 연출 추가 및 연출 공용 도구 구현",
+      "url": "https://github.com/suyan05/PharaohCube/commit/89784e0a6ae22ff3ff1b668a215d235d1cfa6d70",
+      "date": "2026-10-22T05:22:15Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "parksarang04",
+      "gitAuthorName": "parksarang04",
+      "gitAuthorEmail": "qkrtkfkd9074@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 38,
+        "additions": 3886,
+        "deletions": 2391,
+        "meaningful_change": 6233,
+        "meaningful_file_count": 22,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "1학년 B반 1팀",
       "repo": "simo07d7PG/Team_JJAMBBAP",
