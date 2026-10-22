@@ -1,11 +1,172 @@
 {
-  "updatedAt": "2026. 10. 22. 23:28",
+  "updatedAt": "2026. 10. 23. 03:42",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "2학년 7팀",
+      "repo": "23jihwan/7_tim",
+      "branch": "main",
+      "sha": "a6110764c0c7164b166a760c76142d06f1d766b7",
+      "message": "[Fix]턴 종료 버튼 다시 올림",
+      "url": "https://github.com/23jihwan/7_tim/commit/a6110764c0c7164b166a760c76142d06f1d766b7",
+      "date": "2026-10-22T17:33:44Z",
+      "expectedGithub": "23jihwan",
+      "actualGithub": "23jihwan",
+      "gitAuthorName": "23jihwan",
+      "gitAuthorEmail": "dbwlghks7410@naver.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 7,
+        "deletions": 7,
+        "meaningful_change": 14,
+        "meaningful_file_count": 1,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 7팀",
+      "repo": "23jihwan/7_tim",
+      "branch": "main",
+      "sha": "fdd523dabf6fd1bfcadac5f2337d2d521c2d5b35",
+      "message": "[Feat]카드 테두리 이미지 및 턴종료 버튼 이미지 구현",
+      "url": "https://github.com/23jihwan/7_tim/commit/fdd523dabf6fd1bfcadac5f2337d2d521c2d5b35",
+      "date": "2026-10-22T17:19:37Z",
+      "expectedGithub": "23jihwan",
+      "actualGithub": "23jihwan",
+      "gitAuthorName": "23jihwan",
+      "gitAuthorEmail": "dbwlghks7410@naver.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 6,
+        "additions": 303,
+        "deletions": 17,
+        "meaningful_change": 34,
+        "meaningful_file_count": 4,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 6팀",
+      "repo": "jeonghyerin002/2026_2TeamProject",
+      "branch": "main",
+      "sha": "a10c835b78acdb22287c36e63406edcb25ac1950",
+      "message": "[Chore] 다이어로그 출력 속도 조절",
+      "url": "https://github.com/jeonghyerin002/2026_2TeamProject/commit/a10c835b78acdb22287c36e63406edcb25ac1950",
+      "date": "2026-10-22T15:46:35Z",
+      "expectedGithub": "jeonghyerin002",
+      "actualGithub": "blocks2094",
+      "gitAuthorName": "HyunWoo",
+      "gitAuthorEmail": "blocks2094@g.shingu.ac.kr",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 2,
+        "deletions": 2,
+        "meaningful_change": 4,
+        "meaningful_file_count": 2,
+        "suspicious_score": 15,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 6팀",
+      "repo": "jeonghyerin002/2026_2TeamProject",
+      "branch": "main",
+      "sha": "645f3d31d4b9a091e361694b42da6ce18fd1729d",
+      "message": "[Fix] 최초 StartMenu 진입 시 페이드 연출 생략",
+      "url": "https://github.com/jeonghyerin002/2026_2TeamProject/commit/645f3d31d4b9a091e361694b42da6ce18fd1729d",
+      "date": "2026-10-22T15:43:27Z",
+      "expectedGithub": "jeonghyerin002",
+      "actualGithub": "blocks2094",
+      "gitAuthorName": "HyunWoo",
+      "gitAuthorEmail": "blocks2094@g.shingu.ac.kr",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 13,
+        "deletions": 0,
+        "meaningful_change": 13,
+        "meaningful_file_count": 1,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 6팀",
+      "repo": "jeonghyerin002/2026_2TeamProject",
+      "branch": "main",
+      "sha": "672f0979ff4d723f724364728ba563cc1172c2a1",
+      "message": "[Feat] 프롤로그 이미지 전환 및 대화창 연출 개선",
+      "url": "https://github.com/jeonghyerin002/2026_2TeamProject/commit/672f0979ff4d723f724364728ba563cc1172c2a1",
+      "date": "2026-10-22T15:43:13Z",
+      "expectedGithub": "jeonghyerin002",
+      "actualGithub": "blocks2094",
+      "gitAuthorName": "HyunWoo",
+      "gitAuthorEmail": "blocks2094@g.shingu.ac.kr",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 12,
+        "additions": 1220,
+        "deletions": 336,
+        "meaningful_change": 612,
+        "meaningful_file_count": 5,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "edc737e64d76cf952196c48b0d63a6ad5e3e04aa",
+      "message": "[Feat] 바스테트 5개 방 걷는 퍼즐·봉인석·횃불 제단 + 석상/발판 그림 + 아누비스로 이동",
+      "url": "https://github.com/suyan05/PharaohCube/commit/edc737e64d76cf952196c48b0d63a6ad5e3e04aa",
+      "date": "2026-10-22T15:31:16Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "kangxogh1013",
+      "gitAuthorName": "kangxogh1013",
+      "gitAuthorEmail": "ho1013sl@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 89,
+        "additions": 23174,
+        "deletions": 904,
+        "meaningful_change": 22525,
+        "meaningful_file_count": 48,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 5팀",
+      "repo": "surren01522-tech/2026_02_GameProject_Eurydice",
+      "branch": "main",
+      "sha": "5d64675be3443e1d999f706ca5c1ef0d15f5c5cf",
+      "message": "[Feat] VFX 그래프 추가 & 폭포 쉐이더 추가",
+      "url": "https://github.com/surren01522-tech/2026_02_GameProject_Eurydice/commit/5d64675be3443e1d999f706ca5c1ef0d15f5c5cf",
+      "date": "2026-10-22T15:30:20Z",
+      "expectedGithub": "sw4860",
+      "actualGithub": "yoojoonlee0424",
+      "gitAuthorName": "yoojoonlee0424",
+      "gitAuthorEmail": "yoojoonlee0424@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 300,
+        "additions": 1008090,
+        "deletions": 82,
+        "meaningful_change": 273,
+        "meaningful_file_count": 72,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "1학년 B반 1팀",
       "repo": "simo07d7PG/Team_JJAMBBAP",
