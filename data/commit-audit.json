@@ -1,11 +1,172 @@
 {
-  "updatedAt": "2026. 10. 24. 04:47",
+  "updatedAt": "2026. 10. 24. 07:54",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "37790a8d882a3773697d27b9c210f9f2f7c33546",
+      "message": "설정 패널 배경 추가",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/37790a8d882a3773697d27b9c210f9f2f7c33546",
+      "date": "2026-10-23T21:44:08Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "imnakyung",
+      "gitAuthorName": "imnakyung",
+      "gitAuthorEmail": "imnakyung1005@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 4,
+        "additions": 8279,
+        "deletions": 2289,
+        "meaningful_change": 10425,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "ed251e4617fc5d2e3d3ba412e873ed962024aa9d",
+      "message": "스크롤 바 UI 배경, 스크롤바 핸들 추가",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/ed251e4617fc5d2e3d3ba412e873ed962024aa9d",
+      "date": "2026-10-23T21:38:45Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "imnakyung",
+      "gitAuthorName": "imnakyung",
+      "gitAuthorEmail": "imnakyung1005@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 7,
+        "additions": 397,
+        "deletions": 33,
+        "meaningful_change": 0,
+        "meaningful_file_count": 2,
+        "suspicious_score": 35,
+        "judgment": "확인필요"
+      }
+    },
+    {
+      "projectName": "3학년 1팀",
+      "repo": "ahyun04/26TeamProject_2",
+      "branch": "main",
+      "sha": "aaa4df5dece7f18796ed3948ca24ef9aa6d80cd1",
+      "message": "Merge branch 'Kwonjun' into main",
+      "url": "https://github.com/ahyun04/26TeamProject_2/commit/aaa4df5dece7f18796ed3948ca24ef9aa6d80cd1",
+      "date": "2026-10-23T21:20:00Z",
+      "expectedGithub": "ahyun04",
+      "actualGithub": "Im-Dinosaur",
+      "gitAuthorName": "Im-Dinosaur",
+      "gitAuthorEmail": "wnsdl80100@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 34,
+        "additions": 10511,
+        "deletions": 223,
+        "meaningful_change": 10701,
+        "meaningful_file_count": 31,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 1팀",
+      "repo": "ahyun04/26TeamProject_2",
+      "branch": "main",
+      "sha": "391f87eb6c41db2d95b8a60699fa8b5117e27036",
+      "message": "[Feat] 게임 설정 및 4~12인 맵 분산 스폰 연결",
+      "url": "https://github.com/ahyun04/26TeamProject_2/commit/391f87eb6c41db2d95b8a60699fa8b5117e27036",
+      "date": "2026-10-23T21:20:00Z",
+      "expectedGithub": "ahyun04",
+      "actualGithub": "Im-Dinosaur",
+      "gitAuthorName": "Im-Dinosaur",
+      "gitAuthorEmail": "wnsdl80100@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 26,
+        "additions": 10434,
+        "deletions": 216,
+        "meaningful_change": 10617,
+        "meaningful_file_count": 23,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 1팀",
+      "repo": "ahyun04/26TeamProject_2",
+      "branch": "main",
+      "sha": "6e4dc1d981b2f32c5b87c4ab1b25093478470c3c",
+      "message": "[Feat] 산소통 양손 들기 모션 및 시점 보정",
+      "url": "https://github.com/ahyun04/26TeamProject_2/commit/6e4dc1d981b2f32c5b87c4ab1b25093478470c3c",
+      "date": "2026-10-23T21:19:27Z",
+      "expectedGithub": "ahyun04",
+      "actualGithub": "Im-Dinosaur",
+      "gitAuthorName": "Im-Dinosaur",
+      "gitAuthorEmail": "wnsdl80100@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 8,
+        "additions": 77,
+        "deletions": 7,
+        "meaningful_change": 84,
+        "meaningful_file_count": 8,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 1팀",
+      "repo": "ahyun04/26TeamProject_2",
+      "branch": "main",
+      "sha": "0cf1578ee1e6f80d93a8ed3191dac50e77952e35",
+      "message": "[Fix] 맵 수정",
+      "url": "https://github.com/ahyun04/26TeamProject_2/commit/0cf1578ee1e6f80d93a8ed3191dac50e77952e35",
+      "date": "2026-10-23T20:39:06Z",
+      "expectedGithub": "ahyun04",
+      "actualGithub": "ahyun04",
+      "gitAuthorName": "ahyun04",
+      "gitAuthorEmail": "ahyun125@g.shingu.ac.kr",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 19942,
+        "deletions": 6512,
+        "meaningful_change": 26454,
+        "meaningful_file_count": 1,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 1팀",
+      "repo": "ahyun04/26TeamProject_2",
+      "branch": "main",
+      "sha": "e740b262b98874c8bb4f954c3366aebeb70bcf86",
+      "message": "[Feat] 4~12인 맵 배치",
+      "url": "https://github.com/ahyun04/26TeamProject_2/commit/e740b262b98874c8bb4f954c3366aebeb70bcf86",
+      "date": "2026-10-23T20:09:43Z",
+      "expectedGithub": "ahyun04",
+      "actualGithub": "ahyun04",
+      "gitAuthorName": "ahyun04",
+      "gitAuthorEmail": "ahyun125@g.shingu.ac.kr",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 4,
+        "additions": 29713,
+        "deletions": 0,
+        "meaningful_change": 29699,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "1학년 B반 3팀",
       "repo": "Tiphe0821/GameProject_T3_1_B",

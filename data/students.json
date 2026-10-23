@@ -1,7 +1,7 @@
 {
   "course": "Git 프로젝트 활동 현황",
   "notionUrl": "https://abaft-vibraphone-8f7.notion.site/Git-3c28655a72df80199dafc115fef9ddd4?pvs=74",
-  "updatedAt": "2026. 10. 24. 04:47",
+  "updatedAt": "2026. 10. 24. 07:54",
   "students": [
     {
       "name": "2학년 1팀",
@@ -150,13 +150,13 @@
         },
         {
           "message": "[feat] 바스테트 튜토리얼 임시 맵 추가 수정",
-          "time": "4일 전",
+          "time": "5일 전",
           "sha": "f0182d0",
           "url": "https://github.com/suyan05/PharaohCube/commit/f0182d0784274524570b8d900027830afcd9646f"
         },
         {
           "message": "[Chore] 바스테트 튜토리얼 임시 맵 씬 세팅",
-          "time": "4일 전",
+          "time": "5일 전",
           "sha": "f21da2c",
           "url": "https://github.com/suyan05/PharaohCube/commit/f21da2c8776acb0bf147c56ecde2a916e1c623eb"
         }
@@ -433,11 +433,11 @@
       "team": "ahyun04",
       "github": "ahyun04",
       "repo": "ahyun04/26TeamProject_2",
-      "commits": 1,
-      "semesterCommits": 19,
-      "activeDays": 1,
-      "lastCommit": "4일 전",
-      "status": "watch",
+      "commits": 3,
+      "semesterCommits": 21,
+      "activeDays": 2,
+      "lastCommit": "오늘",
+      "status": "active",
       "weekly": [
         0,
         0,
@@ -445,9 +445,21 @@
         0,
         2,
         5,
-        1
+        3
       ],
       "recent": [
+        {
+          "message": "[Fix] 맵 수정",
+          "time": "오늘",
+          "sha": "0cf1578",
+          "url": "https://github.com/ahyun04/26TeamProject_2/commit/0cf1578ee1e6f80d93a8ed3191dac50e77952e35"
+        },
+        {
+          "message": "[Feat] 4~12인 맵 배치",
+          "time": "오늘",
+          "sha": "e740b26",
+          "url": "https://github.com/ahyun04/26TeamProject_2/commit/e740b262b98874c8bb4f954c3366aebeb70bcf86"
+        },
         {
           "message": "[Fix]캔버스 스케일 수정",
           "time": "4일 전",
@@ -462,21 +474,9 @@
         },
         {
           "message": "[Fix] 미션 오브젝트 수정, 게임 시간 수정",
-          "time": "11일 전",
+          "time": "12일 전",
           "sha": "7e1c3ad",
           "url": "https://github.com/ahyun04/26TeamProject_2/commit/7e1c3ad737cfc52fc409dc6706cd5bc3187c28a8"
-        },
-        {
-          "message": "[Fix] UI 수정",
-          "time": "11일 전",
-          "sha": "e567b99",
-          "url": "https://github.com/ahyun04/26TeamProject_2/commit/e567b9965ef2860c8250c583861b47c4ec4b83cf"
-        },
-        {
-          "message": "[Feat] UI 적용",
-          "time": "11일 전",
-          "sha": "e7db311",
-          "url": "https://github.com/ahyun04/26TeamProject_2/commit/e7db3115d02d470cfa25b3c4cc0c9c981c0a8784"
         }
       ]
     },
@@ -486,10 +486,10 @@
       "team": "3학년 1팀",
       "github": "Im-Dinosaur",
       "repo": "ahyun04/26TeamProject_2",
-      "commits": 4,
-      "semesterCommits": 40,
-      "activeDays": 2,
-      "lastCommit": "2일 전",
+      "commits": 7,
+      "semesterCommits": 43,
+      "activeDays": 3,
+      "lastCommit": "오늘",
       "status": "active",
       "weekly": [
         1,
@@ -498,9 +498,27 @@
         7,
         9,
         7,
-        4
+        7
       ],
       "recent": [
+        {
+          "message": "Merge branch 'Kwonjun' into main",
+          "time": "오늘",
+          "sha": "aaa4df5",
+          "url": "https://github.com/ahyun04/26TeamProject_2/commit/aaa4df5dece7f18796ed3948ca24ef9aa6d80cd1"
+        },
+        {
+          "message": "[Feat] 게임 설정 및 4~12인 맵 분산 스폰 연결",
+          "time": "오늘",
+          "sha": "391f87e",
+          "url": "https://github.com/ahyun04/26TeamProject_2/commit/391f87eb6c41db2d95b8a60699fa8b5117e27036"
+        },
+        {
+          "message": "[Feat] 산소통 양손 들기 모션 및 시점 보정",
+          "time": "오늘",
+          "sha": "6e4dc1d",
+          "url": "https://github.com/ahyun04/26TeamProject_2/commit/6e4dc1d981b2f32c5b87c4ab1b25093478470c3c"
+        },
         {
           "message": "Merge branch 'Kwonjun' into main",
           "time": "2일 전",
@@ -512,24 +530,6 @@
           "time": "2일 전",
           "sha": "97b8f74",
           "url": "https://github.com/ahyun04/26TeamProject_2/commit/97b8f744e201368fb358ca6e30dcd5511eb2cd0a"
-        },
-        {
-          "message": "[Feat] 플레이어 피드백 및 방 규칙 개선",
-          "time": "6일 전",
-          "sha": "1818cbb",
-          "url": "https://github.com/ahyun04/26TeamProject_2/commit/1818cbb253b72147b72ed6634f0fd80d19a5d58f"
-        },
-        {
-          "message": "[Feat] 플레이어 시점과 도구 표시 개선",
-          "time": "6일 전",
-          "sha": "61fb143",
-          "url": "https://github.com/ahyun04/26TeamProject_2/commit/61fb143801adfce89b208e3edf5cb1dc65914819"
-        },
-        {
-          "message": "[Fix] StandBy 설정창 방 나가기 수정",
-          "time": "10일 전",
-          "sha": "0805723",
-          "url": "https://github.com/ahyun04/26TeamProject_2/commit/08057238478e162aff98e381d5d7e918a6ede281"
         }
       ]
     },
@@ -754,10 +754,10 @@
       "commits": 0,
       "semesterCommits": 58,
       "activeDays": 0,
-      "lastCommit": "48일 전",
+      "lastCommit": "49일 전",
       "status": "inactive",
       "weekly": [
-        2,
+        0,
         0,
         0,
         0,
@@ -768,13 +768,13 @@
       "recent": [
         {
           "message": "[Feat] 타이머 및 게임 종료 결과 UI 추가",
-          "time": "48일 전",
+          "time": "49일 전",
           "sha": "76b6ffc",
           "url": "https://github.com/ahyun04/26TeamProject_2/commit/76b6ffc6ae207ddeb3d48a586ee9ca4a598a1880"
         },
         {
           "message": "[Feat] 게임 종료 시스템 제작",
-          "time": "48일 전",
+          "time": "49일 전",
           "sha": "48bacc9",
           "url": "https://github.com/ahyun04/26TeamProject_2/commit/48bacc928caadc45515074a23ad65c3a07cce4eb"
         },
@@ -920,8 +920,8 @@
         3,
         0,
         2,
-        3,
         4,
+        3,
         1
       ],
       "recent": [
@@ -951,7 +951,7 @@
         },
         {
           "message": "[Fix] 버그들 수정",
-          "time": "13일 전",
+          "time": "14일 전",
           "sha": "0d821bd",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/0d821bdfa01b38aabaa0f93bd95d1bf50a8622de"
         }
@@ -1125,8 +1125,8 @@
       "commits": 1,
       "semesterCommits": 6,
       "activeDays": 1,
-      "lastCommit": "3일 전",
-      "status": "active",
+      "lastCommit": "4일 전",
+      "status": "watch",
       "weekly": [
         0,
         0,
@@ -1139,7 +1139,7 @@
       "recent": [
         {
           "message": "[Feat]인벤토리 시스템 구현, 유물시스템 구현",
-          "time": "3일 전",
+          "time": "4일 전",
           "sha": "57754a5",
           "url": "https://github.com/23jihwan/7_tim/commit/57754a5d1ec2919f45409a3f53592550b866edce"
         },
@@ -1333,7 +1333,7 @@
         },
         {
           "message": "[FEAT] 챕터 4연결 수정",
-          "time": "4일 전",
+          "time": "5일 전",
           "sha": "bca2fe8",
           "url": "https://github.com/esuvean/PRESS-START_/commit/bca2fe825074f1b5926ff5cdd61d3c08b7c63dce"
         },
@@ -1662,7 +1662,7 @@
         },
         {
           "message": "[feat] NPC 모델링 제작",
-          "time": "어제",
+          "time": "2일 전",
           "sha": "9c0ffe2",
           "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/9c0ffe255a5ac49c7274b51c3bb4104049ea9412"
         },
@@ -1786,7 +1786,7 @@
         },
         {
           "message": "[feat]: 도트 글꼴 추가",
-          "time": "23일 전",
+          "time": "24일 전",
           "sha": "4f96d73",
           "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/4f96d73abfbfb817c6a13ada812681f1e6d55625"
         }
@@ -1909,7 +1909,7 @@
         },
         {
           "message": "Initial commit",
-          "time": "38일 전",
+          "time": "39일 전",
           "sha": "a7471ec",
           "url": "https://github.com/jeolje934-dot/Placeholder_2026_1A_team-project/commit/a7471ec3212432eb7d0456f7a2d5801b9e7c8f91"
         }
@@ -2066,8 +2066,8 @@
         5,
         11,
         1,
-        13,
-        9,
+        16,
+        6,
         15
       ],
       "recent": [
@@ -2632,7 +2632,7 @@
         },
         {
           "message": "[feat] 티켓 이펙트 연출",
-          "time": "82일 전",
+          "time": "83일 전",
           "sha": "4c7c0ae",
           "url": "https://github.com/JungYS24/Tricky-Yacht/commit/4c7c0ae1fc7c873b5124572990746f97d0f2978d"
         },
@@ -2884,6 +2884,59 @@
       "recent": []
     },
     {
+      "name": "imnakyung (실제 커밋 작성자)",
+      "id": "imnakyung",
+      "team": "1학년 B반 6팀",
+      "github": "imnakyung",
+      "repo": "tjd6356-afk/2-_-",
+      "commits": 4,
+      "semesterCommits": 6,
+      "activeDays": 3,
+      "lastCommit": "오늘",
+      "status": "active",
+      "weekly": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        4
+      ],
+      "recent": [
+        {
+          "message": "설정 패널 배경 추가",
+          "time": "오늘",
+          "sha": "37790a8",
+          "url": "https://github.com/tjd6356-afk/2-_-/commit/37790a8d882a3773697d27b9c210f9f2f7c33546"
+        },
+        {
+          "message": "스크롤 바 UI 배경, 스크롤바 핸들 추가",
+          "time": "오늘",
+          "sha": "ed251e4",
+          "url": "https://github.com/tjd6356-afk/2-_-/commit/ed251e4617fc5d2e3d3ba412e873ed962024aa9d"
+        },
+        {
+          "message": "종료창 네 아니오 버튼 패널 추가",
+          "time": "5일 전",
+          "sha": "6494e44",
+          "url": "https://github.com/tjd6356-afk/2-_-/commit/6494e44f18353037dc3b8f9aa8bc9f2e9c8dc20f"
+        },
+        {
+          "message": "종료창 배경 추가",
+          "time": "6일 전",
+          "sha": "a757e14",
+          "url": "https://github.com/tjd6356-afk/2-_-/commit/a757e1430785bcd970965046471aa3bb63343fab"
+        },
+        {
+          "message": "업적 ui 추가",
+          "time": "14일 전",
+          "sha": "10a8dba",
+          "url": "https://github.com/tjd6356-afk/2-_-/commit/10a8dba90a12b92a2144974b495bf64942e99867"
+        }
+      ]
+    },
+    {
       "name": "tjd6356-afk (실제 커밋 작성자)",
       "id": "tjd6356-afk",
       "team": "1학년 B반 6팀",
@@ -3021,53 +3074,6 @@
           "time": "11일 전",
           "sha": "adf0dc6",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/adf0dc690dcfa226f65ff66b9ac4f72ce9c13ada"
-        }
-      ]
-    },
-    {
-      "name": "imnakyung (실제 커밋 작성자)",
-      "id": "imnakyung",
-      "team": "1학년 B반 6팀",
-      "github": "imnakyung",
-      "repo": "tjd6356-afk/2-_-",
-      "commits": 2,
-      "semesterCommits": 4,
-      "activeDays": 2,
-      "lastCommit": "5일 전",
-      "status": "watch",
-      "weekly": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        2,
-        2
-      ],
-      "recent": [
-        {
-          "message": "종료창 네 아니오 버튼 패널 추가",
-          "time": "5일 전",
-          "sha": "6494e44",
-          "url": "https://github.com/tjd6356-afk/2-_-/commit/6494e44f18353037dc3b8f9aa8bc9f2e9c8dc20f"
-        },
-        {
-          "message": "종료창 배경 추가",
-          "time": "5일 전",
-          "sha": "a757e14",
-          "url": "https://github.com/tjd6356-afk/2-_-/commit/a757e1430785bcd970965046471aa3bb63343fab"
-        },
-        {
-          "message": "업적 ui 추가",
-          "time": "13일 전",
-          "sha": "10a8dba",
-          "url": "https://github.com/tjd6356-afk/2-_-/commit/10a8dba90a12b92a2144974b495bf64942e99867"
-        },
-        {
-          "message": "타이틀 화면 버튼 추가",
-          "time": "13일 전",
-          "sha": "0aeff1f",
-          "url": "https://github.com/tjd6356-afk/2-_-/commit/0aeff1fcd0251d47756431f8377b13465cde3981"
         }
       ]
     },
@@ -3322,7 +3328,7 @@
         },
         {
           "message": "[feat] 테스트 프로젝트에 게임 프레임워크 임포트",
-          "time": "15일 전",
+          "time": "16일 전",
           "sha": "6c95297",
           "url": "https://github.com/Tiphe0821/GameProject_T3_1_B/commit/6c9529793ec85c0f13d434eb770b10c43d30e607"
         }
@@ -3418,8 +3424,8 @@
       "weekly": [
         0,
         0,
-        2,
-        23,
+        3,
+        22,
         16,
         1,
         8
@@ -4208,8 +4214,8 @@
         3,
         0,
         2,
-        3,
         4,
+        3,
         1
       ],
       "recent": [
@@ -4239,7 +4245,7 @@
         },
         {
           "message": "[Fix] 버그들 수정",
-          "time": "13일 전",
+          "time": "14일 전",
           "sha": "0d821bd",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/0d821bdfa01b38aabaa0f93bd95d1bf50a8622de"
         }
