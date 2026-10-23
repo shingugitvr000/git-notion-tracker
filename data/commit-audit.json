@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026. 10. 23. 07:06",
+  "updatedAt": "2026. 10. 23. 09:48",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
@@ -194,6 +194,52 @@
       "projectName": "1학년 B반 1팀",
       "repo": "simo07d7PG/Team_JJAMBBAP",
       "branch": "main",
+      "sha": "5f730c47e8547c4ab061faf6fb700acbb6efab1c",
+      "message": "[Feat] 손님 인내도 추가",
+      "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/5f730c47e8547c4ab061faf6fb700acbb6efab1c",
+      "date": "2026-10-22T15:13:11Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "simo07d7PG",
+      "gitAuthorName": "simo07d7PG",
+      "gitAuthorEmail": "simo07d7.pg@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 325,
+        "deletions": 0,
+        "meaningful_change": 325,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 1팀",
+      "repo": "simo07d7PG/Team_JJAMBBAP",
+      "branch": "main",
+      "sha": "425fb4ec8fa9106e47d9a6b56b1a736d38362b97",
+      "message": "[Feat] 주문 수락·단계 진행·제공 결제",
+      "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/425fb4ec8fa9106e47d9a6b56b1a736d38362b97",
+      "date": "2026-10-22T14:32:40Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "simo07d7PG",
+      "gitAuthorName": "simo07d7PG",
+      "gitAuthorEmail": "simo07d7.pg@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 426,
+        "deletions": 7,
+        "meaningful_change": 433,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 1팀",
+      "repo": "simo07d7PG/Team_JJAMBBAP",
+      "branch": "main",
       "sha": "222f65fda4c39e4d3b8769133fa454b738baf994",
       "message": "[Build] 빌드파일 수정",
       "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/222f65fda4c39e4d3b8769133fa454b738baf994",
@@ -210,6 +256,29 @@
         "meaningful_change": 4,
         "meaningful_file_count": 2,
         "suspicious_score": 15,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 1팀",
+      "repo": "simo07d7PG/Team_JJAMBBAP",
+      "branch": "main",
+      "sha": "772eb311ff54ef8270c9f81041911b0bd80705b7",
+      "message": "[Feat] 손님과 말풍선 추가",
+      "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/772eb311ff54ef8270c9f81041911b0bd80705b7",
+      "date": "2026-10-22T13:27:08Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "simo07d7PG",
+      "gitAuthorName": "simo07d7PG",
+      "gitAuthorEmail": "simo07d7.pg@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 3,
+        "additions": 667,
+        "deletions": 0,
+        "meaningful_change": 665,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
         "judgment": "정상"
       }
     },
