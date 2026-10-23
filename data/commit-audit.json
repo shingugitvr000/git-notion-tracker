@@ -1,11 +1,172 @@
 {
-  "updatedAt": "2026. 10. 24. 00:49",
+  "updatedAt": "2026. 10. 24. 04:47",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "1학년 B반 3팀",
+      "repo": "Tiphe0821/GameProject_T3_1_B",
+      "branch": "main",
+      "sha": "0ca0096b017b658934d8b5261f449de6618c6e43",
+      "message": "[Feat] 물 아이콘 및 체력바 추가",
+      "url": "https://github.com/Tiphe0821/GameProject_T3_1_B/commit/0ca0096b017b658934d8b5261f449de6618c6e43",
+      "date": "2026-10-23T19:43:17Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "chobin1253",
+      "gitAuthorName": "chobin1253",
+      "gitAuthorEmail": "dlchqls06@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 11,
+        "additions": 593,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 5,
+        "suspicious_score": 35,
+        "judgment": "확인필요"
+      }
+    },
+    {
+      "projectName": "2학년 6팀",
+      "repo": "jeonghyerin002/2026_2TeamProject",
+      "branch": "main",
+      "sha": "f889ed72ec027983393e67fd529e75fdec531d24",
+      "message": "[Test] 스킬 애니메이션, 사운드 테스트",
+      "url": "https://github.com/jeonghyerin002/2026_2TeamProject/commit/f889ed72ec027983393e67fd529e75fdec531d24",
+      "date": "2026-10-23T18:19:18Z",
+      "expectedGithub": "jeonghyerin002",
+      "actualGithub": "blocks2094",
+      "gitAuthorName": "HyunWoo",
+      "gitAuthorEmail": "blocks2094@g.shingu.ac.kr",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 16,
+        "additions": 592,
+        "deletions": 0,
+        "meaningful_change": 498,
+        "meaningful_file_count": 6,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 7팀",
+      "repo": "23jihwan/7_tim",
+      "branch": "main",
+      "sha": "35916329bf68a5aa89df03aa6450365186146ebc",
+      "message": "[Feat] 메인화면 이미지 변경 및 애니메이션 추가",
+      "url": "https://github.com/23jihwan/7_tim/commit/35916329bf68a5aa89df03aa6450365186146ebc",
+      "date": "2026-10-23T18:04:53Z",
+      "expectedGithub": "23jihwan",
+      "actualGithub": "omh1228",
+      "gitAuthorName": "omh1228",
+      "gitAuthorEmail": "pigoh041228@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 9,
+        "additions": 564,
+        "deletions": 22,
+        "meaningful_change": 441,
+        "meaningful_file_count": 7,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 2팀",
+      "repo": "Taehyeon88/Graduation-project",
+      "branch": "main",
+      "sha": "c1b0ac63354abbfadd6625a024093437095fe088",
+      "message": "[Feat] 이미지 리소스 할당",
+      "url": "https://github.com/Taehyeon88/Graduation-project/commit/c1b0ac63354abbfadd6625a024093437095fe088",
+      "date": "2026-10-23T17:48:54Z",
+      "expectedGithub": "Taehyeon88",
+      "actualGithub": "Taehyeon88",
+      "gitAuthorName": "Taehyeon88",
+      "gitAuthorEmail": "Taehyeon5376@naver.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 140,
+        "additions": 6302,
+        "deletions": 223,
+        "meaningful_change": 2379,
+        "meaningful_file_count": 80,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 5팀",
+      "repo": "surren01522-tech/2026_02_GameProject_Eurydice",
+      "branch": "main",
+      "sha": "178c9a3dd36609de198ffe4e0d46451b50e99bb4",
+      "message": "[Fix] 쉐이더 버그 수정",
+      "url": "https://github.com/surren01522-tech/2026_02_GameProject_Eurydice/commit/178c9a3dd36609de198ffe4e0d46451b50e99bb4",
+      "date": "2026-10-23T17:47:59Z",
+      "expectedGithub": "sw4860",
+      "actualGithub": "yoojoonlee0424",
+      "gitAuthorName": "yoojoonlee0424",
+      "gitAuthorEmail": "yoojoonlee0424@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 1,
+        "deletions": 1,
+        "meaningful_change": 0,
+        "meaningful_file_count": 0,
+        "suspicious_score": 95,
+        "judgment": "뻥의심"
+      }
+    },
+    {
+      "projectName": "1학년 A반 5팀",
+      "repo": "surren01522-tech/2026_02_GameProject_Eurydice",
+      "branch": "main",
+      "sha": "054f431496d3415765380ed6e88a0c580f4c4778",
+      "message": "[Feat] 폭포 쉐이더 플레이어 상호작용  추가 & 챕터 0 배치",
+      "url": "https://github.com/surren01522-tech/2026_02_GameProject_Eurydice/commit/054f431496d3415765380ed6e88a0c580f4c4778",
+      "date": "2026-10-23T17:33:24Z",
+      "expectedGithub": "sw4860",
+      "actualGithub": "yoojoonlee0424",
+      "gitAuthorName": "yoojoonlee0424",
+      "gitAuthorEmail": "yoojoonlee0424@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 8,
+        "additions": 4254,
+        "deletions": 6184,
+        "meaningful_change": 1191,
+        "meaningful_file_count": 5,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 6팀",
+      "repo": "jeonghyerin002/2026_2TeamProject",
+      "branch": "main",
+      "sha": "f9b0bb34b7ec73dc85ab965e59cbe81d288ac5e8",
+      "message": "[Feat] 스킬별 전투 연출 데이터 및 재생 기능 추가",
+      "url": "https://github.com/jeonghyerin002/2026_2TeamProject/commit/f9b0bb34b7ec73dc85ab965e59cbe81d288ac5e8",
+      "date": "2026-10-23T16:04:32Z",
+      "expectedGithub": "jeonghyerin002",
+      "actualGithub": "blocks2094",
+      "gitAuthorName": "HyunWoo",
+      "gitAuthorEmail": "blocks2094@g.shingu.ac.kr",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 8,
+        "additions": 334,
+        "deletions": 85,
+        "meaningful_change": 415,
+        "meaningful_file_count": 6,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "3학년 4팀",
       "repo": "yuseongmok/Delivery-service",
