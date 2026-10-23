@@ -1,11 +1,149 @@
 {
-  "updatedAt": "2026. 10. 23. 20:02",
+  "updatedAt": "2026. 10. 24. 00:49",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "3학년 4팀",
+      "repo": "yuseongmok/Delivery-service",
+      "branch": "main",
+      "sha": "76cce59ee5d92ca822b03299cd14fa506caf7d61",
+      "message": "[Feat] 마감 후 미션 제작, 피날레(마지막 배달)",
+      "url": "https://github.com/yuseongmok/Delivery-service/commit/76cce59ee5d92ca822b03299cd14fa506caf7d61",
+      "date": "2026-10-23T15:09:30Z",
+      "expectedGithub": "yuseongmok",
+      "actualGithub": "yuseongmok",
+      "gitAuthorName": "yuseongmok",
+      "gitAuthorEmail": "yousm112783@daum.net",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 234,
+        "additions": 94824,
+        "deletions": 11410,
+        "meaningful_change": 105587,
+        "meaningful_file_count": 136,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 1팀",
+      "repo": "simo07d7PG/Team_JJAMBBAP",
+      "branch": "main",
+      "sha": "14e3f82b735bb15edb6ba59dd81eb2bce966b9ac",
+      "message": "[feat]오브젝트 모델링 4",
+      "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/14e3f82b735bb15edb6ba59dd81eb2bce966b9ac",
+      "date": "2026-10-23T13:53:36Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "cho70806-lab",
+      "gitAuthorName": "cho70806",
+      "gitAuthorEmail": "cho70806@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 3,
+        "additions": 882,
+        "deletions": 971,
+        "meaningful_change": 1742,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 5팀",
+      "repo": "surren01522-tech/2026_02_GameProject_Eurydice",
+      "branch": "main",
+      "sha": "ed405503235313ee04df7f9c298d331e3f009883",
+      "message": "[Chore] 폭포 쉐이더 그레프 정리",
+      "url": "https://github.com/surren01522-tech/2026_02_GameProject_Eurydice/commit/ed405503235313ee04df7f9c298d331e3f009883",
+      "date": "2026-10-23T12:36:14Z",
+      "expectedGithub": "sw4860",
+      "actualGithub": "yoojoonlee0424",
+      "gitAuthorName": "yoojoonlee0424",
+      "gitAuthorEmail": "yoojoonlee0424@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 229,
+        "deletions": 215,
+        "meaningful_change": 0,
+        "meaningful_file_count": 0,
+        "suspicious_score": 95,
+        "judgment": "뻥의심"
+      }
+    },
+    {
+      "projectName": "3학년 2팀",
+      "repo": "Taehyeon88/Graduation-project",
+      "branch": "main",
+      "sha": "f8fbd12e3839e9839cdd3830de5a064ac49f75c2",
+      "message": "[Feat] 장애물 - 화살통 및 지형지물 - 풀숲 구현",
+      "url": "https://github.com/Taehyeon88/Graduation-project/commit/f8fbd12e3839e9839cdd3830de5a064ac49f75c2",
+      "date": "2026-10-23T12:17:23Z",
+      "expectedGithub": "Taehyeon88",
+      "actualGithub": "Taehyeon88",
+      "gitAuthorName": "Taehyeon88",
+      "gitAuthorEmail": "Taehyeon5376@naver.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 133,
+        "additions": 7645,
+        "deletions": 2130,
+        "meaningful_change": 8510,
+        "meaningful_file_count": 68,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 5팀",
+      "repo": "surren01522-tech/2026_02_GameProject_Eurydice",
+      "branch": "main",
+      "sha": "9bd11258db695d6c47f0602898f1da28749ef134",
+      "message": "[Feat] 폭포 쉐이더 효과 추가",
+      "url": "https://github.com/surren01522-tech/2026_02_GameProject_Eurydice/commit/9bd11258db695d6c47f0602898f1da28749ef134",
+      "date": "2026-10-23T12:09:55Z",
+      "expectedGithub": "sw4860",
+      "actualGithub": "yoojoonlee0424",
+      "gitAuthorName": "yoojoonlee0424",
+      "gitAuthorEmail": "yoojoonlee0424@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 15,
+        "additions": 12858,
+        "deletions": 1757,
+        "meaningful_change": 84,
+        "meaningful_file_count": 7,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 2팀",
+      "repo": "esuvean/PRESS-START_",
+      "branch": "main",
+      "sha": "827cf534b07825b1399a9a1b686def983c9b658b",
+      "message": "[feat] MG 17 미니게임 추가",
+      "url": "https://github.com/esuvean/PRESS-START_/commit/827cf534b07825b1399a9a1b686def983c9b658b",
+      "date": "2026-10-23T11:13:36Z",
+      "expectedGithub": "esuvean",
+      "actualGithub": "ywkang0404",
+      "gitAuthorName": "ywkang0404",
+      "gitAuthorEmail": "ywkang0404@g.shingu.ac.kr",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 13,
+        "additions": 710,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 6,
+        "suspicious_score": 35,
+        "judgment": "확인필요"
+      }
+    },
     {
       "projectName": "2학년 2팀",
       "repo": "esuvean/PRESS-START_",
