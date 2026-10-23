@@ -1,11 +1,172 @@
 {
-  "updatedAt": "2026. 10. 23. 09:48",
+  "updatedAt": "2026. 10. 23. 14:44",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "bbdd40b6bf83214ed0efd15c1e152ee501fd9859",
+      "message": "[Fix] 밤 판/완성 그림 내용 맞바꿈, 불씨 아이콘 겹침, 퍼즐 파피루스 배경",
+      "url": "https://github.com/suyan05/PharaohCube/commit/bbdd40b6bf83214ed0efd15c1e152ee501fd9859",
+      "date": "2026-10-23T05:43:51Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "parksarang04",
+      "gitAuthorName": "parksarang04",
+      "gitAuthorEmail": "qkrtkfkd9074@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 13,
+        "additions": 363,
+        "deletions": 14,
+        "meaningful_change": 179,
+        "meaningful_file_count": 9,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "c99e1076e9c208099154142485166def12614ccd",
+      "message": "[Feat]feat: 라의 방 2차 - 완전한 어둠, 횃불 시간, 낮->밤 자동 전환, 고고학 수첩",
+      "url": "https://github.com/suyan05/PharaohCube/commit/c99e1076e9c208099154142485166def12614ccd",
+      "date": "2026-10-23T05:17:08Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "parksarang04",
+      "gitAuthorName": "parksarang04",
+      "gitAuthorEmail": "qkrtkfkd9074@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 62,
+        "additions": 3485,
+        "deletions": 321,
+        "meaningful_change": 3667,
+        "meaningful_file_count": 36,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 4팀",
+      "repo": "yuseongmok/Delivery-service",
+      "branch": "main",
+      "sha": "79630a546314ec89a4855238d1bc887825bb895a",
+      "message": "[Feat] 게임 프롤로그 & 튜토리얼 제작",
+      "url": "https://github.com/yuseongmok/Delivery-service/commit/79630a546314ec89a4855238d1bc887825bb895a",
+      "date": "2026-10-23T05:14:09Z",
+      "expectedGithub": "yuseongmok",
+      "actualGithub": "yuseongmok",
+      "gitAuthorName": "yuseongmok",
+      "gitAuthorEmail": "yousm112783@daum.net",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 143,
+        "additions": 122992,
+        "deletions": 28478,
+        "meaningful_change": 150878,
+        "meaningful_file_count": 81,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "cfb2bba004556c2020f91f31f929721f0d12b43f",
+      "message": "[Feat] 라의 방 어둠 + 글자 겹침 정리 + 히든 라의 불씨(태양의 배)",
+      "url": "https://github.com/suyan05/PharaohCube/commit/cfb2bba004556c2020f91f31f929721f0d12b43f",
+      "date": "2026-10-23T04:40:38Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "parksarang04",
+      "gitAuthorName": "parksarang04",
+      "gitAuthorEmail": "qkrtkfkd9074@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 31,
+        "additions": 5895,
+        "deletions": 3569,
+        "meaningful_change": 8814,
+        "meaningful_file_count": 17,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "8dea7c4629f44eec072d2d9d66999b7a432e1fdd",
+      "message": "[Feat] 라의 방 횃불 신전 개편 + 임시 중앙 홀 + 스핑크스 눈빛",
+      "url": "https://github.com/suyan05/PharaohCube/commit/8dea7c4629f44eec072d2d9d66999b7a432e1fdd",
+      "date": "2026-10-23T04:01:12Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "parksarang04",
+      "gitAuthorName": "parksarang04",
+      "gitAuthorEmail": "qkrtkfkd9074@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 83,
+        "additions": 10358,
+        "deletions": 78,
+        "meaningful_change": 8139,
+        "meaningful_file_count": 41,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "52ede8674ad69b8e0c7017548e0efdd7eb8a9339",
+      "message": "[Fix] 핑크스 크기 수정 및 렌즈 비석 해독을 기획대로 변경",
+      "url": "https://github.com/suyan05/PharaohCube/commit/52ede8674ad69b8e0c7017548e0efdd7eb8a9339",
+      "date": "2026-10-23T03:13:42Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "parksarang04",
+      "gitAuthorName": "parksarang04",
+      "gitAuthorEmail": "qkrtkfkd9074@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 30,
+        "additions": 5725,
+        "deletions": 1263,
+        "meaningful_change": 6739,
+        "meaningful_file_count": 11,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "1309ec9d8e31799638e7a3ef1cdfbb874bd915f8",
+      "message": "[Feat] 스핑크스의 꿈 1인칭 눈 뜨기와 꿈 화면 효과 추가",
+      "url": "https://github.com/suyan05/PharaohCube/commit/1309ec9d8e31799638e7a3ef1cdfbb874bd915f8",
+      "date": "2026-10-23T02:59:06Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "parksarang04",
+      "gitAuthorName": "parksarang04",
+      "gitAuthorEmail": "qkrtkfkd9074@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 77,
+        "additions": 5028,
+        "deletions": 137,
+        "meaningful_change": 4987,
+        "meaningful_file_count": 35,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "1학년 A반 5팀",
       "repo": "surren01522-tech/2026_02_GameProject_Eurydice",
