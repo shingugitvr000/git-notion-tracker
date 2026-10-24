@@ -1,11 +1,172 @@
 {
-  "updatedAt": "2026. 10. 25. 05:14",
+  "updatedAt": "2026. 10. 25. 07:38",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "1학년 B반 3팀",
+      "repo": "Tiphe0821/GameProject_T3_1_B",
+      "branch": "main",
+      "sha": "7f8e739afa2a4481e64ea28fd63cda810262167e",
+      "message": "[feat] 플레이어 산소량 감소 추가 & 치트엔진 무적 기능 추가",
+      "url": "https://github.com/Tiphe0821/GameProject_T3_1_B/commit/7f8e739afa2a4481e64ea28fd63cda810262167e",
+      "date": "2026-10-24T22:30:23Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "Tiphe0821",
+      "gitAuthorName": "Tiphe0821",
+      "gitAuthorEmail": "namucho24@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 6,
+        "additions": 52,
+        "deletions": 7,
+        "meaningful_change": 57,
+        "meaningful_file_count": 5,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 2팀",
+      "repo": "esuvean/PRESS-START_",
+      "branch": "main",
+      "sha": "71c812e86961ba8debdf0ec84b56391e33b37640",
+      "message": "[feat] 미니게임 12 UI , 13 수정",
+      "url": "https://github.com/esuvean/PRESS-START_/commit/71c812e86961ba8debdf0ec84b56391e33b37640",
+      "date": "2026-10-24T21:37:57Z",
+      "expectedGithub": "esuvean",
+      "actualGithub": "flexinja99",
+      "gitAuthorName": "flexinja",
+      "gitAuthorEmail": "hjgo927@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 299,
+        "deletions": 178,
+        "meaningful_change": 477,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 3팀",
+      "repo": "Tiphe0821/GameProject_T3_1_B",
+      "branch": "main",
+      "sha": "4acdd925e69e6042b2b9ae964fd53386eb9e9ee8",
+      "message": "[Chore] 헷갈리게 정리된 복셀 리소스 폴더 정리 & 스카이박스 리소스 임포트",
+      "url": "https://github.com/Tiphe0821/GameProject_T3_1_B/commit/4acdd925e69e6042b2b9ae964fd53386eb9e9ee8",
+      "date": "2026-10-24T21:32:58Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "Tiphe0821",
+      "gitAuthorName": "Tiphe0821",
+      "gitAuthorEmail": "namucho24@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 104,
+        "additions": 544,
+        "deletions": 5,
+        "meaningful_change": 10,
+        "meaningful_file_count": 19,
+        "suspicious_score": 15,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 3팀",
+      "repo": "Tiphe0821/GameProject_T3_1_B",
+      "branch": "main",
+      "sha": "c4c6683f583eabebe5b148f5ec2f14c9146aa569",
+      "message": "[feat] 방사능 구역 트리거 추가",
+      "url": "https://github.com/Tiphe0821/GameProject_T3_1_B/commit/c4c6683f583eabebe5b148f5ec2f14c9146aa569",
+      "date": "2026-10-24T21:31:50Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "Tiphe0821",
+      "gitAuthorName": "Tiphe0821",
+      "gitAuthorEmail": "namucho24@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 24,
+        "deletions": 3,
+        "meaningful_change": 27,
+        "meaningful_file_count": 1,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 3팀",
+      "repo": "Tiphe0821/GameProject_T3_1_B",
+      "branch": "main",
+      "sha": "4a2bd553d5e599c5accb8db1faccb29008af2e9e",
+      "message": "[Refactor] 클래스 이름 수정",
+      "url": "https://github.com/Tiphe0821/GameProject_T3_1_B/commit/4a2bd553d5e599c5accb8db1faccb29008af2e9e",
+      "date": "2026-10-24T21:30:46Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "Tiphe0821",
+      "gitAuthorName": "Tiphe0821",
+      "gitAuthorEmail": "namucho24@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 7,
+        "additions": 37,
+        "deletions": 58,
+        "meaningful_change": 91,
+        "meaningful_file_count": 5,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "c016f2062059eb97464c03252a870f8f4e90c457",
+      "message": "[feat[ 바스테트 횃불 조정",
+      "url": "https://github.com/suyan05/PharaohCube/commit/c016f2062059eb97464c03252a870f8f4e90c457",
+      "date": "2026-10-24T20:52:29Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "kangxogh1013",
+      "gitAuthorName": "kangxogh1013",
+      "gitAuthorEmail": "ho1013sl@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 8,
+        "deletions": 522,
+        "meaningful_change": 530,
+        "meaningful_file_count": 1,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "3d7dd1c7cf65e30c42434d41d83cea58b164a07d",
+      "message": "[Feat] 바스테트 라의 방식 벽 횃불·어둠·횃불 게이지 + 퍼즐 방만 카메라 영역 + 시작 화면 배경 그림 칸",
+      "url": "https://github.com/suyan05/PharaohCube/commit/3d7dd1c7cf65e30c42434d41d83cea58b164a07d",
+      "date": "2026-10-24T20:49:26Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "kangxogh1013",
+      "gitAuthorName": "kangxogh1013",
+      "gitAuthorEmail": "ho1013sl@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 14,
+        "additions": 6765,
+        "deletions": 291,
+        "meaningful_change": 7052,
+        "meaningful_file_count": 12,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "2학년 1팀",
       "repo": "suyan05/PharaohCube",
