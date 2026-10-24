@@ -1,11 +1,172 @@
 {
-  "updatedAt": "2026. 10. 24. 10:22",
+  "updatedAt": "2026. 10. 24. 15:12",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "bc3a97354c769216d547f467d1313380c826ad19",
+      "message": "인벤토리 아이템 사용 시스템",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/bc3a97354c769216d547f467d1313380c826ad19",
+      "date": "2026-10-24T05:06:44Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "tjd6356-afk",
+      "gitAuthorName": "tjd6356-afk",
+      "gitAuthorEmail": "tjd6356@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 16,
+        "additions": 3219,
+        "deletions": 504,
+        "meaningful_change": 3715,
+        "meaningful_file_count": 12,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 4팀",
+      "repo": "yuseongmok/Delivery-service",
+      "branch": "main",
+      "sha": "7d6262e609763e2e104ea757cf8ea080968b0099",
+      "message": "[Fix] 플레이어 모델 교체 주요 NPC 모델 교체",
+      "url": "https://github.com/yuseongmok/Delivery-service/commit/7d6262e609763e2e104ea757cf8ea080968b0099",
+      "date": "2026-10-24T03:52:59Z",
+      "expectedGithub": "yuseongmok",
+      "actualGithub": "yuseongmok",
+      "gitAuthorName": "yuseongmok",
+      "gitAuthorEmail": "yousm112783@daum.net",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 300,
+        "additions": 315549,
+        "deletions": 7773,
+        "meaningful_change": 53312,
+        "meaningful_file_count": 58,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 7팀",
+      "repo": "23jihwan/7_tim",
+      "branch": "main",
+      "sha": "22d4a3dedf9ccf088671cd4cd520bfcf00511fd3",
+      "message": "[Feat]전투씬 배경화면 변경",
+      "url": "https://github.com/23jihwan/7_tim/commit/22d4a3dedf9ccf088671cd4cd520bfcf00511fd3",
+      "date": "2026-10-24T03:49:51Z",
+      "expectedGithub": "23jihwan",
+      "actualGithub": "23jihwan",
+      "gitAuthorName": "23jihwan",
+      "gitAuthorEmail": "dbwlghks7410@naver.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 4,
+        "additions": 147,
+        "deletions": 4,
+        "meaningful_change": 8,
+        "meaningful_file_count": 3,
+        "suspicious_score": 15,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 7팀",
+      "repo": "23jihwan/7_tim",
+      "branch": "main",
+      "sha": "d35dc4bb3b5b531b480dac40f8f669a0f79cad58",
+      "message": "[Feat]조합 버튼 이미지 구현",
+      "url": "https://github.com/23jihwan/7_tim/commit/d35dc4bb3b5b531b480dac40f8f669a0f79cad58",
+      "date": "2026-10-24T02:10:03Z",
+      "expectedGithub": "23jihwan",
+      "actualGithub": "23jihwan",
+      "gitAuthorName": "23jihwan",
+      "gitAuthorEmail": "dbwlghks7410@naver.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 4,
+        "additions": 150,
+        "deletions": 7,
+        "meaningful_change": 14,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 2팀",
+      "repo": "Taehyeon88/Graduation-project",
+      "branch": "main",
+      "sha": "d1a176d142881ca8b19a2c463497790142b5a19b",
+      "message": "[Feat] 유물 UI + VG 추가 + 카드 UI 변경 + 유닛 배치 인터렉션 연출 변경 + 영웅 이동 방식 변경",
+      "url": "https://github.com/Taehyeon88/Graduation-project/commit/d1a176d142881ca8b19a2c463497790142b5a19b",
+      "date": "2026-10-24T01:49:45Z",
+      "expectedGithub": "Taehyeon88",
+      "actualGithub": "Taehyeon88",
+      "gitAuthorName": "Taehyeon88",
+      "gitAuthorEmail": "Taehyeon5376@naver.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 111,
+        "additions": 2912,
+        "deletions": 2588,
+        "meaningful_change": 4239,
+        "meaningful_file_count": 61,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 7팀",
+      "repo": "23jihwan/7_tim",
+      "branch": "main",
+      "sha": "6d1226d37f126438144996dfa0be60cedce309b7",
+      "message": "[Feat]엘리트 몬스터 씬에 플레이어 체력바 구현",
+      "url": "https://github.com/23jihwan/7_tim/commit/6d1226d37f126438144996dfa0be60cedce309b7",
+      "date": "2026-10-24T01:45:24Z",
+      "expectedGithub": "23jihwan",
+      "actualGithub": "23jihwan",
+      "gitAuthorName": "23jihwan",
+      "gitAuthorEmail": "dbwlghks7410@naver.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 5,
+        "additions": 506,
+        "deletions": 2521,
+        "meaningful_change": 3020,
+        "meaningful_file_count": 4,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 4팀",
+      "repo": "yuseongmok/Delivery-service",
+      "branch": "main",
+      "sha": "d2ad172c46578e2e3082f24ee026b7574d976171",
+      "message": "[Fix] 핸드폰UI 고침 각종 버그 해결",
+      "url": "https://github.com/yuseongmok/Delivery-service/commit/d2ad172c46578e2e3082f24ee026b7574d976171",
+      "date": "2026-10-24T01:22:12Z",
+      "expectedGithub": "yuseongmok",
+      "actualGithub": "yuseongmok",
+      "gitAuthorName": "yuseongmok",
+      "gitAuthorEmail": "yousm112783@daum.net",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 62,
+        "additions": 60657,
+        "deletions": 11144,
+        "meaningful_change": 71721,
+        "meaningful_file_count": 46,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "1학년 B반 6팀",
       "repo": "tjd6356-afk/2-_-",
