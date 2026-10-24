@@ -1,11 +1,57 @@
 {
-  "updatedAt": "2026. 10. 25. 02:50",
+  "updatedAt": "2026. 10. 25. 05:14",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "b0e6718666ac708d8748fbe33860de5b65448bd1",
+      "message": "[Feat] 시작 화면·설정 창·일시 정지·사운드·이어하기 + 방 카메라 영역 + 한글 글꼴 복구 도구",
+      "url": "https://github.com/suyan05/PharaohCube/commit/b0e6718666ac708d8748fbe33860de5b65448bd1",
+      "date": "2026-10-24T20:00:30Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "kangxogh1013",
+      "gitAuthorName": "kangxogh1013",
+      "gitAuthorEmail": "ho1013sl@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 54,
+        "additions": 27358,
+        "deletions": 29852,
+        "meaningful_change": 57154,
+        "meaningful_file_count": 30,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 3팀",
+      "repo": "Tiphe0821/GameProject_T3_1_B",
+      "branch": "main",
+      "sha": "3b68c15298776ce3b2263c2e9ef1467955882a99",
+      "message": "[feat] 적, 적 스포너 추가 & 플레이어 공격 추가",
+      "url": "https://github.com/Tiphe0821/GameProject_T3_1_B/commit/3b68c15298776ce3b2263c2e9ef1467955882a99",
+      "date": "2026-10-24T19:44:43Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "Tiphe0821",
+      "gitAuthorName": "Tiphe0821",
+      "gitAuthorEmail": "namucho24@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 18,
+        "additions": 308,
+        "deletions": 0,
+        "meaningful_change": 276,
+        "meaningful_file_count": 8,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "2학년 7팀",
       "repo": "23jihwan/7_tim",
