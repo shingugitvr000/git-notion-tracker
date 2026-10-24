@@ -1,11 +1,103 @@
 {
-  "updatedAt": "2026. 10. 24. 23:44",
+  "updatedAt": "2026. 10. 25. 02:50",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "2학년 7팀",
+      "repo": "23jihwan/7_tim",
+      "branch": "main",
+      "sha": "440ac6f39cb0c4edf196bbe5c761ba834e11d94d",
+      "message": "[Feat] 엘리트 배경 추가 턴종료 이미지 수정 보스 배경 추가",
+      "url": "https://github.com/23jihwan/7_tim/commit/440ac6f39cb0c4edf196bbe5c761ba834e11d94d",
+      "date": "2026-10-24T17:37:37Z",
+      "expectedGithub": "23jihwan",
+      "actualGithub": "omh1228",
+      "gitAuthorName": "omh1228",
+      "gitAuthorEmail": "pigoh041228@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 5,
+        "additions": 294,
+        "deletions": 8,
+        "meaningful_change": 16,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 5팀",
+      "repo": "surren01522-tech/2026_02_GameProject_Eurydice",
+      "branch": "main",
+      "sha": "42457ddc10d5a1739a6d52964c254cf0bec49c84",
+      "message": "[Fix] 라이팅 버그 수정",
+      "url": "https://github.com/surren01522-tech/2026_02_GameProject_Eurydice/commit/42457ddc10d5a1739a6d52964c254cf0bec49c84",
+      "date": "2026-10-24T17:29:30Z",
+      "expectedGithub": "sw4860",
+      "actualGithub": "yoojoonlee0424",
+      "gitAuthorName": "yoojoonlee0424",
+      "gitAuthorEmail": "yoojoonlee0424@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 632,
+        "deletions": 113,
+        "meaningful_change": 745,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 5팀",
+      "repo": "surren01522-tech/2026_02_GameProject_Eurydice",
+      "branch": "main",
+      "sha": "e0d7abc5d7dc84b08ff688b9949cc09cb17deebd",
+      "message": "[Feat] 포탈 이동 개선",
+      "url": "https://github.com/surren01522-tech/2026_02_GameProject_Eurydice/commit/e0d7abc5d7dc84b08ff688b9949cc09cb17deebd",
+      "date": "2026-10-24T15:19:34Z",
+      "expectedGithub": "sw4860",
+      "actualGithub": "sw4860",
+      "gitAuthorName": "sand",
+      "gitAuthorEmail": "68569225+sw4860@users.noreply.github.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 22,
+        "additions": 10385,
+        "deletions": 7538,
+        "meaningful_change": 17883,
+        "meaningful_file_count": 17,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 5팀",
+      "repo": "surren01522-tech/2026_02_GameProject_Eurydice",
+      "branch": "main",
+      "sha": "8755813e545016765bd766e6c5bf8d0409ccbec7",
+      "message": "[Refactor] UI 애니메이션 구조 정리",
+      "url": "https://github.com/surren01522-tech/2026_02_GameProject_Eurydice/commit/8755813e545016765bd766e6c5bf8d0409ccbec7",
+      "date": "2026-10-24T15:18:35Z",
+      "expectedGithub": "sw4860",
+      "actualGithub": "sw4860",
+      "gitAuthorName": "sand",
+      "gitAuthorEmail": "68569225+sw4860@users.noreply.github.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 15,
+        "additions": 339,
+        "deletions": 270,
+        "meaningful_change": 607,
+        "meaningful_file_count": 14,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "2학년 6팀",
       "repo": "jeonghyerin002/2026_2TeamProject",
@@ -669,6 +761,29 @@
         "deletions": 2400,
         "meaningful_change": 4039,
         "meaningful_file_count": 6,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 5팀",
+      "repo": "surren01522-tech/2026_02_GameProject_Eurydice",
+      "branch": "main",
+      "sha": "9aa0129f99b621ebfaacfed7c2080e05f7e2e551",
+      "message": "[Feat] DOTween 사용 ui 애니메이션",
+      "url": "https://github.com/surren01522-tech/2026_02_GameProject_Eurydice/commit/9aa0129f99b621ebfaacfed7c2080e05f7e2e551",
+      "date": "2026-10-24T06:42:25Z",
+      "expectedGithub": "sw4860",
+      "actualGithub": "sw4860",
+      "gitAuthorName": "sand",
+      "gitAuthorEmail": "68569225+sw4860@users.noreply.github.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 21,
+        "additions": 832,
+        "deletions": 349,
+        "meaningful_change": 1179,
+        "meaningful_file_count": 20,
         "suspicious_score": 0,
         "judgment": "정상"
       }
