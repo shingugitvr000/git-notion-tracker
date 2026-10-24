@@ -1,7 +1,7 @@
 {
   "course": "Git 프로젝트 활동 현황",
   "notionUrl": "https://abaft-vibraphone-8f7.notion.site/Git-3c28655a72df80199dafc115fef9ddd4?pvs=74",
-  "updatedAt": "2026. 10. 24. 07:54",
+  "updatedAt": "2026. 10. 24. 10:22",
   "students": [
     {
       "name": "2학년 1팀",
@@ -121,8 +121,8 @@
       "lastCommit": "어제",
       "status": "active",
       "weekly": [
-        0,
-        6,
+        3,
+        3,
         6,
         10,
         9,
@@ -282,8 +282,8 @@
       "weekly": [
         2,
         0,
-        0,
-        4,
+        1,
+        3,
         7,
         6,
         6
@@ -1439,7 +1439,7 @@
         },
         {
           "message": "2",
-          "time": "17일 전",
+          "time": "18일 전",
           "sha": "421cb69",
           "url": "https://github.com/Sine-aw/nohesitate/commit/421cb6992cbdd3d1f67350c23a57109b1cc9773d"
         },
@@ -2544,7 +2544,7 @@
       "team": "2학년 4팀",
       "github": "KimBH04",
       "repo": "JungYS24/Tricky-Yacht",
-      "commits": 4,
+      "commits": 2,
       "semesterCommits": 9,
       "activeDays": 2,
       "lastCommit": "5일 전",
@@ -2555,8 +2555,8 @@
         0,
         2,
         0,
-        2,
-        4
+        4,
+        2
       ],
       "recent": [
         {
@@ -2573,13 +2573,13 @@
         },
         {
           "message": "[feat] 스탬프 데이터 생성",
-          "time": "6일 전",
+          "time": "7일 전",
           "sha": "fdfa5c6",
           "url": "https://github.com/JungYS24/Tricky-Yacht/commit/fdfa5c6634ff90f1ef28bbba14b67b80c97f9047"
         },
         {
           "message": "[Refactor] 스탬프 데이터 처리 변경",
-          "time": "6일 전",
+          "time": "7일 전",
           "sha": "4dc3053",
           "url": "https://github.com/JungYS24/Tricky-Yacht/commit/4dc305309ed687f9966c7fc26f00e22e8e456dc1"
         },
@@ -3051,7 +3051,7 @@
       "commits": 1,
       "semesterCommits": 2,
       "activeDays": 1,
-      "lastCommit": "4일 전",
+      "lastCommit": "5일 전",
       "status": "watch",
       "weekly": [
         0,
@@ -3065,13 +3065,13 @@
       "recent": [
         {
           "message": "다이얼로그 패널 이미지 추가",
-          "time": "4일 전",
+          "time": "5일 전",
           "sha": "e4ef150",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/e4ef1502ec5d78899bd2d5751542f927817bd6aa"
         },
         {
           "message": "장수풍뎅이 NPC 이미지 추가",
-          "time": "11일 전",
+          "time": "12일 전",
           "sha": "adf0dc6",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/adf0dc690dcfa226f65ff66b9ac4f72ce9c13ada"
         }
@@ -3469,9 +3469,9 @@
       "team": "1학년 A반 5팀",
       "github": "yoojoonlee0424",
       "repo": "surren01522-tech/2026_02_GameProject_Eurydice",
-      "commits": 11,
+      "commits": 10,
       "semesterCommits": 38,
-      "activeDays": 7,
+      "activeDays": 6,
       "lastCommit": "오늘",
       "status": "active",
       "weekly": [
@@ -3480,8 +3480,8 @@
         1,
         11,
         15,
-        0,
-        11
+        1,
+        10
       ],
       "recent": [
         {
@@ -3578,7 +3578,7 @@
       "commits": 15,
       "semesterCommits": 40,
       "activeDays": 3,
-      "lastCommit": "2일 전",
+      "lastCommit": "3일 전",
       "status": "active",
       "weekly": [
         2,
@@ -3592,13 +3592,13 @@
       "recent": [
         {
           "message": "[Fix] 데미지 텍스트 폰트 크기 수정",
-          "time": "2일 전",
+          "time": "3일 전",
           "sha": "83dd27c",
           "url": "https://github.com/hoshinouhee123/gacha-game-teamplay/commit/83dd27c5c8a631e4b9af5546572eda24fe09dff5"
         },
         {
           "message": "[Fix] 데미지 텍스트가 스프라이트에 가려져 나오는 버그 수정",
-          "time": "2일 전",
+          "time": "3일 전",
           "sha": "74e855a",
           "url": "https://github.com/hoshinouhee123/gacha-game-teamplay/commit/74e855af76136be322aca3528d82673d3f1a8df4"
         },
@@ -3947,8 +3947,8 @@
       "weekly": [
         2,
         0,
-        0,
-        4,
+        1,
+        3,
         7,
         6,
         6
