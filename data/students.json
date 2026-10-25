@@ -1,7 +1,7 @@
 {
   "course": "Git 프로젝트 활동 현황",
   "notionUrl": "https://abaft-vibraphone-8f7.notion.site/Git-3c28655a72df80199dafc115fef9ddd4?pvs=74",
-  "updatedAt": "2026. 10. 26. 06:04",
+  "updatedAt": "2026. 10. 26. 08:26",
   "students": [
     {
       "name": "2학년 1팀",
@@ -9,8 +9,8 @@
       "team": "suyan05",
       "github": "suyan05",
       "repo": "suyan05/PharaohCube",
-      "commits": 2,
-      "semesterCommits": 13,
+      "commits": 3,
+      "semesterCommits": 14,
       "activeDays": 1,
       "lastCommit": "오늘",
       "status": "active",
@@ -21,9 +21,15 @@
         0,
         8,
         0,
-        2
+        3
       ],
       "recent": [
+        {
+          "message": "[Fix]맵 배치 수정",
+          "time": "오늘",
+          "sha": "8a6722c",
+          "url": "https://github.com/suyan05/PharaohCube/commit/8a6722c485e74bffff25d3bc1eab00fc639458d3"
+        },
         {
           "message": "[Fead]바스테트 맵 배치",
           "time": "오늘",
@@ -47,12 +53,6 @@
           "time": "15일 전",
           "sha": "89e7e79",
           "url": "https://github.com/suyan05/PharaohCube/commit/89e7e799f23619f31660a7afc3c01d13a7836057"
-        },
-        {
-          "message": "[Fead]라의방 오브제 임시 배치",
-          "time": "15일 전",
-          "sha": "e3752ec",
-          "url": "https://github.com/suyan05/PharaohCube/commit/e3752ec4e7d336b2416567ffbae876978493c87a"
         }
       ]
     },
@@ -443,8 +443,8 @@
         0,
         0,
         1,
-        2,
-        4,
+        5,
+        1,
         5
       ],
       "recent": [
@@ -515,19 +515,19 @@
         },
         {
           "message": "Merge branch 'Kwonjun' into main",
-          "time": "어제",
+          "time": "2일 전",
           "sha": "aaa4df5",
           "url": "https://github.com/ahyun04/26TeamProject_2/commit/aaa4df5dece7f18796ed3948ca24ef9aa6d80cd1"
         },
         {
           "message": "[Feat] 게임 설정 및 4~12인 맵 분산 스폰 연결",
-          "time": "어제",
+          "time": "2일 전",
           "sha": "391f87e",
           "url": "https://github.com/ahyun04/26TeamProject_2/commit/391f87eb6c41db2d95b8a60699fa8b5117e27036"
         },
         {
           "message": "[Feat] 산소통 양손 들기 모션 및 시점 보정",
-          "time": "어제",
+          "time": "2일 전",
           "sha": "6e4dc1d",
           "url": "https://github.com/ahyun04/26TeamProject_2/commit/6e4dc1d981b2f32c5b87c4ab1b25093478470c3c"
         }
@@ -920,8 +920,8 @@
         2,
         5,
         3,
-        6,
-        9,
+        7,
+        8,
         2
       ],
       "recent": [
@@ -1104,7 +1104,7 @@
         },
         {
           "message": "[Feat]인벤토리 시스템 구현, 유물시스템 구현",
-          "time": "5일 전",
+          "time": "6일 전",
           "sha": "57754a5",
           "url": "https://github.com/23jihwan/7_tim/commit/57754a5d1ec2919f45409a3f53592550b866edce"
         },
@@ -1257,9 +1257,9 @@
       "team": "2학년 2팀",
       "github": "flexinja99",
       "repo": "esuvean/PRESS-START_",
-      "commits": 6,
+      "commits": 5,
       "semesterCommits": 64,
-      "activeDays": 4,
+      "activeDays": 3,
       "lastCommit": "오늘",
       "status": "active",
       "weekly": [
@@ -1268,8 +1268,8 @@
         16,
         3,
         3,
-        9,
-        6
+        10,
+        5
       ],
       "recent": [
         {
@@ -1292,7 +1292,7 @@
         },
         {
           "message": "[feat] 미니게임 12 UI , 13 수정",
-          "time": "오늘",
+          "time": "어제",
           "sha": "71c812e",
           "url": "https://github.com/esuvean/PRESS-START_/commit/71c812e86961ba8debdf0ec84b56391e33b37640"
         },
@@ -1792,7 +1792,7 @@
         },
         {
           "message": "[feat]: 도트 글꼴 추가",
-          "time": "25일 전",
+          "time": "26일 전",
           "sha": "4f96d73",
           "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/4f96d73abfbfb817c6a13ada812681f1e6d55625"
         }
@@ -1915,7 +1915,7 @@
         },
         {
           "message": "Initial commit",
-          "time": "40일 전",
+          "time": "41일 전",
           "sha": "a7471ec",
           "url": "https://github.com/jeolje934-dot/Placeholder_2026_1A_team-project/commit/a7471ec3212432eb7d0456f7a2d5801b9e7c8f91"
         }
@@ -2258,8 +2258,8 @@
       "weekly": [
         3,
         1,
-        2,
-        3,
+        5,
+        0,
         9,
         5,
         3
@@ -2907,7 +2907,7 @@
       "lastCommit": "오늘",
       "status": "active",
       "weekly": [
-        13,
+        12,
         12,
         5,
         17,
@@ -2957,7 +2957,7 @@
       "commits": 2,
       "semesterCommits": 6,
       "activeDays": 1,
-      "lastCommit": "어제",
+      "lastCommit": "2일 전",
       "status": "active",
       "weekly": [
         0,
@@ -2971,13 +2971,13 @@
       "recent": [
         {
           "message": "설정 패널 배경 추가",
-          "time": "어제",
+          "time": "2일 전",
           "sha": "37790a8",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/37790a8d882a3773697d27b9c210f9f2f7c33546"
         },
         {
           "message": "스크롤 바 UI 배경, 스크롤바 핸들 추가",
-          "time": "어제",
+          "time": "2일 전",
           "sha": "ed251e4",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/ed251e4617fc5d2e3d3ba412e873ed962024aa9d"
         },
@@ -2995,7 +2995,7 @@
         },
         {
           "message": "업적 ui 추가",
-          "time": "15일 전",
+          "time": "16일 전",
           "sha": "10a8dba",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/10a8dba90a12b92a2144974b495bf64942e99867"
         }
@@ -3152,13 +3152,13 @@
         },
         {
           "message": "[feat] 플레이어 산소량 감소 추가 & 치트엔진 무적 기능 추가",
-          "time": "오늘",
+          "time": "어제",
           "sha": "7f8e739",
           "url": "https://github.com/Tiphe0821/GameProject_T3_1_B/commit/7f8e739afa2a4481e64ea28fd63cda810262167e"
         },
         {
           "message": "[Chore] 헷갈리게 정리된 복셀 리소스 폴더 정리 & 스카이박스 리소스 임포트",
-          "time": "오늘",
+          "time": "어제",
           "sha": "4acdd92",
           "url": "https://github.com/Tiphe0821/GameProject_T3_1_B/commit/4acdd925e69e6042b2b9ae964fd53386eb9e9ee8"
         }
@@ -4286,8 +4286,8 @@
         2,
         5,
         3,
-        6,
-        9,
+        7,
+        8,
         2
       ],
       "recent": [
