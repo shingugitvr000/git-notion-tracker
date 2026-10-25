@@ -1,7 +1,7 @@
 {
   "course": "Git 프로젝트 활동 현황",
   "notionUrl": "https://abaft-vibraphone-8f7.notion.site/Git-3c28655a72df80199dafc115fef9ddd4?pvs=74",
-  "updatedAt": "2026. 10. 25. 07:38",
+  "updatedAt": "2026. 10. 25. 09:49",
   "students": [
     {
       "name": "2학년 1팀",
@@ -651,7 +651,7 @@
       "lastCommit": "7일 전",
       "status": "watch",
       "weekly": [
-        2,
+        1,
         2,
         1,
         2,
@@ -1286,7 +1286,7 @@
         },
         {
           "message": "[FEAT] 챕터 4연결 수정",
-          "time": "5일 전",
+          "time": "6일 전",
           "sha": "bca2fe8",
           "url": "https://github.com/esuvean/PRESS-START_/commit/bca2fe825074f1b5926ff5cdd61d3c08b7c63dce"
         },
@@ -1915,7 +1915,7 @@
         },
         {
           "message": "Initial commit",
-          "time": "39일 전",
+          "time": "40일 전",
           "sha": "a7471ec",
           "url": "https://github.com/jeolje934-dot/Placeholder_2026_1A_team-project/commit/a7471ec3212432eb7d0456f7a2d5801b9e7c8f91"
         }
@@ -2901,8 +2901,8 @@
       "team": "1학년 B반 6팀",
       "github": "tjd6356-afk",
       "repo": "tjd6356-afk/2-_-",
-      "commits": 17,
-      "semesterCommits": 100,
+      "commits": 18,
+      "semesterCommits": 101,
       "activeDays": 5,
       "lastCommit": "오늘",
       "status": "active",
@@ -2913,9 +2913,15 @@
         15,
         20,
         15,
-        17
+        18
       ],
       "recent": [
+        {
+          "message": "게임 오버 UI 배치",
+          "time": "오늘",
+          "sha": "5e9c5cc",
+          "url": "https://github.com/tjd6356-afk/2-_-/commit/5e9c5cc8d3566dafa5679dbcfa6e46b9610505ae"
+        },
         {
           "message": "플레이어 죽음 시스템",
           "time": "오늘",
@@ -2939,12 +2945,6 @@
           "time": "오늘",
           "sha": "a21ce48",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/a21ce48bdb5f0a187a64a49bcbd01027d3902a8a"
-        },
-        {
-          "message": "UI에 스크립트 배치",
-          "time": "오늘",
-          "sha": "3966eb5",
-          "url": "https://github.com/tjd6356-afk/2-_-/commit/3966eb5a06c068395956eb2d6369412b8a9d02bb"
         }
       ]
     },
@@ -3507,8 +3507,8 @@
       "weekly": [
         0,
         0,
-        1,
-        15,
+        2,
+        14,
         11,
         2,
         14

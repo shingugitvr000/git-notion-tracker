@@ -1,11 +1,34 @@
 {
-  "updatedAt": "2026. 10. 25. 07:38",
+  "updatedAt": "2026. 10. 25. 09:49",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "5e9c5cc8d3566dafa5679dbcfa6e46b9610505ae",
+      "message": "게임 오버 UI 배치",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/5e9c5cc8d3566dafa5679dbcfa6e46b9610505ae",
+      "date": "2026-10-24T23:34:08Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "tjd6356-afk",
+      "gitAuthorName": "tjd6356-afk",
+      "gitAuthorEmail": "tjd6356@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 8,
+        "additions": 744,
+        "deletions": 1,
+        "meaningful_change": 741,
+        "meaningful_file_count": 6,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "1학년 B반 3팀",
       "repo": "Tiphe0821/GameProject_T3_1_B",
