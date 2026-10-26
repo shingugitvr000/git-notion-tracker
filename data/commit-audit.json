@@ -1,11 +1,149 @@
 {
-  "updatedAt": "2026. 10. 27. 05:05",
+  "updatedAt": "2026. 10. 27. 08:58",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "3b1912d7fd211637b5c0c6bab579fe1463b4f603",
+      "message": "적 Hp UI 생성",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/3b1912d7fd211637b5c0c6bab579fe1463b4f603",
+      "date": "2026-10-26T23:19:11Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "tjd6356-afk",
+      "gitAuthorName": "tjd6356-afk",
+      "gitAuthorEmail": "tjd6356@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 14,
+        "additions": 750,
+        "deletions": 4829,
+        "meaningful_change": 5577,
+        "meaningful_file_count": 9,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 5팀",
+      "repo": "qkrgml59/2026_2_TeamProject",
+      "branch": "main",
+      "sha": "63338356b00ee5260c0ff936fa116618be7a34b4",
+      "message": "Merge branch 'main' of https://github.com/qkrgml59/2026_2_TeamProject",
+      "url": "https://github.com/qkrgml59/2026_2_TeamProject/commit/63338356b00ee5260c0ff936fa116618be7a34b4",
+      "date": "2026-10-26T20:45:50Z",
+      "expectedGithub": "qkrgml59",
+      "actualGithub": "edan2251",
+      "gitAuthorName": "edan",
+      "gitAuthorEmail": "molphone0328@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 6,
+        "additions": 392,
+        "deletions": 11,
+        "meaningful_change": 394,
+        "meaningful_file_count": 4,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 5팀",
+      "repo": "qkrgml59/2026_2_TeamProject",
+      "branch": "main",
+      "sha": "a2e2900c53966ab4a272fe257c67b6cde7916c9f",
+      "message": "Merge team MapTest tilemap history into local prototype",
+      "url": "https://github.com/qkrgml59/2026_2_TeamProject/commit/a2e2900c53966ab4a272fe257c67b6cde7916c9f",
+      "date": "2026-10-26T20:40:34Z",
+      "expectedGithub": "qkrgml59",
+      "actualGithub": "edan2251",
+      "gitAuthorName": "edan",
+      "gitAuthorEmail": "molphone0328@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 153097,
+        "deletions": 151773,
+        "meaningful_change": 304870,
+        "meaningful_file_count": 1,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 5팀",
+      "repo": "qkrgml59/2026_2_TeamProject",
+      "branch": "main",
+      "sha": "c5718a2fbda53d59de9fa6a558aeb3eec3cbd31f",
+      "message": "[Fix] 새 게임 시작 씬을 MapTest로 변경",
+      "url": "https://github.com/qkrgml59/2026_2_TeamProject/commit/c5718a2fbda53d59de9fa6a558aeb3eec3cbd31f",
+      "date": "2026-10-26T20:30:29Z",
+      "expectedGithub": "qkrgml59",
+      "actualGithub": "edan2251",
+      "gitAuthorName": "edan",
+      "gitAuthorEmail": "molphone0328@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 1,
+        "deletions": 1,
+        "meaningful_change": 2,
+        "meaningful_file_count": 1,
+        "suspicious_score": 50,
+        "judgment": "확인필요"
+      }
+    },
+    {
+      "projectName": "2학년 5팀",
+      "repo": "qkrgml59/2026_2_TeamProject",
+      "branch": "main",
+      "sha": "04e1673226b1724253f244785b76f4896df905aa",
+      "message": "[Fix] MapTest에서 슬라이딩 비활성화",
+      "url": "https://github.com/qkrgml59/2026_2_TeamProject/commit/04e1673226b1724253f244785b76f4896df905aa",
+      "date": "2026-10-26T20:30:15Z",
+      "expectedGithub": "qkrgml59",
+      "actualGithub": "edan2251",
+      "gitAuthorName": "edan",
+      "gitAuthorEmail": "molphone0328@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 7,
+        "deletions": 1,
+        "meaningful_change": 8,
+        "meaningful_file_count": 2,
+        "suspicious_score": 15,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 5팀",
+      "repo": "qkrgml59/2026_2_TeamProject",
+      "branch": "main",
+      "sha": "e0517d4b41308bc74d5b2048ddbe8e7346f8797e",
+      "message": "[Feat] 지도 및 구역 이동, char2로 신규 캐릭터 전환 추가",
+      "url": "https://github.com/qkrgml59/2026_2_TeamProject/commit/e0517d4b41308bc74d5b2048ddbe8e7346f8797e",
+      "date": "2026-10-26T20:29:46Z",
+      "expectedGithub": "qkrgml59",
+      "actualGithub": "edan2251",
+      "gitAuthorName": "edan",
+      "gitAuthorEmail": "molphone0328@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 78,
+        "additions": 5246,
+        "deletions": 0,
+        "meaningful_change": 3042,
+        "meaningful_file_count": 35,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "2학년 5팀",
       "repo": "qkrgml59/2026_2_TeamProject",
