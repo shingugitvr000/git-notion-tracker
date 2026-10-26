@@ -1,11 +1,57 @@
 {
-  "updatedAt": "2026. 10. 26. 08:26",
+  "updatedAt": "2026. 10. 26. 10:30",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "3학년 2팀",
+      "repo": "Taehyeon88/Graduation-project",
+      "branch": "main",
+      "sha": "256505a6eb8d9be1d8471f7d0f201fc1906f8817",
+      "message": "[Feat] 엘리트 스테이지 구현",
+      "url": "https://github.com/Taehyeon88/Graduation-project/commit/256505a6eb8d9be1d8471f7d0f201fc1906f8817",
+      "date": "2026-10-26T01:29:31Z",
+      "expectedGithub": "Taehyeon88",
+      "actualGithub": "Taehyeon88",
+      "gitAuthorName": "Taehyeon88",
+      "gitAuthorEmail": "Taehyeon5376@naver.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 88,
+        "additions": 5385,
+        "deletions": 252,
+        "meaningful_change": 5264,
+        "meaningful_file_count": 61,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 3팀",
+      "repo": "Tiphe0821/GameProject_T3_1_B",
+      "branch": "main",
+      "sha": "6cf7082ec11eac53a0dc8658ce844c9c639eeaf6",
+      "message": "[fix] 치트엔진 Input 인식되지 않는 버그 수정",
+      "url": "https://github.com/Tiphe0821/GameProject_T3_1_B/commit/6cf7082ec11eac53a0dc8658ce844c9c639eeaf6",
+      "date": "2026-10-26T01:16:40Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "Tiphe0821",
+      "gitAuthorName": "Tiphe0821",
+      "gitAuthorEmail": "namucho24@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 3,
+        "additions": 397,
+        "deletions": 10,
+        "meaningful_change": 407,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "2학년 1팀",
       "repo": "suyan05/PharaohCube",
@@ -3407,6 +3453,29 @@
         "meaningful_change": 8,
         "meaningful_file_count": 3,
         "suspicious_score": 15,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 1팀",
+      "repo": "simo07d7PG/Team_JJAMBBAP",
+      "branch": "main",
+      "sha": "afc20b50819ae40735b534db838b33a4899b85dd",
+      "message": "[Feat] 미니게임 모델을 팀원 모델로 교체",
+      "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/afc20b50819ae40735b534db838b33a4899b85dd",
+      "date": "2026-10-24T03:16:37Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "simo07d7PG",
+      "gitAuthorName": "simo07d7PG",
+      "gitAuthorEmail": "simo07d7.pg@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 3,
+        "additions": 493,
+        "deletions": 1020,
+        "meaningful_change": 1513,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
         "judgment": "정상"
       }
     },

@@ -1,7 +1,7 @@
 {
   "course": "Git 프로젝트 활동 현황",
   "notionUrl": "https://abaft-vibraphone-8f7.notion.site/Git-3c28655a72df80199dafc115fef9ddd4?pvs=74",
-  "updatedAt": "2026. 10. 26. 08:26",
+  "updatedAt": "2026. 10. 26. 10:30",
   "students": [
     {
       "name": "2학년 1팀",
@@ -274,9 +274,9 @@
       "team": "Taehyeon88",
       "github": "Taehyeon88",
       "repo": "Taehyeon88/Graduation-project",
-      "commits": 11,
-      "semesterCommits": 32,
-      "activeDays": 5,
+      "commits": 12,
+      "semesterCommits": 33,
+      "activeDays": 6,
       "lastCommit": "오늘",
       "status": "active",
       "weekly": [
@@ -286,9 +286,15 @@
         3,
         4,
         6,
-        11
+        12
       ],
       "recent": [
+        {
+          "message": "[Feat] 엘리트 스테이지 구현",
+          "time": "오늘",
+          "sha": "256505a",
+          "url": "https://github.com/Taehyeon88/Graduation-project/commit/256505a6eb8d9be1d8471f7d0f201fc1906f8817"
+        },
         {
           "message": "[Feat] 주점 시스템 및 소문 시스템 구현",
           "time": "오늘",
@@ -312,12 +318,6 @@
           "time": "어제",
           "sha": "1bf060b",
           "url": "https://github.com/Taehyeon88/Graduation-project/commit/1bf060b3b0301c7ceb624ae3bad962a5ee9330c1"
-        },
-        {
-          "message": "[Feat] 유물 UI + VG 추가 + 카드 UI 변경 + 유닛 배치 인터렉션 연출 변경 + 영웅 이동 방식 변경",
-          "time": "어제",
-          "sha": "d1a176d",
-          "url": "https://github.com/Taehyeon88/Graduation-project/commit/d1a176d142881ca8b19a2c463497790142b5a19b"
         }
       ]
     },
@@ -833,7 +833,7 @@
         },
         {
           "message": "[Fix] 핸드폰UI 고침 각종 버그 해결",
-          "time": "어제",
+          "time": "2일 전",
           "sha": "d2ad172",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/d2ad172c46578e2e3082f24ee026b7574d976171"
         },
@@ -918,8 +918,8 @@
       "weekly": [
         3,
         2,
-        5,
-        3,
+        6,
+        2,
         7,
         8,
         2
@@ -1451,7 +1451,7 @@
         },
         {
           "message": "2",
-          "time": "19일 전",
+          "time": "20일 전",
           "sha": "421cb69",
           "url": "https://github.com/Sine-aw/nohesitate/commit/421cb6992cbdd3d1f67350c23a57109b1cc9773d"
         },
@@ -1592,10 +1592,10 @@
       "team": "simo07d7PG",
       "github": "simo07d7PG",
       "repo": "simo07d7PG/Team_JJAMBBAP",
-      "commits": 20,
-      "semesterCommits": 39,
-      "activeDays": 2,
-      "lastCommit": "3일 전",
+      "commits": 21,
+      "semesterCommits": 40,
+      "activeDays": 3,
+      "lastCommit": "어제",
       "status": "active",
       "weekly": [
         2,
@@ -1604,9 +1604,15 @@
         10,
         6,
         0,
-        20
+        21
       ],
       "recent": [
+        {
+          "message": "[Feat] 미니게임 모델을 팀원 모델로 교체",
+          "time": "어제",
+          "sha": "afc20b5",
+          "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/afc20b50819ae40735b534db838b33a4899b85dd"
+        },
         {
           "message": "[Feat] 손님 인내도 추가",
           "time": "3일 전",
@@ -1630,12 +1636,6 @@
           "time": "3일 전",
           "sha": "494ba50",
           "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/494ba504d2971ab11034a27bb22b279752aa106a"
-        },
-        {
-          "message": "[Feat] 미니게임 카메라 후처리 켜기",
-          "time": "3일 전",
-          "sha": "1bdb895",
-          "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/1bdb89535b5743a209d2802c3682b2fa48a3c636"
         }
       ]
     },
@@ -2585,13 +2585,13 @@
         },
         {
           "message": "[feat] 스탬프 데이터 생성",
-          "time": "8일 전",
+          "time": "9일 전",
           "sha": "fdfa5c6",
           "url": "https://github.com/JungYS24/Tricky-Yacht/commit/fdfa5c6634ff90f1ef28bbba14b67b80c97f9047"
         },
         {
           "message": "[Refactor] 스탬프 데이터 처리 변경",
-          "time": "8일 전",
+          "time": "9일 전",
           "sha": "4dc3053",
           "url": "https://github.com/JungYS24/Tricky-Yacht/commit/4dc305309ed687f9966c7fc26f00e22e8e456dc1"
         },
@@ -2834,10 +2834,10 @@
       "weekly": [
         4,
         31,
-        19,
-        17,
-        14,
-        13,
+        20,
+        16,
+        15,
+        12,
         19
       ],
       "recent": [
@@ -2867,7 +2867,7 @@
         },
         {
           "message": "[Chore] VFX 에셋 임포트",
-          "time": "3일 전",
+          "time": "4일 전",
           "sha": "9238ab9",
           "url": "https://github.com/jinjooyoung/DUAL-DUEL/commit/9238ab934cb5c4cd1579eb3a8808ab4c6657aa8f"
         }
@@ -2907,12 +2907,12 @@
       "lastCommit": "오늘",
       "status": "active",
       "weekly": [
-        12,
-        12,
+        11,
+        11,
         5,
         17,
-        18,
-        15,
+        21,
+        12,
         23
       ],
       "recent": [
@@ -3060,30 +3060,30 @@
       "team": "1학년 B반 6팀",
       "github": "ksmxxx-glitch",
       "repo": "tjd6356-afk/2-_-",
-      "commits": 1,
+      "commits": 0,
       "semesterCommits": 2,
-      "activeDays": 1,
-      "lastCommit": "6일 전",
+      "activeDays": 0,
+      "lastCommit": "7일 전",
       "status": "watch",
       "weekly": [
         0,
         0,
         0,
         0,
-        0,
         1,
-        1
+        1,
+        0
       ],
       "recent": [
         {
           "message": "다이얼로그 패널 이미지 추가",
-          "time": "6일 전",
+          "time": "7일 전",
           "sha": "e4ef150",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/e4ef1502ec5d78899bd2d5751542f927817bd6aa"
         },
         {
           "message": "장수풍뎅이 NPC 이미지 추가",
-          "time": "13일 전",
+          "time": "14일 전",
           "sha": "adf0dc6",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/adf0dc690dcfa226f65ff66b9ac4f72ce9c13ada"
         }
@@ -3117,21 +3117,27 @@
       "team": "1학년 B반 3팀",
       "github": "Tiphe0821",
       "repo": "Tiphe0821/GameProject_T3_1_B",
-      "commits": 9,
-      "semesterCommits": 23,
-      "activeDays": 2,
+      "commits": 10,
+      "semesterCommits": 24,
+      "activeDays": 3,
       "lastCommit": "오늘",
       "status": "active",
       "weekly": [
         0,
-        0,
-        6,
+        1,
+        5,
         3,
         3,
         2,
-        9
+        10
       ],
       "recent": [
+        {
+          "message": "[fix] 치트엔진 Input 인식되지 않는 버그 수정",
+          "time": "오늘",
+          "sha": "6cf7082",
+          "url": "https://github.com/Tiphe0821/GameProject_T3_1_B/commit/6cf7082ec11eac53a0dc8658ce844c9c639eeaf6"
+        },
         {
           "message": "[feat] 중력 적용 플레이어 컨트롤러 추가",
           "time": "오늘",
@@ -3155,12 +3161,6 @@
           "time": "어제",
           "sha": "7f8e739",
           "url": "https://github.com/Tiphe0821/GameProject_T3_1_B/commit/7f8e739afa2a4481e64ea28fd63cda810262167e"
-        },
-        {
-          "message": "[Chore] 헷갈리게 정리된 복셀 리소스 폴더 정리 & 스카이박스 리소스 임포트",
-          "time": "어제",
-          "sha": "4acdd92",
-          "url": "https://github.com/Tiphe0821/GameProject_T3_1_B/commit/4acdd925e69e6042b2b9ae964fd53386eb9e9ee8"
         }
       ]
     },
@@ -3205,7 +3205,7 @@
         },
         {
           "message": "[Feat] 1단계 부속품 SO 추가",
-          "time": "오늘",
+          "time": "어제",
           "sha": "0f6b869",
           "url": "https://github.com/Tiphe0821/GameProject_T3_1_B/commit/0f6b869ad389e5b77092aae55a7dd699f0109977"
         },
@@ -3246,7 +3246,7 @@
         },
         {
           "message": "[Feat] 대화창 UI 및 아이템 아이콘 추가",
-          "time": "오늘",
+          "time": "어제",
           "sha": "c9c79df",
           "url": "https://github.com/Tiphe0821/GameProject_T3_1_B/commit/c9c79df52e2c28b053bf099cafb95cdaa07353bc"
         },
@@ -3632,7 +3632,7 @@
       "commits": 15,
       "semesterCommits": 40,
       "activeDays": 3,
-      "lastCommit": "4일 전",
+      "lastCommit": "5일 전",
       "status": "watch",
       "weekly": [
         2,
@@ -3646,13 +3646,13 @@
       "recent": [
         {
           "message": "[Fix] 데미지 텍스트 폰트 크기 수정",
-          "time": "4일 전",
+          "time": "5일 전",
           "sha": "83dd27c",
           "url": "https://github.com/hoshinouhee123/gacha-game-teamplay/commit/83dd27c5c8a631e4b9af5546572eda24fe09dff5"
         },
         {
           "message": "[Fix] 데미지 텍스트가 스프라이트에 가려져 나오는 버그 수정",
-          "time": "4일 전",
+          "time": "5일 전",
           "sha": "74e855a",
           "url": "https://github.com/hoshinouhee123/gacha-game-teamplay/commit/74e855af76136be322aca3528d82673d3f1a8df4"
         },
@@ -3817,7 +3817,7 @@
         },
         {
           "message": "[Feat] Room 1 타일맵 디자인 추가",
-          "time": "4일 전",
+          "time": "5일 전",
           "sha": "478d639",
           "url": "https://github.com/chimchimjam377/TeamProject---Singularity-Thief/commit/478d639c91b76b115b79ec2d66ed229a0f9f78ae"
         },
@@ -4011,9 +4011,9 @@
       "team": "Taehyeon88",
       "github": "Taehyeon88",
       "repo": "Taehyeon88/Graduation-project",
-      "commits": 11,
-      "semesterCommits": 32,
-      "activeDays": 5,
+      "commits": 12,
+      "semesterCommits": 33,
+      "activeDays": 6,
       "lastCommit": "오늘",
       "status": "active",
       "weekly": [
@@ -4023,9 +4023,15 @@
         3,
         4,
         6,
-        11
+        12
       ],
       "recent": [
+        {
+          "message": "[Feat] 엘리트 스테이지 구현",
+          "time": "오늘",
+          "sha": "256505a",
+          "url": "https://github.com/Taehyeon88/Graduation-project/commit/256505a6eb8d9be1d8471f7d0f201fc1906f8817"
+        },
         {
           "message": "[Feat] 주점 시스템 및 소문 시스템 구현",
           "time": "오늘",
@@ -4049,12 +4055,6 @@
           "time": "어제",
           "sha": "1bf060b",
           "url": "https://github.com/Taehyeon88/Graduation-project/commit/1bf060b3b0301c7ceb624ae3bad962a5ee9330c1"
-        },
-        {
-          "message": "[Feat] 유물 UI + VG 추가 + 카드 UI 변경 + 유닛 배치 인터렉션 연출 변경 + 영웅 이동 방식 변경",
-          "time": "어제",
-          "sha": "d1a176d",
-          "url": "https://github.com/Taehyeon88/Graduation-project/commit/d1a176d142881ca8b19a2c463497790142b5a19b"
         }
       ]
     },
@@ -4199,7 +4199,7 @@
         },
         {
           "message": "[Fix] 핸드폰UI 고침 각종 버그 해결",
-          "time": "어제",
+          "time": "2일 전",
           "sha": "d2ad172",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/d2ad172c46578e2e3082f24ee026b7574d976171"
         },
@@ -4284,8 +4284,8 @@
       "weekly": [
         3,
         2,
-        5,
-        3,
+        6,
+        2,
         7,
         8,
         2
