@@ -1,11 +1,172 @@
 {
-  "updatedAt": "2026. 10. 27. 08:58",
+  "updatedAt": "2026. 10. 27. 13:45",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "2학년 3팀",
+      "repo": "jinjooyoung/DUAL-DUEL",
+      "branch": "main",
+      "sha": "5642588e2148b96f647aa3b6c575024a9c739f1b",
+      "message": "[Chore] 임시 리소스 모두 적용 완료",
+      "url": "https://github.com/jinjooyoung/DUAL-DUEL/commit/5642588e2148b96f647aa3b6c575024a9c739f1b",
+      "date": "2026-10-27T03:22:23Z",
+      "expectedGithub": "jinjooyoung",
+      "actualGithub": "jinjooyoung",
+      "gitAuthorName": "jinjooyoung",
+      "gitAuthorEmail": "jjy26297449@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 342,
+        "deletions": 300,
+        "meaningful_change": 642,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "753d390a8bff1f15f2c845fadcd731053f2d92d1",
+      "message": "캔버스 배치",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/753d390a8bff1f15f2c845fadcd731053f2d92d1",
+      "date": "2026-10-27T02:20:05Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "tjd6356-afk",
+      "gitAuthorName": "tjd6356-afk",
+      "gitAuthorEmail": "tjd6356@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 111,
+        "deletions": 918,
+        "meaningful_change": 1029,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "a8d660998e059f482c86c8a0262fe6c26520e936",
+      "message": "이제 다른 무기도 NPC 타격 가능함",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/a8d660998e059f482c86c8a0262fe6c26520e936",
+      "date": "2026-10-27T02:04:37Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "tjd6356-afk",
+      "gitAuthorName": "tjd6356-afk",
+      "gitAuthorEmail": "tjd6356@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 497,
+        "deletions": 72,
+        "meaningful_change": 569,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 7팀",
+      "repo": "23jihwan/7_tim",
+      "branch": "main",
+      "sha": "1e2e947714917a8810dfa5f1a8aefb21ea91b321",
+      "message": "[Fix]빌드",
+      "url": "https://github.com/23jihwan/7_tim/commit/1e2e947714917a8810dfa5f1a8aefb21ea91b321",
+      "date": "2026-10-27T01:54:07Z",
+      "expectedGithub": "23jihwan",
+      "actualGithub": "23jihwan",
+      "gitAuthorName": "23jihwan",
+      "gitAuthorEmail": "dbwlghks7410@naver.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 12,
+        "additions": 20,
+        "deletions": 20,
+        "meaningful_change": 0,
+        "meaningful_file_count": 0,
+        "suspicious_score": 80,
+        "judgment": "뻥의심"
+      }
+    },
+    {
+      "projectName": "2학년 6팀",
+      "repo": "jeonghyerin002/2026_2TeamProject",
+      "branch": "main",
+      "sha": "0ee8b2aabcec1d16712a791394f8083b3432c678",
+      "message": "[Feat] 레벨업 시스템 및 배틀 UI 문구 추가",
+      "url": "https://github.com/jeonghyerin002/2026_2TeamProject/commit/0ee8b2aabcec1d16712a791394f8083b3432c678",
+      "date": "2026-10-27T01:51:42Z",
+      "expectedGithub": "jeonghyerin002",
+      "actualGithub": "blocks2094",
+      "gitAuthorName": "HyunWoo",
+      "gitAuthorEmail": "blocks2094@g.shingu.ac.kr",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 5,
+        "additions": 59,
+        "deletions": 4,
+        "meaningful_change": 61,
+        "meaningful_file_count": 4,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "ac950dfeb98df64e1181d70eaad2c85e50676cef",
+      "message": "근접 무기 버그 수정",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/ac950dfeb98df64e1181d70eaad2c85e50676cef",
+      "date": "2026-10-27T01:30:28Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "tjd6356-afk",
+      "gitAuthorName": "tjd6356-afk",
+      "gitAuthorEmail": "tjd6356@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 103,
+        "deletions": 16,
+        "meaningful_change": 119,
+        "meaningful_file_count": 1,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "07a23699d66aaea0bd82c40c0924a348bd832193",
+      "message": "NPC,Enemy 스텟 생성 / Enemy,Player NPC 공격 가능하게 변경",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/07a23699d66aaea0bd82c40c0924a348bd832193",
+      "date": "2026-10-27T01:03:41Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "tjd6356-afk",
+      "gitAuthorName": "tjd6356-afk",
+      "gitAuthorEmail": "tjd6356@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 17,
+        "additions": 2564,
+        "deletions": 239,
+        "meaningful_change": 2799,
+        "meaningful_file_count": 12,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "1학년 B반 6팀",
       "repo": "tjd6356-afk/2-_-",
