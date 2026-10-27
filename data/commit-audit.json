@@ -1,11 +1,126 @@
 {
-  "updatedAt": "2026. 10. 27. 13:45",
+  "updatedAt": "2026. 10. 27. 19:12",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "8f218b765367d95ca30fa20f225c36b76deb9888",
+      "message": "[Fix] 라의 방 이집트풍 배경음악(히자즈 음계, 네이/우드/다르부카/시스트럼) + 스핑크스 깨어남 소리 교체",
+      "url": "https://github.com/suyan05/PharaohCube/commit/8f218b765367d95ca30fa20f225c36b76deb9888",
+      "date": "2026-10-27T07:07:22Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "parksarang04",
+      "gitAuthorName": "parksarang04",
+      "gitAuthorEmail": "qkrtkfkd9074@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 6,
+        "additions": 4,
+        "deletions": 4,
+        "meaningful_change": 8,
+        "meaningful_file_count": 6,
+        "suspicious_score": 15,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "53b8749e0e3560641da1fffd2f221701b32c95f5",
+      "message": "[Feat]: 소리 시스템 + 합성 효과음/배경음악 + 대사 삐리리",
+      "url": "https://github.com/suyan05/PharaohCube/commit/53b8749e0e3560641da1fffd2f221701b32c95f5",
+      "date": "2026-10-27T06:39:17Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "parksarang04",
+      "gitAuthorName": "parksarang04",
+      "gitAuthorEmail": "qkrtkfkd9074@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 78,
+        "additions": 1024,
+        "deletions": 10,
+        "meaningful_change": 369,
+        "meaningful_file_count": 44,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 1팀",
+      "repo": "ahyun04/26TeamProject_2",
+      "branch": "main",
+      "sha": "823378569e1942aa5ca6e587773b30a99c28a606",
+      "message": "[Feat] 선반과 기획에 있는 구역에만 아이템 스폰하게 구현, 산소 미션 폭발음 적용",
+      "url": "https://github.com/ahyun04/26TeamProject_2/commit/823378569e1942aa5ca6e587773b30a99c28a606",
+      "date": "2026-10-27T06:25:08Z",
+      "expectedGithub": "ahyun04",
+      "actualGithub": "namsuhan0322",
+      "gitAuthorName": "namsuhan0322",
+      "gitAuthorEmail": "rnatpakfl@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 31,
+        "additions": 9534,
+        "deletions": 3204,
+        "meaningful_change": 12661,
+        "meaningful_file_count": 24,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "4b96b513f2dbf611cfaae844f64b06d96b4bae39",
+      "message": "[Feat] 꿈의 비석 해독 화면을 아트 그림(Common_UI_Stele_Panel)으로 교체",
+      "url": "https://github.com/suyan05/PharaohCube/commit/4b96b513f2dbf611cfaae844f64b06d96b4bae39",
+      "date": "2026-10-27T06:24:27Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "parksarang04",
+      "gitAuthorName": "parksarang04",
+      "gitAuthorEmail": "qkrtkfkd9074@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 4,
+        "additions": 213,
+        "deletions": 8,
+        "meaningful_change": 65,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 1팀",
+      "repo": "ahyun04/26TeamProject_2",
+      "branch": "main",
+      "sha": "36dbd3669851193ff0decdc6f4e11e7f2e5689f4",
+      "message": "[Fix] 스폰시 땅에 붙게 수정, 부품 찾는 미션 오브젝트에 검은 패널 부분에 텍스트 표시 나오게 수정",
+      "url": "https://github.com/ahyun04/26TeamProject_2/commit/36dbd3669851193ff0decdc6f4e11e7f2e5689f4",
+      "date": "2026-10-27T05:01:07Z",
+      "expectedGithub": "ahyun04",
+      "actualGithub": "namsuhan0322",
+      "gitAuthorName": "namsuhan0322",
+      "gitAuthorEmail": "rnatpakfl@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 30,
+        "additions": 4214,
+        "deletions": 3529,
+        "meaningful_change": 7393,
+        "meaningful_file_count": 23,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "2학년 3팀",
       "repo": "jinjooyoung/DUAL-DUEL",
