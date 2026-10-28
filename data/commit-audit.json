@@ -1,11 +1,103 @@
 {
-  "updatedAt": "2026. 10. 28. 08:56",
+  "updatedAt": "2026. 10. 28. 13:36",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "1학년 A반 1팀",
+      "repo": "chimchimjam377/TeamProject---Singularity-Thief",
+      "branch": "main",
+      "sha": "0668c2396b3c8f1988651f8d342bee372a6fea5f",
+      "message": "[Feat]아이템 프리팹 추가 및 적 확인",
+      "url": "https://github.com/chimchimjam377/TeamProject---Singularity-Thief/commit/0668c2396b3c8f1988651f8d342bee372a6fea5f",
+      "date": "2026-10-28T02:54:10Z",
+      "expectedGithub": "chimchimjam377",
+      "actualGithub": null,
+      "gitAuthorName": "chmchimjam377",
+      "gitAuthorEmail": "chmchimjam377@gmail.com",
+      "verification": "unlinked",
+      "analysis": {
+        "changed_files": 4,
+        "additions": 548,
+        "deletions": 347,
+        "meaningful_change": 884,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 2팀",
+      "repo": "Taehyeon88/Graduation-project",
+      "branch": "main",
+      "sha": "83febd97a11af0c411a52aee68b26dd8ef8fda3e",
+      "message": "[Feat] 전투 씬 보완 작업",
+      "url": "https://github.com/Taehyeon88/Graduation-project/commit/83febd97a11af0c411a52aee68b26dd8ef8fda3e",
+      "date": "2026-10-28T01:05:12Z",
+      "expectedGithub": "Taehyeon88",
+      "actualGithub": "Taehyeon88",
+      "gitAuthorName": "Taehyeon88",
+      "gitAuthorEmail": "Taehyeon5376@naver.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 71,
+        "additions": 5732,
+        "deletions": 3706,
+        "meaningful_change": 8894,
+        "meaningful_file_count": 51,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 1팀",
+      "repo": "chimchimjam377/TeamProject---Singularity-Thief",
+      "branch": "main",
+      "sha": "0ae0e71ffe285cd3b4b6273230d020096160d91f",
+      "message": "[Fix]플레이어 타일맵 뚫고 들어가는 현상 수정",
+      "url": "https://github.com/chimchimjam377/TeamProject---Singularity-Thief/commit/0ae0e71ffe285cd3b4b6273230d020096160d91f",
+      "date": "2026-10-28T00:52:57Z",
+      "expectedGithub": "chimchimjam377",
+      "actualGithub": null,
+      "gitAuthorName": "chmchimjam377",
+      "gitAuthorEmail": "chmchimjam377@gmail.com",
+      "verification": "unlinked",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 36,
+        "deletions": 2,
+        "meaningful_change": 38,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 1팀",
+      "repo": "chimchimjam377/TeamProject---Singularity-Thief",
+      "branch": "main",
+      "sha": "80f66b323c83a1e63075c797b5eaffa06818eb9e",
+      "message": "Add files via upload",
+      "url": "https://github.com/chimchimjam377/TeamProject---Singularity-Thief/commit/80f66b323c83a1e63075c797b5eaffa06818eb9e",
+      "date": "2026-10-28T00:19:02Z",
+      "expectedGithub": "chimchimjam377",
+      "actualGithub": "jerryseo0220-droid",
+      "gitAuthorName": "jerryseo0220-droid",
+      "gitAuthorEmail": "jerryseo0220@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 0,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 1,
+        "suspicious_score": 50,
+        "judgment": "확인필요"
+      }
+    },
     {
       "projectName": "3학년 1팀",
       "repo": "ahyun04/26TeamProject_2",
