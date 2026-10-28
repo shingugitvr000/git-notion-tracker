@@ -1,11 +1,80 @@
 {
-  "updatedAt": "2026. 10. 29. 02:04",
+  "updatedAt": "2026. 10. 29. 06:50",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "3학년 1팀",
+      "repo": "ahyun04/26TeamProject_2",
+      "branch": "main",
+      "sha": "d08f28e830cde7c81859caad4fe3751037777186",
+      "message": "[Feat]맵 조금 꾸밈",
+      "url": "https://github.com/ahyun04/26TeamProject_2/commit/d08f28e830cde7c81859caad4fe3751037777186",
+      "date": "2026-10-28T20:14:35Z",
+      "expectedGithub": "ahyun04",
+      "actualGithub": "ahyun04",
+      "gitAuthorName": "ahyun04",
+      "gitAuthorEmail": "ahyun125@g.shingu.ac.kr",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 4,
+        "additions": 2131,
+        "deletions": 72,
+        "meaningful_change": 2201,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 2팀",
+      "repo": "Taehyeon88/Graduation-project",
+      "branch": "main",
+      "sha": "5e5709b947fd61f8e9e5c33ab46992756ba11624",
+      "message": "[Clean] 사용하지 않는 이미지 제거",
+      "url": "https://github.com/Taehyeon88/Graduation-project/commit/5e5709b947fd61f8e9e5c33ab46992756ba11624",
+      "date": "2026-10-28T20:07:54Z",
+      "expectedGithub": "Taehyeon88",
+      "actualGithub": "Taehyeon88",
+      "gitAuthorName": "Taehyeon88",
+      "gitAuthorEmail": "Taehyeon5376@naver.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 107,
+        "additions": 0,
+        "deletions": 5501,
+        "meaningful_change": 0,
+        "meaningful_file_count": 53,
+        "suspicious_score": 35,
+        "judgment": "확인필요"
+      }
+    },
+    {
+      "projectName": "3학년 2팀",
+      "repo": "Taehyeon88/Graduation-project",
+      "branch": "main",
+      "sha": "97622692e7933a2ef4dfba7f753600ac21dd1337",
+      "message": "[Feat] 주점/시작화면 씬 보정 및 사운드 적용",
+      "url": "https://github.com/Taehyeon88/Graduation-project/commit/97622692e7933a2ef4dfba7f753600ac21dd1337",
+      "date": "2026-10-28T20:07:31Z",
+      "expectedGithub": "Taehyeon88",
+      "actualGithub": "Taehyeon88",
+      "gitAuthorName": "Taehyeon88",
+      "gitAuthorEmail": "Taehyeon5376@naver.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 59,
+        "additions": 4679,
+        "deletions": 5218,
+        "meaningful_change": 9383,
+        "meaningful_file_count": 37,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "2학년 1팀",
       "repo": "suyan05/PharaohCube",
@@ -168,6 +237,29 @@
       }
     },
     {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "41bb1f91163ff6c484a72d4ebfe1294b2e2a7405",
+      "message": "[Fix] 발굴 현장 모래바람 소리 더 줄임,앞뒤 자동 정렬이 스핑크스를 바닥 밑에 묻던 문제,라 엔딩 중 오른쪽 위 알림 숨김 + 마지막 노트 6 삭제",
+      "url": "https://github.com/suyan05/PharaohCube/commit/41bb1f91163ff6c484a72d4ebfe1294b2e2a7405",
+      "date": "2026-10-28T13:22:08Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "parksarang04",
+      "gitAuthorName": "parksarang04",
+      "gitAuthorEmail": "qkrtkfkd9074@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 28,
+        "additions": 62786,
+        "deletions": 23,
+        "meaningful_change": 62546,
+        "meaningful_file_count": 21,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
       "projectName": "3학년 2팀",
       "repo": "Taehyeon88/Graduation-project",
       "branch": "main",
@@ -186,6 +278,75 @@
         "deletions": 88064,
         "meaningful_change": 93959,
         "meaningful_file_count": 24,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "141f65a39692e61cfb2aed9e228c7f0cca1a24d1",
+      "message": "[Fix] 라의 방 디테일 수정 (목표",
+      "url": "https://github.com/suyan05/PharaohCube/commit/141f65a39692e61cfb2aed9e228c7f0cca1a24d1",
+      "date": "2026-10-28T12:02:25Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "parksarang04",
+      "gitAuthorName": "parksarang04",
+      "gitAuthorEmail": "qkrtkfkd9074@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 27,
+        "additions": 722,
+        "deletions": 112,
+        "meaningful_change": 816,
+        "meaningful_file_count": 22,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "b62c68a1d0d50c0193165432a608ec8109f1bb2b",
+      "message": "Merge remote-tracking branch 'origin/main' into feature/ra-finale",
+      "url": "https://github.com/suyan05/PharaohCube/commit/b62c68a1d0d50c0193165432a608ec8109f1bb2b",
+      "date": "2026-10-28T11:31:44Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "parksarang04",
+      "gitAuthorName": "parksarang04",
+      "gitAuthorEmail": "qkrtkfkd9074@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 38,
+        "deletions": 0,
+        "meaningful_change": 36,
+        "meaningful_file_count": 1,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "77420f24140503efef7c5fe4b7c72c8da11e0a25",
+      "message": "Merge remote-tracking branch 'origin/main' into feature/ra-finale",
+      "url": "https://github.com/suyan05/PharaohCube/commit/77420f24140503efef7c5fe4b7c72c8da11e0a25",
+      "date": "2026-10-28T11:15:39Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "parksarang04",
+      "gitAuthorName": "parksarang04",
+      "gitAuthorEmail": "qkrtkfkd9074@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 82,
+        "additions": 7797,
+        "deletions": 2063,
+        "meaningful_change": 6852,
+        "meaningful_file_count": 45,
         "suspicious_score": 0,
         "judgment": "정상"
       }
@@ -924,6 +1085,29 @@
         "meaningful_file_count": 1,
         "suspicious_score": 35,
         "judgment": "확인필요"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "b81260f19f3cda9e99b3f93cd77ed25b77706706",
+      "message": "[Feat] 라의 방 엔딩 연출 (라 일러스트 컷 + 큐브 공개 + 중앙 홀 복귀), 시현 데모 종료 화면 제거",
+      "url": "https://github.com/suyan05/PharaohCube/commit/b81260f19f3cda9e99b3f93cd77ed25b77706706",
+      "date": "2026-10-27T07:39:35Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "parksarang04",
+      "gitAuthorName": "parksarang04",
+      "gitAuthorEmail": "qkrtkfkd9074@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 24,
+        "additions": 889,
+        "deletions": 312,
+        "meaningful_change": 1148,
+        "meaningful_file_count": 15,
+        "suspicious_score": 0,
+        "judgment": "정상"
       }
     },
     {
@@ -2008,6 +2192,29 @@
       }
     },
     {
+      "projectName": "1학년 B반 1팀",
+      "repo": "simo07d7PG/Team_JJAMBBAP",
+      "branch": "main",
+      "sha": "eb846492cc6f86a5e24c2f58f099cdb78d3f61a5",
+      "message": "[Feat] 미니게임 배경을 카운터 위로 변경",
+      "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/eb846492cc6f86a5e24c2f58f099cdb78d3f61a5",
+      "date": "2026-10-26T11:15:45Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "simo07d7PG",
+      "gitAuthorName": "simo07d7PG",
+      "gitAuthorEmail": "simo07d7.pg@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 3,
+        "additions": 1296,
+        "deletions": 78,
+        "meaningful_change": 1374,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
       "projectName": "3학년 1팀",
       "repo": "ahyun04/26TeamProject_2",
       "branch": "main",
@@ -2026,6 +2233,29 @@
         "deletions": 0,
         "meaningful_change": 58,
         "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 1팀",
+      "repo": "simo07d7PG/Team_JJAMBBAP",
+      "branch": "main",
+      "sha": "6f56f4d59dccc359c634ac6ba953f1acac6bc984",
+      "message": "[Feat] 주문 변형·등급 가격·콤보 추가",
+      "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/6f56f4d59dccc359c634ac6ba953f1acac6bc984",
+      "date": "2026-10-26T10:27:36Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "simo07d7PG",
+      "gitAuthorName": "simo07d7PG",
+      "gitAuthorEmail": "simo07d7.pg@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 6,
+        "additions": 164,
+        "deletions": 26,
+        "meaningful_change": 190,
+        "meaningful_file_count": 6,
         "suspicious_score": 0,
         "judgment": "정상"
       }
@@ -2164,6 +2394,29 @@
         "deletions": 81,
         "meaningful_change": 185,
         "meaningful_file_count": 8,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 1팀",
+      "repo": "simo07d7PG/Team_JJAMBBAP",
+      "branch": "main",
+      "sha": "db244f92979eeea52eb0b245472b3630a030fca4",
+      "message": "[Feat] 코어 루프 연출 추가",
+      "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/db244f92979eeea52eb0b245472b3630a030fca4",
+      "date": "2026-10-26T09:09:50Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "simo07d7PG",
+      "gitAuthorName": "simo07d7PG",
+      "gitAuthorEmail": "simo07d7.pg@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 6,
+        "additions": 658,
+        "deletions": 13,
+        "meaningful_change": 669,
+        "meaningful_file_count": 5,
         "suspicious_score": 0,
         "judgment": "정상"
       }
