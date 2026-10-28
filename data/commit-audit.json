@@ -1,11 +1,149 @@
 {
-  "updatedAt": "2026. 10. 28. 13:36",
+  "updatedAt": "2026. 10. 28. 19:58",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "3학년 1팀",
+      "repo": "ahyun04/26TeamProject_2",
+      "branch": "main",
+      "sha": "33f7c6b44ba67a8de332b6153a3a195a39b172ff",
+      "message": "Merge branch 'NSH_Test'",
+      "url": "https://github.com/ahyun04/26TeamProject_2/commit/33f7c6b44ba67a8de332b6153a3a195a39b172ff",
+      "date": "2026-10-28T10:02:57Z",
+      "expectedGithub": "ahyun04",
+      "actualGithub": "namsuhan0322",
+      "gitAuthorName": "namsuhan0322",
+      "gitAuthorEmail": "rnatpakfl@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 15,
+        "additions": 3505,
+        "deletions": 3299,
+        "meaningful_change": 6804,
+        "meaningful_file_count": 15,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 1팀",
+      "repo": "ahyun04/26TeamProject_2",
+      "branch": "main",
+      "sha": "35652018773cfb088a95bbddaf0458cb4157c1cf",
+      "message": "[Fix] 압력계 입력 미션 공중부양 수정",
+      "url": "https://github.com/ahyun04/26TeamProject_2/commit/35652018773cfb088a95bbddaf0458cb4157c1cf",
+      "date": "2026-10-28T09:49:08Z",
+      "expectedGithub": "ahyun04",
+      "actualGithub": "namsuhan0322",
+      "gitAuthorName": "namsuhan0322",
+      "gitAuthorEmail": "rnatpakfl@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 15,
+        "additions": 3505,
+        "deletions": 3299,
+        "meaningful_change": 6804,
+        "meaningful_file_count": 15,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 7팀",
+      "repo": "23jihwan/7_tim",
+      "branch": "main",
+      "sha": "4fe082ab32f10bea9096bf18936a3e6492271b0c",
+      "message": "[Fix] 중간발표를 위한 상점 가격 변경",
+      "url": "https://github.com/23jihwan/7_tim/commit/4fe082ab32f10bea9096bf18936a3e6492271b0c",
+      "date": "2026-10-28T09:13:06Z",
+      "expectedGithub": "23jihwan",
+      "actualGithub": "junhae01",
+      "gitAuthorName": "junhae0",
+      "gitAuthorEmail": "jh040101@g.shingu.ac.kr",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 6,
+        "additions": 6,
+        "deletions": 6,
+        "meaningful_change": 12,
+        "meaningful_file_count": 6,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 1팀",
+      "repo": "ahyun04/26TeamProject_2",
+      "branch": "main",
+      "sha": "5934defdea1a87ef9363a49691f196afb95ff728",
+      "message": "[Feat] 4~12 씬 , standby 씬 광원 조정 , 버튼,벨브 인터렉션 애니메이션 추가",
+      "url": "https://github.com/ahyun04/26TeamProject_2/commit/5934defdea1a87ef9363a49691f196afb95ff728",
+      "date": "2026-10-28T08:26:30Z",
+      "expectedGithub": "ahyun04",
+      "actualGithub": "mataltw04",
+      "gitAuthorName": "mataltw04",
+      "gitAuthorEmail": "20040518koko@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 15,
+        "additions": 9583,
+        "deletions": 516,
+        "meaningful_change": 9799,
+        "meaningful_file_count": 10,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 3팀",
+      "repo": "jinjooyoung/DUAL-DUEL",
+      "branch": "main",
+      "sha": "43d40388e964d732651ed88afa4e32bc2b574030",
+      "message": "[Fix] 전투 종료 후 카드 입력 막음",
+      "url": "https://github.com/jinjooyoung/DUAL-DUEL/commit/43d40388e964d732651ed88afa4e32bc2b574030",
+      "date": "2026-10-28T05:51:27Z",
+      "expectedGithub": "jinjooyoung",
+      "actualGithub": "jinjooyoung",
+      "gitAuthorName": "jinjooyoung",
+      "gitAuthorEmail": "jjy26297449@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 4,
+        "deletions": 1,
+        "meaningful_change": 5,
+        "meaningful_file_count": 2,
+        "suspicious_score": 15,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 3팀",
+      "repo": "jinjooyoung/DUAL-DUEL",
+      "branch": "main",
+      "sha": "32aa8e898667bcdcd9112f8a2cdcb84c467b6da8",
+      "message": "[Feat] 체력 다음 스테이지에도 유지, 배틀 종료 시 카드 시전 멈춤",
+      "url": "https://github.com/jinjooyoung/DUAL-DUEL/commit/32aa8e898667bcdcd9112f8a2cdcb84c467b6da8",
+      "date": "2026-10-28T05:43:46Z",
+      "expectedGithub": "jinjooyoung",
+      "actualGithub": "jinjooyoung",
+      "gitAuthorName": "jinjooyoung",
+      "gitAuthorEmail": "jjy26297449@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 6,
+        "additions": 31,
+        "deletions": 3,
+        "meaningful_change": 26,
+        "meaningful_file_count": 4,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "1학년 A반 1팀",
       "repo": "chimchimjam377/TeamProject---Singularity-Thief",
