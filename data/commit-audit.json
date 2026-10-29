@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026. 10. 29. 06:50",
+  "updatedAt": "2026. 10. 29. 10:33",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
@@ -94,6 +94,29 @@
         "deletions": 0,
         "meaningful_change": 36,
         "meaningful_file_count": 1,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "f8ef9bd415007647a21647987eafddce610d8f4a",
+      "message": "[Feat] 시연용 T 치트",
+      "url": "https://github.com/suyan05/PharaohCube/commit/f8ef9bd415007647a21647987eafddce610d8f4a",
+      "date": "2026-10-28T16:24:31Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "parksarang04",
+      "gitAuthorName": "parksarang04",
+      "gitAuthorEmail": "qkrtkfkd9074@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 6,
+        "additions": 287,
+        "deletions": 5,
+        "meaningful_change": 282,
+        "meaningful_file_count": 4,
         "suspicious_score": 0,
         "judgment": "정상"
       }
