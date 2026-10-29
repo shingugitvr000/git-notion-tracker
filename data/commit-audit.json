@@ -1,11 +1,126 @@
 {
-  "updatedAt": "2026. 10. 29. 10:33",
+  "updatedAt": "2026. 10. 29. 17:02",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "2학년 2팀",
+      "repo": "esuvean/PRESS-START_",
+      "branch": "main",
+      "sha": "2b82188f35281a26ac36924ab25aea0e79fed0ae",
+      "message": "[Feat] 설정UI 변경및 또 변경...",
+      "url": "https://github.com/esuvean/PRESS-START_/commit/2b82188f35281a26ac36924ab25aea0e79fed0ae",
+      "date": "2026-10-29T05:48:12Z",
+      "expectedGithub": "esuvean",
+      "actualGithub": "esuvean",
+      "gitAuthorName": "esuvean",
+      "gitAuthorEmail": "esuvean@naver.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 26,
+        "additions": 1396,
+        "deletions": 269,
+        "meaningful_change": 721,
+        "meaningful_file_count": 17,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 2팀",
+      "repo": "esuvean/PRESS-START_",
+      "branch": "main",
+      "sha": "7bb8bedb3b8d3d4955b838404fdb686e857b9ac4",
+      "message": "[Feat] 설정오류 수정및 저장기능 추가",
+      "url": "https://github.com/esuvean/PRESS-START_/commit/7bb8bedb3b8d3d4955b838404fdb686e857b9ac4",
+      "date": "2026-10-29T05:02:50Z",
+      "expectedGithub": "esuvean",
+      "actualGithub": "esuvean",
+      "gitAuthorName": "esuvean",
+      "gitAuthorEmail": "esuvean@naver.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 7,
+        "additions": 267,
+        "deletions": 104,
+        "meaningful_change": 371,
+        "meaningful_file_count": 7,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "1d9dc01f2447af41e078e9ec2ab1310d51699892",
+      "message": "[Feat] 모루 업그레이드 패널 띄우기",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/1d9dc01f2447af41e078e9ec2ab1310d51699892",
+      "date": "2026-10-29T04:48:59Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "rlfahtwkqdl",
+      "gitAuthorName": "rlfahtwkqdl",
+      "gitAuthorEmail": "hongjunsu87@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 3,
+        "additions": 2193,
+        "deletions": 88,
+        "meaningful_change": 2281,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "8af6ef3fb8960b2ad1c6d347da0a3d579da2d54a",
+      "message": "[Feat] 업그레이드 시스템 작업 시작",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/8af6ef3fb8960b2ad1c6d347da0a3d579da2d54a",
+      "date": "2026-10-29T04:20:32Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "rlfahtwkqdl",
+      "gitAuthorName": "rlfahtwkqdl",
+      "gitAuthorEmail": "hongjunsu87@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 3,
+        "additions": 198,
+        "deletions": 0,
+        "meaningful_change": 188,
+        "meaningful_file_count": 1,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 1팀",
+      "repo": "chimchimjam377/TeamProject---Singularity-Thief",
+      "branch": "main",
+      "sha": "32717336cc6a29c282451c0b4d06ebe4d8081344",
+      "message": "유니티 시스템 여러가지 실험",
+      "url": "https://github.com/chimchimjam377/TeamProject---Singularity-Thief/commit/32717336cc6a29c282451c0b4d06ebe4d8081344",
+      "date": "2026-10-29T02:22:34Z",
+      "expectedGithub": "chimchimjam377",
+      "actualGithub": "chimchimjam377",
+      "gitAuthorName": "chimchimjam377",
+      "gitAuthorEmail": "chimchimjam377@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 491,
+        "deletions": 262,
+        "meaningful_change": 753,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "3학년 1팀",
       "repo": "ahyun04/26TeamProject_2",
