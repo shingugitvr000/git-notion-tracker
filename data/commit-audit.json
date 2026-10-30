@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026. 10. 30. 09:07",
+  "updatedAt": "2026. 10. 30. 15:13",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
@@ -7045,6 +7045,29 @@
       }
     },
     {
+      "projectName": "1학년 A반 4팀",
+      "repo": "yungyeong08/4team_project_02",
+      "branch": "main",
+      "sha": "93707efc01e4f23eccad661542f2f7a9c12bf895",
+      "message": "[Audio] 물고기 포획 성공 효과음 적용",
+      "url": "https://github.com/yungyeong08/4team_project_02/commit/93707efc01e4f23eccad661542f2f7a9c12bf895",
+      "date": "2026-10-24T11:08:53Z",
+      "expectedGithub": "yungyeong08",
+      "actualGithub": "whxogud9090",
+      "gitAuthorName": "태형",
+      "gitAuthorEmail": "th870707@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 5,
+        "additions": 49,
+        "deletions": 3,
+        "meaningful_change": 29,
+        "meaningful_file_count": 4,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
       "projectName": "1학년 B반 3팀",
       "repo": "Tiphe0821/GameProject_T3_1_B",
       "branch": "main",
@@ -7298,6 +7321,29 @@
       }
     },
     {
+      "projectName": "1학년 A반 4팀",
+      "repo": "yungyeong08/4team_project_02",
+      "branch": "main",
+      "sha": "759005597fa1967aa86657111c54123fbbd0ca2c",
+      "message": "[UI] HUD 가독성 및 표시 안정성 개선",
+      "url": "https://github.com/yungyeong08/4team_project_02/commit/759005597fa1967aa86657111c54123fbbd0ca2c",
+      "date": "2026-10-24T07:44:19Z",
+      "expectedGithub": "yungyeong08",
+      "actualGithub": "whxogud9090",
+      "gitAuthorName": "태형",
+      "gitAuthorEmail": "th870707@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 4,
+        "additions": 142,
+        "deletions": 70,
+        "meaningful_change": 212,
+        "meaningful_file_count": 4,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
       "projectName": "1학년 B반 6팀",
       "repo": "tjd6356-afk/2-_-",
       "branch": "main",
@@ -7362,6 +7408,29 @@
         "deletions": 2400,
         "meaningful_change": 4039,
         "meaningful_file_count": 6,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 4팀",
+      "repo": "yungyeong08/4team_project_02",
+      "branch": "main",
+      "sha": "d2589031f66da3ecbcd085edcaaf512632200bff",
+      "message": "첫 지역 맵 배치와 캐릭터·HUD·효과음 개선",
+      "url": "https://github.com/yungyeong08/4team_project_02/commit/d2589031f66da3ecbcd085edcaaf512632200bff",
+      "date": "2026-10-24T06:50:53Z",
+      "expectedGithub": "yungyeong08",
+      "actualGithub": "whxogud9090",
+      "gitAuthorName": "태형",
+      "gitAuthorEmail": "th870707@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 41,
+        "additions": 15878,
+        "deletions": 4878,
+        "meaningful_change": 20510,
+        "meaningful_file_count": 20,
         "suspicious_score": 0,
         "judgment": "정상"
       }
@@ -7571,6 +7640,29 @@
         "meaningful_file_count": 46,
         "suspicious_score": 0,
         "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 4팀",
+      "repo": "yungyeong08/4team_project_02",
+      "branch": "main",
+      "sha": "27d48fbfc37b8bc3440546d9031f8399f60b6fb0",
+      "message": "[feat] 물타일 추가",
+      "url": "https://github.com/yungyeong08/4team_project_02/commit/27d48fbfc37b8bc3440546d9031f8399f60b6fb0",
+      "date": "2026-10-24T00:53:47Z",
+      "expectedGithub": "yungyeong08",
+      "actualGithub": "yehyune0201",
+      "gitAuthorName": "yehyune0201",
+      "gitAuthorEmail": "yehyune0201@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 19,
+        "additions": 1295,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 9,
+        "suspicious_score": 35,
+        "judgment": "확인필요"
       }
     },
     {
@@ -7873,6 +7965,121 @@
       }
     },
     {
+      "projectName": "1학년 A반 4팀",
+      "repo": "yungyeong08/4team_project_02",
+      "branch": "main",
+      "sha": "a950558bf85db8759255fb7a2e6ba0d6df55be9a",
+      "message": "[Feat] UI 및 판매 효과음 연결과 릴 재생 개선",
+      "url": "https://github.com/yungyeong08/4team_project_02/commit/a950558bf85db8759255fb7a2e6ba0d6df55be9a",
+      "date": "2026-10-23T16:44:59Z",
+      "expectedGithub": "yungyeong08",
+      "actualGithub": "whxogud9090",
+      "gitAuthorName": "태형",
+      "gitAuthorEmail": "th870707@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 14,
+        "additions": 176,
+        "deletions": 21,
+        "meaningful_change": 112,
+        "meaningful_file_count": 9,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 4팀",
+      "repo": "yungyeong08/4team_project_02",
+      "branch": "main",
+      "sha": "19f0dc7712ea0dfc43770a19410e1f5465804202",
+      "message": "[Feat] 실제 낚시 릴 효과음 및 재생 제어 적용",
+      "url": "https://github.com/yungyeong08/4team_project_02/commit/19f0dc7712ea0dfc43770a19410e1f5465804202",
+      "date": "2026-10-23T16:22:54Z",
+      "expectedGithub": "yungyeong08",
+      "actualGithub": "whxogud9090",
+      "gitAuthorName": "태형",
+      "gitAuthorEmail": "th870707@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 8,
+        "additions": 112,
+        "deletions": 6,
+        "meaningful_change": 71,
+        "meaningful_file_count": 4,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 4팀",
+      "repo": "yungyeong08/4team_project_02",
+      "branch": "main",
+      "sha": "82df17c17bf048ab9216cd4855cc5bea235b08a3",
+      "message": "Merge remote-tracking branch 'origin/main'",
+      "url": "https://github.com/yungyeong08/4team_project_02/commit/82df17c17bf048ab9216cd4855cc5bea235b08a3",
+      "date": "2026-10-23T16:19:38Z",
+      "expectedGithub": "yungyeong08",
+      "actualGithub": "whxogud9090",
+      "gitAuthorName": "태형",
+      "gitAuthorEmail": "th870707@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 15,
+        "additions": 1009,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 7,
+        "suspicious_score": 35,
+        "judgment": "확인필요"
+      }
+    },
+    {
+      "projectName": "1학년 A반 4팀",
+      "repo": "yungyeong08/4team_project_02",
+      "branch": "main",
+      "sha": "1b6331d9b40c84304859711810b1c62acf71655e",
+      "message": "캐릭터 옆모습, 낚시 모습 아트 추가",
+      "url": "https://github.com/yungyeong08/4team_project_02/commit/1b6331d9b40c84304859711810b1c62acf71655e",
+      "date": "2026-10-23T16:09:37Z",
+      "expectedGithub": "yungyeong08",
+      "actualGithub": "prettysole-byte",
+      "gitAuthorName": "prettysole-byte",
+      "gitAuthorEmail": "prettysole@g.shingu.ac.kr",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 15,
+        "additions": 1009,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 7,
+        "suspicious_score": 35,
+        "judgment": "확인필요"
+      }
+    },
+    {
+      "projectName": "1학년 A반 4팀",
+      "repo": "yungyeong08/4team_project_02",
+      "branch": "main",
+      "sha": "f87fe28a90c651c928bd7f67019177693baee2e7",
+      "message": "Merge remote-tracking branch 'origin/main'",
+      "url": "https://github.com/yungyeong08/4team_project_02/commit/f87fe28a90c651c928bd7f67019177693baee2e7",
+      "date": "2026-10-23T16:08:38Z",
+      "expectedGithub": "yungyeong08",
+      "actualGithub": "whxogud9090",
+      "gitAuthorName": "태형",
+      "gitAuthorEmail": "th870707@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 23,
+        "additions": 9212,
+        "deletions": 2617,
+        "meaningful_change": 10487,
+        "meaningful_file_count": 13,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
       "projectName": "2학년 6팀",
       "repo": "jeonghyerin002/2026_2TeamProject",
       "branch": "main",
@@ -7891,6 +8098,29 @@
         "deletions": 85,
         "meaningful_change": 415,
         "meaningful_file_count": 6,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 4팀",
+      "repo": "yungyeong08/4team_project_02",
+      "branch": "main",
+      "sha": "dcb485ede5a1403c828049f079948f1cfc8ffb00",
+      "message": "게임 진행 시스템 개선 및 HUD 아이콘 적용",
+      "url": "https://github.com/yungyeong08/4team_project_02/commit/dcb485ede5a1403c828049f079948f1cfc8ffb00",
+      "date": "2026-10-23T15:35:05Z",
+      "expectedGithub": "yungyeong08",
+      "actualGithub": "whxogud9090",
+      "gitAuthorName": "태형",
+      "gitAuthorEmail": "th870707@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 26,
+        "additions": 914,
+        "deletions": 244,
+        "meaningful_change": 701,
+        "meaningful_file_count": 18,
         "suspicious_score": 0,
         "judgment": "정상"
       }
@@ -7919,6 +8149,52 @@
       }
     },
     {
+      "projectName": "1학년 A반 4팀",
+      "repo": "yungyeong08/4team_project_02",
+      "branch": "main",
+      "sha": "83113d7eefa28ead45a780c10d968591a406b121",
+      "message": "[Feat] 퀘스트 아이콘 추가",
+      "url": "https://github.com/yungyeong08/4team_project_02/commit/83113d7eefa28ead45a780c10d968591a406b121",
+      "date": "2026-10-23T14:58:37Z",
+      "expectedGithub": "yungyeong08",
+      "actualGithub": "yehyune0201",
+      "gitAuthorName": "yehyune0201",
+      "gitAuthorEmail": "yehyune0201@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 143,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 1,
+        "suspicious_score": 35,
+        "judgment": "확인필요"
+      }
+    },
+    {
+      "projectName": "1학년 A반 4팀",
+      "repo": "yungyeong08/4team_project_02",
+      "branch": "main",
+      "sha": "61bcef9238dd6da792874ae80b2fd7769959acca",
+      "message": "[Feat] 아이콘 이미지 추가",
+      "url": "https://github.com/yungyeong08/4team_project_02/commit/61bcef9238dd6da792874ae80b2fd7769959acca",
+      "date": "2026-10-23T14:27:04Z",
+      "expectedGithub": "yungyeong08",
+      "actualGithub": "yungyeong08",
+      "gitAuthorName": "yungyeong08",
+      "gitAuthorEmail": "wkddbsrud18@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 7,
+        "additions": 437,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 3,
+        "suspicious_score": 35,
+        "judgment": "확인필요"
+      }
+    },
+    {
       "projectName": "1학년 B반 1팀",
       "repo": "simo07d7PG/Team_JJAMBBAP",
       "branch": "main",
@@ -7937,6 +8213,29 @@
         "deletions": 971,
         "meaningful_change": 1742,
         "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 4팀",
+      "repo": "yungyeong08/4team_project_02",
+      "branch": "main",
+      "sha": "d9ffed0b7c48bfc08aa70bb72cf6e3b0707a2547",
+      "message": "시작 화면 이미지 및 bgm, 효과음 설정 완료",
+      "url": "https://github.com/yungyeong08/4team_project_02/commit/d9ffed0b7c48bfc08aa70bb72cf6e3b0707a2547",
+      "date": "2026-10-23T12:44:21Z",
+      "expectedGithub": "yungyeong08",
+      "actualGithub": "wndmsrla0623-lu",
+      "gitAuthorName": "wndmsrla0623-lu",
+      "gitAuthorEmail": "wndmsrla0623@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 6,
+        "additions": 8092,
+        "deletions": 2617,
+        "meaningful_change": 10480,
+        "meaningful_file_count": 4,
         "suspicious_score": 0,
         "judgment": "정상"
       }
@@ -8007,6 +8306,29 @@
         "meaningful_change": 84,
         "meaningful_file_count": 7,
         "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 4팀",
+      "repo": "yungyeong08/4team_project_02",
+      "branch": "main",
+      "sha": "bd9cc6de5d2f7241595a3b4cdfb02f97a3ac67e5",
+      "message": "[Feat] 꽃과 생선 가게 추가",
+      "url": "https://github.com/yungyeong08/4team_project_02/commit/bd9cc6de5d2f7241595a3b4cdfb02f97a3ac67e5",
+      "date": "2026-10-23T11:53:13Z",
+      "expectedGithub": "yungyeong08",
+      "actualGithub": "yehyune0201",
+      "gitAuthorName": "yehyune0201",
+      "gitAuthorEmail": "yehyune0201@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 8,
+        "additions": 540,
+        "deletions": 0,
+        "meaningful_change": 7,
+        "meaningful_file_count": 5,
+        "suspicious_score": 15,
         "judgment": "정상"
       }
     },
@@ -9621,6 +9943,29 @@
       }
     },
     {
+      "projectName": "1학년 A반 4팀",
+      "repo": "yungyeong08/4team_project_02",
+      "branch": "main",
+      "sha": "0a0aaefa6aa5c10dd811c2a547538a52c29aa702",
+      "message": "[Feat] 초반 튜토리얼 연출 및 게임 HUD 개선",
+      "url": "https://github.com/yungyeong08/4team_project_02/commit/0a0aaefa6aa5c10dd811c2a547538a52c29aa702",
+      "date": "2026-10-21T14:53:41Z",
+      "expectedGithub": "yungyeong08",
+      "actualGithub": "whxogud9090",
+      "gitAuthorName": "태형",
+      "gitAuthorEmail": "th870707@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 21,
+        "additions": 1416,
+        "deletions": 111,
+        "meaningful_change": 1521,
+        "meaningful_file_count": 18,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
       "projectName": "1학년 B반 6팀",
       "repo": "tjd6356-afk/2-_-",
       "branch": "main",
@@ -10587,6 +10932,29 @@
       }
     },
     {
+      "projectName": "1학년 A반 4팀",
+      "repo": "yungyeong08/4team_project_02",
+      "branch": "main",
+      "sha": "d3a081f579bf7c648c773ff8945ac36383f9901f",
+      "message": "font 추가, 버튼 등 설정 기능 완료",
+      "url": "https://github.com/yungyeong08/4team_project_02/commit/d3a081f579bf7c648c773ff8945ac36383f9901f",
+      "date": "2026-10-20T14:52:57Z",
+      "expectedGithub": "yungyeong08",
+      "actualGithub": "wndmsrla0623-lu",
+      "gitAuthorName": "wndmsrla0623-lu",
+      "gitAuthorEmail": "wndmsrla0623@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 4,
+        "additions": 2811,
+        "deletions": 16,
+        "meaningful_change": 2811,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
       "projectName": "2학년 2팀",
       "repo": "esuvean/PRESS-START_",
       "branch": "main",
@@ -10794,6 +11162,29 @@
       }
     },
     {
+      "projectName": "1학년 A반 4팀",
+      "repo": "yungyeong08/4team_project_02",
+      "branch": "main",
+      "sha": "5ffacafebc1af357704ac610368263a0b4adad74",
+      "message": "타이틀씬 도움말, 게임 종료 구현",
+      "url": "https://github.com/yungyeong08/4team_project_02/commit/5ffacafebc1af357704ac610368263a0b4adad74",
+      "date": "2026-10-20T12:20:48Z",
+      "expectedGithub": "yungyeong08",
+      "actualGithub": "wndmsrla0623-lu",
+      "gitAuthorName": "wndmsrla0623-lu",
+      "gitAuthorEmail": "wndmsrla0623@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 5,
+        "additions": 317,
+        "deletions": 19,
+        "meaningful_change": 307,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
       "projectName": "2학년 2팀",
       "repo": "esuvean/PRESS-START_",
       "branch": "main",
@@ -10860,6 +11251,29 @@
         "meaningful_file_count": 3,
         "suspicious_score": 0,
         "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 4팀",
+      "repo": "yungyeong08/4team_project_02",
+      "branch": "main",
+      "sha": "d111d4865aca73466024dcceeec20e74b9a11814",
+      "message": "[Feat] 물고기 이미지 5종 추가",
+      "url": "https://github.com/yungyeong08/4team_project_02/commit/d111d4865aca73466024dcceeec20e74b9a11814",
+      "date": "2026-10-20T11:01:11Z",
+      "expectedGithub": "yungyeong08",
+      "actualGithub": "yungyeong08",
+      "gitAuthorName": "yungyeong08",
+      "gitAuthorEmail": "wkddbsrud18@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 10,
+        "additions": 715,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 5,
+        "suspicious_score": 35,
+        "judgment": "확인필요"
       }
     },
     {
@@ -10997,6 +11411,52 @@
         "meaningful_change": 615,
         "meaningful_file_count": 4,
         "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 4팀",
+      "repo": "yungyeong08/4team_project_02",
+      "branch": "main",
+      "sha": "268e151dcb3e709c9e221f81ce4621d970a963e4",
+      "message": "타이틀 씬 생성",
+      "url": "https://github.com/yungyeong08/4team_project_02/commit/268e151dcb3e709c9e221f81ce4621d970a963e4",
+      "date": "2026-10-20T07:39:48Z",
+      "expectedGithub": "yungyeong08",
+      "actualGithub": "hyemin7486",
+      "gitAuthorName": "hyemin7486",
+      "gitAuthorEmail": "kasanom00@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 12,
+        "additions": 394,
+        "deletions": 2,
+        "meaningful_change": 350,
+        "meaningful_file_count": 5,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 4팀",
+      "repo": "yungyeong08/4team_project_02",
+      "branch": "main",
+      "sha": "e70698e5d61f375b7a7e1554295be9dd21797f1b",
+      "message": "달리기 기능 구현",
+      "url": "https://github.com/yungyeong08/4team_project_02/commit/e70698e5d61f375b7a7e1554295be9dd21797f1b",
+      "date": "2026-10-20T06:56:17Z",
+      "expectedGithub": "yungyeong08",
+      "actualGithub": "hyemin7486",
+      "gitAuthorName": "hyemin7486",
+      "gitAuthorEmail": "kasanom00@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 5,
+        "deletions": 1,
+        "meaningful_change": 6,
+        "meaningful_file_count": 1,
+        "suspicious_score": 15,
         "judgment": "정상"
       }
     },
@@ -11829,6 +12289,29 @@
       }
     },
     {
+      "projectName": "1학년 A반 4팀",
+      "repo": "yungyeong08/4team_project_02",
+      "branch": "main",
+      "sha": "94d1267124dbd4faeaed5adcd5078d03d3d85d7b",
+      "message": "첫 호수 시작 맵 및 게임 초기화 기능 추가",
+      "url": "https://github.com/yungyeong08/4team_project_02/commit/94d1267124dbd4faeaed5adcd5078d03d3d85d7b",
+      "date": "2026-10-19T14:34:21Z",
+      "expectedGithub": "yungyeong08",
+      "actualGithub": "whxogud9090",
+      "gitAuthorName": "태형",
+      "gitAuthorEmail": "th870707@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 7,
+        "additions": 6568,
+        "deletions": 14766,
+        "meaningful_change": 21334,
+        "meaningful_file_count": 7,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
       "projectName": "3학년 2팀",
       "repo": "Taehyeon88/Graduation-project",
       "branch": "main",
@@ -12174,6 +12657,29 @@
       }
     },
     {
+      "projectName": "1학년 A반 4팀",
+      "repo": "yungyeong08/4team_project_02",
+      "branch": "main",
+      "sha": "2b54daa34566e2f12c4d523c01636a32449349ac",
+      "message": "첫 호수 튜토리얼·퀘스트 및 UI 개선",
+      "url": "https://github.com/yungyeong08/4team_project_02/commit/2b54daa34566e2f12c4d523c01636a32449349ac",
+      "date": "2026-10-19T11:33:56Z",
+      "expectedGithub": "yungyeong08",
+      "actualGithub": "whxogud9090",
+      "gitAuthorName": "태형",
+      "gitAuthorEmail": "th870707@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 22,
+        "additions": 1061,
+        "deletions": 216,
+        "meaningful_change": 1265,
+        "meaningful_file_count": 19,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
       "projectName": "2학년 4팀",
       "repo": "JungYS24/Tricky-Yacht",
       "branch": "main",
@@ -12332,6 +12838,29 @@
         "meaningful_file_count": 96,
         "suspicious_score": 0,
         "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 4팀",
+      "repo": "yungyeong08/4team_project_02",
+      "branch": "main",
+      "sha": "4f7867d89c8870250af3eda9fa8d79e56f57c96c",
+      "message": "[Feat] 물고기 이미지 추가",
+      "url": "https://github.com/yungyeong08/4team_project_02/commit/4f7867d89c8870250af3eda9fa8d79e56f57c96c",
+      "date": "2026-10-19T10:06:05Z",
+      "expectedGithub": "yungyeong08",
+      "actualGithub": "yungyeong08",
+      "gitAuthorName": "yungyeong08",
+      "gitAuthorEmail": "wkddbsrud18@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 11,
+        "additions": 723,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 5,
+        "suspicious_score": 35,
+        "judgment": "확인필요"
       }
     },
     {
@@ -17740,6 +18269,29 @@
       }
     },
     {
+      "projectName": "1학년 A반 4팀",
+      "repo": "yungyeong08/4team_project_02",
+      "branch": "main",
+      "sha": "1179ad4ec3224d0387f18ddbd22c45ec07ef3177",
+      "message": "[Feat] 낚싯대 이미지 추가",
+      "url": "https://github.com/yungyeong08/4team_project_02/commit/1179ad4ec3224d0387f18ddbd22c45ec07ef3177",
+      "date": "2026-10-13T09:49:22Z",
+      "expectedGithub": "yungyeong08",
+      "actualGithub": "yungyeong08",
+      "gitAuthorName": "yungyeong08",
+      "gitAuthorEmail": "wkddbsrud18@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 7,
+        "additions": 437,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 3,
+        "suspicious_score": 35,
+        "judgment": "확인필요"
+      }
+    },
+    {
       "projectName": "1학년 A반 2팀",
       "repo": "hoshinouhee123/gacha-game-teamplay",
       "branch": "main",
@@ -17970,6 +18522,29 @@
       }
     },
     {
+      "projectName": "1학년 A반 4팀",
+      "repo": "yungyeong08/4team_project_02",
+      "branch": "main",
+      "sha": "4805f13463bf28f5b667dbbb8682a397851e38b8",
+      "message": "낚싯대 장비·저장·인벤토리 시스템 및 UI 개선",
+      "url": "https://github.com/yungyeong08/4team_project_02/commit/4805f13463bf28f5b667dbbb8682a397851e38b8",
+      "date": "2026-10-12T13:50:12Z",
+      "expectedGithub": "yungyeong08",
+      "actualGithub": "whxogud9090",
+      "gitAuthorName": "태형",
+      "gitAuthorEmail": "th870707@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 23,
+        "additions": 1595,
+        "deletions": 224,
+        "meaningful_change": 1801,
+        "meaningful_file_count": 17,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
       "projectName": "2학년 2팀",
       "repo": "esuvean/PRESS-START_",
       "branch": "main",
@@ -18034,6 +18609,29 @@
         "deletions": 17,
         "meaningful_change": 297,
         "meaningful_file_count": 4,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 4팀",
+      "repo": "yungyeong08/4team_project_02",
+      "branch": "main",
+      "sha": "c9561843026e4e2766b6e5c20e74b8add1702817",
+      "message": "3단계 낚시터 맵 및 미니게임 밸런스 개선",
+      "url": "https://github.com/yungyeong08/4team_project_02/commit/c9561843026e4e2766b6e5c20e74b8add1702817",
+      "date": "2026-10-12T12:38:43Z",
+      "expectedGithub": "yungyeong08",
+      "actualGithub": "whxogud9090",
+      "gitAuthorName": "태형",
+      "gitAuthorEmail": "th870707@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 16,
+        "additions": 20289,
+        "deletions": 1684,
+        "meaningful_change": 21953,
+        "meaningful_file_count": 12,
         "suspicious_score": 0,
         "judgment": "정상"
       }
@@ -23812,6 +24410,29 @@
       }
     },
     {
+      "projectName": "1학년 A반 4팀",
+      "repo": "yungyeong08/4team_project_02",
+      "branch": "main",
+      "sha": "5506b0deff61c8855a27a70cfe6b3fe459c79513",
+      "message": "물고기 등급 및 판매 상점 시스템 추가",
+      "url": "https://github.com/yungyeong08/4team_project_02/commit/5506b0deff61c8855a27a70cfe6b3fe459c79513",
+      "date": "2026-10-06T10:57:46Z",
+      "expectedGithub": "yungyeong08",
+      "actualGithub": "whxogud9090",
+      "gitAuthorName": "태형",
+      "gitAuthorEmail": "th870707@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 8,
+        "additions": 460,
+        "deletions": 21,
+        "meaningful_change": 475,
+        "meaningful_file_count": 5,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
       "projectName": "1학년 B반 6팀",
       "repo": "tjd6356-afk/2-_-",
       "branch": "main",
@@ -23882,6 +24503,29 @@
     },
     {
       "projectName": "1학년 A반 4팀",
+      "repo": "yungyeong08/4team_project_02",
+      "branch": "main",
+      "sha": "2a187985d6f7fcadea37b1e2d8ca685a6225f80d",
+      "message": "낚시 상점 구매 시스템 및 재낚시 오류 수정",
+      "url": "https://github.com/yungyeong08/4team_project_02/commit/2a187985d6f7fcadea37b1e2d8ca685a6225f80d",
+      "date": "2026-10-06T10:25:28Z",
+      "expectedGithub": "yungyeong08",
+      "actualGithub": "whxogud9090",
+      "gitAuthorName": "태형",
+      "gitAuthorEmail": "th870707@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 7,
+        "additions": 329,
+        "deletions": 4,
+        "meaningful_change": 327,
+        "meaningful_file_count": 4,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 4팀",
       "repo": "whxogud9090/4team_project_02",
       "branch": "main",
       "sha": "94e9c702eca7aad62677ade9173c555f38cf1939",
@@ -23893,6 +24537,29 @@
       "gitAuthorName": "태형",
       "gitAuthorEmail": "th870707@gmail.com",
       "verification": "verified",
+      "analysis": {
+        "changed_files": 4,
+        "additions": 550,
+        "deletions": 29,
+        "meaningful_change": 436,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 4팀",
+      "repo": "yungyeong08/4team_project_02",
+      "branch": "main",
+      "sha": "94e9c702eca7aad62677ade9173c555f38cf1939",
+      "message": "낚시 상점 오브젝트 추가",
+      "url": "https://github.com/yungyeong08/4team_project_02/commit/94e9c702eca7aad62677ade9173c555f38cf1939",
+      "date": "2026-10-06T09:47:03Z",
+      "expectedGithub": "yungyeong08",
+      "actualGithub": "whxogud9090",
+      "gitAuthorName": "태형",
+      "gitAuthorEmail": "th870707@gmail.com",
+      "verification": "mismatch",
       "analysis": {
         "changed_files": 4,
         "additions": 550,
@@ -27262,6 +27929,29 @@
       }
     },
     {
+      "projectName": "1학년 A반 4팀",
+      "repo": "yungyeong08/4team_project_02",
+      "branch": "main",
+      "sha": "cb16f2049903e40e3ed5efb6acf8c373e25d1c8d",
+      "message": "주인공 걷기 모션 및 낚시 테스트 씬 개선",
+      "url": "https://github.com/yungyeong08/4team_project_02/commit/cb16f2049903e40e3ed5efb6acf8c373e25d1c8d",
+      "date": "2026-10-02T10:58:38Z",
+      "expectedGithub": "yungyeong08",
+      "actualGithub": "whxogud9090",
+      "gitAuthorName": "태형",
+      "gitAuthorEmail": "th870707@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 25,
+        "additions": 4156,
+        "deletions": 7301,
+        "meaningful_change": 10287,
+        "meaningful_file_count": 13,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
       "projectName": "2학년 2팀",
       "repo": "esuvean/PRESS-START_",
       "branch": "main",
@@ -29264,6 +29954,29 @@
     },
     {
       "projectName": "1학년 A반 4팀",
+      "repo": "yungyeong08/4team_project_02",
+      "branch": "main",
+      "sha": "b3c8cce2bedfdf67e3ec1ec530944eb9f5e6f12b",
+      "message": "픽셀 호수 낚시 테스트 환경 구성",
+      "url": "https://github.com/yungyeong08/4team_project_02/commit/b3c8cce2bedfdf67e3ec1ec530944eb9f5e6f12b",
+      "date": "2026-09-28T11:12:29Z",
+      "expectedGithub": "yungyeong08",
+      "actualGithub": "whxogud9090",
+      "gitAuthorName": "태형",
+      "gitAuthorEmail": "th870707@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 300,
+        "additions": 98029,
+        "deletions": 71,
+        "meaningful_change": 9525,
+        "meaningful_file_count": 7,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 4팀",
       "repo": "whxogud9090/4team_project_02",
       "branch": "main",
       "sha": "a45af3a086543b76698ddb191258f51b971030d8",
@@ -29275,6 +29988,29 @@
       "gitAuthorName": "태형",
       "gitAuthorEmail": "th870707@gmail.com",
       "verification": "verified",
+      "analysis": {
+        "changed_files": 300,
+        "additions": 719,
+        "deletions": 1,
+        "meaningful_change": 465,
+        "meaningful_file_count": 150,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 4팀",
+      "repo": "yungyeong08/4team_project_02",
+      "branch": "main",
+      "sha": "a45af3a086543b76698ddb191258f51b971030d8",
+      "message": "Build playable pixel fishing prototype",
+      "url": "https://github.com/yungyeong08/4team_project_02/commit/a45af3a086543b76698ddb191258f51b971030d8",
+      "date": "2026-09-28T09:53:44Z",
+      "expectedGithub": "yungyeong08",
+      "actualGithub": "whxogud9090",
+      "gitAuthorName": "태형",
+      "gitAuthorEmail": "th870707@gmail.com",
+      "verification": "mismatch",
       "analysis": {
         "changed_files": 300,
         "additions": 719,
@@ -29344,6 +30080,29 @@
       "gitAuthorName": "태형",
       "gitAuthorEmail": "th870707@gmail.com",
       "verification": "verified",
+      "analysis": {
+        "changed_files": 23,
+        "additions": 2240,
+        "deletions": 0,
+        "meaningful_change": 2238,
+        "meaningful_file_count": 22,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 4팀",
+      "repo": "yungyeong08/4team_project_02",
+      "branch": "main",
+      "sha": "c7bd8628cd550f91b47ea11500f1c1d6173b4f93",
+      "message": "Create Unity 6000.3.23f1 2D project",
+      "url": "https://github.com/yungyeong08/4team_project_02/commit/c7bd8628cd550f91b47ea11500f1c1d6173b4f93",
+      "date": "2026-09-28T08:48:53Z",
+      "expectedGithub": "yungyeong08",
+      "actualGithub": "whxogud9090",
+      "gitAuthorName": "태형",
+      "gitAuthorEmail": "th870707@gmail.com",
+      "verification": "mismatch",
       "analysis": {
         "changed_files": 23,
         "additions": 2240,
@@ -29459,6 +30218,29 @@
       "gitAuthorName": "장윤경",
       "gitAuthorEmail": "wkddbsrud18@gmail.com",
       "verification": "mismatch",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 108,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 0,
+        "suspicious_score": 80,
+        "judgment": "뻥의심"
+      }
+    },
+    {
+      "projectName": "1학년 A반 4팀",
+      "repo": "yungyeong08/4team_project_02",
+      "branch": "main",
+      "sha": "0888f6c67857eefbb5b6f2d8256601a17438849f",
+      "message": "Initial commit",
+      "url": "https://github.com/yungyeong08/4team_project_02/commit/0888f6c67857eefbb5b6f2d8256601a17438849f",
+      "date": "2026-09-28T05:18:07Z",
+      "expectedGithub": "yungyeong08",
+      "actualGithub": "yungyeong08",
+      "gitAuthorName": "장윤경",
+      "gitAuthorEmail": "wkddbsrud18@gmail.com",
+      "verification": "verified",
       "analysis": {
         "changed_files": 2,
         "additions": 108,
