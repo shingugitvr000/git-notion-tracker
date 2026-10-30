@@ -1,11 +1,80 @@
 {
-  "updatedAt": "2026. 10. 30. 15:13",
+  "updatedAt": "2026. 10. 30. 22:19",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "2학년 3팀",
+      "repo": "jinjooyoung/DUAL-DUEL",
+      "branch": "main",
+      "sha": "699d09000ca5780307c1f859fcd3ef7f5aee7ea2",
+      "message": "[Chore] 사용하지 않는 SO 삭제",
+      "url": "https://github.com/jinjooyoung/DUAL-DUEL/commit/699d09000ca5780307c1f859fcd3ef7f5aee7ea2",
+      "date": "2026-10-30T13:19:00Z",
+      "expectedGithub": "jinjooyoung",
+      "actualGithub": "jinjooyoung",
+      "gitAuthorName": "jinjooyoung",
+      "gitAuthorEmail": "jjy26297449@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 79,
+        "additions": 0,
+        "deletions": 1068,
+        "meaningful_change": 748,
+        "meaningful_file_count": 39,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 1팀",
+      "repo": "ahyun04/26TeamProject_2",
+      "branch": "main",
+      "sha": "dfdaa00e389b33ab11596f94760a6f39ee2c63cf",
+      "message": "Merge branch 'Kwonjun' into main",
+      "url": "https://github.com/ahyun04/26TeamProject_2/commit/dfdaa00e389b33ab11596f94760a6f39ee2c63cf",
+      "date": "2026-10-30T07:18:49Z",
+      "expectedGithub": "ahyun04",
+      "actualGithub": "Im-Dinosaur",
+      "gitAuthorName": "Im-Dinosaur",
+      "gitAuthorEmail": "wnsdl80100@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 50,
+        "deletions": 1,
+        "meaningful_change": 51,
+        "meaningful_file_count": 1,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 1팀",
+      "repo": "ahyun04/26TeamProject_2",
+      "branch": "main",
+      "sha": "e627f4f1589d3e93110c9c190f1220b378e35da7",
+      "message": "[Fix] 대기실 설정 단말기 충돌 추가",
+      "url": "https://github.com/ahyun04/26TeamProject_2/commit/e627f4f1589d3e93110c9c190f1220b378e35da7",
+      "date": "2026-10-30T07:18:46Z",
+      "expectedGithub": "ahyun04",
+      "actualGithub": "Im-Dinosaur",
+      "gitAuthorName": "Im-Dinosaur",
+      "gitAuthorEmail": "wnsdl80100@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 50,
+        "deletions": 1,
+        "meaningful_change": 51,
+        "meaningful_file_count": 1,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "1학년 B반 3팀",
       "repo": "Tiphe0821/GameProject_T3_1_B",
