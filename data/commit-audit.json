@@ -1,11 +1,149 @@
 {
-  "updatedAt": "2026. 10. 31. 17:39",
+  "updatedAt": "2026. 11. 01. 00:02",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "2학년 3팀",
+      "repo": "jinjooyoung/DUAL-DUEL",
+      "branch": "main",
+      "sha": "3bc58a4139f898ca4453746c6b160bb43fd02c5b",
+      "message": "[Chore] 사용하지 않는 타입 삭제",
+      "url": "https://github.com/jinjooyoung/DUAL-DUEL/commit/3bc58a4139f898ca4453746c6b160bb43fd02c5b",
+      "date": "2026-10-31T13:43:26Z",
+      "expectedGithub": "jinjooyoung",
+      "actualGithub": "jinjooyoung",
+      "gitAuthorName": "jinjooyoung",
+      "gitAuthorEmail": "jjy26297449@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 3,
+        "additions": 0,
+        "deletions": 10,
+        "meaningful_change": 10,
+        "meaningful_file_count": 3,
+        "suspicious_score": 15,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 1팀",
+      "repo": "chimchimjam377/TeamProject---Singularity-Thief",
+      "branch": "main",
+      "sha": "4e05fa65cba27b170226ff7896f204980d4e6f5f",
+      "message": "[Feat] 플레이어 스태미나 구현",
+      "url": "https://github.com/chimchimjam377/TeamProject---Singularity-Thief/commit/4e05fa65cba27b170226ff7896f204980d4e6f5f",
+      "date": "2026-10-31T13:09:53Z",
+      "expectedGithub": "chimchimjam377",
+      "actualGithub": "chimchimjam377",
+      "gitAuthorName": "chimchimjam377",
+      "gitAuthorEmail": "chimchimjam377@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 8,
+        "additions": 157,
+        "deletions": 5,
+        "meaningful_change": 162,
+        "meaningful_file_count": 8,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "eeb410646b6cac0dadf2becab95949dedfe512b7",
+      "message": "[Feat] 미니건 총열 회전 추가",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/eeb410646b6cac0dadf2becab95949dedfe512b7",
+      "date": "2026-10-31T12:10:53Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "rlfahtwkqdl",
+      "gitAuthorName": "rlfahtwkqdl",
+      "gitAuthorEmail": "hongjunsu87@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 4,
+        "additions": 56,
+        "deletions": 16,
+        "meaningful_change": 72,
+        "meaningful_file_count": 4,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "2206120a9e3ee81855d8b9da9a82d6ae9cc66341",
+      "message": "보스전 시스템 기반 완성",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/2206120a9e3ee81855d8b9da9a82d6ae9cc66341",
+      "date": "2026-10-31T12:09:00Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "tjd6356-afk",
+      "gitAuthorName": "tjd6356-afk",
+      "gitAuthorEmail": "tjd6356@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 18,
+        "additions": 3792,
+        "deletions": 62,
+        "meaningful_change": 3823,
+        "meaningful_file_count": 11,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 4팀",
+      "repo": "Sine-aw/nohesitate",
+      "branch": "main",
+      "sha": "6e66d3c6f190b546d84f07cde92f5b9f9aac4eb4",
+      "message": "[Feat] 프밍 8주차 회의",
+      "url": "https://github.com/Sine-aw/nohesitate/commit/6e66d3c6f190b546d84f07cde92f5b9f9aac4eb4",
+      "date": "2026-10-31T11:20:18Z",
+      "expectedGithub": "Sine-aw",
+      "actualGithub": "olaf0623-crypto",
+      "gitAuthorName": "olaf0623-crypto",
+      "gitAuthorEmail": "olaf0623@g.shingu.ac.kr",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 26,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 0,
+        "suspicious_score": 80,
+        "judgment": "뻥의심"
+      }
+    },
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "bc92c60765353d5f1455b04daee772047dedb4a0",
+      "message": "보스전에 바로 가는 이동 오브젝트 배치",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/bc92c60765353d5f1455b04daee772047dedb4a0",
+      "date": "2026-10-31T08:55:39Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "tjd6356-afk",
+      "gitAuthorName": "tjd6356-afk",
+      "gitAuthorEmail": "tjd6356@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 8,
+        "additions": 746,
+        "deletions": 129,
+        "meaningful_change": 853,
+        "meaningful_file_count": 5,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "1학년 B반 6팀",
       "repo": "tjd6356-afk/2-_-",
