@@ -1,11 +1,172 @@
 {
-  "updatedAt": "2026. 11. 01. 17:42",
+  "updatedAt": "2026. 11. 02. 00:45",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "728241bd2ea55d3e7598991ea57eefe594df48d5",
+      "message": "[Feat] 바스테트 UI 추가",
+      "url": "https://github.com/suyan05/PharaohCube/commit/728241bd2ea55d3e7598991ea57eefe594df48d5",
+      "date": "2026-11-01T15:38:50Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "khy1004",
+      "gitAuthorName": "khy1004",
+      "gitAuthorEmail": "khyseog08@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 95,
+        "additions": 13963,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 15,
+        "suspicious_score": 35,
+        "judgment": "확인필요"
+      }
+    },
+    {
+      "projectName": "1학년 A반 1팀",
+      "repo": "chimchimjam377/TeamProject---Singularity-Thief",
+      "branch": "main",
+      "sha": "30d551431a6f97faa25c05830d88270316a23cae",
+      "message": "터렛 렌덤으로 총쏘는거",
+      "url": "https://github.com/chimchimjam377/TeamProject---Singularity-Thief/commit/30d551431a6f97faa25c05830d88270316a23cae",
+      "date": "2026-11-01T15:38:27Z",
+      "expectedGithub": "chimchimjam377",
+      "actualGithub": "jerryseo0220-droid",
+      "gitAuthorName": "jerryseo0220-droid",
+      "gitAuthorEmail": "jerryseo0220@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 11,
+        "additions": 855,
+        "deletions": 0,
+        "meaningful_change": 835,
+        "meaningful_file_count": 6,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 3팀",
+      "repo": "jinjooyoung/DUAL-DUEL",
+      "branch": "main",
+      "sha": "caa37d645ce88d0837dbcc7d65c6e3763160d672",
+      "message": "[Fix] 턴 종료 시 카드 조작 막음",
+      "url": "https://github.com/jinjooyoung/DUAL-DUEL/commit/caa37d645ce88d0837dbcc7d65c6e3763160d672",
+      "date": "2026-11-01T13:48:52Z",
+      "expectedGithub": "jinjooyoung",
+      "actualGithub": "jinjooyoung",
+      "gitAuthorName": "jinjooyoung",
+      "gitAuthorEmail": "jjy26297449@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 21,
+        "deletions": 1,
+        "meaningful_change": 22,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 3팀",
+      "repo": "jinjooyoung/DUAL-DUEL",
+      "branch": "main",
+      "sha": "f5cc35a8ebc7b2fb286cf493687263a030d5ba7e",
+      "message": "[Feat] 변경된 카드 디자인구조 맞춰서 UI도 변경",
+      "url": "https://github.com/jinjooyoung/DUAL-DUEL/commit/f5cc35a8ebc7b2fb286cf493687263a030d5ba7e",
+      "date": "2026-11-01T13:39:05Z",
+      "expectedGithub": "jinjooyoung",
+      "actualGithub": "jinjooyoung",
+      "gitAuthorName": "jinjooyoung",
+      "gitAuthorEmail": "jjy26297449@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 5,
+        "additions": 982,
+        "deletions": 296,
+        "meaningful_change": 1278,
+        "meaningful_file_count": 5,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 3팀",
+      "repo": "jinjooyoung/DUAL-DUEL",
+      "branch": "main",
+      "sha": "6e8ddd30206f483a4b5631aa323f8deb127fb6f4",
+      "message": "[Feat] 카드 강화횟수, 랭크 줄임, 카드 기믹 조건 변경",
+      "url": "https://github.com/jinjooyoung/DUAL-DUEL/commit/6e8ddd30206f483a4b5631aa323f8deb127fb6f4",
+      "date": "2026-11-01T13:24:48Z",
+      "expectedGithub": "jinjooyoung",
+      "actualGithub": "jinjooyoung",
+      "gitAuthorName": "jinjooyoung",
+      "gitAuthorEmail": "jjy26297449@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 7,
+        "additions": 562,
+        "deletions": 453,
+        "meaningful_change": 1015,
+        "meaningful_file_count": 7,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 1팀",
+      "repo": "chimchimjam377/TeamProject---Singularity-Thief",
+      "branch": "main",
+      "sha": "28a595cb90a0586201d43bb0971683d99dde43b6",
+      "message": "함정 가시 함정 추가",
+      "url": "https://github.com/chimchimjam377/TeamProject---Singularity-Thief/commit/28a595cb90a0586201d43bb0971683d99dde43b6",
+      "date": "2026-11-01T13:03:57Z",
+      "expectedGithub": "chimchimjam377",
+      "actualGithub": "jerryseo0220-droid",
+      "gitAuthorName": "jerryseo0220-droid",
+      "gitAuthorEmail": "jerryseo0220@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 3,
+        "additions": 321,
+        "deletions": 0,
+        "meaningful_change": 319,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "517396c8fcc7f53edae59bacb93e8403e0952ed3",
+      "message": "[Feat] 업적, 카드, 카드팝업, 고고학자 수첩",
+      "url": "https://github.com/suyan05/PharaohCube/commit/517396c8fcc7f53edae59bacb93e8403e0952ed3",
+      "date": "2026-11-01T12:04:13Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "Kangyelim1",
+      "gitAuthorName": "Kangyelim1",
+      "gitAuthorEmail": "gyelim887@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 60,
+        "additions": 0,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 60,
+        "suspicious_score": 35,
+        "judgment": "확인필요"
+      }
+    },
     {
       "projectName": "1학년 B반 6팀",
       "repo": "tjd6356-afk/2-_-",
