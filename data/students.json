@@ -1,7 +1,7 @@
 {
   "course": "Git 프로젝트 활동 현황",
   "notionUrl": "https://abaft-vibraphone-8f7.notion.site/Git-3c28655a72df80199dafc115fef9ddd4?pvs=74",
-  "updatedAt": "2026. 11. 02. 05:10",
+  "updatedAt": "2026. 11. 02. 08:45",
   "students": [
     {
       "name": "2학년 1팀",
@@ -9,10 +9,10 @@
       "team": "suyan05",
       "github": "suyan05",
       "repo": "suyan05/PharaohCube",
-      "commits": 3,
+      "commits": 0,
       "semesterCommits": 14,
-      "activeDays": 1,
-      "lastCommit": "6일 전",
+      "activeDays": 0,
+      "lastCommit": "7일 전",
       "status": "watch",
       "weekly": [
         0,
@@ -20,25 +20,25 @@
         0,
         8,
         0,
-        0,
-        3
+        3,
+        0
       ],
       "recent": [
         {
           "message": "[Fix]맵 배치 수정",
-          "time": "6일 전",
+          "time": "7일 전",
           "sha": "8a6722c",
           "url": "https://github.com/suyan05/PharaohCube/commit/8a6722c485e74bffff25d3bc1eab00fc639458d3"
         },
         {
           "message": "[Fead]바스테트 맵 배치",
-          "time": "6일 전",
+          "time": "7일 전",
           "sha": "80be766",
           "url": "https://github.com/suyan05/PharaohCube/commit/80be766603b3a5f66ac8039edb58c61fd9cadab2"
         },
         {
           "message": "[Fead]바스테트 타일 추가",
-          "time": "6일 전",
+          "time": "7일 전",
           "sha": "e2dd2df",
           "url": "https://github.com/suyan05/PharaohCube/commit/e2dd2df14793ec095754cf9c4b10396781a5400a"
         },
@@ -230,9 +230,9 @@
         4,
         13,
         4,
-        13,
-        11,
-        9,
+        15,
+        10,
+        8,
         4
       ],
       "recent": [
@@ -436,21 +436,21 @@
       "commits": 2,
       "semesterCommits": 25,
       "activeDays": 2,
-      "lastCommit": "3일 전",
-      "status": "active",
+      "lastCommit": "4일 전",
+      "status": "watch",
       "weekly": [
         0,
         0,
         1,
-        2,
-        4,
+        5,
+        1,
         5,
         2
       ],
       "recent": [
         {
           "message": "[Feat]맵 조금 꾸밈",
-          "time": "3일 전",
+          "time": "4일 전",
           "sha": "d08f28e",
           "url": "https://github.com/ahyun04/26TeamProject_2/commit/d08f28e830cde7c81859caad4fe3751037777186"
         },
@@ -474,7 +474,7 @@
         },
         {
           "message": "[Fix] 맵 수정",
-          "time": "8일 전",
+          "time": "9일 전",
           "sha": "0cf1578",
           "url": "https://github.com/ahyun04/26TeamProject_2/commit/0cf1578ee1e6f80d93a8ed3191dac50e77952e35"
         }
@@ -754,7 +754,7 @@
       "commits": 0,
       "semesterCommits": 58,
       "activeDays": 0,
-      "lastCommit": "57일 전",
+      "lastCommit": "58일 전",
       "status": "inactive",
       "weekly": [
         0,
@@ -768,13 +768,13 @@
       "recent": [
         {
           "message": "[Feat] 타이머 및 게임 종료 결과 UI 추가",
-          "time": "57일 전",
+          "time": "58일 전",
           "sha": "76b6ffc",
           "url": "https://github.com/ahyun04/26TeamProject_2/commit/76b6ffc6ae207ddeb3d48a586ee9ca4a598a1880"
         },
         {
           "message": "[Feat] 게임 종료 시스템 제작",
-          "time": "57일 전",
+          "time": "58일 전",
           "sha": "48bacc9",
           "url": "https://github.com/ahyun04/26TeamProject_2/commit/48bacc928caadc45515074a23ad65c3a07cce4eb"
         },
@@ -866,8 +866,8 @@
         2,
         5,
         3,
-        6,
-        9,
+        7,
+        8,
         2,
         3
       ],
@@ -1267,8 +1267,8 @@
         16,
         3,
         3,
-        9,
-        6,
+        10,
+        5,
         0
       ],
       "recent": [
@@ -1292,7 +1292,7 @@
         },
         {
           "message": "[feat] 미니게임 12 UI , 13 수정",
-          "time": "7일 전",
+          "time": "8일 전",
           "sha": "71c812e",
           "url": "https://github.com/esuvean/PRESS-START_/commit/71c812e86961ba8debdf0ec84b56391e33b37640"
         },
@@ -1686,7 +1686,7 @@
         },
         {
           "message": "[feat] NPC 모델링 제작",
-          "time": "10일 전",
+          "time": "11일 전",
           "sha": "9c0ffe2",
           "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/9c0ffe255a5ac49c7274b51c3bb4104049ea9412"
         }
@@ -1792,7 +1792,7 @@
         },
         {
           "message": "[feat]: 도트 글꼴 추가",
-          "time": "32일 전",
+          "time": "33일 전",
           "sha": "4f96d73",
           "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/4f96d73abfbfb817c6a13ada812681f1e6d55625"
         }
@@ -1915,7 +1915,7 @@
         },
         {
           "message": "Initial commit",
-          "time": "47일 전",
+          "time": "48일 전",
           "sha": "a7471ec",
           "url": "https://github.com/jeolje934-dot/Placeholder_2026_1A_team-project/commit/a7471ec3212432eb7d0456f7a2d5801b9e7c8f91"
         }
@@ -2427,8 +2427,8 @@
       "status": "watch",
       "weekly": [
         1,
-        2,
-        3,
+        5,
+        0,
         9,
         5,
         3,
@@ -2476,7 +2476,7 @@
       "commits": 5,
       "semesterCommits": 11,
       "activeDays": 1,
-      "lastCommit": "5일 전",
+      "lastCommit": "6일 전",
       "status": "watch",
       "weekly": [
         0,
@@ -2490,31 +2490,31 @@
       "recent": [
         {
           "message": "Merge branch 'main' of https://github.com/qkrgml59/2026_2_TeamProject",
-          "time": "5일 전",
+          "time": "6일 전",
           "sha": "6333835",
           "url": "https://github.com/qkrgml59/2026_2_TeamProject/commit/63338356b00ee5260c0ff936fa116618be7a34b4"
         },
         {
           "message": "Merge team MapTest tilemap history into local prototype",
-          "time": "5일 전",
+          "time": "6일 전",
           "sha": "a2e2900",
           "url": "https://github.com/qkrgml59/2026_2_TeamProject/commit/a2e2900c53966ab4a272fe257c67b6cde7916c9f"
         },
         {
           "message": "[Fix] 새 게임 시작 씬을 MapTest로 변경",
-          "time": "5일 전",
+          "time": "6일 전",
           "sha": "c5718a2",
           "url": "https://github.com/qkrgml59/2026_2_TeamProject/commit/c5718a2fbda53d59de9fa6a558aeb3eec3cbd31f"
         },
         {
           "message": "[Fix] MapTest에서 슬라이딩 비활성화",
-          "time": "5일 전",
+          "time": "6일 전",
           "sha": "04e1673",
           "url": "https://github.com/qkrgml59/2026_2_TeamProject/commit/04e1673226b1724253f244785b76f4896df905aa"
         },
         {
           "message": "[Feat] 지도 및 구역 이동, char2로 신규 캐릭터 전환 추가",
-          "time": "5일 전",
+          "time": "6일 전",
           "sha": "e0517d4",
           "url": "https://github.com/qkrgml59/2026_2_TeamProject/commit/e0517d4b41308bc74d5b2048ddbe8e7346f8797e"
         }
@@ -2814,7 +2814,7 @@
         },
         {
           "message": "[feat] 티켓 이펙트 연출",
-          "time": "91일 전",
+          "time": "92일 전",
           "sha": "4c7c0ae",
           "url": "https://github.com/JungYS24/Tricky-Yacht/commit/4c7c0ae1fc7c873b5124572990746f97d0f2978d"
         },
@@ -3200,13 +3200,13 @@
         },
         {
           "message": "설정 패널 배경 추가",
-          "time": "8일 전",
+          "time": "9일 전",
           "sha": "37790a8",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/37790a8d882a3773697d27b9c210f9f2f7c33546"
         },
         {
           "message": "스크롤 바 UI 배경, 스크롤바 핸들 추가",
-          "time": "8일 전",
+          "time": "9일 전",
           "sha": "ed251e4",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/ed251e4617fc5d2e3d3ba412e873ed962024aa9d"
         },
@@ -3218,7 +3218,7 @@
         },
         {
           "message": "종료창 배경 추가",
-          "time": "14일 전",
+          "time": "15일 전",
           "sha": "a757e14",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/a757e1430785bcd970965046471aa3bb63343fab"
         }
@@ -4408,8 +4408,8 @@
         2,
         5,
         3,
-        6,
-        9,
+        7,
+        8,
         2,
         3
       ],
