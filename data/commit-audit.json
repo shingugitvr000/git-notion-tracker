@@ -1,11 +1,103 @@
 {
-  "updatedAt": "2026. 11. 02. 21:49",
+  "updatedAt": "2026. 11. 03. 07:09",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "1학년 A반 5팀",
+      "repo": "surren01522-tech/2026_02_GameProject_Eurydice",
+      "branch": "main",
+      "sha": "7e7969f6f13ade01265879372f170b3cd6f8208d",
+      "message": "[Feat] 다른 방식의 풀 렌더링 추가",
+      "url": "https://github.com/surren01522-tech/2026_02_GameProject_Eurydice/commit/7e7969f6f13ade01265879372f170b3cd6f8208d",
+      "date": "2026-11-02T16:07:44Z",
+      "expectedGithub": "sw4860",
+      "actualGithub": "yoojoonlee0424",
+      "gitAuthorName": "yoojoonlee0424",
+      "gitAuthorEmail": "yoojoonlee0424@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 79,
+        "additions": 29941,
+        "deletions": 310,
+        "meaningful_change": 26579,
+        "meaningful_file_count": 36,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 3팀",
+      "repo": "jinjooyoung/DUAL-DUEL",
+      "branch": "main",
+      "sha": "4800006abfb9a15c00c0918f3b8cd0bf49eaa9e5",
+      "message": "[Feat] 버프, 디버프 추가",
+      "url": "https://github.com/jinjooyoung/DUAL-DUEL/commit/4800006abfb9a15c00c0918f3b8cd0bf49eaa9e5",
+      "date": "2026-11-02T15:19:53Z",
+      "expectedGithub": "jinjooyoung",
+      "actualGithub": "jinjooyoung",
+      "gitAuthorName": "jinjooyoung",
+      "gitAuthorEmail": "jjy26297449@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 8,
+        "additions": 2431,
+        "deletions": 452,
+        "meaningful_change": 2881,
+        "meaningful_file_count": 7,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 3팀",
+      "repo": "jinjooyoung/DUAL-DUEL",
+      "branch": "main",
+      "sha": "e7370cb7f243f3dd74a4b11ddfb6747bc4273bdd",
+      "message": "[Chore] 버프, 디버프 아이콘 추가",
+      "url": "https://github.com/jinjooyoung/DUAL-DUEL/commit/e7370cb7f243f3dd74a4b11ddfb6747bc4273bdd",
+      "date": "2026-11-02T14:44:01Z",
+      "expectedGithub": "jinjooyoung",
+      "actualGithub": "jinjooyoung",
+      "gitAuthorName": "jinjooyoung",
+      "gitAuthorEmail": "jjy26297449@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 1447,
+        "deletions": 100,
+        "meaningful_change": 1547,
+        "meaningful_file_count": 1,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 4팀",
+      "repo": "yuseongmok/Delivery-service",
+      "branch": "main",
+      "sha": "419e921fd5f4a4bbc0a8eddc0193987a1d207b95",
+      "message": "[Fix] 프롤로그 버그 수정 (경찰 튕김 현상, 건물 배치, NavMesh 재배치)",
+      "url": "https://github.com/yuseongmok/Delivery-service/commit/419e921fd5f4a4bbc0a8eddc0193987a1d207b95",
+      "date": "2026-11-02T14:19:45Z",
+      "expectedGithub": "yuseongmok",
+      "actualGithub": "shingumingi",
+      "gitAuthorName": "shingumingi",
+      "gitAuthorEmail": "pettid0314@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 4,
+        "additions": 881,
+        "deletions": 547,
+        "meaningful_change": 1418,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "1학년 B반 6팀",
       "repo": "tjd6356-afk/2-_-",
