@@ -1,7 +1,7 @@
 {
   "course": "Git 프로젝트 활동 현황",
   "notionUrl": "https://abaft-vibraphone-8f7.notion.site/Git-3c28655a72df80199dafc115fef9ddd4?pvs=74",
-  "updatedAt": "2026. 11. 03. 07:09",
+  "updatedAt": "2026. 11. 03. 12:35",
   "students": [
     {
       "name": "2학년 1팀",
@@ -12,8 +12,8 @@
       "commits": 0,
       "semesterCommits": 14,
       "activeDays": 0,
-      "lastCommit": "7일 전",
-      "status": "watch",
+      "lastCommit": "8일 전",
+      "status": "inactive",
       "weekly": [
         0,
         0,
@@ -26,7 +26,7 @@
       "recent": [
         {
           "message": "[Fix]맵 배치 수정",
-          "time": "7일 전",
+          "time": "8일 전",
           "sha": "8a6722c",
           "url": "https://github.com/suyan05/PharaohCube/commit/8a6722c485e74bffff25d3bc1eab00fc639458d3"
         },
@@ -176,8 +176,8 @@
       "weekly": [
         3,
         17,
-        15,
-        21,
+        16,
+        20,
         8,
         11,
         11
@@ -227,7 +227,7 @@
       "lastCommit": "5일 전",
       "status": "watch",
       "weekly": [
-        4,
+        3,
         13,
         4,
         15,
@@ -309,13 +309,13 @@
         },
         {
           "message": "[Feat] 전투 씬 보완 작업",
-          "time": "5일 전",
+          "time": "6일 전",
           "sha": "83febd9",
           "url": "https://github.com/Taehyeon88/Graduation-project/commit/83febd97a11af0c411a52aee68b26dd8ef8fda3e"
         },
         {
           "message": "[Feat] 엘리트 스테이지 구현",
-          "time": "7일 전",
+          "time": "8일 전",
           "sha": "256505a",
           "url": "https://github.com/Taehyeon88/Graduation-project/commit/256505a6eb8d9be1d8471f7d0f201fc1906f8817"
         }
@@ -845,7 +845,7 @@
         },
         {
           "message": "[Fix] 핸드폰UI 고침 각종 버그 해결",
-          "time": "9일 전",
+          "time": "10일 전",
           "sha": "d2ad172",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/d2ad172c46578e2e3082f24ee026b7574d976171"
         }
@@ -939,7 +939,7 @@
         },
         {
           "message": "[Feat] 정비소 프로토 타입 완료",
-          "time": "7일 전",
+          "time": "8일 전",
           "sha": "28ae029",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/28ae029c41b311b137a14458acc8931d5aa17528"
         },
@@ -972,8 +972,8 @@
         1,
         0,
         7,
-        6,
-        9,
+        7,
+        8,
         4,
         0
       ],
@@ -992,13 +992,13 @@
         },
         {
           "message": "Merge branch 'main' of https://github.com/yuseongmok/Delivery-service",
-          "time": "7일 전",
+          "time": "8일 전",
           "sha": "536c308",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/536c308cc8c0901b844886234f2c491f5cc80df7"
         },
         {
           "message": "[Feat] 오븐 가동, 피자박스 포장, 빗소리 효과음 추가 & 사운드 스크립트 통합",
-          "time": "7일 전",
+          "time": "8일 전",
           "sha": "166619c",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/166619c886c223414d2dc769adcd56a453639d6e"
         },
@@ -1016,9 +1016,9 @@
       "team": "23jihwan",
       "github": "23jihwan",
       "repo": "23jihwan/7_tim",
-      "commits": 2,
+      "commits": 1,
       "semesterCommits": 40,
-      "activeDays": 2,
+      "activeDays": 1,
       "lastCommit": "5일 전",
       "status": "watch",
       "weekly": [
@@ -1027,8 +1027,8 @@
         4,
         12,
         4,
-        17,
-        2
+        18,
+        1
       ],
       "recent": [
         {
@@ -1039,7 +1039,7 @@
         },
         {
           "message": "[Fix]빌드",
-          "time": "6일 전",
+          "time": "7일 전",
           "sha": "1e2e947",
           "url": "https://github.com/23jihwan/7_tim/commit/1e2e947714917a8810dfa5f1a8aefb21ea91b321"
         },
@@ -1178,7 +1178,7 @@
       "commits": 0,
       "semesterCommits": 1,
       "activeDays": 0,
-      "lastCommit": "25일 전",
+      "lastCommit": "26일 전",
       "status": "inactive",
       "weekly": [
         0,
@@ -1192,7 +1192,7 @@
       "recent": [
         {
           "message": "[Feat] 메인화면 & 지도 로딩화면 제작",
-          "time": "25일 전",
+          "time": "26일 전",
           "sha": "bdb5f2a",
           "url": "https://github.com/23jihwan/7_tim/commit/bdb5f2ab3341d36273ba1c12d59705165e5f9327"
         }
@@ -1424,8 +1424,8 @@
       "weekly": [
         0,
         0,
-        2,
-        1,
+        3,
+        0,
         1,
         2,
         1
@@ -1457,7 +1457,7 @@
         },
         {
           "message": "2",
-          "time": "27일 전",
+          "time": "28일 전",
           "sha": "421cb69",
           "url": "https://github.com/Sine-aw/nohesitate/commit/421cb6992cbdd3d1f67350c23a57109b1cc9773d"
         }
@@ -1898,7 +1898,7 @@
       "lastCommit": "46일 전",
       "status": "inactive",
       "weekly": [
-        2,
+        1,
         0,
         0,
         0,
@@ -1915,7 +1915,7 @@
         },
         {
           "message": "Initial commit",
-          "time": "48일 전",
+          "time": "49일 전",
           "sha": "a7471ec",
           "url": "https://github.com/jeolje934-dot/Placeholder_2026_1A_team-project/commit/a7471ec3212432eb7d0456f7a2d5801b9e7c8f91"
         }
@@ -2036,7 +2036,7 @@
       "commits": 0,
       "semesterCommits": 3,
       "activeDays": 0,
-      "lastCommit": "9일 전",
+      "lastCommit": "10일 전",
       "status": "inactive",
       "weekly": [
         0,
@@ -2050,7 +2050,7 @@
       "recent": [
         {
           "message": "[feat] 물타일 추가",
-          "time": "9일 전",
+          "time": "10일 전",
           "sha": "27d48fb",
           "url": "https://github.com/yungyeong08/4team_project_02/commit/27d48fbfc37b8bc3440546d9031f8399f60b6fb0"
         },
@@ -2232,19 +2232,19 @@
       "team": "2학년 6팀",
       "github": "blocks2094",
       "repo": "jeonghyerin002/2026_2TeamProject",
-      "commits": 5,
+      "commits": 4,
       "semesterCommits": 78,
       "activeDays": 2,
       "lastCommit": "4일 전",
       "status": "watch",
       "weekly": [
-        7,
-        9,
+        8,
+        8,
         2,
-        15,
-        7,
-        28,
-        5
+        16,
+        9,
+        26,
+        4
       ],
       "recent": [
         {
@@ -2273,7 +2273,7 @@
         },
         {
           "message": "[Feat] 레벨업 시스템 및 배틀 UI 문구 추가",
-          "time": "6일 전",
+          "time": "7일 전",
           "sha": "0ee8b2a",
           "url": "https://github.com/jeonghyerin002/2026_2TeamProject/commit/0ee8b2aabcec1d16712a791394f8083b3432c678"
         }
@@ -2749,19 +2749,19 @@
         },
         {
           "message": "Feat/synergy (#60)",
-          "time": "16일 전",
+          "time": "17일 전",
           "sha": "4573087",
           "url": "https://github.com/JungYS24/Tricky-Yacht/commit/4573087f45ef43595c827cb9bab459656b123af9"
         },
         {
           "message": "[feat] 스탬프 데이터 생성",
-          "time": "16일 전",
+          "time": "17일 전",
           "sha": "fdfa5c6",
           "url": "https://github.com/JungYS24/Tricky-Yacht/commit/fdfa5c6634ff90f1ef28bbba14b67b80c97f9047"
         },
         {
           "message": "[Refactor] 스탬프 데이터 처리 변경",
-          "time": "16일 전",
+          "time": "17일 전",
           "sha": "4dc3053",
           "url": "https://github.com/JungYS24/Tricky-Yacht/commit/4dc305309ed687f9966c7fc26f00e22e8e456dc1"
         },
@@ -2867,13 +2867,13 @@
         },
         {
           "message": "Data : 족보 이펙트 수치 변경",
-          "time": "202일 전",
+          "time": "203일 전",
           "sha": "ecf432e",
           "url": "https://github.com/JungYS24/Tricky-Yacht/commit/ecf432eede1d429207a7bf97825eea728e03e0b9"
         },
         {
           "message": "feat : 코팅 색상 변경 및 수치 조정 (족보작업중)",
-          "time": "202일 전",
+          "time": "203일 전",
           "sha": "2528dc0",
           "url": "https://github.com/JungYS24/Tricky-Yacht/commit/2528dc0a26735faed642ed3c5fe140f52e2cac05"
         }
@@ -2996,19 +2996,19 @@
       "team": "jinjooyoung",
       "github": "jinjooyoung",
       "repo": "jinjooyoung/DUAL-DUEL",
-      "commits": 14,
+      "commits": 13,
       "semesterCommits": 142,
-      "activeDays": 7,
+      "activeDays": 6,
       "lastCommit": "오늘",
       "status": "active",
       "weekly": [
-        31,
-        20,
+        32,
+        19,
         14,
         15,
         22,
-        9,
-        14
+        10,
+        13
       ],
       "recent": [
         {
@@ -3124,19 +3124,19 @@
       "team": "1학년 B반 6팀",
       "github": "tjd6356-afk",
       "repo": "tjd6356-afk/2-_-",
-      "commits": 31,
+      "commits": 26,
       "semesterCommits": 142,
-      "activeDays": 6,
+      "activeDays": 4,
       "lastCommit": "오늘",
       "status": "active",
       "weekly": [
-        9,
-        9,
-        15,
-        23,
-        9,
-        27,
-        31
+        8,
+        12,
+        16,
+        22,
+        10,
+        28,
+        26
       ],
       "recent": [
         {
@@ -3233,7 +3233,7 @@
       "commits": 0,
       "semesterCommits": 2,
       "activeDays": 0,
-      "lastCommit": "14일 전",
+      "lastCommit": "15일 전",
       "status": "inactive",
       "weekly": [
         0,
@@ -3247,13 +3247,13 @@
       "recent": [
         {
           "message": "다이얼로그 패널 이미지 추가",
-          "time": "14일 전",
+          "time": "15일 전",
           "sha": "e4ef150",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/e4ef1502ec5d78899bd2d5751542f927817bd6aa"
         },
         {
           "message": "장수풍뎅이 NPC 이미지 추가",
-          "time": "21일 전",
+          "time": "22일 전",
           "sha": "adf0dc6",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/adf0dc690dcfa226f65ff66b9ac4f72ce9c13ada"
         }
@@ -3346,8 +3346,8 @@
       "lastCommit": "4일 전",
       "status": "watch",
       "weekly": [
-        1,
-        6,
+        5,
+        2,
         2,
         3,
         2,
@@ -3375,7 +3375,7 @@
         },
         {
           "message": "[fix] 치트엔진 Input 인식되지 않는 버그 수정",
-          "time": "7일 전",
+          "time": "8일 전",
           "sha": "6cf7082",
           "url": "https://github.com/Tiphe0821/GameProject_T3_1_B/commit/6cf7082ec11eac53a0dc8658ce844c9c639eeaf6"
         },
@@ -3481,7 +3481,7 @@
         },
         {
           "message": "[Feat] 대화창 UI 및 아이템 아이콘 추가",
-          "time": "8일 전",
+          "time": "9일 전",
           "sha": "c9c79df",
           "url": "https://github.com/Tiphe0821/GameProject_T3_1_B/commit/c9c79df52e2c28b053bf099cafb95cdaa07353bc"
         },
@@ -3675,7 +3675,7 @@
         },
         {
           "message": "[Feat] 심리스 환경 전환 컨트롤",
-          "time": "7일 전",
+          "time": "8일 전",
           "sha": "0e94d7f",
           "url": "https://github.com/surren01522-tech/2026_02_GameProject_Eurydice/commit/0e94d7f5ec27bd76bf6da6c306f0927c1fe0dfe9"
         },
@@ -3806,8 +3806,8 @@
       "status": "active",
       "weekly": [
         5,
-        6,
-        2,
+        7,
+        1,
         5,
         10,
         11,
@@ -3834,13 +3834,13 @@
         },
         {
           "message": "[Fix] 데미지 텍스트 폰트 크기 수정",
-          "time": "12일 전",
+          "time": "13일 전",
           "sha": "83dd27c",
           "url": "https://github.com/hoshinouhee123/gacha-game-teamplay/commit/83dd27c5c8a631e4b9af5546572eda24fe09dff5"
         },
         {
           "message": "[Fix] 데미지 텍스트가 스프라이트에 가려져 나오는 버그 수정",
-          "time": "12일 전",
+          "time": "13일 전",
           "sha": "74e855a",
           "url": "https://github.com/hoshinouhee123/gacha-game-teamplay/commit/74e855af76136be322aca3528d82673d3f1a8df4"
         }
@@ -3928,7 +3928,7 @@
         },
         {
           "message": "[Feat] 스태미나 UI연결 다시 회복됨 애니메이션에 버그 있음",
-          "time": "오늘",
+          "time": "어제",
           "sha": "db8cbbe",
           "url": "https://github.com/chimchimjam377/TeamProject---Singularity-Thief/commit/db8cbbe1d800e60e7b46ceb22a98b56cce3b1d75"
         },
@@ -3993,7 +3993,7 @@
         },
         {
           "message": "[Feat] Room 1 타일맵 디자인 추가",
-          "time": "12일 전",
+          "time": "13일 전",
           "sha": "478d639",
           "url": "https://github.com/chimchimjam377/TeamProject---Singularity-Thief/commit/478d639c91b76b115b79ec2d66ed229a0f9f78ae"
         },
@@ -4040,7 +4040,7 @@
         },
         {
           "message": "Add files via upload",
-          "time": "5일 전",
+          "time": "6일 전",
           "sha": "80f66b3",
           "url": "https://github.com/chimchimjam377/TeamProject---Singularity-Thief/commit/80f66b323c83a1e63075c797b5eaffa06818eb9e"
         },
@@ -4222,13 +4222,13 @@
         },
         {
           "message": "[Feat] 전투 씬 보완 작업",
-          "time": "5일 전",
+          "time": "6일 전",
           "sha": "83febd9",
           "url": "https://github.com/Taehyeon88/Graduation-project/commit/83febd97a11af0c411a52aee68b26dd8ef8fda3e"
         },
         {
           "message": "[Feat] 엘리트 스테이지 구현",
-          "time": "7일 전",
+          "time": "8일 전",
           "sha": "256505a",
           "url": "https://github.com/Taehyeon88/Graduation-project/commit/256505a6eb8d9be1d8471f7d0f201fc1906f8817"
         }
@@ -4387,7 +4387,7 @@
         },
         {
           "message": "[Fix] 핸드폰UI 고침 각종 버그 해결",
-          "time": "9일 전",
+          "time": "10일 전",
           "sha": "d2ad172",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/d2ad172c46578e2e3082f24ee026b7574d976171"
         }
@@ -4481,7 +4481,7 @@
         },
         {
           "message": "[Feat] 정비소 프로토 타입 완료",
-          "time": "7일 전",
+          "time": "8일 전",
           "sha": "28ae029",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/28ae029c41b311b137a14458acc8931d5aa17528"
         },
@@ -4514,8 +4514,8 @@
         1,
         0,
         7,
-        6,
-        9,
+        7,
+        8,
         4,
         0
       ],
@@ -4534,13 +4534,13 @@
         },
         {
           "message": "Merge branch 'main' of https://github.com/yuseongmok/Delivery-service",
-          "time": "7일 전",
+          "time": "8일 전",
           "sha": "536c308",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/536c308cc8c0901b844886234f2c491f5cc80df7"
         },
         {
           "message": "[Feat] 오븐 가동, 피자박스 포장, 빗소리 효과음 추가 & 사운드 스크립트 통합",
-          "time": "7일 전",
+          "time": "8일 전",
           "sha": "166619c",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/166619c886c223414d2dc769adcd56a453639d6e"
         },
