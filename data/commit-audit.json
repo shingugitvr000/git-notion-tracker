@@ -1,11 +1,57 @@
 {
-  "updatedAt": "2026. 11. 03. 12:35",
+  "updatedAt": "2026. 11. 03. 20:38",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "3학년 1팀",
+      "repo": "ahyun04/26TeamProject_2",
+      "branch": "main",
+      "sha": "fc5d3b0e37688b35df303517f8144ae6c5d3f20d",
+      "message": "Merge branch 'NSH_Test'",
+      "url": "https://github.com/ahyun04/26TeamProject_2/commit/fc5d3b0e37688b35df303517f8144ae6c5d3f20d",
+      "date": "2026-11-03T09:01:02Z",
+      "expectedGithub": "ahyun04",
+      "actualGithub": "namsuhan0322",
+      "gitAuthorName": "namsuhan0322",
+      "gitAuthorEmail": "rnatpakfl@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 59,
+        "additions": 39977,
+        "deletions": 3239,
+        "meaningful_change": 42935,
+        "meaningful_file_count": 42,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 1팀",
+      "repo": "ahyun04/26TeamProject_2",
+      "branch": "main",
+      "sha": "fb4b98bc2fda70968daece6ee18d4626dcfcfb31",
+      "message": "[Feat] 새로운 미션 배관 누수 차단 구현",
+      "url": "https://github.com/ahyun04/26TeamProject_2/commit/fb4b98bc2fda70968daece6ee18d4626dcfcfb31",
+      "date": "2026-11-03T09:00:49Z",
+      "expectedGithub": "ahyun04",
+      "actualGithub": "namsuhan0322",
+      "gitAuthorName": "namsuhan0322",
+      "gitAuthorEmail": "rnatpakfl@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 59,
+        "additions": 39977,
+        "deletions": 3239,
+        "meaningful_change": 42935,
+        "meaningful_file_count": 42,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "1학년 A반 5팀",
       "repo": "surren01522-tech/2026_02_GameProject_Eurydice",
