@@ -1,11 +1,57 @@
 {
-  "updatedAt": "2026. 11. 05. 17:58",
+  "updatedAt": "2026. 11. 06. 02:14",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "2학년 3팀",
+      "repo": "jinjooyoung/DUAL-DUEL",
+      "branch": "main",
+      "sha": "d161d1034b7ff32fe303426264b0b1a423ad8c1e",
+      "message": "[Feat] 몬스터 테이블 수정에 따라 SO수정",
+      "url": "https://github.com/jinjooyoung/DUAL-DUEL/commit/d161d1034b7ff32fe303426264b0b1a423ad8c1e",
+      "date": "2026-11-05T13:57:53Z",
+      "expectedGithub": "jinjooyoung",
+      "actualGithub": "jinjooyoung",
+      "gitAuthorName": "jinjooyoung",
+      "gitAuthorEmail": "jjy26297449@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 4,
+        "additions": 258,
+        "deletions": 71,
+        "meaningful_change": 329,
+        "meaningful_file_count": 4,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 4팀",
+      "repo": "yuseongmok/Delivery-service",
+      "branch": "main",
+      "sha": "80f4e885f702e9f0d01b496496e66b05eb283102",
+      "message": "[Feat] 감옥 씬 추가",
+      "url": "https://github.com/yuseongmok/Delivery-service/commit/80f4e885f702e9f0d01b496496e66b05eb283102",
+      "date": "2026-11-05T12:50:51Z",
+      "expectedGithub": "yuseongmok",
+      "actualGithub": "yuseongmok",
+      "gitAuthorName": "yuseongmok",
+      "gitAuthorEmail": "yousm112783@daum.net",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 60,
+        "additions": 344828,
+        "deletions": 0,
+        "meaningful_change": 344440,
+        "meaningful_file_count": 27,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "1학년 B반 1팀",
       "repo": "simo07d7PG/Team_JJAMBBAP",
