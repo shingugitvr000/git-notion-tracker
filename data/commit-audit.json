@@ -1,11 +1,172 @@
 {
-  "updatedAt": "2026. 11. 06. 12:10",
+  "updatedAt": "2026. 11. 06. 20:19",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "3학년 1팀",
+      "repo": "ahyun04/26TeamProject_2",
+      "branch": "main",
+      "sha": "fe1bef42493be450ec10f44fd1926545732e0ac8",
+      "message": "Merge branch 'Kwonjun' into main",
+      "url": "https://github.com/ahyun04/26TeamProject_2/commit/fe1bef42493be450ec10f44fd1926545732e0ac8",
+      "date": "2026-11-06T08:54:46Z",
+      "expectedGithub": "ahyun04",
+      "actualGithub": "Im-Dinosaur",
+      "gitAuthorName": "Im-Dinosaur",
+      "gitAuthorEmail": "wnsdl80100@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 49,
+        "additions": 15103,
+        "deletions": 22,
+        "meaningful_change": 14971,
+        "meaningful_file_count": 31,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 1팀",
+      "repo": "ahyun04/26TeamProject_2",
+      "branch": "main",
+      "sha": "6d923fa948dc7b2a8a95ce6c7006086d1c62bd38",
+      "message": "[Feat] CCTV 및 신규 도구 구현과 종료 UI 복구",
+      "url": "https://github.com/ahyun04/26TeamProject_2/commit/6d923fa948dc7b2a8a95ce6c7006086d1c62bd38",
+      "date": "2026-11-06T08:54:10Z",
+      "expectedGithub": "ahyun04",
+      "actualGithub": "Im-Dinosaur",
+      "gitAuthorName": "Im-Dinosaur",
+      "gitAuthorEmail": "wnsdl80100@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 49,
+        "additions": 15103,
+        "deletions": 22,
+        "meaningful_change": 14971,
+        "meaningful_file_count": 31,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 3팀",
+      "repo": "jinjooyoung/DUAL-DUEL",
+      "branch": "main",
+      "sha": "55efc232cbcb47333b04f133f2e96b48224877a6",
+      "message": "[Feat] 몬스터SO 추가",
+      "url": "https://github.com/jinjooyoung/DUAL-DUEL/commit/55efc232cbcb47333b04f133f2e96b48224877a6",
+      "date": "2026-11-06T08:08:27Z",
+      "expectedGithub": "jinjooyoung",
+      "actualGithub": "jinjooyoung",
+      "gitAuthorName": "jinjooyoung",
+      "gitAuthorEmail": "jjy26297449@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 15,
+        "deletions": 0,
+        "meaningful_change": 15,
+        "meaningful_file_count": 1,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 1팀",
+      "repo": "ahyun04/26TeamProject_2",
+      "branch": "main",
+      "sha": "657c046092d0a994d2ff600b4b7482565e6bfe7d",
+      "message": "Merge branch 'NSH_Test'",
+      "url": "https://github.com/ahyun04/26TeamProject_2/commit/657c046092d0a994d2ff600b4b7482565e6bfe7d",
+      "date": "2026-11-06T08:07:51Z",
+      "expectedGithub": "ahyun04",
+      "actualGithub": "namsuhan0322",
+      "gitAuthorName": "namsuhan0322",
+      "gitAuthorEmail": "rnatpakfl@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 24,
+        "additions": 6175,
+        "deletions": 5651,
+        "meaningful_change": 11804,
+        "meaningful_file_count": 22,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 1팀",
+      "repo": "ahyun04/26TeamProject_2",
+      "branch": "main",
+      "sha": "ab90dff37362929da4dc2b8ee0c25806f0075b9e",
+      "message": "[Feat] 플레이어 미션 애니메이션 구현",
+      "url": "https://github.com/ahyun04/26TeamProject_2/commit/ab90dff37362929da4dc2b8ee0c25806f0075b9e",
+      "date": "2026-11-06T08:07:39Z",
+      "expectedGithub": "ahyun04",
+      "actualGithub": "namsuhan0322",
+      "gitAuthorName": "namsuhan0322",
+      "gitAuthorEmail": "rnatpakfl@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 24,
+        "additions": 6175,
+        "deletions": 5651,
+        "meaningful_change": 11804,
+        "meaningful_file_count": 22,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 6팀",
+      "repo": "jeonghyerin002/2026_2TeamProject",
+      "branch": "main",
+      "sha": "1c43348125c513ee062dcf8335692f0ba05e5539",
+      "message": "[Chore] 이미 흑백 작업한 스킬들 구분화",
+      "url": "https://github.com/jeonghyerin002/2026_2TeamProject/commit/1c43348125c513ee062dcf8335692f0ba05e5539",
+      "date": "2026-11-06T04:16:20Z",
+      "expectedGithub": "jeonghyerin002",
+      "actualGithub": "blocks2094",
+      "gitAuthorName": "HyunWoo",
+      "gitAuthorEmail": "blocks2094@g.shingu.ac.kr",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 19,
+        "additions": 8,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 9,
+        "suspicious_score": 35,
+        "judgment": "확인필요"
+      }
+    },
+    {
+      "projectName": "2학년 6팀",
+      "repo": "jeonghyerin002/2026_2TeamProject",
+      "branch": "main",
+      "sha": "4a333211e260fe7141c6f0413726880e7a12fc37",
+      "message": "[Feat] Player 공통 메뉴 적용 및 UI 전환 연출 추가",
+      "url": "https://github.com/jeonghyerin002/2026_2TeamProject/commit/4a333211e260fe7141c6f0413726880e7a12fc37",
+      "date": "2026-11-06T03:51:05Z",
+      "expectedGithub": "jeonghyerin002",
+      "actualGithub": "blocks2094",
+      "gitAuthorName": "HyunWoo",
+      "gitAuthorEmail": "blocks2094@g.shingu.ac.kr",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 16,
+        "additions": 66867,
+        "deletions": 41,
+        "meaningful_change": 66906,
+        "meaningful_file_count": 15,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "1학년 B반 6팀",
       "repo": "tjd6356-afk/2-_-",
