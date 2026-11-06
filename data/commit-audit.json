@@ -1,11 +1,126 @@
 {
-  "updatedAt": "2026. 11. 06. 20:19",
+  "updatedAt": "2026. 11. 07. 03:13",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "16420323762affca1a31fe0e2abd95b44461039d",
+      "message": "[Chore] 소베크·바스테트 기획서 및 아트 요청서 추가",
+      "url": "https://github.com/suyan05/PharaohCube/commit/16420323762affca1a31fe0e2abd95b44461039d",
+      "date": "2026-11-06T17:28:26Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "kangxogh1013",
+      "gitAuthorName": "kangxogh1013",
+      "gitAuthorEmail": "ho1013sl@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 23,
+        "additions": 38,
+        "deletions": 13,
+        "meaningful_change": 51,
+        "meaningful_file_count": 4,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 1팀",
+      "repo": "ahyun04/26TeamProject_2",
+      "branch": "main",
+      "sha": "42ae2b33f27ace9462398754986e25bdc639fbb2",
+      "message": "[Feat] 미니맵, 지도, 플레이어 UI 추가",
+      "url": "https://github.com/ahyun04/26TeamProject_2/commit/42ae2b33f27ace9462398754986e25bdc639fbb2",
+      "date": "2026-11-06T17:19:14Z",
+      "expectedGithub": "ahyun04",
+      "actualGithub": "ahyun04",
+      "gitAuthorName": "ahyun04",
+      "gitAuthorEmail": "ahyun125@g.shingu.ac.kr",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 59,
+        "additions": 6517,
+        "deletions": 2733,
+        "meaningful_change": 5694,
+        "meaningful_file_count": 31,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 4팀",
+      "repo": "yuseongmok/Delivery-service",
+      "branch": "main",
+      "sha": "22187a00f75ea24aff3523aba17eb4030a0e24d6",
+      "message": "[Fix] 감옥씬 정문, 주방 수정",
+      "url": "https://github.com/yuseongmok/Delivery-service/commit/22187a00f75ea24aff3523aba17eb4030a0e24d6",
+      "date": "2026-11-06T15:43:39Z",
+      "expectedGithub": "yuseongmok",
+      "actualGithub": "yuseongmok",
+      "gitAuthorName": "yuseongmok",
+      "gitAuthorEmail": "yousm112783@daum.net",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 29,
+        "additions": 31088,
+        "deletions": 24742,
+        "meaningful_change": 55717,
+        "meaningful_file_count": 15,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "3f478625d96cf969f7e3d478a596e75db11be2c8",
+      "message": "[Feat] 소베크 퍼즐 전체를 2.5D 착시 퍼즐로 교체",
+      "url": "https://github.com/suyan05/PharaohCube/commit/3f478625d96cf969f7e3d478a596e75db11be2c8",
+      "date": "2026-11-06T14:18:06Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "kangxogh1013",
+      "gitAuthorName": "kangxogh1013",
+      "gitAuthorEmail": "ho1013sl@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 50,
+        "additions": 16443,
+        "deletions": 6604,
+        "meaningful_change": 22952,
+        "meaningful_file_count": 32,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "8545a981b7cf918e80e8a28a1e581d1aad415efd",
+      "message": "[Feat] 소베크 착시 퍼즐 예시 (2.5D 카메라 회전) 추가",
+      "url": "https://github.com/suyan05/PharaohCube/commit/8545a981b7cf918e80e8a28a1e581d1aad415efd",
+      "date": "2026-11-06T12:33:05Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "kangxogh1013",
+      "gitAuthorName": "kangxogh1013",
+      "gitAuthorEmail": "ho1013sl@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 25,
+        "additions": 2200,
+        "deletions": 0,
+        "meaningful_change": 2132,
+        "meaningful_file_count": 12,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "3학년 1팀",
       "repo": "ahyun04/26TeamProject_2",
