@@ -1,11 +1,126 @@
 {
-  "updatedAt": "2026. 11. 06. 07:45",
+  "updatedAt": "2026. 11. 06. 12:10",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "aeb8f33a49917feb1d23987ffc70b921e6a8b71a",
+      "message": "상인 스폰 시스템",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/aeb8f33a49917feb1d23987ffc70b921e6a8b71a",
+      "date": "2026-11-06T02:28:10Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "tjd6356-afk",
+      "gitAuthorName": "tjd6356-afk",
+      "gitAuthorEmail": "tjd6356@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 9,
+        "additions": 1506,
+        "deletions": 813,
+        "meaningful_change": 2317,
+        "meaningful_file_count": 8,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "d666f8b9e19e84548624501711dfc06143a33347",
+      "message": "[Feat] 소베크 방 1차 통합 (퍼즐 확장·숨은 방)",
+      "url": "https://github.com/suyan05/PharaohCube/commit/d666f8b9e19e84548624501711dfc06143a33347",
+      "date": "2026-11-06T01:23:00Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "kangxogh1013",
+      "gitAuthorName": "kangxogh1013",
+      "gitAuthorEmail": "ho1013sl@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 201,
+        "additions": 22901,
+        "deletions": 2531,
+        "meaningful_change": 15488,
+        "meaningful_file_count": 111,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "1107c086374e46ac075013b3a5e2e736881c1dec",
+      "message": "상점 시스템 아이템 물물교환 시스템",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/1107c086374e46ac075013b3a5e2e736881c1dec",
+      "date": "2026-11-06T00:48:41Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "tjd6356-afk",
+      "gitAuthorName": "tjd6356-afk",
+      "gitAuthorEmail": "tjd6356@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 3,
+        "additions": 309,
+        "deletions": 10,
+        "meaningful_change": 319,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "ca150012ecb8ee09c2c94c0154783a0d839392e1",
+      "message": "총 설계도 아이템 생성",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/ca150012ecb8ee09c2c94c0154783a0d839392e1",
+      "date": "2026-11-06T00:01:16Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "tjd6356-afk",
+      "gitAuthorName": "tjd6356-afk",
+      "gitAuthorEmail": "tjd6356@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 7,
+        "additions": 1836,
+        "deletions": 66,
+        "meaningful_change": 1887,
+        "meaningful_file_count": 5,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 1팀",
+      "repo": "ahyun04/26TeamProject_2",
+      "branch": "main",
+      "sha": "1be28d0950014721c1ab518c6e1a9f327488c69a",
+      "message": "[Feat] cctv실, 조종실 추가, 문 추가",
+      "url": "https://github.com/ahyun04/26TeamProject_2/commit/1be28d0950014721c1ab518c6e1a9f327488c69a",
+      "date": "2026-11-05T22:59:40Z",
+      "expectedGithub": "ahyun04",
+      "actualGithub": "ahyun04",
+      "gitAuthorName": "ahyun04",
+      "gitAuthorEmail": "ahyun125@g.shingu.ac.kr",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 7452,
+        "deletions": 2008,
+        "meaningful_change": 9460,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "2학년 1팀",
       "repo": "suyan05/PharaohCube",
