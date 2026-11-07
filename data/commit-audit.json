@@ -1,11 +1,126 @@
 {
-  "updatedAt": "2026. 11. 07. 12:00",
+  "updatedAt": "2026. 11. 07. 19:33",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "1학년 A반 1팀",
+      "repo": "chimchimjam377/TeamProject---Singularity-Thief",
+      "branch": "main",
+      "sha": "4d480a7b59e22e9bdc4fd2905734b5366bed5f01",
+      "message": "발 소리 효과음 추가[좀 많음..]",
+      "url": "https://github.com/chimchimjam377/TeamProject---Singularity-Thief/commit/4d480a7b59e22e9bdc4fd2905734b5366bed5f01",
+      "date": "2026-11-07T08:06:46Z",
+      "expectedGithub": "chimchimjam377",
+      "actualGithub": "chimchimjam377",
+      "gitAuthorName": "chimchimjam377",
+      "gitAuthorEmail": "chimchimjam377@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 300,
+        "additions": 14291,
+        "deletions": 229,
+        "meaningful_change": 0,
+        "meaningful_file_count": 143,
+        "suspicious_score": 35,
+        "judgment": "확인필요"
+      }
+    },
+    {
+      "projectName": "2학년 7팀",
+      "repo": "23jihwan/7_tim",
+      "branch": "main",
+      "sha": "ab26d9db4a1b898ac0afef47450202abde01a2b8",
+      "message": "[Feat] 데미지 2배 적용완료",
+      "url": "https://github.com/23jihwan/7_tim/commit/ab26d9db4a1b898ac0afef47450202abde01a2b8",
+      "date": "2026-11-07T07:30:56Z",
+      "expectedGithub": "23jihwan",
+      "actualGithub": "junhae01",
+      "gitAuthorName": "junhae0",
+      "gitAuthorEmail": "jh040101@g.shingu.ac.kr",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 5,
+        "additions": 43,
+        "deletions": 23,
+        "meaningful_change": 66,
+        "meaningful_file_count": 5,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 1팀",
+      "repo": "chimchimjam377/TeamProject---Singularity-Thief",
+      "branch": "main",
+      "sha": "a9404e18f824e6351a9de63990ad4eebd95eac64",
+      "message": "적용되는지 확인",
+      "url": "https://github.com/chimchimjam377/TeamProject---Singularity-Thief/commit/a9404e18f824e6351a9de63990ad4eebd95eac64",
+      "date": "2026-11-07T06:42:12Z",
+      "expectedGithub": "chimchimjam377",
+      "actualGithub": "chimchimjam377",
+      "gitAuthorName": "chimchimjam377",
+      "gitAuthorEmail": "chimchimjam377@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 33,
+        "deletions": 1311,
+        "meaningful_change": 1344,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 2팀",
+      "repo": "hoshinouhee123/gacha-game-teamplay",
+      "branch": "main",
+      "sha": "7b8cdd4e4b8c351107715a642a5453e859d73cbd",
+      "message": "[Feat] 인벤토리 삭제 버튼과 아이템 연동/수 변경",
+      "url": "https://github.com/hoshinouhee123/gacha-game-teamplay/commit/7b8cdd4e4b8c351107715a642a5453e859d73cbd",
+      "date": "2026-11-07T05:59:31Z",
+      "expectedGithub": "hoshinouhee123",
+      "actualGithub": "yubi369-bit",
+      "gitAuthorName": "Ducci",
+      "gitAuthorEmail": "Yubi369@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 6,
+        "additions": 737,
+        "deletions": 238,
+        "meaningful_change": 973,
+        "meaningful_file_count": 5,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 2팀",
+      "repo": "hoshinouhee123/gacha-game-teamplay",
+      "branch": "main",
+      "sha": "6250e9a24c27a703e38bee2f348ebffa72c0a82f",
+      "message": "가챠와 인벤토리의 연결",
+      "url": "https://github.com/hoshinouhee123/gacha-game-teamplay/commit/6250e9a24c27a703e38bee2f348ebffa72c0a82f",
+      "date": "2026-11-07T05:29:52Z",
+      "expectedGithub": "hoshinouhee123",
+      "actualGithub": "yubi369-bit",
+      "gitAuthorName": "Ducci",
+      "gitAuthorEmail": "Yubi369@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 16,
+        "additions": 905,
+        "deletions": 169,
+        "meaningful_change": 701,
+        "meaningful_file_count": 8,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "3학년 4팀",
       "repo": "yuseongmok/Delivery-service",
