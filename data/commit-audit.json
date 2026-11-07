@@ -1,11 +1,34 @@
 {
-  "updatedAt": "2026. 11. 08. 01:44",
+  "updatedAt": "2026. 11. 08. 05:39",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "3학년 4팀",
+      "repo": "yuseongmok/Delivery-service",
+      "branch": "main",
+      "sha": "dffbf9b1fed8ee8549e4e32b235c3358dd5951dd",
+      "message": "[Feat] 정비소 UI Button 수정",
+      "url": "https://github.com/yuseongmok/Delivery-service/commit/dffbf9b1fed8ee8549e4e32b235c3358dd5951dd",
+      "date": "2026-11-07T18:27:56Z",
+      "expectedGithub": "yuseongmok",
+      "actualGithub": "Woong1016",
+      "gitAuthorName": "Woong1016",
+      "gitAuthorEmail": "yol7122@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 49,
+        "deletions": 49,
+        "meaningful_change": 98,
+        "meaningful_file_count": 1,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "1학년 B반 3팀",
       "repo": "Tiphe0821/GameProject_T3_1_B",
