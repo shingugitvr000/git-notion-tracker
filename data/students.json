@@ -1,7 +1,7 @@
 {
   "course": "Git 프로젝트 활동 현황",
   "notionUrl": "https://abaft-vibraphone-8f7.notion.site/Git-3c28655a72df80199dafc115fef9ddd4?pvs=74",
-  "updatedAt": "2026. 11. 08. 05:39",
+  "updatedAt": "2026. 11. 08. 09:11",
   "students": [
     {
       "name": "2학년 1팀",
@@ -50,7 +50,7 @@
         },
         {
           "message": "[Fix]맵 배치 수정",
-          "time": "12일 전",
+          "time": "13일 전",
           "sha": "8a6722c",
           "url": "https://github.com/suyan05/PharaohCube/commit/8a6722c485e74bffff25d3bc1eab00fc639458d3"
         }
@@ -69,11 +69,11 @@
       "status": "active",
       "weekly": [
         7,
-        10,
-        10,
+        11,
+        9,
         14,
-        8,
-        8,
+        10,
+        6,
         5
       ],
       "recent": [
@@ -456,7 +456,7 @@
         },
         {
           "message": "[Feat] cctv실, 조종실 추가, 문 추가",
-          "time": "어제",
+          "time": "2일 전",
           "sha": "1be28d0",
           "url": "https://github.com/ahyun04/26TeamProject_2/commit/1be28d0950014721c1ab518c6e1a9f327488c69a"
         },
@@ -754,7 +754,7 @@
       "commits": 0,
       "semesterCommits": 58,
       "activeDays": 0,
-      "lastCommit": "63일 전",
+      "lastCommit": "64일 전",
       "status": "inactive",
       "weekly": [
         0,
@@ -768,7 +768,7 @@
       "recent": [
         {
           "message": "[Feat] 타이머 및 게임 종료 결과 UI 추가",
-          "time": "63일 전",
+          "time": "64일 전",
           "sha": "76b6ffc",
           "url": "https://github.com/ahyun04/26TeamProject_2/commit/76b6ffc6ae207ddeb3d48a586ee9ca4a598a1880"
         },
@@ -1267,8 +1267,8 @@
         8,
         4,
         7,
-        4,
-        4,
+        5,
+        3,
         0
       ],
       "recent": [
@@ -1292,7 +1292,7 @@
         },
         {
           "message": "[feat] 미니게임 12 UI , 13 수정",
-          "time": "13일 전",
+          "time": "14일 전",
           "sha": "71c812e",
           "url": "https://github.com/esuvean/PRESS-START_/commit/71c812e86961ba8debdf0ec84b56391e33b37640"
         },
@@ -1745,7 +1745,7 @@
         },
         {
           "message": "[feat] NPC 모델링 제작",
-          "time": "16일 전",
+          "time": "17일 전",
           "sha": "9c0ffe2",
           "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/9c0ffe255a5ac49c7274b51c3bb4104049ea9412"
         }
@@ -1798,7 +1798,7 @@
         },
         {
           "message": "[feat]: 도트 글꼴 추가",
-          "time": "38일 전",
+          "time": "39일 전",
           "sha": "4f96d73",
           "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/4f96d73abfbfb817c6a13ada812681f1e6d55625"
         }
@@ -1921,7 +1921,7 @@
         },
         {
           "message": "Initial commit",
-          "time": "53일 전",
+          "time": "54일 전",
           "sha": "a7471ec",
           "url": "https://github.com/jeolje934-dot/Placeholder_2026_1A_team-project/commit/a7471ec3212432eb7d0456f7a2d5801b9e7c8f91"
         }
@@ -2482,7 +2482,7 @@
       "commits": 0,
       "semesterCommits": 11,
       "activeDays": 0,
-      "lastCommit": "11일 전",
+      "lastCommit": "12일 전",
       "status": "inactive",
       "weekly": [
         0,
@@ -2496,13 +2496,13 @@
       "recent": [
         {
           "message": "Merge branch 'main' of https://github.com/qkrgml59/2026_2_TeamProject",
-          "time": "11일 전",
+          "time": "12일 전",
           "sha": "6333835",
           "url": "https://github.com/qkrgml59/2026_2_TeamProject/commit/63338356b00ee5260c0ff936fa116618be7a34b4"
         },
         {
           "message": "Merge team MapTest tilemap history into local prototype",
-          "time": "11일 전",
+          "time": "12일 전",
           "sha": "a2e2900",
           "url": "https://github.com/qkrgml59/2026_2_TeamProject/commit/a2e2900c53966ab4a272fe257c67b6cde7916c9f"
         },
@@ -3087,8 +3087,8 @@
         15,
         20,
         15,
-        17,
-        24,
+        18,
+        23,
         27
       ],
       "recent": [
@@ -3106,7 +3106,7 @@
         },
         {
           "message": "총 설계도 아이템 생성",
-          "time": "어제",
+          "time": "2일 전",
           "sha": "ca15001",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/ca150012ecb8ee09c2c94c0154783a0d839392e1"
         },
@@ -3206,13 +3206,13 @@
         },
         {
           "message": "설정 패널 배경 추가",
-          "time": "14일 전",
+          "time": "15일 전",
           "sha": "37790a8",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/37790a8d882a3773697d27b9c210f9f2f7c33546"
         },
         {
           "message": "스크롤 바 UI 배경, 스크롤바 핸들 추가",
-          "time": "14일 전",
+          "time": "15일 전",
           "sha": "ed251e4",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/ed251e4617fc5d2e3d3ba412e873ed962024aa9d"
         },
@@ -3303,8 +3303,8 @@
         0,
         0,
         3,
-        3,
-        8,
+        4,
+        7,
         3
       ],
       "recent": [
@@ -3385,8 +3385,8 @@
         4,
         3,
         2,
-        2,
-        11,
+        6,
+        7,
         0
       ],
       "recent": [
@@ -3734,8 +3734,8 @@
       "lastCommit": "어제",
       "status": "active",
       "weekly": [
-        1,
-        15,
+        2,
+        14,
         11,
         2,
         14,
