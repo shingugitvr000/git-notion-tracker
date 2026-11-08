@@ -1,11 +1,172 @@
 {
-  "updatedAt": "2026. 11. 08. 22:47",
+  "updatedAt": "2026. 11. 09. 03:39",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "1학년 A반 1팀",
+      "repo": "chimchimjam377/TeamProject---Singularity-Thief",
+      "branch": "main",
+      "sha": "e0a539954597fbe8486e617c71caa8762728e62c",
+      "message": "NPC다이얼 로그 정리랑 꾸미는건 알아서해",
+      "url": "https://github.com/chimchimjam377/TeamProject---Singularity-Thief/commit/e0a539954597fbe8486e617c71caa8762728e62c",
+      "date": "2026-11-08T16:02:00Z",
+      "expectedGithub": "chimchimjam377",
+      "actualGithub": "jerryseo0220-droid",
+      "gitAuthorName": "jerryseo0220-droid",
+      "gitAuthorEmail": "jerryseo0220@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 17,
+        "additions": 2335,
+        "deletions": 31,
+        "meaningful_change": 2338,
+        "meaningful_file_count": 9,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 1팀",
+      "repo": "ahyun04/26TeamProject_2",
+      "branch": "main",
+      "sha": "c27cc6246820829fc7e835c83eb91c8631e42f03",
+      "message": "Merge branch 'main' of https://github.com/ahyun04/26TeamProject_2",
+      "url": "https://github.com/ahyun04/26TeamProject_2/commit/c27cc6246820829fc7e835c83eb91c8631e42f03",
+      "date": "2026-11-08T15:40:06Z",
+      "expectedGithub": "ahyun04",
+      "actualGithub": "fti11",
+      "gitAuthorName": "fti11",
+      "gitAuthorEmail": "mxonstruck@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 0,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 1,
+        "suspicious_score": 50,
+        "judgment": "확인필요"
+      }
+    },
+    {
+      "projectName": "3학년 1팀",
+      "repo": "ahyun04/26TeamProject_2",
+      "branch": "main",
+      "sha": "275b15842f415c4378222c7b17f88f454a5ada7b",
+      "message": "[Fix] 수정",
+      "url": "https://github.com/ahyun04/26TeamProject_2/commit/275b15842f415c4378222c7b17f88f454a5ada7b",
+      "date": "2026-11-08T15:40:01Z",
+      "expectedGithub": "ahyun04",
+      "actualGithub": "fti11",
+      "gitAuthorName": "fti11",
+      "gitAuthorEmail": "mxonstruck@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 6,
+        "additions": 145,
+        "deletions": 46,
+        "meaningful_change": 191,
+        "meaningful_file_count": 6,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 7팀",
+      "repo": "23jihwan/7_tim",
+      "branch": "main",
+      "sha": "e4dbac96be9f1c0c3f58e4a4f46d5f9741bb7194",
+      "message": "[Fix]조합 오류 수정",
+      "url": "https://github.com/23jihwan/7_tim/commit/e4dbac96be9f1c0c3f58e4a4f46d5f9741bb7194",
+      "date": "2026-11-08T14:43:29Z",
+      "expectedGithub": "23jihwan",
+      "actualGithub": "23jihwan",
+      "gitAuthorName": "23jihwan",
+      "gitAuthorEmail": "dbwlghks7410@naver.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 4,
+        "additions": 28,
+        "deletions": 1,
+        "meaningful_change": 29,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 4팀",
+      "repo": "yuseongmok/Delivery-service",
+      "branch": "main",
+      "sha": "0363211ee22f629f239e5ec55f69ec9ae7d99de6",
+      "message": "[Feat] 소리감지 NPC 완성",
+      "url": "https://github.com/yuseongmok/Delivery-service/commit/0363211ee22f629f239e5ec55f69ec9ae7d99de6",
+      "date": "2026-11-08T14:38:14Z",
+      "expectedGithub": "yuseongmok",
+      "actualGithub": "Woong1016",
+      "gitAuthorName": "Woong1016",
+      "gitAuthorEmail": "yol7122@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 305,
+        "deletions": 149,
+        "meaningful_change": 454,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 1팀",
+      "repo": "ahyun04/26TeamProject_2",
+      "branch": "main",
+      "sha": "be83dd571b4907041054597b6896b65d6f9291f7",
+      "message": "[Fix] 맵 수정",
+      "url": "https://github.com/ahyun04/26TeamProject_2/commit/be83dd571b4907041054597b6896b65d6f9291f7",
+      "date": "2026-11-08T14:12:31Z",
+      "expectedGithub": "ahyun04",
+      "actualGithub": "ahyun04",
+      "gitAuthorName": "ahyun04",
+      "gitAuthorEmail": "ahyun125@g.shingu.ac.kr",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 0,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 1,
+        "suspicious_score": 50,
+        "judgment": "확인필요"
+      }
+    },
+    {
+      "projectName": "1학년 B반 1팀",
+      "repo": "simo07d7PG/Team_JJAMBBAP",
+      "branch": "main",
+      "sha": "17517df595bb1292921c511341fadae1183cbd47",
+      "message": "[Feat] Sound, SFX 추가 + 소리 조절 추가",
+      "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/17517df595bb1292921c511341fadae1183cbd47",
+      "date": "2026-11-08T14:10:47Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "cocomakid",
+      "gitAuthorName": "cocomakid",
+      "gitAuthorEmail": "joonyoung0113@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 10,
+        "additions": 1806,
+        "deletions": 84,
+        "meaningful_change": 1705,
+        "meaningful_file_count": 4,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "2학년 3팀",
       "repo": "jinjooyoung/DUAL-DUEL",
@@ -3247,6 +3408,52 @@
         "meaningful_file_count": 3,
         "suspicious_score": 0,
         "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 1팀",
+      "repo": "simo07d7PG/Team_JJAMBBAP",
+      "branch": "main",
+      "sha": "e74c715e4ecfc2518b8369618dff3cd4de04d578",
+      "message": "[Refactor] 코어 루프·미니게임 스크립트 구조 정리",
+      "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/e74c715e4ecfc2518b8369618dff3cd4de04d578",
+      "date": "2026-11-02T03:39:29Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "simo07d7PG",
+      "gitAuthorName": "simo07d7PG",
+      "gitAuthorEmail": "simo07d7.pg@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 23,
+        "additions": 1392,
+        "deletions": 669,
+        "meaningful_change": 2061,
+        "meaningful_file_count": 23,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 1팀",
+      "repo": "simo07d7PG/Team_JJAMBBAP",
+      "branch": "main",
+      "sha": "3d25278a8a7d17b3c24ff095c20f71eeafa32859",
+      "message": "[Chore] .gitignore에 zip 제외 추가",
+      "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/3d25278a8a7d17b3c24ff095c20f71eeafa32859",
+      "date": "2026-11-02T01:44:34Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "simo07d7PG",
+      "gitAuthorName": "simo07d7PG",
+      "gitAuthorEmail": "simo07d7.pg@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 1,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 0,
+        "suspicious_score": 95,
+        "judgment": "뻥의심"
       }
     },
     {
