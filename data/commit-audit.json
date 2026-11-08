@@ -1,11 +1,149 @@
 {
-  "updatedAt": "2026. 11. 08. 09:11",
+  "updatedAt": "2026. 11. 08. 15:29",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "fff5a4ffa56ec33f43b5d1625205ef1485967e1e",
+      "message": "체력바&인벤토리&탄창 이미지 추가",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/fff5a4ffa56ec33f43b5d1625205ef1485967e1e",
+      "date": "2026-11-08T05:21:12Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "choyeonjung134-gif",
+      "gitAuthorName": "choyeonjung134",
+      "gitAuthorEmail": "choyeonjung134@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 8,
+        "additions": 0,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 8,
+        "suspicious_score": 35,
+        "judgment": "확인필요"
+      }
+    },
+    {
+      "projectName": "1학년 B반 4팀",
+      "repo": "Sine-aw/nohesitate",
+      "branch": "main",
+      "sha": "95d23d629c5881c4a11727091adf37387d7dd97b",
+      "message": "Merge branch 'main' of https://github.com/Sine-aw/nohesitate",
+      "url": "https://github.com/Sine-aw/nohesitate/commit/95d23d629c5881c4a11727091adf37387d7dd97b",
+      "date": "2026-11-08T04:54:00Z",
+      "expectedGithub": "Sine-aw",
+      "actualGithub": "olaf0623-crypto",
+      "gitAuthorName": "olaf0623-crypto",
+      "gitAuthorEmail": "olaf0623@g.shingu.ac.kr",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 34,
+        "additions": 5767,
+        "deletions": 462,
+        "meaningful_change": 5005,
+        "meaningful_file_count": 21,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 4팀",
+      "repo": "Sine-aw/nohesitate",
+      "branch": "main",
+      "sha": "02d2e8a845422b38a248dbefb0fb1cb243a619bb",
+      "message": "[Feat]프밍 9주차 회의",
+      "url": "https://github.com/Sine-aw/nohesitate/commit/02d2e8a845422b38a248dbefb0fb1cb243a619bb",
+      "date": "2026-11-08T04:53:45Z",
+      "expectedGithub": "Sine-aw",
+      "actualGithub": "olaf0623-crypto",
+      "gitAuthorName": "olaf0623-crypto",
+      "gitAuthorEmail": "olaf0623@g.shingu.ac.kr",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 12,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 0,
+        "suspicious_score": 95,
+        "judgment": "뻥의심"
+      }
+    },
+    {
+      "projectName": "1학년 B반 4팀",
+      "repo": "Sine-aw/nohesitate",
+      "branch": "main",
+      "sha": "94032ceea95330136afab08983d43bbd2daf3767",
+      "message": "UI",
+      "url": "https://github.com/Sine-aw/nohesitate/commit/94032ceea95330136afab08983d43bbd2daf3767",
+      "date": "2026-11-08T04:22:44Z",
+      "expectedGithub": "Sine-aw",
+      "actualGithub": "Sine-aw",
+      "gitAuthorName": "Sine-aw",
+      "gitAuthorEmail": "siany9187@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 21,
+        "additions": 4768,
+        "deletions": 524,
+        "meaningful_change": 5005,
+        "meaningful_file_count": 12,
+        "suspicious_score": 10,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 4팀",
+      "repo": "yuseongmok/Delivery-service",
+      "branch": "main",
+      "sha": "6bc76371c5dd10d737e8ffece5053be0810facaf",
+      "message": "Merge branch 'main' of https://github.com/yuseongmok/Delivery-service",
+      "url": "https://github.com/yuseongmok/Delivery-service/commit/6bc76371c5dd10d737e8ffece5053be0810facaf",
+      "date": "2026-11-08T03:54:18Z",
+      "expectedGithub": "yuseongmok",
+      "actualGithub": "yuseongmok",
+      "gitAuthorName": "yuseongmok",
+      "gitAuthorEmail": "yousm112783@daum.net",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 49,
+        "deletions": 49,
+        "meaningful_change": 98,
+        "meaningful_file_count": 1,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 4팀",
+      "repo": "yuseongmok/Delivery-service",
+      "branch": "main",
+      "sha": "12ea900b79d5e63a6655e84bfc39d2d3e48947de",
+      "message": "[Feat] 마지막배달에서 이어지는 스토리 구현중",
+      "url": "https://github.com/yuseongmok/Delivery-service/commit/12ea900b79d5e63a6655e84bfc39d2d3e48947de",
+      "date": "2026-11-08T03:54:11Z",
+      "expectedGithub": "yuseongmok",
+      "actualGithub": "yuseongmok",
+      "gitAuthorName": "yuseongmok",
+      "gitAuthorEmail": "yousm112783@daum.net",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 9,
+        "additions": 4025,
+        "deletions": 6365,
+        "meaningful_change": 10388,
+        "meaningful_file_count": 8,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "3학년 4팀",
       "repo": "yuseongmok/Delivery-service",
