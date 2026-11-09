@@ -1,11 +1,172 @@
 {
-  "updatedAt": "2026. 11. 09. 07:40",
+  "updatedAt": "2026. 11. 09. 11:22",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "1학년 B반 3팀",
+      "repo": "Tiphe0821/GameProject_T3_1_B",
+      "branch": "main",
+      "sha": "a3b7a3d2d235723c1e8df42e2e2060b3b1886392",
+      "message": "[Feat] 중앙 모니터 작업 중 (아이콘 삽입 및 캐릭터 변환 시스템)",
+      "url": "https://github.com/Tiphe0821/GameProject_T3_1_B/commit/a3b7a3d2d235723c1e8df42e2e2060b3b1886392",
+      "date": "2026-11-09T02:11:11Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "dotcom4143",
+      "gitAuthorName": "dotcom4143",
+      "gitAuthorEmail": "eostmfhektzja4143@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 15,
+        "additions": 703,
+        "deletions": 34,
+        "meaningful_change": 540,
+        "meaningful_file_count": 7,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 6팀",
+      "repo": "jeonghyerin002/2026_2TeamProject",
+      "branch": "main",
+      "sha": "79863fc0886c4fbec1adcc86459cb9d2e6a97cfa",
+      "message": "[Feat] 프로롤그 스킵 버튼 추가",
+      "url": "https://github.com/jeonghyerin002/2026_2TeamProject/commit/79863fc0886c4fbec1adcc86459cb9d2e6a97cfa",
+      "date": "2026-11-09T02:01:09Z",
+      "expectedGithub": "jeonghyerin002",
+      "actualGithub": "blocks2094",
+      "gitAuthorName": "HyunWoo",
+      "gitAuthorEmail": "blocks2094@g.shingu.ac.kr",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 5,
+        "additions": 315,
+        "deletions": 8,
+        "meaningful_change": 321,
+        "meaningful_file_count": 4,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 3팀",
+      "repo": "jinjooyoung/DUAL-DUEL",
+      "branch": "main",
+      "sha": "7fb10874e413163a7fc0ce443b5cf409e0d20aa0",
+      "message": "[Chore] 프리팹 연결 까먹음",
+      "url": "https://github.com/jinjooyoung/DUAL-DUEL/commit/7fb10874e413163a7fc0ce443b5cf409e0d20aa0",
+      "date": "2026-11-09T01:38:44Z",
+      "expectedGithub": "jinjooyoung",
+      "actualGithub": "jinjooyoung",
+      "gitAuthorName": "jinjooyoung",
+      "gitAuthorEmail": "jjy26297449@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 24,
+        "deletions": 9,
+        "meaningful_change": 33,
+        "meaningful_file_count": 1,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 3팀",
+      "repo": "jinjooyoung/DUAL-DUEL",
+      "branch": "main",
+      "sha": "3edd6602937f3e5c0e3b6916a2b224422d6f2489",
+      "message": "[Refactor] 카드 조작/UI 분리",
+      "url": "https://github.com/jinjooyoung/DUAL-DUEL/commit/3edd6602937f3e5c0e3b6916a2b224422d6f2489",
+      "date": "2026-11-09T01:37:14Z",
+      "expectedGithub": "jinjooyoung",
+      "actualGithub": "jinjooyoung",
+      "gitAuthorName": "jinjooyoung",
+      "gitAuthorEmail": "jjy26297449@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 4,
+        "additions": 133,
+        "deletions": 110,
+        "meaningful_change": 241,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 3팀",
+      "repo": "jinjooyoung/DUAL-DUEL",
+      "branch": "main",
+      "sha": "8ef932eedc52dd9c7bc071395306582b83eca8a5",
+      "message": "[Feat] 몬스터 기본 공격력 추가",
+      "url": "https://github.com/jinjooyoung/DUAL-DUEL/commit/8ef932eedc52dd9c7bc071395306582b83eca8a5",
+      "date": "2026-11-09T01:26:47Z",
+      "expectedGithub": "jinjooyoung",
+      "actualGithub": "jinjooyoung",
+      "gitAuthorName": "jinjooyoung",
+      "gitAuthorEmail": "jjy26297449@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 7,
+        "additions": 337,
+        "deletions": 97,
+        "meaningful_change": 434,
+        "meaningful_file_count": 7,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 3팀",
+      "repo": "jinjooyoung/DUAL-DUEL",
+      "branch": "main",
+      "sha": "02d4f1b51e3fc1fe29d4efc1f220299c3335af2f",
+      "message": "[Feat] 몬스터 랜덤 등장",
+      "url": "https://github.com/jinjooyoung/DUAL-DUEL/commit/02d4f1b51e3fc1fe29d4efc1f220299c3335af2f",
+      "date": "2026-11-09T00:31:06Z",
+      "expectedGithub": "jinjooyoung",
+      "actualGithub": "jinjooyoung",
+      "gitAuthorName": "jinjooyoung",
+      "gitAuthorEmail": "jjy26297449@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 1,
+        "deletions": 0,
+        "meaningful_change": 1,
+        "meaningful_file_count": 1,
+        "suspicious_score": 50,
+        "judgment": "확인필요"
+      }
+    },
+    {
+      "projectName": "3학년 4팀",
+      "repo": "yuseongmok/Delivery-service",
+      "branch": "main",
+      "sha": "47d4d0d4c1d94be6d581cf9ab6c4978493dd6288",
+      "message": "Merge branch 'main' of https://github.com/yuseongmok/Delivery-service",
+      "url": "https://github.com/yuseongmok/Delivery-service/commit/47d4d0d4c1d94be6d581cf9ab6c4978493dd6288",
+      "date": "2026-11-08T23:32:20Z",
+      "expectedGithub": "yuseongmok",
+      "actualGithub": "yuseongmok",
+      "gitAuthorName": "yuseongmok",
+      "gitAuthorEmail": "yousm112783@daum.net",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 191,
+        "additions": 18241,
+        "deletions": 2,
+        "meaningful_change": 13576,
+        "meaningful_file_count": 90,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "3학년 4팀",
       "repo": "yuseongmok/Delivery-service",
@@ -48,6 +209,52 @@
         "deletions": 0,
         "meaningful_change": 13486,
         "meaningful_file_count": 89,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 4팀",
+      "repo": "yuseongmok/Delivery-service",
+      "branch": "main",
+      "sha": "3418e300da61b12c020b98c8c2fccfb13accc945",
+      "message": "[Merge] 소리 감지 NPC와 벽돌을 공원 전투 작업과 통합",
+      "url": "https://github.com/yuseongmok/Delivery-service/commit/3418e300da61b12c020b98c8c2fccfb13accc945",
+      "date": "2026-11-08T18:10:48Z",
+      "expectedGithub": "yuseongmok",
+      "actualGithub": "yuseongmok",
+      "gitAuthorName": "yuseongmok",
+      "gitAuthorEmail": "yousm112783@daum.net",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 15,
+        "additions": 3728,
+        "deletions": 23,
+        "meaningful_change": 3713,
+        "meaningful_file_count": 7,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 4팀",
+      "repo": "yuseongmok/Delivery-service",
+      "branch": "main",
+      "sha": "15b9c62e4b9b50858b1779e8a25d7b869eaae6eb",
+      "message": "[Feat] 공원 전투와 경찰 체포 연출 및 총격 피드백 개선",
+      "url": "https://github.com/yuseongmok/Delivery-service/commit/15b9c62e4b9b50858b1779e8a25d7b869eaae6eb",
+      "date": "2026-11-08T18:05:41Z",
+      "expectedGithub": "yuseongmok",
+      "actualGithub": "yuseongmok",
+      "gitAuthorName": "yuseongmok",
+      "gitAuthorEmail": "yousm112783@daum.net",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 59,
+        "additions": 7328,
+        "deletions": 634,
+        "meaningful_change": 7801,
+        "meaningful_file_count": 35,
         "suspicious_score": 0,
         "judgment": "정상"
       }
