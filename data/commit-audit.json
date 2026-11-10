@@ -1,11 +1,80 @@
 {
-  "updatedAt": "2026. 11. 10. 05:56",
+  "updatedAt": "2026. 11. 10. 12:14",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "2학년 2팀",
+      "repo": "esuvean/PRESS-START_",
+      "branch": "main",
+      "sha": "90f8997a7a5ad29e3d5c52cc058f245d7ee251c4",
+      "message": "[FEAT] 미니게임 2차구현",
+      "url": "https://github.com/esuvean/PRESS-START_/commit/90f8997a7a5ad29e3d5c52cc058f245d7ee251c4",
+      "date": "2026-11-10T02:39:20Z",
+      "expectedGithub": "esuvean",
+      "actualGithub": "flexinja99",
+      "gitAuthorName": "flexinja99",
+      "gitAuthorEmail": "hjgo927@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 3,
+        "additions": 5485,
+        "deletions": 2441,
+        "meaningful_change": 7926,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 2팀",
+      "repo": "esuvean/PRESS-START_",
+      "branch": "main",
+      "sha": "3fb8e83a1f212f5f9bb01d110c586d7022be5f32",
+      "message": "[FEAT] 22 1차구현",
+      "url": "https://github.com/esuvean/PRESS-START_/commit/3fb8e83a1f212f5f9bb01d110c586d7022be5f32",
+      "date": "2026-11-09T22:35:35Z",
+      "expectedGithub": "esuvean",
+      "actualGithub": "flexinja99",
+      "gitAuthorName": "flexinja",
+      "gitAuthorEmail": "hjgo927@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 3,
+        "additions": 6176,
+        "deletions": 428,
+        "meaningful_change": 6604,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 2팀",
+      "repo": "esuvean/PRESS-START_",
+      "branch": "main",
+      "sha": "4a5f573b9d287fbf57b86268d1ff3f611f7577eb",
+      "message": "[feat] 미니 21구현",
+      "url": "https://github.com/esuvean/PRESS-START_/commit/4a5f573b9d287fbf57b86268d1ff3f611f7577eb",
+      "date": "2026-11-09T21:40:41Z",
+      "expectedGithub": "esuvean",
+      "actualGithub": "flexinja99",
+      "gitAuthorName": "flexinja",
+      "gitAuthorEmail": "hjgo927@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 7,
+        "additions": 2775,
+        "deletions": 128,
+        "meaningful_change": 2886,
+        "meaningful_file_count": 4,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "1학년 B반 6팀",
       "repo": "tjd6356-afk/2-_-",
@@ -784,6 +853,29 @@
         "deletions": 634,
         "meaningful_change": 7801,
         "meaningful_file_count": 35,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 1팀",
+      "repo": "simo07d7PG/Team_JJAMBBAP",
+      "branch": "main",
+      "sha": "8709ba5238c3c28af5cdc3bcf440b01f68bf2698",
+      "message": "[Feat] 원두 넣기 미니게임 추가",
+      "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/8709ba5238c3c28af5cdc3bcf440b01f68bf2698",
+      "date": "2026-11-08T16:37:00Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "simo07d7PG",
+      "gitAuthorName": "simo07d7PG",
+      "gitAuthorEmail": "simo07d7.pg@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 20,
+        "additions": 14746,
+        "deletions": 0,
+        "meaningful_change": 14677,
+        "meaningful_file_count": 12,
         "suspicious_score": 0,
         "judgment": "정상"
       }
