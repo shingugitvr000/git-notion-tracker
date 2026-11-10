@@ -1,11 +1,57 @@
 {
-  "updatedAt": "2026. 11. 10. 12:14",
+  "updatedAt": "2026. 11. 10. 20:30",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "1학년 A반 1팀",
+      "repo": "chimchimjam377/TeamProject---Singularity-Thief",
+      "branch": "main",
+      "sha": "f781655c0dbca5c43d6defc1e34ef226bc5397ef",
+      "message": "[Fix] 강화 툴팁 시스템 / 호버 투 셀렉트",
+      "url": "https://github.com/chimchimjam377/TeamProject---Singularity-Thief/commit/f781655c0dbca5c43d6defc1e34ef226bc5397ef",
+      "date": "2026-11-10T10:51:58Z",
+      "expectedGithub": "chimchimjam377",
+      "actualGithub": "Ljs0201",
+      "gitAuthorName": "Ljs0201",
+      "gitAuthorEmail": "a01029950314@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 6,
+        "additions": 389,
+        "deletions": 6,
+        "meaningful_change": 391,
+        "meaningful_file_count": 4,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 2팀",
+      "repo": "esuvean/PRESS-START_",
+      "branch": "main",
+      "sha": "987657826e576923d8540e95d234250db8a33d29",
+      "message": "[feat] 22 2차 구현",
+      "url": "https://github.com/esuvean/PRESS-START_/commit/987657826e576923d8540e95d234250db8a33d29",
+      "date": "2026-11-10T06:39:54Z",
+      "expectedGithub": "esuvean",
+      "actualGithub": "flexinja99",
+      "gitAuthorName": "flexinja99",
+      "gitAuthorEmail": "hjgo927@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 3,
+        "additions": 2210,
+        "deletions": 35,
+        "meaningful_change": 2243,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "2학년 2팀",
       "repo": "esuvean/PRESS-START_",
