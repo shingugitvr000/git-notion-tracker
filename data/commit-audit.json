@@ -1,11 +1,57 @@
 {
-  "updatedAt": "2026. 11. 11. 23:55",
+  "updatedAt": "2026. 11. 12. 06:44",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "3c95185b712d9ba0de5e08a58d191498806b98db",
+      "message": "바스테트 오브젝트 추가",
+      "url": "https://github.com/suyan05/PharaohCube/commit/3c95185b712d9ba0de5e08a58d191498806b98db",
+      "date": "2026-11-11T19:19:35Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "khy1004",
+      "gitAuthorName": "khy1004",
+      "gitAuthorEmail": "khyseog08@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 47,
+        "additions": 17427,
+        "deletions": 87,
+        "meaningful_change": 14503,
+        "meaningful_file_count": 4,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 1팀",
+      "repo": "simo07d7PG/Team_JJAMBBAP",
+      "branch": "main",
+      "sha": "4e3b52a026188b57871041ec5ed2294c52020dc3",
+      "message": "[feat] 텍스쳐 적용 문제 해결 완료",
+      "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/4e3b52a026188b57871041ec5ed2294c52020dc3",
+      "date": "2026-11-11T17:44:50Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "cho70806-lab",
+      "gitAuthorName": "cho70806",
+      "gitAuthorEmail": "cho70806@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 74,
+        "additions": 32611,
+        "deletions": 1356,
+        "meaningful_change": 29852,
+        "meaningful_file_count": 36,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "3학년 4팀",
       "repo": "yuseongmok/Delivery-service",
