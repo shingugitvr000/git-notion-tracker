@@ -1,11 +1,149 @@
 {
-  "updatedAt": "2026. 11. 11. 09:09",
+  "updatedAt": "2026. 11. 11. 15:55",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "1학년 A반 1팀",
+      "repo": "chimchimjam377/TeamProject---Singularity-Thief",
+      "branch": "main",
+      "sha": "81bad1b032d5a16ff7dd84d7c3eae341ebee9d14",
+      "message": "드디어 2D 랜더링으로 바꿨다!!",
+      "url": "https://github.com/chimchimjam377/TeamProject---Singularity-Thief/commit/81bad1b032d5a16ff7dd84d7c3eae341ebee9d14",
+      "date": "2026-11-11T03:35:07Z",
+      "expectedGithub": "chimchimjam377",
+      "actualGithub": "chimchimjam377",
+      "gitAuthorName": "chimchimjam377",
+      "gitAuthorEmail": "chimchimjam377@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 10,
+        "additions": 246,
+        "deletions": 63,
+        "meaningful_change": 277,
+        "meaningful_file_count": 6,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 1팀",
+      "repo": "chimchimjam377/TeamProject---Singularity-Thief",
+      "branch": "main",
+      "sha": "be78efb68f58d04e44c4176082c4101898e5d765",
+      "message": "UI 배치 작동 되는지 아직은 확인 못함",
+      "url": "https://github.com/chimchimjam377/TeamProject---Singularity-Thief/commit/be78efb68f58d04e44c4176082c4101898e5d765",
+      "date": "2026-11-11T03:16:53Z",
+      "expectedGithub": "chimchimjam377",
+      "actualGithub": "chimchimjam377",
+      "gitAuthorName": "chimchimjam377",
+      "gitAuthorEmail": "chimchimjam377@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 3,
+        "additions": 1329,
+        "deletions": 1333,
+        "meaningful_change": 2660,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 1팀",
+      "repo": "chimchimjam377/TeamProject---Singularity-Thief",
+      "branch": "main",
+      "sha": "0eb7523fb5db07804cb9f36e0b7c963715ce864d",
+      "message": "[Fix] Aseprite 파일에 맞게 코드 수정",
+      "url": "https://github.com/chimchimjam377/TeamProject---Singularity-Thief/commit/0eb7523fb5db07804cb9f36e0b7c963715ce864d",
+      "date": "2026-11-11T02:41:37Z",
+      "expectedGithub": "chimchimjam377",
+      "actualGithub": "chimchimjam377",
+      "gitAuthorName": "chimchimjam377",
+      "gitAuthorEmail": "chimchimjam377@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 3,
+        "additions": 276,
+        "deletions": 70,
+        "meaningful_change": 346,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 1팀",
+      "repo": "chimchimjam377/TeamProject---Singularity-Thief",
+      "branch": "main",
+      "sha": "e1d5d4f7324588ba9d9ec30e4c589f9749fadcc1",
+      "message": "[Feat]스토리 다이얼로그 시스템 만듬 배치 안함",
+      "url": "https://github.com/chimchimjam377/TeamProject---Singularity-Thief/commit/e1d5d4f7324588ba9d9ec30e4c589f9749fadcc1",
+      "date": "2026-11-11T02:23:49Z",
+      "expectedGithub": "chimchimjam377",
+      "actualGithub": "chimchimjam377",
+      "gitAuthorName": "chimchimjam377",
+      "gitAuthorEmail": "chimchimjam377@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 20,
+        "additions": 1098,
+        "deletions": 565,
+        "meaningful_change": 1645,
+        "meaningful_file_count": 11,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "d4f1cec7f177b70c29da36b52cd38d3108ae2dfd",
+      "message": "문열기 시스템 조정",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/d4f1cec7f177b70c29da36b52cd38d3108ae2dfd",
+      "date": "2026-11-11T01:57:04Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "tjd6356-afk",
+      "gitAuthorName": "tjd6356-afk",
+      "gitAuthorEmail": "tjd6356@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 5,
+        "additions": 703,
+        "deletions": 0,
+        "meaningful_change": 584,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "a1963087e6a95f452a594d7626ab8e2cd861ea23",
+      "message": "3d 오브젝트 배치",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/a1963087e6a95f452a594d7626ab8e2cd861ea23",
+      "date": "2026-11-11T01:26:35Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "tjd6356-afk",
+      "gitAuthorName": "tjd6356-afk",
+      "gitAuthorEmail": "tjd6356@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 43,
+        "additions": 5861,
+        "deletions": 316,
+        "meaningful_change": 4462,
+        "meaningful_file_count": 24,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "1학년 A반 5팀",
       "repo": "surren01522-tech/2026_02_GameProject_Eurydice",
