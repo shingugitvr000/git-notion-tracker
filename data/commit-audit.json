@@ -1,11 +1,126 @@
 {
-  "updatedAt": "2026. 11. 14. 10:19",
+  "updatedAt": "2026. 11. 14. 16:50",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "1학년 B반 4팀",
+      "repo": "Sine-aw/nohesitate",
+      "branch": "main",
+      "sha": "e21c1267185d6e18b84ae661bdd5d5d63d460244",
+      "message": "[Feat] 10주차 프밍회의",
+      "url": "https://github.com/Sine-aw/nohesitate/commit/e21c1267185d6e18b84ae661bdd5d5d63d460244",
+      "date": "2026-11-14T06:26:13Z",
+      "expectedGithub": "Sine-aw",
+      "actualGithub": "olaf0623-crypto",
+      "gitAuthorName": "olaf0623-crypto",
+      "gitAuthorEmail": "olaf0623@g.shingu.ac.kr",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 4,
+        "additions": 7,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 0,
+        "suspicious_score": 80,
+        "judgment": "뻥의심"
+      }
+    },
+    {
+      "projectName": "3학년 1팀",
+      "repo": "ahyun04/26TeamProject_2",
+      "branch": "main",
+      "sha": "3ee995b51a295fed830ea7a7940081ef6a77a713",
+      "message": "[Feat] 미션 오브젝트 색상 배경과 알맞게 수정 , Cctv 패널, 모니터 오브젝트 추가",
+      "url": "https://github.com/ahyun04/26TeamProject_2/commit/3ee995b51a295fed830ea7a7940081ef6a77a713",
+      "date": "2026-11-14T04:26:48Z",
+      "expectedGithub": "ahyun04",
+      "actualGithub": "mataltw04",
+      "gitAuthorName": "mataltw04",
+      "gitAuthorEmail": "20040518koko@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 27,
+        "additions": 351,
+        "deletions": 139,
+        "meaningful_change": 257,
+        "meaningful_file_count": 24,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "ff37c87147b52d3f9de9327cb12db939528db2ad",
+      "message": "맵에 장식품 추가",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/ff37c87147b52d3f9de9327cb12db939528db2ad",
+      "date": "2026-11-14T03:31:12Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "tjd6356-afk",
+      "gitAuthorName": "tjd6356-afk",
+      "gitAuthorEmail": "tjd6356@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 6,
+        "additions": 463,
+        "deletions": 17,
+        "meaningful_change": 355,
+        "meaningful_file_count": 4,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "e7c5a2e3b4c77579c588dfbcc4db368aadcdc2e0",
+      "message": "게임 씬 이동 포탈 연출 생성",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/e7c5a2e3b4c77579c588dfbcc4db368aadcdc2e0",
+      "date": "2026-11-14T03:21:10Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "tjd6356-afk",
+      "gitAuthorName": "tjd6356-afk",
+      "gitAuthorEmail": "tjd6356@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 11,
+        "additions": 1271,
+        "deletions": 124,
+        "meaningful_change": 1232,
+        "meaningful_file_count": 9,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 4팀",
+      "repo": "Sine-aw/nohesitate",
+      "branch": "main",
+      "sha": "38688f031fe0bf04928ca0269d3b9a9179d51b39",
+      "message": "stage 1, 2, plate door timer",
+      "url": "https://github.com/Sine-aw/nohesitate/commit/38688f031fe0bf04928ca0269d3b9a9179d51b39",
+      "date": "2026-11-14T03:18:52Z",
+      "expectedGithub": "Sine-aw",
+      "actualGithub": "Sine-aw",
+      "gitAuthorName": "Sine-aw",
+      "gitAuthorEmail": "siany9187@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 38,
+        "additions": 11366,
+        "deletions": 4925,
+        "meaningful_change": 16180,
+        "meaningful_file_count": 20,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "1학년 B반 6팀",
       "repo": "tjd6356-afk/2-_-",
