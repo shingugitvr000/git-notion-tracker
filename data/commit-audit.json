@@ -1,11 +1,103 @@
 {
-  "updatedAt": "2026. 11. 15. 08:37",
+  "updatedAt": "2026. 11. 15. 13:51",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "3학년 4팀",
+      "repo": "yuseongmok/Delivery-service",
+      "branch": "main",
+      "sha": "6c6ffaf1ffe4890e272606480fb2f23bb14af32f",
+      "message": "[Feat] 신규 도시 기존 도시와 이어지는 터널 추가, 매장 뒤 골목 추가",
+      "url": "https://github.com/yuseongmok/Delivery-service/commit/6c6ffaf1ffe4890e272606480fb2f23bb14af32f",
+      "date": "2026-11-15T04:23:04Z",
+      "expectedGithub": "yuseongmok",
+      "actualGithub": "yuseongmok",
+      "gitAuthorName": "yuseongmok",
+      "gitAuthorEmail": "yousm112783@daum.net",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 118,
+        "additions": 147322,
+        "deletions": 26073,
+        "meaningful_change": 172781,
+        "meaningful_file_count": 61,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "b8c682f17ef3cbc7ac6f8c16a7f41f362535c866",
+      "message": "보스 체력바 연출 시스템",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/b8c682f17ef3cbc7ac6f8c16a7f41f362535c866",
+      "date": "2026-11-15T02:21:56Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "tjd6356-afk",
+      "gitAuthorName": "tjd6356-afk",
+      "gitAuthorEmail": "tjd6356@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 4,
+        "additions": 2653,
+        "deletions": 51,
+        "meaningful_change": 2704,
+        "meaningful_file_count": 4,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "7ecaa04b27a85934af71d9fbe5900abde65cf6eb",
+      "message": "캔버스 수정",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/7ecaa04b27a85934af71d9fbe5900abde65cf6eb",
+      "date": "2026-11-15T02:08:22Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "tjd6356-afk",
+      "gitAuthorName": "tjd6356-afk",
+      "gitAuthorEmail": "tjd6356@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 3,
+        "additions": 257,
+        "deletions": 45,
+        "meaningful_change": 302,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "f2eaec3c0886d22a261ea01e7f9275ace82db9ee",
+      "message": "몬스터 떨어지는 연출 수정",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/f2eaec3c0886d22a261ea01e7f9275ace82db9ee",
+      "date": "2026-11-15T01:37:01Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "tjd6356-afk",
+      "gitAuthorName": "tjd6356-afk",
+      "gitAuthorEmail": "tjd6356@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 3,
+        "additions": 301,
+        "deletions": 81,
+        "meaningful_change": 380,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "2학년 6팀",
       "repo": "jeonghyerin002/2026_2TeamProject",
