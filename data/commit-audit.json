@@ -1,11 +1,172 @@
 {
-  "updatedAt": "2026. 11. 16. 04:03",
+  "updatedAt": "2026. 11. 16. 08:28",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "d1c5a81b5f4a048aa157768b57d8745d9fd52341",
+      "message": "[Feat] 바스테트 비석을 모두 해독하면 열리는 숨은 방 향실과 히든 유물 추가",
+      "url": "https://github.com/suyan05/PharaohCube/commit/d1c5a81b5f4a048aa157768b57d8745d9fd52341",
+      "date": "2026-11-15T22:37:44Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "kangxogh1013",
+      "gitAuthorName": "kangxogh1013",
+      "gitAuthorEmail": "ho1013sl@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 30,
+        "additions": 1721,
+        "deletions": 33,
+        "meaningful_change": 601,
+        "meaningful_file_count": 17,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "4a3c4f95952630b8c95c4a78e0b93cb7f0d9952e",
+      "message": "[Fix] 수첩 메모가 넘치면 다음 쪽으로 넘기고 메모 개수 표시 수정",
+      "url": "https://github.com/suyan05/PharaohCube/commit/4a3c4f95952630b8c95c4a78e0b93cb7f0d9952e",
+      "date": "2026-11-15T21:53:54Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "kangxogh1013",
+      "gitAuthorName": "kangxogh1013",
+      "gitAuthorEmail": "ho1013sl@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 72,
+        "deletions": 10,
+        "meaningful_change": 82,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 4팀",
+      "repo": "yuseongmok/Delivery-service",
+      "branch": "main",
+      "sha": "a8141240f653d07dccdbb0a6a71093a769d1e9d3",
+      "message": "[Feat] Chicken Qeust 조리 현장 및 조리 퀘스트 완료",
+      "url": "https://github.com/yuseongmok/Delivery-service/commit/a8141240f653d07dccdbb0a6a71093a769d1e9d3",
+      "date": "2026-11-15T21:41:50Z",
+      "expectedGithub": "yuseongmok",
+      "actualGithub": "Woong1016",
+      "gitAuthorName": "Woong1016",
+      "gitAuthorEmail": "yol7122@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 7,
+        "additions": 1805,
+        "deletions": 1088,
+        "meaningful_change": 2841,
+        "meaningful_file_count": 5,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "2f9b48fb02f2864808e04e395d0114d49097b778",
+      "message": "[Fix] 수첩 유물 카드 그림 표시와 새 게임 기록 초기화 수정",
+      "url": "https://github.com/suyan05/PharaohCube/commit/2f9b48fb02f2864808e04e395d0114d49097b778",
+      "date": "2026-11-15T21:23:44Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "kangxogh1013",
+      "gitAuthorName": "kangxogh1013",
+      "gitAuthorEmail": "ho1013sl@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 11,
+        "additions": 315,
+        "deletions": 5,
+        "meaningful_change": 175,
+        "meaningful_file_count": 9,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "26e7b950cdab3aa3031aa291c74cc519d691a2f6",
+      "message": "[Feat] 바스테트 서브 퍼즐 유물 4개 획득 카드와 수첩 카드에 그림 연결",
+      "url": "https://github.com/suyan05/PharaohCube/commit/26e7b950cdab3aa3031aa291c74cc519d691a2f6",
+      "date": "2026-11-15T21:00:02Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "kangxogh1013",
+      "gitAuthorName": "kangxogh1013",
+      "gitAuthorEmail": "ho1013sl@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 12,
+        "additions": 658,
+        "deletions": 9,
+        "meaningful_change": 95,
+        "meaningful_file_count": 8,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "be4042c3b826210acf8fd26db9e692cd68c8b44e",
+      "message": "[Fix] 바스테트 맵 밖에 보이던 파란 카메라 배경을 검은색으로 수정",
+      "url": "https://github.com/suyan05/PharaohCube/commit/be4042c3b826210acf8fd26db9e692cd68c8b44e",
+      "date": "2026-11-15T20:18:15Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "kangxogh1013",
+      "gitAuthorName": "kangxogh1013",
+      "gitAuthorEmail": "ho1013sl@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 44,
+        "deletions": 0,
+        "meaningful_change": 44,
+        "meaningful_file_count": 1,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "454ff9b3c193f12b90c539b4ddc3036893dd989d",
+      "message": "[Fix] 바스테트 시작 화면이 맵 전체 대신 입구 벽화 복도를 비추도록 수정",
+      "url": "https://github.com/suyan05/PharaohCube/commit/454ff9b3c193f12b90c539b4ddc3036893dd989d",
+      "date": "2026-11-15T19:17:03Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "kangxogh1013",
+      "gitAuthorName": "kangxogh1013",
+      "gitAuthorEmail": "ho1013sl@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 95,
+        "deletions": 5,
+        "meaningful_change": 100,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "2학년 1팀",
       "repo": "suyan05/PharaohCube",
