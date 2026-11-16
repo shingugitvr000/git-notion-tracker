@@ -1,11 +1,126 @@
 {
-  "updatedAt": "2026. 11. 16. 08:28",
+  "updatedAt": "2026. 11. 16. 11:57",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "2학년 3팀",
+      "repo": "jinjooyoung/DUAL-DUEL",
+      "branch": "main",
+      "sha": "0fef058b21b9a32fa2b0767595b1c1e083986cf0",
+      "message": "[Feat] 패배 시 게임 초기화, 메임 복귀",
+      "url": "https://github.com/jinjooyoung/DUAL-DUEL/commit/0fef058b21b9a32fa2b0767595b1c1e083986cf0",
+      "date": "2026-11-16T02:17:04Z",
+      "expectedGithub": "jinjooyoung",
+      "actualGithub": "jinjooyoung",
+      "gitAuthorName": "jinjooyoung",
+      "gitAuthorEmail": "jjy26297449@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 8,
+        "additions": 803,
+        "deletions": 212,
+        "meaningful_change": 1005,
+        "meaningful_file_count": 6,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 3팀",
+      "repo": "jinjooyoung/DUAL-DUEL",
+      "branch": "main",
+      "sha": "76c186b85fd516bd2ef572daaabbef48b0f99457",
+      "message": "[Chore] 배경 추가, 적 버프아이콘 정렬 수정",
+      "url": "https://github.com/jinjooyoung/DUAL-DUEL/commit/76c186b85fd516bd2ef572daaabbef48b0f99457",
+      "date": "2026-11-16T01:31:14Z",
+      "expectedGithub": "jinjooyoung",
+      "actualGithub": "jinjooyoung",
+      "gitAuthorName": "jinjooyoung",
+      "gitAuthorEmail": "jjy26297449@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 3,
+        "additions": 350,
+        "deletions": 3,
+        "meaningful_change": 198,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 3팀",
+      "repo": "jinjooyoung/DUAL-DUEL",
+      "branch": "main",
+      "sha": "537616b436b0d6eefdc5f921695c097bcdb46570",
+      "message": "[Chore] 밸런스 수치 조정, 로컬라이징 테이블 추가, 플로팅텍스트 폰트 변경",
+      "url": "https://github.com/jinjooyoung/DUAL-DUEL/commit/537616b436b0d6eefdc5f921695c097bcdb46570",
+      "date": "2026-11-16T01:08:53Z",
+      "expectedGithub": "jinjooyoung",
+      "actualGithub": "jinjooyoung",
+      "gitAuthorName": "jinjooyoung",
+      "gitAuthorEmail": "jjy26297449@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 39,
+        "additions": 590,
+        "deletions": 77,
+        "meaningful_change": 638,
+        "meaningful_file_count": 37,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 6팀",
+      "repo": "jeonghyerin002/2026_2TeamProject",
+      "branch": "main",
+      "sha": "e45b0005c17de73371d028956a594d79151b12ce",
+      "message": "[Fix] 에테르 보관함 fasle 입력키 E키로 지정",
+      "url": "https://github.com/jeonghyerin002/2026_2TeamProject/commit/e45b0005c17de73371d028956a594d79151b12ce",
+      "date": "2026-11-16T01:08:44Z",
+      "expectedGithub": "jeonghyerin002",
+      "actualGithub": "blocks2094",
+      "gitAuthorName": "HyunWoo",
+      "gitAuthorEmail": "blocks2094@g.shingu.ac.kr",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 15,
+        "deletions": 0,
+        "meaningful_change": 15,
+        "meaningful_file_count": 1,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "c13f3d2ebf85b2948f42d0084100e023c096acfb",
+      "message": "더미 오브젝트",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/c13f3d2ebf85b2948f42d0084100e023c096acfb",
+      "date": "2026-11-16T01:00:05Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "tjd6356-afk",
+      "gitAuthorName": "tjd6356-afk",
+      "gitAuthorEmail": "tjd6356@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 6,
+        "additions": 440,
+        "deletions": 1108,
+        "meaningful_change": 1546,
+        "meaningful_file_count": 5,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "2학년 1팀",
       "repo": "suyan05/PharaohCube",
