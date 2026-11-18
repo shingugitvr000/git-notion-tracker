@@ -1,11 +1,333 @@
 {
-  "updatedAt": "2026. 11. 18. 12:02",
+  "updatedAt": "2026. 11. 18. 21:04",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "1학년 B반 4팀",
+      "repo": "Sine-aw/nohesitate",
+      "branch": "main",
+      "sha": "687fbed341fd872fad3ff323d74650a286bd12d1",
+      "message": "[Feat] 아트&프밍 회의 11",
+      "url": "https://github.com/Sine-aw/nohesitate/commit/687fbed341fd872fad3ff323d74650a286bd12d1",
+      "date": "2026-11-18T11:52:59Z",
+      "expectedGithub": "Sine-aw",
+      "actualGithub": "olaf0623-crypto",
+      "gitAuthorName": "olaf0623-crypto",
+      "gitAuthorEmail": "olaf0623@g.shingu.ac.kr",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 7,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 0,
+        "suspicious_score": 80,
+        "judgment": "뻥의심"
+      }
+    },
+    {
+      "projectName": "1학년 B반 4팀",
+      "repo": "Sine-aw/nohesitate",
+      "branch": "main",
+      "sha": "6db2f09654f865dc6850f17e049a7bdaae4fcb73",
+      "message": "UI이미지 전부 올렸음",
+      "url": "https://github.com/Sine-aw/nohesitate/commit/6db2f09654f865dc6850f17e049a7bdaae4fcb73",
+      "date": "2026-11-18T11:06:29Z",
+      "expectedGithub": "Sine-aw",
+      "actualGithub": "Liesame",
+      "gitAuthorName": "Liesame",
+      "gitAuthorEmail": "aaa01062223008@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 18,
+        "additions": 1053,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 9,
+        "suspicious_score": 35,
+        "judgment": "확인필요"
+      }
+    },
+    {
+      "projectName": "2학년 3팀",
+      "repo": "jinjooyoung/DUAL-DUEL",
+      "branch": "main",
+      "sha": "fb6633c77a81ccca101c97cbf792195123d18777",
+      "message": "[Chore] SO 재생성",
+      "url": "https://github.com/jinjooyoung/DUAL-DUEL/commit/fb6633c77a81ccca101c97cbf792195123d18777",
+      "date": "2026-11-18T09:26:23Z",
+      "expectedGithub": "jinjooyoung",
+      "actualGithub": "jinjooyoung",
+      "gitAuthorName": "jinjooyoung",
+      "gitAuthorEmail": "jjy26297449@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 30,
+        "additions": 30,
+        "deletions": 2,
+        "meaningful_change": 32,
+        "meaningful_file_count": 29,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 1팀",
+      "repo": "chimchimjam377/TeamProject---Singularity-Thief",
+      "branch": "main",
+      "sha": "67a23efa013a782ddf505fc96572dd5c2401ac42",
+      "message": "(미완성) 공격 패널_UI",
+      "url": "https://github.com/chimchimjam377/TeamProject---Singularity-Thief/commit/67a23efa013a782ddf505fc96572dd5c2401ac42",
+      "date": "2026-11-18T07:26:11Z",
+      "expectedGithub": "chimchimjam377",
+      "actualGithub": "leejunyuny",
+      "gitAuthorName": "leejunyuny",
+      "gitAuthorEmail": "a20535495@g.shingu.ac.kr",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 0,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 1,
+        "suspicious_score": 50,
+        "judgment": "확인필요"
+      }
+    },
+    {
+      "projectName": "1학년 A반 5팀",
+      "repo": "surren01522-tech/2026_02_GameProject_Eurydice",
+      "branch": "main",
+      "sha": "4ce156aba86fe02d1b3c8b9f2b57983e44f21ecb",
+      "message": "[Feat] 포탈 모양 커스텀, 잔디 경계선 완화",
+      "url": "https://github.com/surren01522-tech/2026_02_GameProject_Eurydice/commit/4ce156aba86fe02d1b3c8b9f2b57983e44f21ecb",
+      "date": "2026-11-18T05:42:02Z",
+      "expectedGithub": "sw4860",
+      "actualGithub": "sw4860",
+      "gitAuthorName": "sand",
+      "gitAuthorEmail": "68569225+sw4860@users.noreply.github.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 29,
+        "additions": 3102,
+        "deletions": 5097,
+        "meaningful_change": 3739,
+        "meaningful_file_count": 17,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 1팀",
+      "repo": "chimchimjam377/TeamProject---Singularity-Thief",
+      "branch": "main",
+      "sha": "81abd59fba3e25434e8eb952a780d1a23a44b1ab",
+      "message": "UI_버튼 분리",
+      "url": "https://github.com/chimchimjam377/TeamProject---Singularity-Thief/commit/81abd59fba3e25434e8eb952a780d1a23a44b1ab",
+      "date": "2026-11-18T04:46:39Z",
+      "expectedGithub": "chimchimjam377",
+      "actualGithub": "leejunyuny",
+      "gitAuthorName": "leejunyuny",
+      "gitAuthorEmail": "a20535495@g.shingu.ac.kr",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 0,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 2,
+        "suspicious_score": 35,
+        "judgment": "확인필요"
+      }
+    },
+    {
+      "projectName": "1학년 A반 5팀",
+      "repo": "surren01522-tech/2026_02_GameProject_Eurydice",
+      "branch": "main",
+      "sha": "3bd39846be708d54598cae2aab59a97d48921638",
+      "message": "[Refactor] 잔디 최적화",
+      "url": "https://github.com/surren01522-tech/2026_02_GameProject_Eurydice/commit/3bd39846be708d54598cae2aab59a97d48921638",
+      "date": "2026-11-18T04:32:50Z",
+      "expectedGithub": "sw4860",
+      "actualGithub": "sw4860",
+      "gitAuthorName": "sand",
+      "gitAuthorEmail": "68569225+sw4860@users.noreply.github.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 44,
+        "additions": 1937,
+        "deletions": 1956,
+        "meaningful_change": 3877,
+        "meaningful_file_count": 40,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 1팀",
+      "repo": "chimchimjam377/TeamProject---Singularity-Thief",
+      "branch": "main",
+      "sha": "9b788e903f7b10501f927f3fe3eeb7c0f5d801a5",
+      "message": "Merge branch 'main' of https://github.com/chimchimjam377/TeamProject---Singularity-Thief",
+      "url": "https://github.com/chimchimjam377/TeamProject---Singularity-Thief/commit/9b788e903f7b10501f927f3fe3eeb7c0f5d801a5",
+      "date": "2026-11-18T04:25:03Z",
+      "expectedGithub": "chimchimjam377",
+      "actualGithub": "leejunyuny",
+      "gitAuthorName": "leejunyuny",
+      "gitAuthorEmail": "a20535495@g.shingu.ac.kr",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 300,
+        "additions": 36933,
+        "deletions": 1038256,
+        "meaningful_change": 535,
+        "meaningful_file_count": 137,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 1팀",
+      "repo": "chimchimjam377/TeamProject---Singularity-Thief",
+      "branch": "main",
+      "sha": "a5e9c590375ab82d698a0451161b9db72f460c8d",
+      "message": "UI 일부",
+      "url": "https://github.com/chimchimjam377/TeamProject---Singularity-Thief/commit/a5e9c590375ab82d698a0451161b9db72f460c8d",
+      "date": "2026-11-18T04:24:20Z",
+      "expectedGithub": "chimchimjam377",
+      "actualGithub": "leejunyuny",
+      "gitAuthorName": "leejunyuny",
+      "gitAuthorEmail": "a20535495@g.shingu.ac.kr",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 3,
+        "additions": 0,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 3,
+        "suspicious_score": 35,
+        "judgment": "확인필요"
+      }
+    },
+    {
+      "projectName": "2학년 3팀",
+      "repo": "jinjooyoung/DUAL-DUEL",
+      "branch": "main",
+      "sha": "afdef8a0b2f94962707dda92171f66a01169a98c",
+      "message": "[Feat] 승리시 골드 획득, 승패 패널에 리뷰 텍스트 추가, 사망 시 골드 초기화",
+      "url": "https://github.com/jinjooyoung/DUAL-DUEL/commit/afdef8a0b2f94962707dda92171f66a01169a98c",
+      "date": "2026-11-18T03:39:50Z",
+      "expectedGithub": "jinjooyoung",
+      "actualGithub": "jinjooyoung",
+      "gitAuthorName": "jinjooyoung",
+      "gitAuthorEmail": "jjy26297449@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 6,
+        "additions": 322,
+        "deletions": 6,
+        "meaningful_change": 328,
+        "meaningful_file_count": 6,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 3팀",
+      "repo": "jinjooyoung/DUAL-DUEL",
+      "branch": "main",
+      "sha": "c9cd8f6829614e5b7acd9920b77a3edb95c9a296",
+      "message": "[Fix] 강화, 제거 연출 시 화면 왜곡멈춤 -> 섬광 시점 조정",
+      "url": "https://github.com/jinjooyoung/DUAL-DUEL/commit/c9cd8f6829614e5b7acd9920b77a3edb95c9a296",
+      "date": "2026-11-18T03:19:09Z",
+      "expectedGithub": "jinjooyoung",
+      "actualGithub": "jinjooyoung",
+      "gitAuthorName": "jinjooyoung",
+      "gitAuthorEmail": "jjy26297449@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 25,
+        "deletions": 17,
+        "meaningful_change": 42,
+        "meaningful_file_count": 1,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 1팀",
+      "repo": "chimchimjam377/TeamProject---Singularity-Thief",
+      "branch": "main",
+      "sha": "f4537fa9c32ceb5f4d5a8e0733eb48261c8e0cc3",
+      "message": "[Feat] 런 시스템 코드 만듬 배치해야함",
+      "url": "https://github.com/chimchimjam377/TeamProject---Singularity-Thief/commit/f4537fa9c32ceb5f4d5a8e0733eb48261c8e0cc3",
+      "date": "2026-11-18T03:18:32Z",
+      "expectedGithub": "chimchimjam377",
+      "actualGithub": "chimchimjam377",
+      "gitAuthorName": "chimchimjam377",
+      "gitAuthorEmail": "chimchimjam377@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 16,
+        "additions": 474,
+        "deletions": 119,
+        "meaningful_change": 565,
+        "meaningful_file_count": 8,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 3팀",
+      "repo": "jinjooyoung/DUAL-DUEL",
+      "branch": "main",
+      "sha": "3969cb6f6a245dddf09c16cce98ceab88acbc4f3",
+      "message": "[Fix] 연출 시점 조정",
+      "url": "https://github.com/jinjooyoung/DUAL-DUEL/commit/3969cb6f6a245dddf09c16cce98ceab88acbc4f3",
+      "date": "2026-11-18T03:16:47Z",
+      "expectedGithub": "jinjooyoung",
+      "actualGithub": "jinjooyoung",
+      "gitAuthorName": "jinjooyoung",
+      "gitAuthorEmail": "jjy26297449@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 12,
+        "deletions": 8,
+        "meaningful_change": 20,
+        "meaningful_file_count": 1,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 1팀",
+      "repo": "chimchimjam377/TeamProject---Singularity-Thief",
+      "branch": "main",
+      "sha": "b26d2d7e068756043642f279f11d2a799f576522",
+      "message": "스토리에서 씬 넘어가짐",
+      "url": "https://github.com/chimchimjam377/TeamProject---Singularity-Thief/commit/b26d2d7e068756043642f279f11d2a799f576522",
+      "date": "2026-11-18T03:08:16Z",
+      "expectedGithub": "chimchimjam377",
+      "actualGithub": "chimchimjam377",
+      "gitAuthorName": "chimchimjam377",
+      "gitAuthorEmail": "chimchimjam377@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 3,
+        "additions": 46,
+        "deletions": 3,
+        "meaningful_change": 49,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "1학년 A반 1팀",
       "repo": "chimchimjam377/TeamProject---Singularity-Thief",
@@ -7643,6 +7965,29 @@
       }
     },
     {
+      "projectName": "1학년 B반 1팀",
+      "repo": "simo07d7PG/Team_JJAMBBAP",
+      "branch": "main",
+      "sha": "43aa366dff7c1310c94ce85f12313ddd1200266c",
+      "message": "[Feat] 기계 라떼·라떼 아트·아메리카노 메뉴 추가",
+      "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/43aa366dff7c1310c94ce85f12313ddd1200266c",
+      "date": "2026-11-11T04:19:37Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "simo07d7PG",
+      "gitAuthorName": "simo07d7PG",
+      "gitAuthorEmail": "simo07d7.pg@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 8,
+        "additions": 1293,
+        "deletions": 184,
+        "meaningful_change": 1453,
+        "meaningful_file_count": 5,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
       "projectName": "1학년 A반 1팀",
       "repo": "chimchimjam377/TeamProject---Singularity-Thief",
       "branch": "main",
@@ -7706,6 +8051,29 @@
         "additions": 276,
         "deletions": 70,
         "meaningful_change": 346,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 1팀",
+      "repo": "simo07d7PG/Team_JJAMBBAP",
+      "branch": "main",
+      "sha": "f99d9c4f4b2dfe6e9c8212ff5bc8a4c72bc93630",
+      "message": "[Feat] 라떼 아트 미니게임 추가",
+      "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/f99d9c4f4b2dfe6e9c8212ff5bc8a4c72bc93630",
+      "date": "2026-11-11T02:29:54Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "simo07d7PG",
+      "gitAuthorName": "simo07d7PG",
+      "gitAuthorEmail": "simo07d7.pg@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 7,
+        "additions": 5572,
+        "deletions": 0,
+        "meaningful_change": 5553,
         "meaningful_file_count": 3,
         "suspicious_score": 0,
         "judgment": "정상"
@@ -7781,6 +8149,75 @@
       }
     },
     {
+      "projectName": "1학년 B반 1팀",
+      "repo": "simo07d7PG/Team_JJAMBBAP",
+      "branch": "main",
+      "sha": "39fde1f78377b0a129553e46102081a92d7ef51c",
+      "message": "[Feat] 우유 스팀 미니게임 추가",
+      "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/39fde1f78377b0a129553e46102081a92d7ef51c",
+      "date": "2026-11-11T00:44:10Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "simo07d7PG",
+      "gitAuthorName": "simo07d7PG",
+      "gitAuthorEmail": "simo07d7.pg@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 7,
+        "additions": 8496,
+        "deletions": 0,
+        "meaningful_change": 8477,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 1팀",
+      "repo": "simo07d7PG/Team_JJAMBBAP",
+      "branch": "main",
+      "sha": "2a14dbb0d4efb3853916544868bb73d53f106b6c",
+      "message": "[Feat] 포타필터 담기 미니게임 추가",
+      "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/2a14dbb0d4efb3853916544868bb73d53f106b6c",
+      "date": "2026-11-10T23:03:52Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "simo07d7PG",
+      "gitAuthorName": "simo07d7PG",
+      "gitAuthorEmail": "simo07d7.pg@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 7,
+        "additions": 7461,
+        "deletions": 0,
+        "meaningful_change": 7442,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 1팀",
+      "repo": "simo07d7PG/Team_JJAMBBAP",
+      "branch": "main",
+      "sha": "7613845d16f8f9a14786707acff10b662555c304",
+      "message": "[Feat] 물 타기 미니게임 추가",
+      "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/7613845d16f8f9a14786707acff10b662555c304",
+      "date": "2026-11-10T21:29:16Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "simo07d7PG",
+      "gitAuthorName": "simo07d7PG",
+      "gitAuthorEmail": "simo07d7.pg@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 7,
+        "additions": 6988,
+        "deletions": 0,
+        "meaningful_change": 6969,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
       "projectName": "1학년 A반 5팀",
       "repo": "surren01522-tech/2026_02_GameProject_Eurydice",
       "branch": "main",
@@ -7799,6 +8236,29 @@
         "deletions": 16,
         "meaningful_change": 144474,
         "meaningful_file_count": 63,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 1팀",
+      "repo": "simo07d7PG/Team_JJAMBBAP",
+      "branch": "main",
+      "sha": "91a5f0a9fcbe8febfe76c72e18dd4cab5b292683",
+      "message": "[Feat] 탬핑 미니게임 추가",
+      "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/91a5f0a9fcbe8febfe76c72e18dd4cab5b292683",
+      "date": "2026-11-10T20:01:40Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "simo07d7PG",
+      "gitAuthorName": "simo07d7PG",
+      "gitAuthorEmail": "simo07d7.pg@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 7,
+        "additions": 7528,
+        "deletions": 0,
+        "meaningful_change": 7509,
+        "meaningful_file_count": 3,
         "suspicious_score": 0,
         "judgment": "정상"
       }
@@ -7827,6 +8287,29 @@
       }
     },
     {
+      "projectName": "1학년 B반 1팀",
+      "repo": "simo07d7PG/Team_JJAMBBAP",
+      "branch": "main",
+      "sha": "47cf0f70895504e41c72d8579ea0f8098d3e5174",
+      "message": "[Feat] 갈기 타이밍 미니게임 추가",
+      "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/47cf0f70895504e41c72d8579ea0f8098d3e5174",
+      "date": "2026-11-10T18:37:44Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "simo07d7PG",
+      "gitAuthorName": "simo07d7PG",
+      "gitAuthorEmail": "simo07d7.pg@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 7,
+        "additions": 6231,
+        "deletions": 0,
+        "meaningful_change": 6212,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
       "projectName": "2학년 2팀",
       "repo": "esuvean/PRESS-START_",
       "branch": "main",
@@ -7844,6 +8327,29 @@
         "additions": 1724,
         "deletions": 1155,
         "meaningful_change": 2877,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 1팀",
+      "repo": "simo07d7PG/Team_JJAMBBAP",
+      "branch": "main",
+      "sha": "50183c2965e525938dd2810237fbf21df6fa825b",
+      "message": "[Fix] 컵이 단계 사이로 이어지지 않던 문제 수정",
+      "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/50183c2965e525938dd2810237fbf21df6fa825b",
+      "date": "2026-11-10T16:58:51Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "simo07d7PG",
+      "gitAuthorName": "simo07d7PG",
+      "gitAuthorEmail": "simo07d7.pg@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 3,
+        "additions": 25,
+        "deletions": 3,
+        "meaningful_change": 28,
         "meaningful_file_count": 3,
         "suspicious_score": 0,
         "judgment": "정상"
@@ -7868,6 +8374,29 @@
         "deletions": 5399,
         "meaningful_change": 9610,
         "meaningful_file_count": 16,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 1팀",
+      "repo": "simo07d7PG/Team_JJAMBBAP",
+      "branch": "main",
+      "sha": "2674047794d40db08afdc3d8dae3576b3bf417a9",
+      "message": "[Feat] 핸드드립 커피 메뉴 추가",
+      "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/2674047794d40db08afdc3d8dae3576b3bf417a9",
+      "date": "2026-11-10T16:01:04Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "simo07d7PG",
+      "gitAuthorName": "simo07d7PG",
+      "gitAuthorEmail": "simo07d7.pg@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 5,
+        "additions": 58,
+        "deletions": 4,
+        "meaningful_change": 54,
+        "meaningful_file_count": 4,
         "suspicious_score": 0,
         "judgment": "정상"
       }
@@ -7914,6 +8443,29 @@
         "deletions": 227,
         "meaningful_change": 2931,
         "meaningful_file_count": 10,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 1팀",
+      "repo": "simo07d7PG/Team_JJAMBBAP",
+      "branch": "main",
+      "sha": "afb4c241ffd521361f6019888a62c5364662b9dd",
+      "message": "[Feat] 핸드드립 붓기 미니게임 추가",
+      "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/afb4c241ffd521361f6019888a62c5364662b9dd",
+      "date": "2026-11-10T15:13:37Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "simo07d7PG",
+      "gitAuthorName": "simo07d7PG",
+      "gitAuthorEmail": "simo07d7.pg@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 10,
+        "additions": 9042,
+        "deletions": 212,
+        "meaningful_change": 9214,
+        "meaningful_file_count": 5,
         "suspicious_score": 0,
         "judgment": "정상"
       }
@@ -7983,6 +8535,29 @@
         "deletions": 0,
         "meaningful_change": 79,
         "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 1팀",
+      "repo": "simo07d7PG/Team_JJAMBBAP",
+      "branch": "main",
+      "sha": "0382fe912bf3f62cd0bfa826e0f642bb621504cd",
+      "message": "[Feat] 주전자 끓이기 미니게임 추가",
+      "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/0382fe912bf3f62cd0bfa826e0f642bb621504cd",
+      "date": "2026-11-10T13:26:33Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "simo07d7PG",
+      "gitAuthorName": "simo07d7PG",
+      "gitAuthorEmail": "simo07d7.pg@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 10,
+        "additions": 8218,
+        "deletions": 175,
+        "meaningful_change": 8290,
+        "meaningful_file_count": 5,
         "suspicious_score": 0,
         "judgment": "정상"
       }
@@ -8149,6 +8724,29 @@
       }
     },
     {
+      "projectName": "1학년 B반 1팀",
+      "repo": "simo07d7PG/Team_JJAMBBAP",
+      "branch": "main",
+      "sha": "c3d51344ea7fa560782f283a739e5af176f6fbc1",
+      "message": "[Feat] 핸드드립 원두·물 넣기 미니게임 추가",
+      "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/c3d51344ea7fa560782f283a739e5af176f6fbc1",
+      "date": "2026-11-10T11:44:09Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "simo07d7PG",
+      "gitAuthorName": "simo07d7PG",
+      "gitAuthorEmail": "simo07d7.pg@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 9,
+        "additions": 8355,
+        "deletions": 0,
+        "meaningful_change": 8336,
+        "meaningful_file_count": 5,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
       "projectName": "3학년 1팀",
       "repo": "ahyun04/26TeamProject_2",
       "branch": "main",
@@ -8190,6 +8788,98 @@
         "deletions": 6,
         "meaningful_change": 391,
         "meaningful_file_count": 4,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 1팀",
+      "repo": "simo07d7PG/Team_JJAMBBAP",
+      "branch": "main",
+      "sha": "693c36859bae0d221b76f6ce268b579226223e2a",
+      "message": "[Feat] 수동 그라인더 미니게임 추가",
+      "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/693c36859bae0d221b76f6ce268b579226223e2a",
+      "date": "2026-11-10T09:45:35Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "simo07d7PG",
+      "gitAuthorName": "simo07d7PG",
+      "gitAuthorEmail": "simo07d7.pg@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 9,
+        "additions": 6651,
+        "deletions": 36,
+        "meaningful_change": 6668,
+        "meaningful_file_count": 5,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 1팀",
+      "repo": "simo07d7PG/Team_JJAMBBAP",
+      "branch": "main",
+      "sha": "5e603e45bea9755f2073aa68a33a2d395ba7fa43",
+      "message": "[Fix] 얼음 담기 미니게임 컵 크기 조정",
+      "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/5e603e45bea9755f2073aa68a33a2d395ba7fa43",
+      "date": "2026-11-10T08:10:56Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "simo07d7PG",
+      "gitAuthorName": "simo07d7PG",
+      "gitAuthorEmail": "simo07d7.pg@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 20,
+        "deletions": 0,
+        "meaningful_change": 20,
+        "meaningful_file_count": 1,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 1팀",
+      "repo": "simo07d7PG/Team_JJAMBBAP",
+      "branch": "main",
+      "sha": "6bf239e7d936f77b7a93d11f326f7161e6fbe8a9",
+      "message": "[Feat] 로비 세이브 선택 화면 추가",
+      "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/6bf239e7d936f77b7a93d11f326f7161e6fbe8a9",
+      "date": "2026-11-10T08:03:08Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "simo07d7PG",
+      "gitAuthorName": "simo07d7PG",
+      "gitAuthorEmail": "simo07d7.pg@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 9,
+        "additions": 3847,
+        "deletions": 47,
+        "meaningful_change": 3892,
+        "meaningful_file_count": 8,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 1팀",
+      "repo": "simo07d7PG/Team_JJAMBBAP",
+      "branch": "main",
+      "sha": "f02da4593cf97376f2770372dce224d2bfc9b149",
+      "message": "[Feat] 저장 슬롯 3칸 수동 저장·불러오기 추가",
+      "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/f02da4593cf97376f2770372dce224d2bfc9b149",
+      "date": "2026-11-10T07:16:27Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "simo07d7PG",
+      "gitAuthorName": "simo07d7PG",
+      "gitAuthorEmail": "simo07d7.pg@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 11,
+        "additions": 4435,
+        "deletions": 469,
+        "meaningful_change": 4896,
+        "meaningful_file_count": 7,
         "suspicious_score": 0,
         "judgment": "정상"
       }
