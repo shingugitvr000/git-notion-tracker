@@ -1,11 +1,80 @@
 {
-  "updatedAt": "2026. 11. 19. 05:48",
+  "updatedAt": "2026. 11. 19. 11:16",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "2학년 3팀",
+      "repo": "jinjooyoung/DUAL-DUEL",
+      "branch": "main",
+      "sha": "79ef6596fc83b6e7e18b2fe69684a73999a47a3c",
+      "message": "[Chore] 상점 fx 수정, 상점씬에 툴팁캔버스 추가",
+      "url": "https://github.com/jinjooyoung/DUAL-DUEL/commit/79ef6596fc83b6e7e18b2fe69684a73999a47a3c",
+      "date": "2026-11-19T02:04:14Z",
+      "expectedGithub": "jinjooyoung",
+      "actualGithub": "jinjooyoung",
+      "gitAuthorName": "jinjooyoung",
+      "gitAuthorEmail": "jjy26297449@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 5,
+        "additions": 138,
+        "deletions": 8,
+        "meaningful_change": 130,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 3팀",
+      "repo": "jinjooyoung/DUAL-DUEL",
+      "branch": "main",
+      "sha": "d0aff15cab5f00c02e4ab140c4893ae32536a169",
+      "message": "[Chore] 보유 골드 UI 추가, 설정팝업 리소스 변경, 코인 리소스 수정",
+      "url": "https://github.com/jinjooyoung/DUAL-DUEL/commit/d0aff15cab5f00c02e4ab140c4893ae32536a169",
+      "date": "2026-11-19T01:18:35Z",
+      "expectedGithub": "jinjooyoung",
+      "actualGithub": "jinjooyoung",
+      "gitAuthorName": "jinjooyoung",
+      "gitAuthorEmail": "jjy26297449@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 6,
+        "additions": 164,
+        "deletions": 32,
+        "meaningful_change": 194,
+        "meaningful_file_count": 5,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 5팀",
+      "repo": "surren01522-tech/2026_02_GameProject_Eurydice",
+      "branch": "main",
+      "sha": "40daaeaccc4f6d7ae113154e121adf85527a97f0",
+      "message": "[feat] 퍼즐 벽화 벽 3D 리소스 추가",
+      "url": "https://github.com/surren01522-tech/2026_02_GameProject_Eurydice/commit/40daaeaccc4f6d7ae113154e121adf85527a97f0",
+      "date": "2026-11-18T20:59:26Z",
+      "expectedGithub": "sw4860",
+      "actualGithub": "surren01522-tech",
+      "gitAuthorName": "surren01522-tech",
+      "gitAuthorEmail": "surren01522@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 21,
+        "additions": 15277,
+        "deletions": 0,
+        "meaningful_change": 634,
+        "meaningful_file_count": 4,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "1학년 A반 5팀",
       "repo": "surren01522-tech/2026_02_GameProject_Eurydice",
