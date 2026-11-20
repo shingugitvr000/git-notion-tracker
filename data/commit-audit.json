@@ -1,11 +1,126 @@
 {
-  "updatedAt": "2026. 11. 20. 04:22",
+  "updatedAt": "2026. 11. 20. 10:23",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "2학년 6팀",
+      "repo": "jeonghyerin002/2026_2TeamProject",
+      "branch": "main",
+      "sha": "a2499644627bb787f4eac0bb66c574dd7fa97ef0",
+      "message": "[Feat] Scene 전환 시 플레이어 이동 정지",
+      "url": "https://github.com/jeonghyerin002/2026_2TeamProject/commit/a2499644627bb787f4eac0bb66c574dd7fa97ef0",
+      "date": "2026-11-20T01:05:13Z",
+      "expectedGithub": "jeonghyerin002",
+      "actualGithub": "blocks2094",
+      "gitAuthorName": "HyunWoo",
+      "gitAuthorEmail": "blocks2094@g.shingu.ac.kr",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 35,
+        "deletions": 4,
+        "meaningful_change": 39,
+        "meaningful_file_count": 1,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 1팀",
+      "repo": "simo07d7PG/Team_JJAMBBAP",
+      "branch": "main",
+      "sha": "bb4d0b5f24e8339ac5b1d6fadf4a124b29f18781",
+      "message": "[Feat] 도감에 메뉴별 만드는 법 표시",
+      "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/bb4d0b5f24e8339ac5b1d6fadf4a124b29f18781",
+      "date": "2026-11-19T20:22:26Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "simo07d7PG",
+      "gitAuthorName": "simo07d7PG",
+      "gitAuthorEmail": "simo07d7.pg@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 3,
+        "additions": 209,
+        "deletions": 0,
+        "meaningful_change": 207,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 1팀",
+      "repo": "simo07d7PG/Team_JJAMBBAP",
+      "branch": "main",
+      "sha": "0bd019de1a4e717721518154200a8efc3ab6aef3",
+      "message": "[Feat] 첫 진입 설명 카드·다시 보기·첫 판 시간 여유",
+      "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/0bd019de1a4e717721518154200a8efc3ab6aef3",
+      "date": "2026-11-19T20:22:26Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "simo07d7PG",
+      "gitAuthorName": "simo07d7PG",
+      "gitAuthorEmail": "simo07d7.pg@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 3,
+        "additions": 461,
+        "deletions": 6,
+        "meaningful_change": 465,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 1팀",
+      "repo": "simo07d7PG/Team_JJAMBBAP",
+      "branch": "main",
+      "sha": "18b11437e8e390aa84cb6539ae18fd84ff867919",
+      "message": "[Feat] 미니게임 설명 데이터와 실패 이유 문구 추가",
+      "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/18b11437e8e390aa84cb6539ae18fd84ff867919",
+      "date": "2026-11-19T20:22:25Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "simo07d7PG",
+      "gitAuthorName": "simo07d7PG",
+      "gitAuthorEmail": "simo07d7.pg@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 16,
+        "additions": 240,
+        "deletions": 52,
+        "meaningful_change": 290,
+        "meaningful_file_count": 15,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "3학년 4팀",
+      "repo": "yuseongmok/Delivery-service",
+      "branch": "main",
+      "sha": "4cac8b64178947271539453b9f67f896ae0e2237",
+      "message": "[Feat] 챕터3 신규 매장 -> 무기상 구현",
+      "url": "https://github.com/yuseongmok/Delivery-service/commit/4cac8b64178947271539453b9f67f896ae0e2237",
+      "date": "2026-11-19T20:05:32Z",
+      "expectedGithub": "yuseongmok",
+      "actualGithub": "shingumingi",
+      "gitAuthorName": "shingumingi",
+      "gitAuthorEmail": "pettid0314@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 14,
+        "additions": 51152,
+        "deletions": 7532,
+        "meaningful_change": 58664,
+        "meaningful_file_count": 10,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "1학년 B반 4팀",
       "repo": "Sine-aw/nohesitate",

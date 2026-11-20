@@ -1,7 +1,7 @@
 {
   "course": "Git 프로젝트 활동 현황",
   "notionUrl": "https://abaft-vibraphone-8f7.notion.site/Git-3c28655a72df80199dafc115fef9ddd4?pvs=74",
-  "updatedAt": "2026. 11. 20. 04:22",
+  "updatedAt": "2026. 11. 20. 10:23",
   "students": [
     {
       "name": "2학년 1팀",
@@ -50,7 +50,7 @@
         },
         {
           "message": "[Fix]맵 배치 수정",
-          "time": "24일 전",
+          "time": "25일 전",
           "sha": "8a6722c",
           "url": "https://github.com/suyan05/PharaohCube/commit/8a6722c485e74bffff25d3bc1eab00fc639458d3"
         }
@@ -118,45 +118,45 @@
       "commits": 21,
       "semesterCommits": 90,
       "activeDays": 3,
-      "lastCommit": "3일 전",
-      "status": "active",
+      "lastCommit": "4일 전",
+      "status": "watch",
       "weekly": [
         9,
-        10,
         13,
+        10,
         9,
-        0,
-        6,
+        2,
+        4,
         21
       ],
       "recent": [
         {
           "message": "[Feat] 바스테트 비석을 모두 해독하면 열리는 숨은 방 향실과 히든 유물 추가",
-          "time": "3일 전",
+          "time": "4일 전",
           "sha": "d1c5a81",
           "url": "https://github.com/suyan05/PharaohCube/commit/d1c5a81b5f4a048aa157768b57d8745d9fd52341"
         },
         {
           "message": "[Fix] 수첩 메모가 넘치면 다음 쪽으로 넘기고 메모 개수 표시 수정",
-          "time": "3일 전",
+          "time": "4일 전",
           "sha": "4a3c4f9",
           "url": "https://github.com/suyan05/PharaohCube/commit/4a3c4f95952630b8c95c4a78e0b93cb7f0d9952e"
         },
         {
           "message": "[Fix] 수첩 유물 카드 그림 표시와 새 게임 기록 초기화 수정",
-          "time": "3일 전",
+          "time": "4일 전",
           "sha": "2f9b48f",
           "url": "https://github.com/suyan05/PharaohCube/commit/2f9b48fb02f2864808e04e395d0114d49097b778"
         },
         {
           "message": "[Feat] 바스테트 서브 퍼즐 유물 4개 획득 카드와 수첩 카드에 그림 연결",
-          "time": "3일 전",
+          "time": "4일 전",
           "sha": "26e7b95",
           "url": "https://github.com/suyan05/PharaohCube/commit/26e7b950cdab3aa3031aa291c74cc519d691a2f6"
         },
         {
           "message": "[Fix] 바스테트 맵 밖에 보이던 파란 카메라 배경을 검은색으로 수정",
-          "time": "3일 전",
+          "time": "4일 전",
           "sha": "be4042c",
           "url": "https://github.com/suyan05/PharaohCube/commit/be4042c3b826210acf8fd26db9e692cd68c8b44e"
         }
@@ -174,12 +174,12 @@
       "lastCommit": "7일 전",
       "status": "watch",
       "weekly": [
-        28,
-        8,
-        12,
+        30,
+        7,
+        11,
         18,
-        5,
-        34,
+        7,
+        32,
         0
       ],
       "recent": [
@@ -443,8 +443,8 @@
         5,
         1,
         6,
-        0,
-        4,
+        1,
+        3,
         2
       ],
       "recent": [
@@ -545,7 +545,7 @@
       "lastCommit": "3일 전",
       "status": "active",
       "weekly": [
-        8,
+        7,
         9,
         4,
         9,
@@ -754,7 +754,7 @@
       "commits": 0,
       "semesterCommits": 58,
       "activeDays": 0,
-      "lastCommit": "75일 전",
+      "lastCommit": "76일 전",
       "status": "inactive",
       "weekly": [
         0,
@@ -768,13 +768,13 @@
       "recent": [
         {
           "message": "[Feat] 타이머 및 게임 종료 결과 UI 추가",
-          "time": "75일 전",
+          "time": "76일 전",
           "sha": "76b6ffc",
           "url": "https://github.com/ahyun04/26TeamProject_2/commit/76b6ffc6ae207ddeb3d48a586ee9ca4a598a1880"
         },
         {
           "message": "[Feat] 게임 종료 시스템 제작",
-          "time": "75일 전",
+          "time": "76일 전",
           "sha": "48bacc9",
           "url": "https://github.com/ahyun04/26TeamProject_2/commit/48bacc928caadc45515074a23ad65c3a07cce4eb"
         },
@@ -852,88 +852,41 @@
       ]
     },
     {
-      "name": "Woong1016 (실제 커밋 작성자)",
-      "id": "Woong1016",
-      "team": "3학년 4팀",
-      "github": "Woong1016",
-      "repo": "yuseongmok/Delivery-service",
-      "commits": 2,
-      "semesterCommits": 52,
-      "activeDays": 2,
-      "lastCommit": "3일 전",
-      "status": "active",
-      "weekly": [
-        7,
-        4,
-        7,
-        3,
-        0,
-        8,
-        2
-      ],
-      "recent": [
-        {
-          "message": "[Feat] Chicken Qeust 조리 현장 및 조리 퀘스트 완료",
-          "time": "3일 전",
-          "sha": "a814124",
-          "url": "https://github.com/yuseongmok/Delivery-service/commit/a8141240f653d07dccdbb0a6a71093a769d1e9d3"
-        },
-        {
-          "message": "[Feat] 감옥챕터- 식당 치킨만들기 미션 기능구현 완료",
-          "time": "6일 전",
-          "sha": "dd58b3d",
-          "url": "https://github.com/yuseongmok/Delivery-service/commit/dd58b3db0c0fd21b4e2f54a39cb24f3ae02334bc"
-        },
-        {
-          "message": "[Fix] 씬 수정완료",
-          "time": "10일 전",
-          "sha": "975cf08",
-          "url": "https://github.com/yuseongmok/Delivery-service/commit/975cf08e50dfef0c4ff803fa51c228c7760ce86b"
-        },
-        {
-          "message": "[Feat] 이동식 푸드카트 구현완료",
-          "time": "10일 전",
-          "sha": "09b32bd",
-          "url": "https://github.com/yuseongmok/Delivery-service/commit/09b32bdcba4155dc2d1b52df31b45c7e1a1fbaab"
-        },
-        {
-          "message": "[Feat] 소리감지 NPC 완성",
-          "time": "11일 전",
-          "sha": "0363211",
-          "url": "https://github.com/yuseongmok/Delivery-service/commit/0363211ee22f629f239e5ec55f69ec9ae7d99de6"
-        }
-      ]
-    },
-    {
       "name": "shingumingi (실제 커밋 작성자)",
       "id": "shingumingi",
       "team": "3학년 4팀",
       "github": "shingumingi",
       "repo": "yuseongmok/Delivery-service",
       "commits": 1,
-      "semesterCommits": 30,
+      "semesterCommits": 31,
       "activeDays": 1,
-      "lastCommit": "6일 전",
-      "status": "watch",
+      "lastCommit": "오늘",
+      "status": "active",
       "weekly": [
         3,
         4,
         1,
         2,
         3,
-        1,
+        2,
         1
       ],
       "recent": [
         {
+          "message": "[Feat] 챕터3 신규 매장 -> 무기상 구현",
+          "time": "오늘",
+          "sha": "4cac8b6",
+          "url": "https://github.com/yuseongmok/Delivery-service/commit/4cac8b64178947271539453b9f67f896ae0e2237"
+        },
+        {
           "message": "[Feat] 미션4 변경",
-          "time": "6일 전",
+          "time": "7일 전",
           "sha": "6820abe",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/6820abe0f272ebec750c9cd0edfcab6432b24b83"
         },
         {
           "message": "[Feat] 레이스 구현",
-          "time": "12일 전",
+          "time": "13일 전",
           "sha": "ce67145",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/ce671451e7ebd6ebba5d93179b19d918f693770b"
         },
@@ -948,12 +901,59 @@
           "time": "16일 전",
           "sha": "88861b7",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/88861b7e7cc82829248fe10ea29f428946a63fd6"
+        }
+      ]
+    },
+    {
+      "name": "Woong1016 (실제 커밋 작성자)",
+      "id": "Woong1016",
+      "team": "3학년 4팀",
+      "github": "Woong1016",
+      "repo": "yuseongmok/Delivery-service",
+      "commits": 2,
+      "semesterCommits": 52,
+      "activeDays": 2,
+      "lastCommit": "4일 전",
+      "status": "watch",
+      "weekly": [
+        7,
+        4,
+        7,
+        3,
+        0,
+        8,
+        2
+      ],
+      "recent": [
+        {
+          "message": "[Feat] Chicken Qeust 조리 현장 및 조리 퀘스트 완료",
+          "time": "4일 전",
+          "sha": "a814124",
+          "url": "https://github.com/yuseongmok/Delivery-service/commit/a8141240f653d07dccdbb0a6a71093a769d1e9d3"
         },
         {
-          "message": "[Fix] 프롤로그 버그 수정 (경찰 튕김 현상, 건물 배치, NavMesh 재배치)",
-          "time": "17일 전",
-          "sha": "419e921",
-          "url": "https://github.com/yuseongmok/Delivery-service/commit/419e921fd5f4a4bbc0a8eddc0193987a1d207b95"
+          "message": "[Feat] 감옥챕터- 식당 치킨만들기 미션 기능구현 완료",
+          "time": "6일 전",
+          "sha": "dd58b3d",
+          "url": "https://github.com/yuseongmok/Delivery-service/commit/dd58b3db0c0fd21b4e2f54a39cb24f3ae02334bc"
+        },
+        {
+          "message": "[Fix] 씬 수정완료",
+          "time": "11일 전",
+          "sha": "975cf08",
+          "url": "https://github.com/yuseongmok/Delivery-service/commit/975cf08e50dfef0c4ff803fa51c228c7760ce86b"
+        },
+        {
+          "message": "[Feat] 이동식 푸드카트 구현완료",
+          "time": "11일 전",
+          "sha": "09b32bd",
+          "url": "https://github.com/yuseongmok/Delivery-service/commit/09b32bdcba4155dc2d1b52df31b45c7e1a1fbaab"
+        },
+        {
+          "message": "[Feat] 소리감지 NPC 완성",
+          "time": "11일 전",
+          "sha": "0363211",
+          "url": "https://github.com/yuseongmok/Delivery-service/commit/0363211ee22f629f239e5ec55f69ec9ae7d99de6"
         }
       ]
     },
@@ -1628,8 +1628,8 @@
       "team": "simo07d7PG",
       "github": "simo07d7PG",
       "repo": "simo07d7PG/Team_JJAMBBAP",
-      "commits": 27,
-      "semesterCommits": 101,
+      "commits": 30,
+      "semesterCommits": 104,
       "activeDays": 2,
       "lastCommit": "오늘",
       "status": "active",
@@ -1640,9 +1640,27 @@
         14,
         2,
         19,
-        27
+        30
       ],
       "recent": [
+        {
+          "message": "[Feat] 도감에 메뉴별 만드는 법 표시",
+          "time": "오늘",
+          "sha": "bb4d0b5",
+          "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/bb4d0b5f24e8339ac5b1d6fadf4a124b29f18781"
+        },
+        {
+          "message": "[Feat] 첫 진입 설명 카드·다시 보기·첫 판 시간 여유",
+          "time": "오늘",
+          "sha": "0bd019d",
+          "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/0bd019de1a4e717721518154200a8efc3ab6aef3"
+        },
+        {
+          "message": "[Feat] 미니게임 설명 데이터와 실패 이유 문구 추가",
+          "time": "오늘",
+          "sha": "18b1143",
+          "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/18b11437e8e390aa84cb6539ae18fd84ff867919"
+        },
         {
           "message": "[Feat] 카페 카운터 기계를 텍스처 개정 모델로 교체",
           "time": "오늘",
@@ -1654,24 +1672,6 @@
           "time": "오늘",
           "sha": "f7c6295",
           "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/f7c629516662cb914ce73875cb94f62020f8e178"
-        },
-        {
-          "message": "[Fix] 새 게임 초기화·일시정지 중 입력·치트 키 가드",
-          "time": "오늘",
-          "sha": "980cfdf",
-          "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/980cfdf3cdfd6ea860db74d3f3077ffc16458e1a"
-        },
-        {
-          "message": "[Fix] 해상도·전체 화면 설정 적용과 빈 도감 영상 방어",
-          "time": "오늘",
-          "sha": "7adc919",
-          "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/7adc9193e1aad84c93bc33c3037a09309ab89228"
-        },
-        {
-          "message": "[Fix] 음량 설정이 게임 소리에 적용되지 않던 문제와 BGM 겹침 수정",
-          "time": "오늘",
-          "sha": "6abf59b",
-          "url": "https://github.com/simo07d7PG/Team_JJAMBBAP/commit/6abf59b2642a01600b99c6a313eca182c289e5bf"
         }
       ]
     },
@@ -1957,7 +1957,7 @@
         },
         {
           "message": "Initial commit",
-          "time": "65일 전",
+          "time": "66일 전",
           "sha": "a7471ec",
           "url": "https://github.com/jeolje934-dot/Placeholder_2026_1A_team-project/commit/a7471ec3212432eb7d0456f7a2d5801b9e7c8f91"
         }
@@ -2098,7 +2098,7 @@
         },
         {
           "message": "[feat] 물타일 추가",
-          "time": "26일 전",
+          "time": "27일 전",
           "sha": "27d48fb",
           "url": "https://github.com/yungyeong08/4team_project_02/commit/27d48fbfc37b8bc3440546d9031f8399f60b6fb0"
         },
@@ -2292,9 +2292,9 @@
       "team": "2학년 6팀",
       "github": "blocks2094",
       "repo": "jeonghyerin002/2026_2TeamProject",
-      "commits": 20,
-      "semesterCommits": 106,
-      "activeDays": 5,
+      "commits": 21,
+      "semesterCommits": 107,
+      "activeDays": 6,
       "lastCommit": "오늘",
       "status": "active",
       "weekly": [
@@ -2304,9 +2304,15 @@
         22,
         0,
         8,
-        20
+        21
       ],
       "recent": [
+        {
+          "message": "[Feat] Scene 전환 시 플레이어 이동 정지",
+          "time": "오늘",
+          "sha": "a249964",
+          "url": "https://github.com/jeonghyerin002/2026_2TeamProject/commit/a2499644627bb787f4eac0bb66c574dd7fa97ef0"
+        },
         {
           "message": "[Feat] 에테르 UI 리소스 적용",
           "time": "오늘",
@@ -2330,12 +2336,6 @@
           "time": "오늘",
           "sha": "b59bad0",
           "url": "https://github.com/jeonghyerin002/2026_2TeamProject/commit/b59bad054d873b80b6a895299db2d80eecf97299"
-        },
-        {
-          "message": "[Feat] 50013_Rock_Eruption 지변 갈라짐 효과 유지로 변경",
-          "time": "오늘",
-          "sha": "6fa4b30",
-          "url": "https://github.com/jeonghyerin002/2026_2TeamProject/commit/6fa4b30a8540d62a12e7adb7773def3c9d1b1ad8"
         }
       ]
     },
@@ -2536,7 +2536,7 @@
       "commits": 0,
       "semesterCommits": 11,
       "activeDays": 0,
-      "lastCommit": "23일 전",
+      "lastCommit": "24일 전",
       "status": "inactive",
       "weekly": [
         0,
@@ -2550,31 +2550,31 @@
       "recent": [
         {
           "message": "Merge branch 'main' of https://github.com/qkrgml59/2026_2_TeamProject",
-          "time": "23일 전",
+          "time": "24일 전",
           "sha": "6333835",
           "url": "https://github.com/qkrgml59/2026_2_TeamProject/commit/63338356b00ee5260c0ff936fa116618be7a34b4"
         },
         {
           "message": "Merge team MapTest tilemap history into local prototype",
-          "time": "23일 전",
+          "time": "24일 전",
           "sha": "a2e2900",
           "url": "https://github.com/qkrgml59/2026_2_TeamProject/commit/a2e2900c53966ab4a272fe257c67b6cde7916c9f"
         },
         {
           "message": "[Fix] 새 게임 시작 씬을 MapTest로 변경",
-          "time": "23일 전",
+          "time": "24일 전",
           "sha": "c5718a2",
           "url": "https://github.com/qkrgml59/2026_2_TeamProject/commit/c5718a2fbda53d59de9fa6a558aeb3eec3cbd31f"
         },
         {
           "message": "[Fix] MapTest에서 슬라이딩 비활성화",
-          "time": "23일 전",
+          "time": "24일 전",
           "sha": "04e1673",
           "url": "https://github.com/qkrgml59/2026_2_TeamProject/commit/04e1673226b1724253f244785b76f4896df905aa"
         },
         {
           "message": "[Feat] 지도 및 구역 이동, char2로 신규 캐릭터 전환 추가",
-          "time": "23일 전",
+          "time": "24일 전",
           "sha": "e0517d4",
           "url": "https://github.com/qkrgml59/2026_2_TeamProject/commit/e0517d4b41308bc74d5b2048ddbe8e7346f8797e"
         }
@@ -2815,13 +2815,13 @@
         },
         {
           "message": "[feat] 스탬프 데이터 생성",
-          "time": "33일 전",
+          "time": "34일 전",
           "sha": "fdfa5c6",
           "url": "https://github.com/JungYS24/Tricky-Yacht/commit/fdfa5c6634ff90f1ef28bbba14b67b80c97f9047"
         },
         {
           "message": "[Refactor] 스탬프 데이터 처리 변경",
-          "time": "33일 전",
+          "time": "34일 전",
           "sha": "4dc3053",
           "url": "https://github.com/JungYS24/Tricky-Yacht/commit/4dc305309ed687f9966c7fc26f00e22e8e456dc1"
         },
@@ -2868,13 +2868,13 @@
         },
         {
           "message": "[FEAT] 티켓 이펙트 마무리",
-          "time": "108일 전",
+          "time": "109일 전",
           "sha": "aa723aa",
           "url": "https://github.com/JungYS24/Tricky-Yacht/commit/aa723aa30cb827a4cca7b3ac9de5f385c0cfd53f"
         },
         {
           "message": "[feat] 티켓 이펙트 연출",
-          "time": "109일 전",
+          "time": "110일 전",
           "sha": "4c7c0ae",
           "url": "https://github.com/JungYS24/Tricky-Yacht/commit/4c7c0ae1fc7c873b5124572990746f97d0f2978d"
         },
@@ -3137,12 +3137,12 @@
       "lastCommit": "오늘",
       "status": "active",
       "weekly": [
-        18,
-        14,
+        20,
         13,
+        12,
         26,
-        30,
-        13,
+        32,
+        11,
         60
       ],
       "recent": [
@@ -3187,7 +3187,7 @@
       "commits": 3,
       "semesterCommits": 10,
       "activeDays": 3,
-      "lastCommit": "어제",
+      "lastCommit": "2일 전",
       "status": "active",
       "weekly": [
         0,
@@ -3201,7 +3201,7 @@
       "recent": [
         {
           "message": "설정 패널 및 배경음 효과음 슬라이더 스크롤 버튼 추가",
-          "time": "어제",
+          "time": "2일 전",
           "sha": "1986ef1",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/1986ef11df456c11e0d99197f230201840c64dd6"
         },
@@ -3225,7 +3225,7 @@
         },
         {
           "message": "설정 패널 배경 추가",
-          "time": "26일 전",
+          "time": "27일 전",
           "sha": "37790a8",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/37790a8d882a3773697d27b9c210f9f2f7c33546"
         }
@@ -3313,13 +3313,13 @@
         },
         {
           "message": "다이얼로그 패널 이미지 추가",
-          "time": "31일 전",
+          "time": "32일 전",
           "sha": "e4ef150",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/e4ef1502ec5d78899bd2d5751542f927817bd6aa"
         },
         {
           "message": "장수풍뎅이 NPC 이미지 추가",
-          "time": "38일 전",
+          "time": "39일 전",
           "sha": "adf0dc6",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/adf0dc690dcfa226f65ff66b9ac4f72ce9c13ada"
         }
@@ -3388,8 +3388,8 @@
       "lastCommit": "오늘",
       "status": "active",
       "weekly": [
-        0,
         1,
+        0,
         1,
         4,
         0,
@@ -3658,13 +3658,13 @@
         },
         {
           "message": "[fix] 치트엔진 Input 인식되지 않는 버그 수정",
-          "time": "24일 전",
+          "time": "25일 전",
           "sha": "6cf7082",
           "url": "https://github.com/Tiphe0821/GameProject_T3_1_B/commit/6cf7082ec11eac53a0dc8658ce844c9c639eeaf6"
         },
         {
           "message": "[feat] 중력 적용 플레이어 컨트롤러 추가",
-          "time": "24일 전",
+          "time": "25일 전",
           "sha": "2a1dc73",
           "url": "https://github.com/Tiphe0821/GameProject_T3_1_B/commit/2a1dc735b5185185fc619a63efce0fa1b51b68a7"
         }
@@ -3711,13 +3711,13 @@
         },
         {
           "message": "[Feat] 대화창 UI 및 아이템 아이콘 추가",
-          "time": "25일 전",
+          "time": "26일 전",
           "sha": "c9c79df",
           "url": "https://github.com/Tiphe0821/GameProject_T3_1_B/commit/c9c79df52e2c28b053bf099cafb95cdaa07353bc"
         },
         {
           "message": "[Feat] 물 아이콘 및 체력바 추가",
-          "time": "26일 전",
+          "time": "27일 전",
           "sha": "0ca0096",
           "url": "https://github.com/Tiphe0821/GameProject_T3_1_B/commit/0ca0096b017b658934d8b5261f449de6618c6e43"
         }
@@ -3908,7 +3908,7 @@
       "commits": 3,
       "semesterCommits": 17,
       "activeDays": 1,
-      "lastCommit": "오늘",
+      "lastCommit": "어제",
       "status": "active",
       "weekly": [
         2,
@@ -3922,7 +3922,7 @@
       "recent": [
         {
           "message": "[feat] 퍼즐 벽화 벽 3D 리소스 추가",
-          "time": "오늘",
+          "time": "어제",
           "sha": "40daaea",
           "url": "https://github.com/surren01522-tech/2026_02_GameProject_Eurydice/commit/40daaeaccc4f6d7ae113154e121adf85527a97f0"
         },
@@ -3964,10 +3964,10 @@
       "lastCommit": "어제",
       "status": "active",
       "weekly": [
-        14,
-        4,
-        6,
         18,
+        0,
+        7,
+        17,
         2,
         2,
         11
@@ -4659,88 +4659,41 @@
       ]
     },
     {
-      "name": "Woong1016 (실제 커밋 작성자)",
-      "id": "Woong1016",
-      "team": "3학년 4팀",
-      "github": "Woong1016",
-      "repo": "yuseongmok/Delivery-service",
-      "commits": 2,
-      "semesterCommits": 52,
-      "activeDays": 2,
-      "lastCommit": "3일 전",
-      "status": "active",
-      "weekly": [
-        7,
-        4,
-        7,
-        3,
-        0,
-        8,
-        2
-      ],
-      "recent": [
-        {
-          "message": "[Feat] Chicken Qeust 조리 현장 및 조리 퀘스트 완료",
-          "time": "3일 전",
-          "sha": "a814124",
-          "url": "https://github.com/yuseongmok/Delivery-service/commit/a8141240f653d07dccdbb0a6a71093a769d1e9d3"
-        },
-        {
-          "message": "[Feat] 감옥챕터- 식당 치킨만들기 미션 기능구현 완료",
-          "time": "6일 전",
-          "sha": "dd58b3d",
-          "url": "https://github.com/yuseongmok/Delivery-service/commit/dd58b3db0c0fd21b4e2f54a39cb24f3ae02334bc"
-        },
-        {
-          "message": "[Fix] 씬 수정완료",
-          "time": "10일 전",
-          "sha": "975cf08",
-          "url": "https://github.com/yuseongmok/Delivery-service/commit/975cf08e50dfef0c4ff803fa51c228c7760ce86b"
-        },
-        {
-          "message": "[Feat] 이동식 푸드카트 구현완료",
-          "time": "10일 전",
-          "sha": "09b32bd",
-          "url": "https://github.com/yuseongmok/Delivery-service/commit/09b32bdcba4155dc2d1b52df31b45c7e1a1fbaab"
-        },
-        {
-          "message": "[Feat] 소리감지 NPC 완성",
-          "time": "11일 전",
-          "sha": "0363211",
-          "url": "https://github.com/yuseongmok/Delivery-service/commit/0363211ee22f629f239e5ec55f69ec9ae7d99de6"
-        }
-      ]
-    },
-    {
       "name": "shingumingi (실제 커밋 작성자)",
       "id": "shingumingi",
       "team": "3학년 4팀",
       "github": "shingumingi",
       "repo": "yuseongmok/Delivery-service",
       "commits": 1,
-      "semesterCommits": 30,
+      "semesterCommits": 31,
       "activeDays": 1,
-      "lastCommit": "6일 전",
-      "status": "watch",
+      "lastCommit": "오늘",
+      "status": "active",
       "weekly": [
         3,
         4,
         1,
         2,
         3,
-        1,
+        2,
         1
       ],
       "recent": [
         {
+          "message": "[Feat] 챕터3 신규 매장 -> 무기상 구현",
+          "time": "오늘",
+          "sha": "4cac8b6",
+          "url": "https://github.com/yuseongmok/Delivery-service/commit/4cac8b64178947271539453b9f67f896ae0e2237"
+        },
+        {
           "message": "[Feat] 미션4 변경",
-          "time": "6일 전",
+          "time": "7일 전",
           "sha": "6820abe",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/6820abe0f272ebec750c9cd0edfcab6432b24b83"
         },
         {
           "message": "[Feat] 레이스 구현",
-          "time": "12일 전",
+          "time": "13일 전",
           "sha": "ce67145",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/ce671451e7ebd6ebba5d93179b19d918f693770b"
         },
@@ -4755,12 +4708,59 @@
           "time": "16일 전",
           "sha": "88861b7",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/88861b7e7cc82829248fe10ea29f428946a63fd6"
+        }
+      ]
+    },
+    {
+      "name": "Woong1016 (실제 커밋 작성자)",
+      "id": "Woong1016",
+      "team": "3학년 4팀",
+      "github": "Woong1016",
+      "repo": "yuseongmok/Delivery-service",
+      "commits": 2,
+      "semesterCommits": 52,
+      "activeDays": 2,
+      "lastCommit": "4일 전",
+      "status": "watch",
+      "weekly": [
+        7,
+        4,
+        7,
+        3,
+        0,
+        8,
+        2
+      ],
+      "recent": [
+        {
+          "message": "[Feat] Chicken Qeust 조리 현장 및 조리 퀘스트 완료",
+          "time": "4일 전",
+          "sha": "a814124",
+          "url": "https://github.com/yuseongmok/Delivery-service/commit/a8141240f653d07dccdbb0a6a71093a769d1e9d3"
         },
         {
-          "message": "[Fix] 프롤로그 버그 수정 (경찰 튕김 현상, 건물 배치, NavMesh 재배치)",
-          "time": "17일 전",
-          "sha": "419e921",
-          "url": "https://github.com/yuseongmok/Delivery-service/commit/419e921fd5f4a4bbc0a8eddc0193987a1d207b95"
+          "message": "[Feat] 감옥챕터- 식당 치킨만들기 미션 기능구현 완료",
+          "time": "6일 전",
+          "sha": "dd58b3d",
+          "url": "https://github.com/yuseongmok/Delivery-service/commit/dd58b3db0c0fd21b4e2f54a39cb24f3ae02334bc"
+        },
+        {
+          "message": "[Fix] 씬 수정완료",
+          "time": "11일 전",
+          "sha": "975cf08",
+          "url": "https://github.com/yuseongmok/Delivery-service/commit/975cf08e50dfef0c4ff803fa51c228c7760ce86b"
+        },
+        {
+          "message": "[Feat] 이동식 푸드카트 구현완료",
+          "time": "11일 전",
+          "sha": "09b32bd",
+          "url": "https://github.com/yuseongmok/Delivery-service/commit/09b32bdcba4155dc2d1b52df31b45c7e1a1fbaab"
+        },
+        {
+          "message": "[Feat] 소리감지 NPC 완성",
+          "time": "11일 전",
+          "sha": "0363211",
+          "url": "https://github.com/yuseongmok/Delivery-service/commit/0363211ee22f629f239e5ec55f69ec9ae7d99de6"
         }
       ]
     },
