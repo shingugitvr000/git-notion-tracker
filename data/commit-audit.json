@@ -1,11 +1,172 @@
 {
-  "updatedAt": "2026. 11. 21. 14:40",
+  "updatedAt": "2026. 11. 21. 23:13",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "1학년 B반 3팀",
+      "repo": "Tiphe0821/GameProject_T3_1_B",
+      "branch": "main",
+      "sha": "db13a643a97f5f1dd6737055f2d86dfd6ac49505",
+      "message": "[Add] 이전 커밋 유니티 세이브",
+      "url": "https://github.com/Tiphe0821/GameProject_T3_1_B/commit/db13a643a97f5f1dd6737055f2d86dfd6ac49505",
+      "date": "2026-11-21T14:11:58Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "dotcom4143",
+      "gitAuthorName": "dotcom4143",
+      "gitAuthorEmail": "eostmfhektzja4143@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 16,
+        "deletions": 1,
+        "meaningful_change": 17,
+        "meaningful_file_count": 1,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 3팀",
+      "repo": "Tiphe0821/GameProject_T3_1_B",
+      "branch": "main",
+      "sha": "302eed1d64157ca027c74df4d320c40a9586ff88",
+      "message": "[Fix] 요원 변경 UI 시각화 메커니즘 변경",
+      "url": "https://github.com/Tiphe0821/GameProject_T3_1_B/commit/302eed1d64157ca027c74df4d320c40a9586ff88",
+      "date": "2026-11-21T13:41:35Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "dotcom4143",
+      "gitAuthorName": "dotcom4143",
+      "gitAuthorEmail": "eostmfhektzja4143@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 37,
+        "deletions": 12,
+        "meaningful_change": 41,
+        "meaningful_file_count": 1,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 1팀",
+      "repo": "chimchimjam377/TeamProject---Singularity-Thief",
+      "branch": "main",
+      "sha": "62115bc4e8f87bd209dc0fdeeb55b8e9429bd6ee",
+      "message": "플레이어 기본 애니메이션 및 적 애니메이션 완성",
+      "url": "https://github.com/chimchimjam377/TeamProject---Singularity-Thief/commit/62115bc4e8f87bd209dc0fdeeb55b8e9429bd6ee",
+      "date": "2026-11-21T12:11:41Z",
+      "expectedGithub": "chimchimjam377",
+      "actualGithub": "chimchimjam377",
+      "gitAuthorName": "chimchimjam377",
+      "gitAuthorEmail": "chimchimjam377@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 8,
+        "additions": 3141,
+        "deletions": 1429,
+        "meaningful_change": 1448,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 3팀",
+      "repo": "jinjooyoung/DUAL-DUEL",
+      "branch": "main",
+      "sha": "f39557d1681edab7cf5ade210fd4af95915bd161",
+      "message": "[Chore] 카드 리소스 추가",
+      "url": "https://github.com/jinjooyoung/DUAL-DUEL/commit/f39557d1681edab7cf5ade210fd4af95915bd161",
+      "date": "2026-11-21T11:37:50Z",
+      "expectedGithub": "jinjooyoung",
+      "actualGithub": "jinjooyoung",
+      "gitAuthorName": "jinjooyoung",
+      "gitAuthorEmail": "jjy26297449@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 5,
+        "additions": 0,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 5,
+        "suspicious_score": 35,
+        "judgment": "확인필요"
+      }
+    },
+    {
+      "projectName": "1학년 A반 4팀",
+      "repo": "yungyeong08/4team_project_02",
+      "branch": "main",
+      "sha": "7e9fd5463afc67541e4ccba13f2d6ca3fd656b53",
+      "message": "[Feat] 물고기 30종 밸런스 및 낚시터 확장",
+      "url": "https://github.com/yungyeong08/4team_project_02/commit/7e9fd5463afc67541e4ccba13f2d6ca3fd656b53",
+      "date": "2026-11-21T08:49:43Z",
+      "expectedGithub": "yungyeong08",
+      "actualGithub": "whxogud9090",
+      "gitAuthorName": "태형",
+      "gitAuthorEmail": "th870707@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 5,
+        "additions": 343,
+        "deletions": 90,
+        "meaningful_change": 433,
+        "meaningful_file_count": 5,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "00b9bd35960eaf2231cec35b29b053dd005bad12",
+      "message": "일부 모델 교체",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/00b9bd35960eaf2231cec35b29b053dd005bad12",
+      "date": "2026-11-21T08:48:06Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "tjd6356-afk",
+      "gitAuthorName": "tjd6356-afk",
+      "gitAuthorEmail": "tjd6356@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 11,
+        "additions": 766,
+        "deletions": 60,
+        "meaningful_change": 382,
+        "meaningful_file_count": 7,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "db77337bd0518cdf5c035e20a900bff9c84437f3",
+      "message": "NPC02 외형 조정",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/db77337bd0518cdf5c035e20a900bff9c84437f3",
+      "date": "2026-11-21T08:23:26Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "tjd6356-afk",
+      "gitAuthorName": "tjd6356-afk",
+      "gitAuthorEmail": "tjd6356@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 5,
+        "additions": 204,
+        "deletions": 119,
+        "meaningful_change": 212,
+        "meaningful_file_count": 4,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "3학년 4팀",
       "repo": "yuseongmok/Delivery-service",
