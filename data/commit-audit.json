@@ -1,11 +1,103 @@
 {
-  "updatedAt": "2026. 11. 21. 23:13",
+  "updatedAt": "2026. 11. 22. 05:37",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "3학년 4팀",
+      "repo": "yuseongmok/Delivery-service",
+      "branch": "main",
+      "sha": "88b05e26a8a8f6c235eb8e90fb261271ca2633ed",
+      "message": "[Feat] 챕터 3 게틀링건 미션 구현 1차",
+      "url": "https://github.com/yuseongmok/Delivery-service/commit/88b05e26a8a8f6c235eb8e90fb261271ca2633ed",
+      "date": "2026-11-21T17:04:37Z",
+      "expectedGithub": "yuseongmok",
+      "actualGithub": "losieee",
+      "gitAuthorName": "losieee",
+      "gitAuthorEmail": "dfdf334@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 6,
+        "additions": 11780,
+        "deletions": 10317,
+        "meaningful_change": 22094,
+        "meaningful_file_count": 4,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 3팀",
+      "repo": "Tiphe0821/GameProject_T3_1_B",
+      "branch": "main",
+      "sha": "c5e202b26a62c07ce9e40d07b2a2a1c91271f453",
+      "message": "[Feat] 타이틀 버튼 연결, 옵션패널 x버튼 추가",
+      "url": "https://github.com/Tiphe0821/GameProject_T3_1_B/commit/c5e202b26a62c07ce9e40d07b2a2a1c91271f453",
+      "date": "2026-11-21T14:36:51Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "ih551311",
+      "gitAuthorName": "ih551311",
+      "gitAuthorEmail": "ih551311@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 3,
+        "additions": 158,
+        "deletions": 424,
+        "meaningful_change": 439,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 3팀",
+      "repo": "Tiphe0821/GameProject_T3_1_B",
+      "branch": "main",
+      "sha": "dcaa3e85121f34f7cfab62def04f52e8b88dd6e8",
+      "message": "Merge branch 'main' of https://github.com/Tiphe0821/GameProject_T3_1_B",
+      "url": "https://github.com/Tiphe0821/GameProject_T3_1_B/commit/dcaa3e85121f34f7cfab62def04f52e8b88dd6e8",
+      "date": "2026-11-21T14:26:01Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "ih551311",
+      "gitAuthorName": "ih551311",
+      "gitAuthorEmail": "ih551311@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 16,
+        "deletions": 1,
+        "meaningful_change": 17,
+        "meaningful_file_count": 1,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 3팀",
+      "repo": "Tiphe0821/GameProject_T3_1_B",
+      "branch": "main",
+      "sha": "053a37f7a9cc753ea4ad9b4e558101f7075a693f",
+      "message": "[Feat] 타이틀 화면 배경, 버튼 이미지 추가",
+      "url": "https://github.com/Tiphe0821/GameProject_T3_1_B/commit/053a37f7a9cc753ea4ad9b4e558101f7075a693f",
+      "date": "2026-11-21T14:25:17Z",
+      "expectedGithub": "simo07d7PG",
+      "actualGithub": "ih551311",
+      "gitAuthorName": "ih551311",
+      "gitAuthorEmail": "ih551311@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 10,
+        "additions": 678,
+        "deletions": 428,
+        "meaningful_change": 528,
+        "meaningful_file_count": 5,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "1학년 B반 3팀",
       "repo": "Tiphe0821/GameProject_T3_1_B",
