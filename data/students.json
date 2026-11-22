@@ -1,7 +1,7 @@
 {
   "course": "Git 프로젝트 활동 현황",
   "notionUrl": "https://abaft-vibraphone-8f7.notion.site/Git-3c28655a72df80199dafc115fef9ddd4?pvs=74",
-  "updatedAt": "2026. 11. 22. 05:37",
+  "updatedAt": "2026. 11. 22. 09:57",
   "students": [
     {
       "name": "2학년 1팀",
@@ -50,7 +50,7 @@
         },
         {
           "message": "[Fix]맵 배치 수정",
-          "time": "26일 전",
+          "time": "27일 전",
           "sha": "8a6722c",
           "url": "https://github.com/suyan05/PharaohCube/commit/8a6722c485e74bffff25d3bc1eab00fc639458d3"
         }
@@ -171,13 +171,13 @@
       "commits": 8,
       "semesterCommits": 90,
       "activeDays": 1,
-      "lastCommit": "5일 전",
+      "lastCommit": "6일 전",
       "status": "watch",
       "weekly": [
-        10,
+        9,
         14,
-        8,
-        8,
+        10,
+        6,
         5,
         14,
         8
@@ -185,25 +185,25 @@
       "recent": [
         {
           "message": "[Feat] 바스테트 비석을 모두 해독하면 열리는 숨은 방 향실과 히든 유물 추가",
-          "time": "5일 전",
+          "time": "6일 전",
           "sha": "d1c5a81",
           "url": "https://github.com/suyan05/PharaohCube/commit/d1c5a81b5f4a048aa157768b57d8745d9fd52341"
         },
         {
           "message": "[Fix] 수첩 메모가 넘치면 다음 쪽으로 넘기고 메모 개수 표시 수정",
-          "time": "5일 전",
+          "time": "6일 전",
           "sha": "4a3c4f9",
           "url": "https://github.com/suyan05/PharaohCube/commit/4a3c4f95952630b8c95c4a78e0b93cb7f0d9952e"
         },
         {
           "message": "[Fix] 수첩 유물 카드 그림 표시와 새 게임 기록 초기화 수정",
-          "time": "5일 전",
+          "time": "6일 전",
           "sha": "2f9b48f",
           "url": "https://github.com/suyan05/PharaohCube/commit/2f9b48fb02f2864808e04e395d0114d49097b778"
         },
         {
           "message": "[Feat] 바스테트 서브 퍼즐 유물 4개 획득 카드와 수첩 카드에 그림 연결",
-          "time": "5일 전",
+          "time": "6일 전",
           "sha": "26e7b95",
           "url": "https://github.com/suyan05/PharaohCube/commit/26e7b950cdab3aa3031aa291c74cc519d691a2f6"
         },
@@ -754,7 +754,7 @@
       "commits": 0,
       "semesterCommits": 58,
       "activeDays": 0,
-      "lastCommit": "77일 전",
+      "lastCommit": "78일 전",
       "status": "inactive",
       "weekly": [
         0,
@@ -768,7 +768,7 @@
       "recent": [
         {
           "message": "[Feat] 타이머 및 게임 종료 결과 UI 추가",
-          "time": "77일 전",
+          "time": "78일 전",
           "sha": "76b6ffc",
           "url": "https://github.com/ahyun04/26TeamProject_2/commit/76b6ffc6ae207ddeb3d48a586ee9ca4a598a1880"
         },
@@ -966,7 +966,7 @@
       "commits": 1,
       "semesterCommits": 52,
       "activeDays": 1,
-      "lastCommit": "5일 전",
+      "lastCommit": "6일 전",
       "status": "watch",
       "weekly": [
         7,
@@ -980,7 +980,7 @@
       "recent": [
         {
           "message": "[Feat] Chicken Qeust 조리 현장 및 조리 퀘스트 완료",
-          "time": "5일 전",
+          "time": "6일 전",
           "sha": "a814124",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/a8141240f653d07dccdbb0a6a71093a769d1e9d3"
         },
@@ -1069,11 +1069,11 @@
       "team": "2학년 7팀",
       "github": "omh1228",
       "repo": "23jihwan/7_tim",
-      "commits": 1,
-      "semesterCommits": 23,
-      "activeDays": 1,
-      "lastCommit": "5일 전",
-      "status": "watch",
+      "commits": 2,
+      "semesterCommits": 24,
+      "activeDays": 2,
+      "lastCommit": "오늘",
+      "status": "active",
       "weekly": [
         3,
         4,
@@ -1081,9 +1081,15 @@
         9,
         0,
         1,
-        1
+        2
       ],
       "recent": [
+        {
+          "message": "[Feat] 엘리트몬스터 2단계 조합법 레시피 보스 3단계 조합법 레시피 보상 구현 및 이벤트에서 2,3단계 조합 레시피 뜨게 구현",
+          "time": "오늘",
+          "sha": "b4868de",
+          "url": "https://github.com/23jihwan/7_tim/commit/b4868de24b2db3b6f784964c03b7aa8c4ca77c25"
+        },
         {
           "message": "[Feat] 휴식방에서 카드제거 최대 3장까지 추가",
           "time": "5일 전",
@@ -1107,12 +1113,6 @@
           "time": "24일 전",
           "sha": "6348395",
           "url": "https://github.com/23jihwan/7_tim/commit/6348395ce15154df4d83669b4bf82a1e2f825d67"
-        },
-        {
-          "message": "[Feat] 일반 몬스터 배경 추가 및 1층 몬스터 이미지 추가",
-          "time": "26일 전",
-          "sha": "cf87062",
-          "url": "https://github.com/23jihwan/7_tim/commit/cf87062b288ac335e9ef2cfebbeea8bb9f45bdc7"
         }
       ]
     },
@@ -1318,8 +1318,8 @@
       "weekly": [
         4,
         7,
-        4,
-        4,
+        5,
+        3,
         0,
         10,
         6
@@ -1957,7 +1957,7 @@
         },
         {
           "message": "Initial commit",
-          "time": "67일 전",
+          "time": "68일 전",
           "sha": "a7471ec",
           "url": "https://github.com/jeolje934-dot/Placeholder_2026_1A_team-project/commit/a7471ec3212432eb7d0456f7a2d5801b9e7c8f91"
         }
@@ -2151,7 +2151,7 @@
         },
         {
           "message": "[feat] 물타일 추가",
-          "time": "28일 전",
+          "time": "29일 전",
           "sha": "27d48fb",
           "url": "https://github.com/yungyeong08/4team_project_02/commit/27d48fbfc37b8bc3440546d9031f8399f60b6fb0"
         },
@@ -2536,7 +2536,7 @@
       "commits": 0,
       "semesterCommits": 11,
       "activeDays": 0,
-      "lastCommit": "25일 전",
+      "lastCommit": "26일 전",
       "status": "inactive",
       "weekly": [
         0,
@@ -2550,13 +2550,13 @@
       "recent": [
         {
           "message": "Merge branch 'main' of https://github.com/qkrgml59/2026_2_TeamProject",
-          "time": "25일 전",
+          "time": "26일 전",
           "sha": "6333835",
           "url": "https://github.com/qkrgml59/2026_2_TeamProject/commit/63338356b00ee5260c0ff936fa116618be7a34b4"
         },
         {
           "message": "Merge team MapTest tilemap history into local prototype",
-          "time": "25일 전",
+          "time": "26일 전",
           "sha": "a2e2900",
           "url": "https://github.com/qkrgml59/2026_2_TeamProject/commit/a2e2900c53966ab4a272fe257c67b6cde7916c9f"
         },
@@ -3139,8 +3139,8 @@
       "weekly": [
         20,
         15,
-        17,
-        24,
+        18,
+        23,
         27,
         31,
         42
@@ -3187,8 +3187,8 @@
       "commits": 3,
       "semesterCommits": 10,
       "activeDays": 3,
-      "lastCommit": "3일 전",
-      "status": "active",
+      "lastCommit": "4일 전",
+      "status": "watch",
       "weekly": [
         2,
         1,
@@ -3201,7 +3201,7 @@
       "recent": [
         {
           "message": "설정 패널 및 배경음 효과음 슬라이더 스크롤 버튼 추가",
-          "time": "3일 전",
+          "time": "4일 전",
           "sha": "1986ef1",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/1986ef11df456c11e0d99197f230201840c64dd6"
         },
@@ -3225,7 +3225,7 @@
         },
         {
           "message": "설정 패널 배경 추가",
-          "time": "28일 전",
+          "time": "29일 전",
           "sha": "37790a8",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/37790a8d882a3773697d27b9c210f9f2f7c33546"
         }
@@ -3319,7 +3319,7 @@
         },
         {
           "message": "장수풍뎅이 NPC 이미지 추가",
-          "time": "40일 전",
+          "time": "41일 전",
           "sha": "adf0dc6",
           "url": "https://github.com/tjd6356-afk/2-_-/commit/adf0dc690dcfa226f65ff66b9ac4f72ce9c13ada"
         }
@@ -3443,8 +3443,8 @@
       "weekly": [
         0,
         3,
-        3,
-        8,
+        4,
+        7,
         3,
         6,
         3
@@ -3631,8 +3631,8 @@
       "weekly": [
         3,
         2,
-        2,
-        11,
+        6,
+        7,
         0,
         0,
         0
@@ -3908,7 +3908,7 @@
       "commits": 3,
       "semesterCommits": 17,
       "activeDays": 1,
-      "lastCommit": "2일 전",
+      "lastCommit": "3일 전",
       "status": "active",
       "weekly": [
         2,
@@ -3922,7 +3922,7 @@
       "recent": [
         {
           "message": "[feat] 퍼즐 벽화 벽 3D 리소스 추가",
-          "time": "2일 전",
+          "time": "3일 전",
           "sha": "40daaea",
           "url": "https://github.com/surren01522-tech/2026_02_GameProject_Eurydice/commit/40daaeaccc4f6d7ae113154e121adf85527a97f0"
         },
@@ -4773,7 +4773,7 @@
       "commits": 1,
       "semesterCommits": 52,
       "activeDays": 1,
-      "lastCommit": "5일 전",
+      "lastCommit": "6일 전",
       "status": "watch",
       "weekly": [
         7,
@@ -4787,7 +4787,7 @@
       "recent": [
         {
           "message": "[Feat] Chicken Qeust 조리 현장 및 조리 퀘스트 완료",
-          "time": "5일 전",
+          "time": "6일 전",
           "sha": "a814124",
           "url": "https://github.com/yuseongmok/Delivery-service/commit/a8141240f653d07dccdbb0a6a71093a769d1e9d3"
         },
