@@ -1,11 +1,103 @@
 {
-  "updatedAt": "2026. 11. 22. 09:57",
+  "updatedAt": "2026. 11. 22. 16:51",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "31a26753581b752796c58cdc04e39ffc5ce2cc17",
+      "message": "상점 시스템 불편한 점 개산",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/31a26753581b752796c58cdc04e39ffc5ce2cc17",
+      "date": "2026-11-22T05:47:12Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "tjd6356-afk",
+      "gitAuthorName": "tjd6356-afk",
+      "gitAuthorEmail": "tjd6356@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 17,
+        "deletions": 3,
+        "meaningful_change": 20,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "3c5e4ff469edd7db01626c0a06ba9576bac19b62",
+      "message": "3d 오브젝트 추가",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/3c5e4ff469edd7db01626c0a06ba9576bac19b62",
+      "date": "2026-11-22T05:24:33Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "tjd6356-afk",
+      "gitAuthorName": "tjd6356-afk",
+      "gitAuthorEmail": "tjd6356@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 13,
+        "additions": 799,
+        "deletions": 69,
+        "meaningful_change": 409,
+        "meaningful_file_count": 7,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "b19e79a8a04ebc9440c0b8bbded98750821b0627",
+      "message": "장식품 추가",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/b19e79a8a04ebc9440c0b8bbded98750821b0627",
+      "date": "2026-11-22T02:41:55Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "tjd6356-afk",
+      "gitAuthorName": "tjd6356-afk",
+      "gitAuthorEmail": "tjd6356@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 12,
+        "additions": 2841,
+        "deletions": 250,
+        "meaningful_change": 3043,
+        "meaningful_file_count": 6,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "d48dcb4ca257bb76e4670c5c199fc55c0793f701",
+      "message": "사소한 조정",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/d48dcb4ca257bb76e4670c5c199fc55c0793f701",
+      "date": "2026-11-22T02:10:55Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "tjd6356-afk",
+      "gitAuthorName": "tjd6356-afk",
+      "gitAuthorEmail": "tjd6356@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 1,
+        "deletions": 18,
+        "meaningful_change": 19,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "2학년 7팀",
       "repo": "23jihwan/7_tim",
