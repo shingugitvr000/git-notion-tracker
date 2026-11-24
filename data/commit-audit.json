@@ -1,11 +1,356 @@
 {
-  "updatedAt": "2026. 11. 24. 07:49",
+  "updatedAt": "2026. 11. 24. 15:45",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "2학년 2팀",
+      "repo": "esuvean/PRESS-START_",
+      "branch": "main",
+      "sha": "3c65b1f1457d40c0296bf92c00a66c4ffe067a2e",
+      "message": "[feat] 업적창2차1",
+      "url": "https://github.com/esuvean/PRESS-START_/commit/3c65b1f1457d40c0296bf92c00a66c4ffe067a2e",
+      "date": "2026-11-24T06:03:38Z",
+      "expectedGithub": "esuvean",
+      "actualGithub": "flexinja99",
+      "gitAuthorName": "flexinja99",
+      "gitAuthorEmail": "hjgo927@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 6,
+        "deletions": 6,
+        "meaningful_change": 12,
+        "meaningful_file_count": 1,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 2팀",
+      "repo": "esuvean/PRESS-START_",
+      "branch": "main",
+      "sha": "9bc1cb8a76266811861c1da3734299d688fefcc1",
+      "message": "[feat] 업적창 2차",
+      "url": "https://github.com/esuvean/PRESS-START_/commit/9bc1cb8a76266811861c1da3734299d688fefcc1",
+      "date": "2026-11-24T03:02:05Z",
+      "expectedGithub": "esuvean",
+      "actualGithub": "flexinja99",
+      "gitAuthorName": "flexinja99",
+      "gitAuthorEmail": "hjgo927@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 4,
+        "additions": 3416,
+        "deletions": 372,
+        "meaningful_change": 3786,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "80608a34988ea35e1838d345139352a15fde6a16",
+      "message": "[Fix] meta 파일",
+      "url": "https://github.com/suyan05/PharaohCube/commit/80608a34988ea35e1838d345139352a15fde6a16",
+      "date": "2026-11-24T02:30:33Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "parksarang04",
+      "gitAuthorName": "parksarang04",
+      "gitAuthorEmail": "qkrtkfkd9074@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 300,
+        "additions": 9696,
+        "deletions": 1179,
+        "meaningful_change": 12,
+        "meaningful_file_count": 1,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "ad883de0f9c5e2fea88171784fa2da123f82acf9",
+      "message": "[Feat] 라 엔딩 일러스트 신성한 보정 + 라의 방 서브 스토리",
+      "url": "https://github.com/suyan05/PharaohCube/commit/ad883de0f9c5e2fea88171784fa2da123f82acf9",
+      "date": "2026-11-24T02:29:24Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "parksarang04",
+      "gitAuthorName": "parksarang04",
+      "gitAuthorEmail": "qkrtkfkd9074@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 10,
+        "additions": 262,
+        "deletions": 6,
+        "meaningful_change": 262,
+        "meaningful_file_count": 7,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "e4f2735d0f5f4cab79ba16fbc419f29742609149",
+      "message": "[Feat] 횃불 빛을 반원으로 + 일렁임 + 걸음 흔들림, 라의 방 벽 횃불을 움직이는 횃대로",
+      "url": "https://github.com/suyan05/PharaohCube/commit/e4f2735d0f5f4cab79ba16fbc419f29742609149",
+      "date": "2026-11-24T02:29:11Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "parksarang04",
+      "gitAuthorName": "parksarang04",
+      "gitAuthorEmail": "qkrtkfkd9074@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 3,
+        "additions": 91,
+        "deletions": 7,
+        "meaningful_change": 98,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "3205f2c041387e6f67ef92ef778523aab75ed632",
+      "message": "[Feat] 중앙 홀: 라의 불은 남쪽 태양 문장에서 + 남쪽 문 대사 통일 + 홀 꾸미기",
+      "url": "https://github.com/suyan05/PharaohCube/commit/3205f2c041387e6f67ef92ef778523aab75ed632",
+      "date": "2026-11-24T02:29:08Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "parksarang04",
+      "gitAuthorName": "parksarang04",
+      "gitAuthorEmail": "qkrtkfkd9074@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 6,
+        "additions": 198,
+        "deletions": 3,
+        "meaningful_change": 199,
+        "meaningful_file_count": 5,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "51abb3eed3ccbc1be2f681d7ac8c164c1a2dc5a4",
+      "message": "[Feat] 고고학 수첩 카드 등급별 디자인 + 빈 삽화 채움",
+      "url": "https://github.com/suyan05/PharaohCube/commit/51abb3eed3ccbc1be2f681d7ac8c164c1a2dc5a4",
+      "date": "2026-11-24T02:29:05Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "parksarang04",
+      "gitAuthorName": "parksarang04",
+      "gitAuthorEmail": "qkrtkfkd9074@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 6,
+        "additions": 398,
+        "deletions": 24,
+        "meaningful_change": 418,
+        "meaningful_file_count": 4,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "86272991f4149af5c35ad7be4c7a5de00d66da9b",
+      "message": "[Fix] 발굴 현장 격자와 모래 더미 배치 정리",
+      "url": "https://github.com/suyan05/PharaohCube/commit/86272991f4149af5c35ad7be4c7a5de00d66da9b",
+      "date": "2026-11-24T02:29:01Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "parksarang04",
+      "gitAuthorName": "parksarang04",
+      "gitAuthorEmail": "qkrtkfkd9074@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 28,
+        "deletions": 2,
+        "meaningful_change": 30,
+        "meaningful_file_count": 1,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "82a772916699bae92e01ec10ed5030ca8a40a8d7",
+      "message": "[Fix] 대화 이름칸, 목표 상자 글자 배치 + 연출 중 E로 다음 장면",
+      "url": "https://github.com/suyan05/PharaohCube/commit/82a772916699bae92e01ec10ed5030ca8a40a8d7",
+      "date": "2026-11-24T02:28:53Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "parksarang04",
+      "gitAuthorName": "parksarang04",
+      "gitAuthorEmail": "qkrtkfkd9074@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 8,
+        "additions": 32,
+        "deletions": 26,
+        "meaningful_change": 58,
+        "meaningful_file_count": 8,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "c21e82c3972938110abaa63959de5178933b42c9",
+      "message": "[Feat] 중앙 홀 타일맵 씬 세팅 + 신 일러스트 에셋 + 빌드 목록",
+      "url": "https://github.com/suyan05/PharaohCube/commit/c21e82c3972938110abaa63959de5178933b42c9",
+      "date": "2026-11-24T02:19:11Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "parksarang04",
+      "gitAuthorName": "parksarang04",
+      "gitAuthorEmail": "qkrtkfkd9074@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 3,
+        "additions": 1337,
+        "deletions": 6,
+        "meaningful_change": 1335,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "cfa1440493c9e258bc93589f5ac79999386bf626",
+      "message": "[Feat] 형판 직전 신 일러스트 연출",
+      "url": "https://github.com/suyan05/PharaohCube/commit/cfa1440493c9e258bc93589f5ac79999386bf626",
+      "date": "2026-11-24T01:47:21Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "parksarang04",
+      "gitAuthorName": "parksarang04",
+      "gitAuthorEmail": "qkrtkfkd9074@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 6,
+        "additions": 218,
+        "deletions": 3,
+        "meaningful_change": 217,
+        "meaningful_file_count": 4,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "5a3d3e36f42eb3647d1d5337720c5e4bb35c80c8",
+      "message": "[Feat] 히든 아이템 데이터 + 아누비스 심판 기회 3번",
+      "url": "https://github.com/suyan05/PharaohCube/commit/5a3d3e36f42eb3647d1d5337720c5e4bb35c80c8",
+      "date": "2026-11-24T01:47:17Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "parksarang04",
+      "gitAuthorName": "parksarang04",
+      "gitAuthorEmail": "qkrtkfkd9074@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 7,
+        "additions": 153,
+        "deletions": 10,
+        "meaningful_change": 161,
+        "meaningful_file_count": 6,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "c4636a26893b6ec307baf345135e9be253029178",
+      "message": "[Feat] 중앙 홀 CentralRoom_Tilemap 연결",
+      "url": "https://github.com/suyan05/PharaohCube/commit/c4636a26893b6ec307baf345135e9be253029178",
+      "date": "2026-11-24T01:47:14Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "parksarang04",
+      "gitAuthorName": "parksarang04",
+      "gitAuthorEmail": "qkrtkfkd9074@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 22,
+        "additions": 612,
+        "deletions": 22,
+        "meaningful_change": 618,
+        "meaningful_file_count": 17,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "834bf05a051a8ade79fcf460f749086b7b81e3eb",
+      "message": "[Feat] 호루스의 방 스토리 정리 + 난이도 표",
+      "url": "https://github.com/suyan05/PharaohCube/commit/834bf05a051a8ade79fcf460f749086b7b81e3eb",
+      "date": "2026-11-24T01:40:43Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "parksarang04",
+      "gitAuthorName": "parksarang04",
+      "gitAuthorEmail": "qkrtkfkd9074@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 9,
+        "additions": 72,
+        "deletions": 31,
+        "meaningful_change": 103,
+        "meaningful_file_count": 9,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 1팀",
+      "repo": "suyan05/PharaohCube",
+      "branch": "main",
+      "sha": "5325fa7e31e1030bb25873d12f94447a032245d1",
+      "message": "[Feat] 토트의 방 스토리 정리 + 난이도 + 석판 숨기기",
+      "url": "https://github.com/suyan05/PharaohCube/commit/5325fa7e31e1030bb25873d12f94447a032245d1",
+      "date": "2026-11-24T01:37:17Z",
+      "expectedGithub": "suyan05",
+      "actualGithub": "parksarang04",
+      "gitAuthorName": "parksarang04",
+      "gitAuthorEmail": "qkrtkfkd9074@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 11,
+        "additions": 80,
+        "deletions": 33,
+        "meaningful_change": 113,
+        "meaningful_file_count": 11,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "2학년 2팀",
       "repo": "esuvean/PRESS-START_",
@@ -3158,6 +3503,29 @@
       }
     },
     {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "3358cc0f6a39464513cd411a7f69318035fffe69",
+      "message": "[Chore] 빌드 시 모든 값 초기화 ( 유저 세팅)",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/3358cc0f6a39464513cd411a7f69318035fffe69",
+      "date": "2026-11-20T02:56:43Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "jeolje934-dot",
+      "gitAuthorName": "jeolje934-dot",
+      "gitAuthorEmail": "jeolje934@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 14,
+        "deletions": 17,
+        "meaningful_change": 31,
+        "meaningful_file_count": 1,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
       "projectName": "2학년 6팀",
       "repo": "jeonghyerin002/2026_2TeamProject",
       "branch": "main",
@@ -3176,6 +3544,52 @@
         "deletions": 4110,
         "meaningful_change": 7407,
         "meaningful_file_count": 8,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "7d5702dee1299b33b644ad9e477436b764469074",
+      "message": "[Feat]  최초 실행시 데이터 초기화 기능 ( 빌드한 파일에서 )",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/7d5702dee1299b33b644ad9e477436b764469074",
+      "date": "2026-11-20T02:41:02Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "jeolje934-dot",
+      "gitAuthorName": "jeolje934-dot",
+      "gitAuthorEmail": "jeolje934@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 3,
+        "additions": 94,
+        "deletions": 0,
+        "meaningful_change": 92,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "5d0abc157afbd7b96a7497e29b63ea2b855e5549",
+      "message": "[Fix] 프로젝트 빌드 시 화면 설정",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/5d0abc157afbd7b96a7497e29b63ea2b855e5549",
+      "date": "2026-11-20T02:06:36Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "jeolje934-dot",
+      "gitAuthorName": "jeolje934-dot",
+      "gitAuthorEmail": "jeolje934@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 5,
+        "additions": 47,
+        "deletions": 26,
+        "meaningful_change": 73,
+        "meaningful_file_count": 5,
         "suspicious_score": 0,
         "judgment": "정상"
       }
@@ -3204,6 +3618,75 @@
       }
     },
     {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "978efc88a702b97762981ddf3e7e75f520ae3e57",
+      "message": "[Fix] 업적 칸 나가기 버튼 오류 수정 ( 해당 업적 패널 속 , 업적 모은 칸의 viewport Raycast Targrt의 문제였음)",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/978efc88a702b97762981ddf3e7e75f520ae3e57",
+      "date": "2026-11-20T00:16:29Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "jeolje934-dot",
+      "gitAuthorName": "jeolje934-dot",
+      "gitAuthorEmail": "jeolje934@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 24,
+        "deletions": 12,
+        "meaningful_change": 36,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "f43691e31a7dd5758ffe221f8762d79057131476",
+      "message": "[Fix] 좌우 이동 속도 변경 , 메인 사운드 값 다운",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/f43691e31a7dd5758ffe221f8762d79057131476",
+      "date": "2026-11-19T23:16:59Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "jeolje934-dot",
+      "gitAuthorName": "jeolje934-dot",
+      "gitAuthorEmail": "jeolje934@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 2,
+        "deletions": 2,
+        "meaningful_change": 4,
+        "meaningful_file_count": 1,
+        "suspicious_score": 30,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "9e311c107126de9990de321b17d1d2b5881f7551",
+      "message": "[Fix] 코인 사운드교체 및 소리 다운",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/9e311c107126de9990de321b17d1d2b5881f7551",
+      "date": "2026-11-19T23:08:29Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "jeolje934-dot",
+      "gitAuthorName": "jeolje934-dot",
+      "gitAuthorEmail": "jeolje934@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 4,
+        "additions": 963,
+        "deletions": 37,
+        "meaningful_change": 977,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
       "projectName": "1학년 B반 1팀",
       "repo": "simo07d7PG/Team_JJAMBBAP",
       "branch": "main",
@@ -3222,6 +3705,121 @@
         "deletions": 12,
         "meaningful_change": 772,
         "meaningful_file_count": 7,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "a3463932c522aa461e7b6d5a598a09ada1030b05",
+      "message": "[13]11.20일자 할당량 최종 수정",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/a3463932c522aa461e7b6d5a598a09ada1030b05",
+      "date": "2026-11-19T21:51:13Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "seoyeonpin410-droid",
+      "gitAuthorName": "Pin",
+      "gitAuthorEmail": "seoyeonpin410@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 1,
+        "deletions": 1,
+        "meaningful_change": 2,
+        "meaningful_file_count": 1,
+        "suspicious_score": 50,
+        "judgment": "확인필요"
+      }
+    },
+    {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "36ae10b93be1c302caa7b4fed03b3e983ad5d1f9",
+      "message": "[12]나머지 ui",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/36ae10b93be1c302caa7b4fed03b3e983ad5d1f9",
+      "date": "2026-11-19T21:50:04Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "seoyeonpin410-droid",
+      "gitAuthorName": "Pin",
+      "gitAuthorEmail": "seoyeonpin410@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 4,
+        "additions": 1303,
+        "deletions": 250,
+        "meaningful_change": 1553,
+        "meaningful_file_count": 4,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "8e0ff6eb5e01f9f5556ce2575a9d965681fbc469",
+      "message": "[11]빼먹은거",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/8e0ff6eb5e01f9f5556ce2575a9d965681fbc469",
+      "date": "2026-11-19T21:25:22Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "seoyeonpin410-droid",
+      "gitAuthorName": "Pin",
+      "gitAuthorEmail": "seoyeonpin410@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 3,
+        "deletions": 3,
+        "meaningful_change": 6,
+        "meaningful_file_count": 1,
+        "suspicious_score": 15,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "60d5111179be86b9d99fbfd91f6d57481d6f7c6b",
+      "message": "[10]상점까지",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/60d5111179be86b9d99fbfd91f6d57481d6f7c6b",
+      "date": "2026-11-19T21:24:26Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "seoyeonpin410-droid",
+      "gitAuthorName": "Pin",
+      "gitAuthorEmail": "seoyeonpin410@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 9,
+        "additions": 20546,
+        "deletions": 5269,
+        "meaningful_change": 25531,
+        "meaningful_file_count": 7,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "bef625883b7d0ffc0dc4b60615ee7019da68ee42",
+      "message": "[9]업적패널",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/bef625883b7d0ffc0dc4b60615ee7019da68ee42",
+      "date": "2026-11-19T20:53:38Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "seoyeonpin410-droid",
+      "gitAuthorName": "Pin",
+      "gitAuthorEmail": "seoyeonpin410@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 39,
+        "additions": 34423,
+        "deletions": 2311,
+        "meaningful_change": 36367,
+        "meaningful_file_count": 12,
         "suspicious_score": 0,
         "judgment": "정상"
       }
@@ -3319,6 +3917,29 @@
       }
     },
     {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "4cd8e1c2fae7de5b49b9adcf541d05f2da5b3f8f",
+      "message": "[7]타이틀 완성",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/4cd8e1c2fae7de5b49b9adcf541d05f2da5b3f8f",
+      "date": "2026-11-19T19:35:21Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "seoyeonpin410-droid",
+      "gitAuthorName": "Pin",
+      "gitAuthorEmail": "seoyeonpin410@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 41,
+        "additions": 641,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 17,
+        "suspicious_score": 35,
+        "judgment": "확인필요"
+      }
+    },
+    {
       "projectName": "1학년 B반 4팀",
       "repo": "Sine-aw/nohesitate",
       "branch": "main",
@@ -3359,6 +3980,29 @@
         "additions": 2466,
         "deletions": 120,
         "meaningful_change": 2586,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "a41a3224e1050894cb61f86d05ad9e393b991a08",
+      "message": "[6]배경 꾸미기",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/a41a3224e1050894cb61f86d05ad9e393b991a08",
+      "date": "2026-11-19T18:59:46Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "seoyeonpin410-droid",
+      "gitAuthorName": "Pin",
+      "gitAuthorEmail": "seoyeonpin410@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 6,
+        "additions": 592,
+        "deletions": 525,
+        "meaningful_change": 1043,
         "meaningful_file_count": 2,
         "suspicious_score": 0,
         "judgment": "정상"
@@ -3498,6 +4142,29 @@
         "deletions": 220,
         "meaningful_change": 1359,
         "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "af0cfb717e194bc5bab30dc284a3db2b7f276248",
+      "message": "[5]메인 UI 글리치 효과 추가",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/af0cfb717e194bc5bab30dc284a3db2b7f276248",
+      "date": "2026-11-19T18:38:17Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "seoyeonpin410-droid",
+      "gitAuthorName": "Pin",
+      "gitAuthorEmail": "seoyeonpin410@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 10,
+        "additions": 345,
+        "deletions": 0,
+        "meaningful_change": 153,
+        "meaningful_file_count": 5,
         "suspicious_score": 0,
         "judgment": "정상"
       }
@@ -3682,6 +4349,29 @@
         "deletions": 0,
         "meaningful_change": 920,
         "meaningful_file_count": 5,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "d1e873e5eacbe30f332069b437c1ca4b9c4da3d1",
+      "message": "[4]타이틀 UI 소스 수정 및 첨부",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/d1e873e5eacbe30f332069b437c1ca4b9c4da3d1",
+      "date": "2026-11-19T18:10:35Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "seoyeonpin410-droid",
+      "gitAuthorName": "Pin",
+      "gitAuthorEmail": "seoyeonpin410@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 8,
+        "additions": 1861,
+        "deletions": 0,
+        "meaningful_change": 1548,
+        "meaningful_file_count": 3,
         "suspicious_score": 0,
         "judgment": "정상"
       }
@@ -6102,6 +6792,29 @@
       }
     },
     {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "bcd49a0c99e7045a884c897c79f1a07f4b86e400",
+      "message": "[Fix] 상점 페이지 연결 수정",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/bcd49a0c99e7045a884c897c79f1a07f4b86e400",
+      "date": "2026-11-18T15:34:21Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "mu0e07",
+      "gitAuthorName": "mu0e07",
+      "gitAuthorEmail": "mu0e07@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 17,
+        "additions": 20864,
+        "deletions": 13074,
+        "meaningful_change": 33894,
+        "meaningful_file_count": 10,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
       "projectName": "2학년 3팀",
       "repo": "jinjooyoung/DUAL-DUEL",
       "branch": "main",
@@ -6881,6 +7594,29 @@
         "meaningful_file_count": 137,
         "suspicious_score": 0,
         "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "0cf5ea9f4662e9a09e534e96ba090eec9acb0650",
+      "message": "[Fix] 메인 카메라 각도 수정",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/0cf5ea9f4662e9a09e534e96ba090eec9acb0650",
+      "date": "2026-11-18T04:24:54Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "jeolje934-dot",
+      "gitAuthorName": "jeolje934-dot",
+      "gitAuthorEmail": "jeolje934@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 1,
+        "deletions": 1,
+        "meaningful_change": 2,
+        "meaningful_file_count": 1,
+        "suspicious_score": 50,
+        "judgment": "확인필요"
       }
     },
     {
@@ -8080,6 +8816,29 @@
       }
     },
     {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "25404803c0aacd17dcc764f52cd3f94d97a7618f",
+      "message": "[Fix] 무적판정 제거 , 빛 조절 , 메인 카메라 각도 60=> 67로 수정",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/25404803c0aacd17dcc764f52cd3f94d97a7618f",
+      "date": "2026-11-17T10:25:23Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "jeolje934-dot",
+      "gitAuthorName": "jeolje934-dot",
+      "gitAuthorEmail": "jeolje934@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 262,
+        "deletions": 2,
+        "meaningful_change": 264,
+        "meaningful_file_count": 1,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
       "projectName": "1학년 A반 5팀",
       "repo": "surren01522-tech/2026_02_GameProject_Eurydice",
       "branch": "main",
@@ -8149,6 +8908,29 @@
       }
     },
     {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "f91916abf57ea9b84a7b849e92d205fe796ba6fe",
+      "message": "[Fix] 전체 수정",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/f91916abf57ea9b84a7b849e92d205fe796ba6fe",
+      "date": "2026-11-17T09:28:59Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "jeolje934-dot",
+      "gitAuthorName": "jeolje934-dot",
+      "gitAuthorEmail": "jeolje934@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 3,
+        "additions": 11,
+        "deletions": 10,
+        "meaningful_change": 21,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
       "projectName": "1학년 B반 3팀",
       "repo": "Tiphe0821/GameProject_T3_1_B",
       "branch": "main",
@@ -8167,6 +8949,52 @@
         "deletions": 53,
         "meaningful_change": 211,
         "meaningful_file_count": 7,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "adb76ca931989d30ab631c303327696c429e3d26",
+      "message": "[Fix] 전체 밝기 수정 ( 공 , 길 )",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/adb76ca931989d30ab631c303327696c429e3d26",
+      "date": "2026-11-17T09:04:32Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "jeolje934-dot",
+      "gitAuthorName": "jeolje934-dot",
+      "gitAuthorEmail": "jeolje934@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 263,
+        "deletions": 3,
+        "meaningful_change": 266,
+        "meaningful_file_count": 1,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "490597c1b9624a486120cfd745c512cf21f338cc",
+      "message": "[Feat] 길 이펙트 효과 추가",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/490597c1b9624a486120cfd745c512cf21f338cc",
+      "date": "2026-11-17T08:59:31Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "jeolje934-dot",
+      "gitAuthorName": "jeolje934-dot",
+      "gitAuthorEmail": "jeolje934@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 5,
+        "additions": 857,
+        "deletions": 58,
+        "meaningful_change": 913,
+        "meaningful_file_count": 4,
         "suspicious_score": 0,
         "judgment": "정상"
       }
@@ -8218,6 +9046,29 @@
       }
     },
     {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "0b66dbb1e5029bb60c96fd528019c18310591f91",
+      "message": "[Fix] 이것 저것 수정",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/0b66dbb1e5029bb60c96fd528019c18310591f91",
+      "date": "2026-11-17T08:29:09Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "jeolje934-dot",
+      "gitAuthorName": "jeolje934-dot",
+      "gitAuthorEmail": "jeolje934@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 6,
+        "additions": 102,
+        "deletions": 20,
+        "meaningful_change": 112,
+        "meaningful_file_count": 4,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
       "projectName": "3학년 4팀",
       "repo": "yuseongmok/Delivery-service",
       "branch": "main",
@@ -8264,6 +9115,29 @@
       }
     },
     {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "ec01e5a84d5c86d910afbe3f699e89bdadbca004",
+      "message": "[Feat] 코드 수정 , 개발자 모드 추가 (F7: 업적 저장 기록 초기화, F8~12 업적 팝업 테스트 가능키)",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/ec01e5a84d5c86d910afbe3f699e89bdadbca004",
+      "date": "2026-11-17T07:52:13Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "jeolje934-dot",
+      "gitAuthorName": "jeolje934-dot",
+      "gitAuthorEmail": "jeolje934@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 3,
+        "additions": 45,
+        "deletions": 30,
+        "meaningful_change": 75,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
       "projectName": "1학년 A반 4팀",
       "repo": "yungyeong08/4team_project_02",
       "branch": "main",
@@ -8305,6 +9179,29 @@
         "deletions": 126,
         "meaningful_change": 627,
         "meaningful_file_count": 12,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "16ce8e59364022147ea4f15692e2b4ea035a0204",
+      "message": "[Feat] 업적 팝업 창 ( 테스트 중 개발자 모드 추가 )",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/16ce8e59364022147ea4f15692e2b4ea035a0204",
+      "date": "2026-11-17T07:21:34Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "jeolje934-dot",
+      "gitAuthorName": "jeolje934-dot",
+      "gitAuthorEmail": "jeolje934@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 5,
+        "additions": 682,
+        "deletions": 30,
+        "meaningful_change": 710,
+        "meaningful_file_count": 4,
         "suspicious_score": 0,
         "judgment": "정상"
       }
@@ -8374,6 +9271,98 @@
         "deletions": 19,
         "meaningful_change": 15364,
         "meaningful_file_count": 27,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "0bca599e857d0e60a21b9bde607912514b27e6d6",
+      "message": "[Fix] 01~04번까지 총 5개 업적 텍스트 크키 , 사이즈 조정 완료",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/0bca599e857d0e60a21b9bde607912514b27e6d6",
+      "date": "2026-11-17T00:59:15Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "jeolje934-dot",
+      "gitAuthorName": "jeolje934-dot",
+      "gitAuthorEmail": "jeolje934@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 24,
+        "deletions": 24,
+        "meaningful_change": 48,
+        "meaningful_file_count": 1,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "15b3090710fcbccbadf89edfb73ff90f31a9001f",
+      "message": "[Fix] 업적 0번 위치, 크기 조정",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/15b3090710fcbccbadf89edfb73ff90f31a9001f",
+      "date": "2026-11-17T00:51:31Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "jeolje934-dot",
+      "gitAuthorName": "jeolje934-dot",
+      "gitAuthorEmail": "jeolje934@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 6,
+        "deletions": 6,
+        "meaningful_change": 12,
+        "meaningful_file_count": 1,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "fde8b7f9dcc8416e64752fe984774a0447b50a0c",
+      "message": "[Fix] 코드 수정 , 업적 연동 완료 , (좌우 이동은 거리 계산 포함 X)",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/fde8b7f9dcc8416e64752fe984774a0447b50a0c",
+      "date": "2026-11-17T00:21:47Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "jeolje934-dot",
+      "gitAuthorName": "jeolje934-dot",
+      "gitAuthorEmail": "jeolje934@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 4,
+        "additions": 314,
+        "deletions": 46,
+        "meaningful_change": 360,
+        "meaningful_file_count": 4,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "1e140c93c88a034e801ee2b26aa0a8a8f09a50cb",
+      "message": "[Feat] AchievementItemUI , AchievementSystem . cs 생성 , GameOverUI 수정",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/1e140c93c88a034e801ee2b26aa0a8a8f09a50cb",
+      "date": "2026-11-17T00:01:53Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "jeolje934-dot",
+      "gitAuthorName": "jeolje934-dot",
+      "gitAuthorEmail": "jeolje934@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 6,
+        "additions": 259,
+        "deletions": 3,
+        "meaningful_change": 258,
+        "meaningful_file_count": 4,
         "suspicious_score": 0,
         "judgment": "정상"
       }
@@ -9063,6 +10052,52 @@
         "additions": 1520,
         "deletions": 0,
         "meaningful_change": 1511,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "54f04b52807c5bf2dff02dc8d38cca0a766fe388",
+      "message": "[Fix] 상점 칸 임시 이미지 설정",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/54f04b52807c5bf2dff02dc8d38cca0a766fe388",
+      "date": "2026-11-16T12:31:23Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "jeolje934-dot",
+      "gitAuthorName": "jeolje934-dot",
+      "gitAuthorEmail": "jeolje934@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 5,
+        "deletions": 5,
+        "meaningful_change": 10,
+        "meaningful_file_count": 1,
+        "suspicious_score": 15,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "8a557d52cc56ff287402caae9867fdf443ded7cc",
+      "message": "[Fix] 상점 텍스트 수정",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/8a557d52cc56ff287402caae9867fdf443ded7cc",
+      "date": "2026-11-16T12:15:53Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "jeolje934-dot",
+      "gitAuthorName": "jeolje934-dot",
+      "gitAuthorEmail": "jeolje934@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 873,
+        "deletions": 12,
+        "meaningful_change": 885,
         "meaningful_file_count": 2,
         "suspicious_score": 0,
         "judgment": "정상"
@@ -9851,6 +10886,29 @@
       }
     },
     {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "cf147cbe8b087de769a793ea47c6f3e4e4c1b101",
+      "message": "[Chore] 상점 페이지 잠시 비활성화",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/cf147cbe8b087de769a793ea47c6f3e4e4c1b101",
+      "date": "2026-11-16T04:37:43Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "jeolje934-dot",
+      "gitAuthorName": "jeolje934-dot",
+      "gitAuthorEmail": "jeolje934@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 2,
+        "deletions": 2,
+        "meaningful_change": 4,
+        "meaningful_file_count": 1,
+        "suspicious_score": 30,
+        "judgment": "정상"
+      }
+    },
+    {
       "projectName": "2학년 3팀",
       "repo": "jinjooyoung/DUAL-DUEL",
       "branch": "main",
@@ -10334,6 +11392,29 @@
       }
     },
     {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "989d4aefdb0c8ffa42366da8f8550f6de592d063",
+      "message": "[Feat] 상점 페이지 추가",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/989d4aefdb0c8ffa42366da8f8550f6de592d063",
+      "date": "2026-11-15T16:23:00Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "mu0e07",
+      "gitAuthorName": "mu0e07",
+      "gitAuthorEmail": "mu0e07@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 4,
+        "additions": 1522,
+        "deletions": 151,
+        "meaningful_change": 1671,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
       "projectName": "2학년 2팀",
       "repo": "esuvean/PRESS-START_",
       "branch": "main",
@@ -10587,6 +11668,29 @@
       }
     },
     {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "a05ae2774ce3c42fbfa7ba4ce512ece68df04328",
+      "message": "[Feat] 업적 내용 추가",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/a05ae2774ce3c42fbfa7ba4ce512ece68df04328",
+      "date": "2026-11-15T14:48:09Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "jeolje934-dot",
+      "gitAuthorName": "jeolje934-dot",
+      "gitAuthorEmail": "jeolje934@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 7500,
+        "deletions": 1454,
+        "meaningful_change": 8954,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
       "projectName": "1학년 A반 2팀",
       "repo": "hoshinouhee123/gacha-game-teamplay",
       "branch": "main",
@@ -10605,6 +11709,52 @@
         "deletions": 529,
         "meaningful_change": 1283,
         "meaningful_file_count": 26,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "2f3c21c887f02654b3c7d7e2e3a718c356305afd",
+      "message": "[Fix] 업적 창과 버튼과의 연결 오류 해결",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/2f3c21c887f02654b3c7d7e2e3a718c356305afd",
+      "date": "2026-11-15T14:31:57Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "jeolje934-dot",
+      "gitAuthorName": "jeolje934-dot",
+      "gitAuthorEmail": "jeolje934@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 1,
+        "deletions": 1,
+        "meaningful_change": 2,
+        "meaningful_file_count": 1,
+        "suspicious_score": 50,
+        "judgment": "확인필요"
+      }
+    },
+    {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "b5e4a3229101377511f21d84392f05810a78415b",
+      "message": "[Feat] 업적 UI 및 초기 페이지  제작",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/b5e4a3229101377511f21d84392f05810a78415b",
+      "date": "2026-11-15T14:29:06Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "jeolje934-dot",
+      "gitAuthorName": "jeolje934-dot",
+      "gitAuthorEmail": "jeolje934@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 4,
+        "additions": 25998,
+        "deletions": 6141,
+        "meaningful_change": 32137,
+        "meaningful_file_count": 3,
         "suspicious_score": 0,
         "judgment": "정상"
       }
@@ -10771,6 +11921,29 @@
       }
     },
     {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "f3406bdd2b0f5c34a1e522fdb1683ea0ee416be3",
+      "message": "[Chore] 맵 최대 , 난이도 거리를 2000m =>  10000m로 변경하면서 총 10단계 스테이지로 변경",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/f3406bdd2b0f5c34a1e522fdb1683ea0ee416be3",
+      "date": "2026-11-15T12:57:14Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "jeolje934-dot",
+      "gitAuthorName": "jeolje934-dot",
+      "gitAuthorEmail": "jeolje934@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 126,
+        "deletions": 113,
+        "meaningful_change": 239,
+        "meaningful_file_count": 1,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
       "projectName": "2학년 2팀",
       "repo": "esuvean/PRESS-START_",
       "branch": "main",
@@ -10794,6 +11967,52 @@
       }
     },
     {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "f2c3ecfe634a3b0ca3f7624d165b012d7ca7ffa2",
+      "message": "[Chore] 맵 생성 스크립트 변경 , 난이도 조절 ( 기존 맵은 2단계를 넘기지 못함)",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/f2c3ecfe634a3b0ca3f7624d165b012d7ca7ffa2",
+      "date": "2026-11-15T12:48:57Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "jeolje934-dot",
+      "gitAuthorName": "jeolje934-dot",
+      "gitAuthorEmail": "jeolje934@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 195,
+        "deletions": 143,
+        "meaningful_change": 338,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "75e66c4d4e4bc9b722b490152d33c9907caccc21",
+      "message": "[Chore] 기본 공 이펙트 변경",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/75e66c4d4e4bc9b722b490152d33c9907caccc21",
+      "date": "2026-11-15T12:41:46Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "jeolje934-dot",
+      "gitAuthorName": "jeolje934-dot",
+      "gitAuthorEmail": "jeolje934@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 17,
+        "deletions": 23,
+        "meaningful_change": 40,
+        "meaningful_file_count": 1,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
       "projectName": "1학년 A반 1팀",
       "repo": "chimchimjam377/TeamProject---Singularity-Thief",
       "branch": "main",
@@ -10812,6 +12031,52 @@
         "deletions": 114,
         "meaningful_change": 731,
         "meaningful_file_count": 4,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "951dbc4c713d888f4d3749bba7e7f691c573ea64",
+      "message": "[Chore] 코인 소리 출력 값 다운",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/951dbc4c713d888f4d3749bba7e7f691c573ea64",
+      "date": "2026-11-15T12:36:04Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "jeolje934-dot",
+      "gitAuthorName": "jeolje934-dot",
+      "gitAuthorEmail": "jeolje934@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 1,
+        "deletions": 1,
+        "meaningful_change": 2,
+        "meaningful_file_count": 1,
+        "suspicious_score": 50,
+        "judgment": "확인필요"
+      }
+    },
+    {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "d1f005fc7f357683b69a2ff900208dc93c3e3174",
+      "message": "[Chore] 거리 UI 위치 값 변경",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/d1f005fc7f357683b69a2ff900208dc93c3e3174",
+      "date": "2026-11-15T12:30:41Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "jeolje934-dot",
+      "gitAuthorName": "jeolje934-dot",
+      "gitAuthorEmail": "jeolje934@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 42,
+        "deletions": 15,
+        "meaningful_change": 57,
+        "meaningful_file_count": 2,
         "suspicious_score": 0,
         "judgment": "정상"
       }
@@ -10883,6 +12148,29 @@
         "meaningful_file_count": 1,
         "suspicious_score": 0,
         "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "de6c87c0cff974928dea168ca4bb1edf1b5cb045",
+      "message": "[Feat] 사운드 소스 추가",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/de6c87c0cff974928dea168ca4bb1edf1b5cb045",
+      "date": "2026-11-15T11:46:03Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "jeolje934-dot",
+      "gitAuthorName": "jeolje934-dot",
+      "gitAuthorEmail": "jeolje934@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 4,
+        "additions": 46,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 2,
+        "suspicious_score": 35,
+        "judgment": "확인필요"
       }
     },
     {
@@ -11047,6 +12335,29 @@
       }
     },
     {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "610096f0cc91324e75f82ac2310ee7702d21238f",
+      "message": "[Feat] 임시 배경 이미지 추가 ( AI로 생성 )",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/610096f0cc91324e75f82ac2310ee7702d21238f",
+      "date": "2026-11-15T10:37:26Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "jeolje934-dot",
+      "gitAuthorName": "jeolje934-dot",
+      "gitAuthorEmail": "jeolje934@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 6,
+        "additions": 385,
+        "deletions": 1,
+        "meaningful_change": 253,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
       "projectName": "2학년 6팀",
       "repo": "jeonghyerin002/2026_2TeamProject",
       "branch": "main",
@@ -11065,6 +12376,29 @@
         "deletions": 138,
         "meaningful_change": 17748,
         "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "08b843568204768c7a9e7e4102ccb9e194600c75",
+      "message": "[Feat] 장애물 글리치 효과 추가 , ( 난이도 수정)",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/08b843568204768c7a9e7e4102ccb9e194600c75",
+      "date": "2026-11-15T10:11:16Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "jeolje934-dot",
+      "gitAuthorName": "jeolje934-dot",
+      "gitAuthorEmail": "jeolje934@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 4,
+        "additions": 146,
+        "deletions": 7,
+        "meaningful_change": 151,
+        "meaningful_file_count": 3,
         "suspicious_score": 0,
         "judgment": "정상"
       }
@@ -11111,6 +12445,52 @@
         "deletions": 3903,
         "meaningful_change": 4212,
         "meaningful_file_count": 6,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "76d106aedd0ffc27620032b5c9555a9c176fb698",
+      "message": "[Fix] 메인 카메라 색상 변경",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/76d106aedd0ffc27620032b5c9555a9c176fb698",
+      "date": "2026-11-15T09:54:43Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "jeolje934-dot",
+      "gitAuthorName": "jeolje934-dot",
+      "gitAuthorEmail": "jeolje934@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 1,
+        "deletions": 1,
+        "meaningful_change": 2,
+        "meaningful_file_count": 1,
+        "suspicious_score": 50,
+        "judgment": "확인필요"
+      }
+    },
+    {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "ca10aea9e9dc6eee00ac61f6ce3fdc5167972361",
+      "message": "[Feat] 기본 공 이펙트 추가 , 카메라 조명 끔",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/ca10aea9e9dc6eee00ac61f6ce3fdc5167972361",
+      "date": "2026-11-15T09:52:08Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "jeolje934-dot",
+      "gitAuthorName": "jeolje934-dot",
+      "gitAuthorEmail": "jeolje934@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 12,
+        "additions": 492,
+        "deletions": 7,
+        "meaningful_change": 465,
+        "meaningful_file_count": 7,
         "suspicious_score": 0,
         "judgment": "정상"
       }
@@ -12468,6 +13848,98 @@
         "deletions": 6928,
         "meaningful_change": 14258,
         "meaningful_file_count": 16,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "cc437b4500356ca731420ce2bb8f5d72de0209d0",
+      "message": "[Fix] 사용하지 않는 사운드 삭제 및 , 기본 이속과 맵 밸런스 조절",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/cc437b4500356ca731420ce2bb8f5d72de0209d0",
+      "date": "2026-11-14T07:36:33Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "jeolje934-dot",
+      "gitAuthorName": "jeolje934-dot",
+      "gitAuthorEmail": "jeolje934@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 10,
+        "additions": 11,
+        "deletions": 222,
+        "meaningful_change": 178,
+        "meaningful_file_count": 6,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "8ade1b1c4a7a451b34ddcbca6241b00546cf4793",
+      "message": "[Fix] 공 좌우 이속 변경",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/8ade1b1c4a7a451b34ddcbca6241b00546cf4793",
+      "date": "2026-11-14T07:18:44Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "jeolje934-dot",
+      "gitAuthorName": "jeolje934-dot",
+      "gitAuthorEmail": "jeolje934@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 2,
+        "deletions": 2,
+        "meaningful_change": 4,
+        "meaningful_file_count": 1,
+        "suspicious_score": 30,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "75dbdb1d908ea7bb47359d79038f91200cccfe03",
+      "message": "[Fix] 장애물, 공 사이즈 콜라이더 수정",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/75dbdb1d908ea7bb47359d79038f91200cccfe03",
+      "date": "2026-11-14T07:14:18Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "jeolje934-dot",
+      "gitAuthorName": "jeolje934-dot",
+      "gitAuthorEmail": "jeolje934@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 5,
+        "additions": 7,
+        "deletions": 290,
+        "meaningful_change": 290,
+        "meaningful_file_count": 4,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "369e276595c002083f4d195da98be367a32d656c",
+      "message": "[Fix] 맵 생성과 게임 조작방식 전체 수정, 메인 bgm변경 , 게임 창 UI 텍스트 크기 값 수정",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/369e276595c002083f4d195da98be367a32d656c",
+      "date": "2026-11-14T07:01:14Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "jeolje934-dot",
+      "gitAuthorName": "jeolje934-dot",
+      "gitAuthorEmail": "jeolje934@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 6,
+        "additions": 195,
+        "deletions": 115,
+        "meaningful_change": 308,
+        "meaningful_file_count": 5,
         "suspicious_score": 0,
         "judgment": "정상"
       }
@@ -21532,6 +23004,29 @@
         "meaningful_file_count": 1,
         "suspicious_score": 35,
         "judgment": "확인필요"
+      }
+    },
+    {
+      "projectName": "1학년 A반 6팀",
+      "repo": "jeolje934-dot/GPA_6A_TeamProject",
+      "branch": "main",
+      "sha": "806e94aaef9b4718d674c050e0906f99382bbd2f",
+      "message": "[Feat] 바닥 배경 에셋 제작 후 교체 , 콜라이더 수정",
+      "url": "https://github.com/jeolje934-dot/GPA_6A_TeamProject/commit/806e94aaef9b4718d674c050e0906f99382bbd2f",
+      "date": "2026-10-29T11:36:47Z",
+      "expectedGithub": "jeolje934-dot",
+      "actualGithub": "jeolje934-dot",
+      "gitAuthorName": "jeolje934-dot",
+      "gitAuthorEmail": "jeolje934@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 10,
+        "additions": 2836,
+        "deletions": 2,
+        "meaningful_change": 171,
+        "meaningful_file_count": 4,
+        "suspicious_score": 0,
+        "judgment": "정상"
       }
     },
     {
