@@ -1,11 +1,103 @@
 {
-  "updatedAt": "2026. 11. 25. 11:56",
+  "updatedAt": "2026. 11. 25. 21:14",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "92b02b7d679fdb3ab05b6fdc0d58127702e146d1",
+      "message": "구르는 적과 공격 안되는 지상 원거리적 버그 수정",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/92b02b7d679fdb3ab05b6fdc0d58127702e146d1",
+      "date": "2026-11-25T11:57:52Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "tjd6356-afk",
+      "gitAuthorName": "tjd6356-afk",
+      "gitAuthorEmail": "tjd6356@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 6,
+        "additions": 3629,
+        "deletions": 454,
+        "meaningful_change": 4081,
+        "meaningful_file_count": 5,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 4팀",
+      "repo": "Sine-aw/nohesitate",
+      "branch": "main",
+      "sha": "4a2bba20ee9a59f850446c18df2e4b387b6f8f6f",
+      "message": "[Feat] 12주차 회의",
+      "url": "https://github.com/Sine-aw/nohesitate/commit/4a2bba20ee9a59f850446c18df2e4b387b6f8f6f",
+      "date": "2026-11-25T11:31:37Z",
+      "expectedGithub": "Sine-aw",
+      "actualGithub": "olaf0623-crypto",
+      "gitAuthorName": "olaf0623-crypto",
+      "gitAuthorEmail": "olaf0623@g.shingu.ac.kr",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 7,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 0,
+        "suspicious_score": 80,
+        "judgment": "뻥의심"
+      }
+    },
+    {
+      "projectName": "2학년 2팀",
+      "repo": "esuvean/PRESS-START_",
+      "branch": "main",
+      "sha": "8c17c593fcf486482f7dffee4e9ad00d46ed55ac",
+      "message": "[feat] 업적 관련 UI",
+      "url": "https://github.com/esuvean/PRESS-START_/commit/8c17c593fcf486482f7dffee4e9ad00d46ed55ac",
+      "date": "2026-11-25T10:38:21Z",
+      "expectedGithub": "esuvean",
+      "actualGithub": null,
+      "gitAuthorName": "cannotstoppinglove",
+      "gitAuthorEmail": "bomspringangel@gs.shingu.ac.kr",
+      "verification": "unlinked",
+      "analysis": {
+        "changed_files": 27,
+        "additions": 1529,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 13,
+        "suspicious_score": 35,
+        "judgment": "확인필요"
+      }
+    },
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "adb82906ca46336fd206531d3be2647842342311",
+      "message": "적 버그 고치기전 씬 저장",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/adb82906ca46336fd206531d3be2647842342311",
+      "date": "2026-11-25T10:05:55Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "tjd6356-afk",
+      "gitAuthorName": "tjd6356-afk",
+      "gitAuthorEmail": "tjd6356@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 0,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 1,
+        "suspicious_score": 35,
+        "judgment": "확인필요"
+      }
+    },
     {
       "projectName": "1학년 A반 1팀",
       "repo": "chimchimjam377/TeamProject---Singularity-Thief",
