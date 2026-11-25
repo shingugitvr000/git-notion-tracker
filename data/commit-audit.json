@@ -1,11 +1,126 @@
 {
-  "updatedAt": "2026. 11. 25. 03:38",
+  "updatedAt": "2026. 11. 25. 11:56",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "1학년 A반 1팀",
+      "repo": "chimchimjam377/TeamProject---Singularity-Thief",
+      "branch": "main",
+      "sha": "01f19515298c7160f064d5ee974e18d3a6a92eba",
+      "message": "크악끄악크악",
+      "url": "https://github.com/chimchimjam377/TeamProject---Singularity-Thief/commit/01f19515298c7160f064d5ee974e18d3a6a92eba",
+      "date": "2026-11-25T01:50:38Z",
+      "expectedGithub": "chimchimjam377",
+      "actualGithub": "chimchimjam377",
+      "gitAuthorName": "chimchimjam377",
+      "gitAuthorEmail": "chimchimjam377@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 3,
+        "additions": 20,
+        "deletions": 2488,
+        "meaningful_change": 2508,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "3c416bc4c93ace2e7e57ad7df61d4cf480e0f3f7",
+      "message": "총으로 문열기 공통 스크립트 생성. 및 무기로 총 멸기 함수 교체",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/3c416bc4c93ace2e7e57ad7df61d4cf480e0f3f7",
+      "date": "2026-11-25T01:32:58Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "tjd6356-afk",
+      "gitAuthorName": "tjd6356-afk",
+      "gitAuthorEmail": "tjd6356@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 9,
+        "additions": 360,
+        "deletions": 225,
+        "meaningful_change": 583,
+        "meaningful_file_count": 8,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 1팀",
+      "repo": "chimchimjam377/TeamProject---Singularity-Thief",
+      "branch": "main",
+      "sha": "7f5587e921e9ddacd7e99ee887446f2aeff77528",
+      "message": "상점 개선해야할 듯",
+      "url": "https://github.com/chimchimjam377/TeamProject---Singularity-Thief/commit/7f5587e921e9ddacd7e99ee887446f2aeff77528",
+      "date": "2026-11-25T01:31:18Z",
+      "expectedGithub": "chimchimjam377",
+      "actualGithub": "chimchimjam377",
+      "gitAuthorName": "chimchimjam377",
+      "gitAuthorEmail": "chimchimjam377@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 11,
+        "additions": 39937,
+        "deletions": 154,
+        "meaningful_change": 40091,
+        "meaningful_file_count": 11,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "d7988553f663c5cedd5d499cedd380d7a13c0f32",
+      "message": "[Feat] 새로문 문 코드 및 다시 총알로 문열리는 코드 작업 시작",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/d7988553f663c5cedd5d499cedd380d7a13c0f32",
+      "date": "2026-11-25T00:43:57Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "tjd6356-afk",
+      "gitAuthorName": "tjd6356-afk",
+      "gitAuthorEmail": "tjd6356@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 7,
+        "additions": 773,
+        "deletions": 58,
+        "meaningful_change": 829,
+        "meaningful_file_count": 6,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 2팀",
+      "repo": "esuvean/PRESS-START_",
+      "branch": "main",
+      "sha": "a1160e4013275c9616a2ade046d5648a67028e7f",
+      "message": "[feat] 업적 통합 스크립트",
+      "url": "https://github.com/esuvean/PRESS-START_/commit/a1160e4013275c9616a2ade046d5648a67028e7f",
+      "date": "2026-11-24T23:37:58Z",
+      "expectedGithub": "esuvean",
+      "actualGithub": "flexinja99",
+      "gitAuthorName": "flexinja",
+      "gitAuthorEmail": "hjgo927@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 16,
+        "additions": 4599,
+        "deletions": 2507,
+        "meaningful_change": 7096,
+        "meaningful_file_count": 11,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "2학년 1팀",
       "repo": "suyan05/PharaohCube",
