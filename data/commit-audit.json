@@ -1,11 +1,57 @@
 {
-  "updatedAt": "2026. 11. 26. 12:57",
+  "updatedAt": "2026. 11. 26. 22:39",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "1학년 A반 1팀",
+      "repo": "chimchimjam377/TeamProject---Singularity-Thief",
+      "branch": "main",
+      "sha": "f635a57440f23a81621b61d3cf26ef8c6d82df77",
+      "message": "폭발, 총, 총 연사, 포탄, 포탄 연사 효과음 포함 8개 사운드 추가",
+      "url": "https://github.com/chimchimjam377/TeamProject---Singularity-Thief/commit/f635a57440f23a81621b61d3cf26ef8c6d82df77",
+      "date": "2026-11-26T12:43:50Z",
+      "expectedGithub": "chimchimjam377",
+      "actualGithub": "2026137008",
+      "gitAuthorName": "강민서",
+      "gitAuthorEmail": "2026137008@g.shingu.ac.kr",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 16,
+        "additions": 184,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 8,
+        "suspicious_score": 35,
+        "judgment": "확인필요"
+      }
+    },
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "7a7037d2ccc81a503ea55f0c754fb0ef213ee0c0",
+      "message": "로비씬 재 배치",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/7a7037d2ccc81a503ea55f0c754fb0ef213ee0c0",
+      "date": "2026-11-26T12:31:23Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "tjd6356-afk",
+      "gitAuthorName": "tjd6356-afk",
+      "gitAuthorEmail": "tjd6356@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 473,
+        "deletions": 79,
+        "meaningful_change": 552,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "1학년 A반 1팀",
       "repo": "chimchimjam377/TeamProject---Singularity-Thief",
