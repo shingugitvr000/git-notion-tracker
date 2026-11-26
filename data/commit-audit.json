@@ -1,11 +1,57 @@
 {
-  "updatedAt": "2026. 11. 26. 22:39",
+  "updatedAt": "2026. 11. 27. 07:48",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "3학년 4팀",
+      "repo": "yuseongmok/Delivery-service",
+      "branch": "main",
+      "sha": "420603d1b95d906c916a830cfcc0c5039fb9d93f",
+      "message": "[Feat] 챕터3 컷신 -> 배달 -> 납치 구현",
+      "url": "https://github.com/yuseongmok/Delivery-service/commit/420603d1b95d906c916a830cfcc0c5039fb9d93f",
+      "date": "2026-11-26T17:07:49Z",
+      "expectedGithub": "yuseongmok",
+      "actualGithub": "shingumingi",
+      "gitAuthorName": "shingumingi",
+      "gitAuthorEmail": "pettid0314@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 35,
+        "additions": 1343178,
+        "deletions": 14,
+        "meaningful_change": 1343023,
+        "meaningful_file_count": 25,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "4a1dbc89775d74d8dd5a55b1c0361cadc670d859",
+      "message": "[Fix] 구르는 적 개선",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/4a1dbc89775d74d8dd5a55b1c0361cadc670d859",
+      "date": "2026-11-26T16:15:31Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "rlfahtwkqdl",
+      "gitAuthorName": "rlfahtwkqdl",
+      "gitAuthorEmail": "hongjunsu87@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 5,
+        "additions": 338,
+        "deletions": 79,
+        "meaningful_change": 417,
+        "meaningful_file_count": 5,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "1학년 A반 1팀",
       "repo": "chimchimjam377/TeamProject---Singularity-Thief",
