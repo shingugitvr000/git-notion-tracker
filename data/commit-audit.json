@@ -1,11 +1,103 @@
 {
-  "updatedAt": "2026. 11. 27. 07:48",
+  "updatedAt": "2026. 11. 27. 13:47",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "1학년 A반 1팀",
+      "repo": "chimchimjam377/TeamProject---Singularity-Thief",
+      "branch": "main",
+      "sha": "351efdadfe7f9bff384b45f079d9f3dabade1fc9",
+      "message": "플레이어 공격 편의성 추가",
+      "url": "https://github.com/chimchimjam377/TeamProject---Singularity-Thief/commit/351efdadfe7f9bff384b45f079d9f3dabade1fc9",
+      "date": "2026-11-27T04:09:28Z",
+      "expectedGithub": "chimchimjam377",
+      "actualGithub": "chimchimjam377",
+      "gitAuthorName": "chimchimjam377",
+      "gitAuthorEmail": "chimchimjam377@gmail.com",
+      "verification": "verified",
+      "analysis": {
+        "changed_files": 17,
+        "additions": 1285,
+        "deletions": 35,
+        "meaningful_change": 1318,
+        "meaningful_file_count": 11,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "0f0765d90c5b44d71f7744c04f9c3340bdbe3a77",
+      "message": "스테이지 이동 UI 수정",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/0f0765d90c5b44d71f7744c04f9c3340bdbe3a77",
+      "date": "2026-11-27T03:08:35Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "tjd6356-afk",
+      "gitAuthorName": "tjd6356-afk",
+      "gitAuthorEmail": "tjd6356@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 3,
+        "additions": 198,
+        "deletions": 91,
+        "meaningful_change": 289,
+        "meaningful_file_count": 3,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "d050125dc21072f4d3ef17a6aa81311c9fef7561",
+      "message": "던전 씬 저장",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/d050125dc21072f4d3ef17a6aa81311c9fef7561",
+      "date": "2026-11-27T02:59:49Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "tjd6356-afk",
+      "gitAuthorName": "tjd6356-afk",
+      "gitAuthorEmail": "tjd6356@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 73,
+        "deletions": 0,
+        "meaningful_change": 73,
+        "meaningful_file_count": 1,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 6팀",
+      "repo": "tjd6356-afk/2-_-",
+      "branch": "main",
+      "sha": "d51af65c0bb8f42fb73ae4861d606230d54dd736",
+      "message": "씬 포탈 수정",
+      "url": "https://github.com/tjd6356-afk/2-_-/commit/d51af65c0bb8f42fb73ae4861d606230d54dd736",
+      "date": "2026-11-27T02:48:18Z",
+      "expectedGithub": "choyeonjung134",
+      "actualGithub": "tjd6356-afk",
+      "gitAuthorName": "tjd6356-afk",
+      "gitAuthorEmail": "tjd6356@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 70,
+        "deletions": 612,
+        "meaningful_change": 682,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "3학년 4팀",
       "repo": "yuseongmok/Delivery-service",
