@@ -1,11 +1,172 @@
 {
-  "updatedAt": "2026. 11. 27. 23:42",
+  "updatedAt": "2026. 11. 28. 08:13",
   "verificationLabels": {
     "verified": "등록된 GitHub ID와 일치",
     "mismatch": "다른 GitHub 계정의 커밋",
     "unlinked": "GitHub 계정 연결을 확인할 수 없음"
   },
   "commits": [
+    {
+      "projectName": "2학년 2팀",
+      "repo": "esuvean/PRESS-START_",
+      "branch": "main",
+      "sha": "539f31db48f7f56829f484198c6cd980bac47e3d",
+      "message": "[FEAT] 팝업 데이터 초기화 2",
+      "url": "https://github.com/esuvean/PRESS-START_/commit/539f31db48f7f56829f484198c6cd980bac47e3d",
+      "date": "2026-11-27T21:13:40Z",
+      "expectedGithub": "esuvean",
+      "actualGithub": "flexinja99",
+      "gitAuthorName": "flexinja",
+      "gitAuthorEmail": "hjgo927@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 1,
+        "additions": 9,
+        "deletions": 63,
+        "meaningful_change": 72,
+        "meaningful_file_count": 1,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 2팀",
+      "repo": "esuvean/PRESS-START_",
+      "branch": "main",
+      "sha": "cd7d28afb1a0d55b78f4af05d26d4723a12476c5",
+      "message": "[FEAT] 팝업 카테고리 배치",
+      "url": "https://github.com/esuvean/PRESS-START_/commit/cd7d28afb1a0d55b78f4af05d26d4723a12476c5",
+      "date": "2026-11-27T21:13:04Z",
+      "expectedGithub": "esuvean",
+      "actualGithub": "flexinja99",
+      "gitAuthorName": "flexinja",
+      "gitAuthorEmail": "hjgo927@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 6,
+        "deletions": 2,
+        "meaningful_change": 8,
+        "meaningful_file_count": 2,
+        "suspicious_score": 15,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 2팀",
+      "repo": "esuvean/PRESS-START_",
+      "branch": "main",
+      "sha": "38c61fca4dffee8e6a438e8b520f7aae8a2dc78b",
+      "message": "[FEAT] 팝업 배치 초기화 데이터 초기화",
+      "url": "https://github.com/esuvean/PRESS-START_/commit/38c61fca4dffee8e6a438e8b520f7aae8a2dc78b",
+      "date": "2026-11-27T21:11:52Z",
+      "expectedGithub": "esuvean",
+      "actualGithub": "flexinja99",
+      "gitAuthorName": "flexinja",
+      "gitAuthorEmail": "hjgo927@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 10,
+        "additions": 1540,
+        "deletions": 865,
+        "meaningful_change": 2396,
+        "meaningful_file_count": 8,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "2학년 2팀",
+      "repo": "esuvean/PRESS-START_",
+      "branch": "main",
+      "sha": "c818642c37c1d5e8fa58817f4caee4de10e9202a",
+      "message": "[FEAT] 배치 구현오류 수정",
+      "url": "https://github.com/esuvean/PRESS-START_/commit/c818642c37c1d5e8fa58817f4caee4de10e9202a",
+      "date": "2026-11-27T20:56:49Z",
+      "expectedGithub": "esuvean",
+      "actualGithub": "flexinja99",
+      "gitAuthorName": "flexinja",
+      "gitAuthorEmail": "hjgo927@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 13,
+        "additions": 8524,
+        "deletions": 3861,
+        "meaningful_change": 12376,
+        "meaningful_file_count": 11,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 B반 4팀",
+      "repo": "Sine-aw/nohesitate",
+      "branch": "main",
+      "sha": "4c145f6f6d039c965a3f4a8d836ae13bb2c90e31",
+      "message": "pillar_vari",
+      "url": "https://github.com/Sine-aw/nohesitate/commit/4c145f6f6d039c965a3f4a8d836ae13bb2c90e31",
+      "date": "2026-11-27T19:36:26Z",
+      "expectedGithub": "Sine-aw",
+      "actualGithub": "waio070",
+      "gitAuthorName": "waio070",
+      "gitAuthorEmail": "cred821123@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 36,
+        "additions": 75014,
+        "deletions": 0,
+        "meaningful_change": 0,
+        "meaningful_file_count": 6,
+        "suspicious_score": 35,
+        "judgment": "확인필요"
+      }
+    },
+    {
+      "projectName": "3학년 4팀",
+      "repo": "yuseongmok/Delivery-service",
+      "branch": "main",
+      "sha": "6d3af06dbbb7b66998b98571f676e63dbb9ba2db",
+      "message": "[fix] 오토바이 마커 UI & 게틀링건 미션 & 컷신 타임스톱 수정",
+      "url": "https://github.com/yuseongmok/Delivery-service/commit/6d3af06dbbb7b66998b98571f676e63dbb9ba2db",
+      "date": "2026-11-27T18:24:41Z",
+      "expectedGithub": "yuseongmok",
+      "actualGithub": "losieee",
+      "gitAuthorName": "losieee",
+      "gitAuthorEmail": "dfdf334@naver.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 2,
+        "additions": 174,
+        "deletions": 11,
+        "meaningful_change": 185,
+        "meaningful_file_count": 2,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
+    {
+      "projectName": "1학년 A반 1팀",
+      "repo": "chimchimjam377/TeamProject---Singularity-Thief",
+      "branch": "main",
+      "sha": "a1bfe8859d57438bc59bc11622cd47da3337573a",
+      "message": "씬 새로운거 보스 코드만 일단 한거",
+      "url": "https://github.com/chimchimjam377/TeamProject---Singularity-Thief/commit/a1bfe8859d57438bc59bc11622cd47da3337573a",
+      "date": "2026-11-27T15:21:08Z",
+      "expectedGithub": "chimchimjam377",
+      "actualGithub": "jerryseo0220-droid",
+      "gitAuthorName": "jerryseo0220-droid",
+      "gitAuthorEmail": "jerryseo0220@gmail.com",
+      "verification": "mismatch",
+      "analysis": {
+        "changed_files": 28,
+        "additions": 3118,
+        "deletions": 5,
+        "meaningful_change": 3084,
+        "meaningful_file_count": 14,
+        "suspicious_score": 0,
+        "judgment": "정상"
+      }
+    },
     {
       "projectName": "3학년 1팀",
       "repo": "ahyun04/26TeamProject_2",
